@@ -6,7 +6,6 @@ if (!data) {
   throw new Error("LAU study data failed to load.");
 }
 
-const sourceList = document.querySelector("#source-list");
 const statQuestionCount = document.querySelector("#stat-question-count");
 const statAnsweredCount = document.querySelector("#stat-answered-count");
 const statAccuracy = document.querySelector("#stat-accuracy");
@@ -29,7 +28,6 @@ const clearStudyFiltersButton = document.querySelector("#clear-study-filters");
 const studyList = document.querySelector("#study-list");
 const ruleGrid = document.querySelector("#rule-grid");
 const highlightGrid = document.querySelector("#highlight-grid");
-const rulebookNoteGrid = document.querySelector("#rulebook-note-grid");
 
 const sections = ["All", ...data.ruleSections.map((section) => section.label)];
 
@@ -43,7 +41,6 @@ initialize();
 
 function initialize() {
   statQuestionCount.textContent = String(data.meta.questionCount);
-  renderSources();
   renderSectionFilter();
   renderStudyChips();
   renderRulebookHub();
@@ -140,21 +137,6 @@ function saveState() {
   localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
 }
 
-function renderSources() {
-  sourceList.innerHTML = "";
-
-  data.meta.sources.forEach((source) => {
-    const item = document.createElement("article");
-    item.className = "source-item";
-    item.innerHTML = `
-      <p class="section-label">Included Source</p>
-      <h3>${escapeHtml(source)}</h3>
-      <p>Used to build the exam bank, study review, and rulebook study lanes in this app.</p>
-    `;
-    sourceList.append(item);
-  });
-}
-
 function renderSectionFilter() {
   sectionFilter.innerHTML = sections
     .map((section) => `<option value="${escapeAttribute(section)}">${escapeHtml(section)}</option>`)
@@ -173,7 +155,6 @@ function renderStudyChips() {
 function renderRulebookHub() {
   ruleGrid.innerHTML = "";
   highlightGrid.innerHTML = "";
-  rulebookNoteGrid.innerHTML = "";
 
   data.ruleSections.forEach((section) => {
     const card = document.createElement("article");
@@ -204,17 +185,6 @@ function renderRulebookHub() {
       </ul>
     `;
     highlightGrid.append(card);
-  });
-
-  data.rulebookNotes.forEach((note) => {
-    const card = document.createElement("article");
-    card.className = "note-card";
-    card.innerHTML = `
-      <p class="section-label">${escapeHtml(note.citation)}</p>
-      <h3>${escapeHtml(note.title)}</h3>
-      <p class="note-copy">${escapeHtml(note.excerpt)}</p>
-    `;
-    rulebookNoteGrid.append(card);
   });
 }
 
