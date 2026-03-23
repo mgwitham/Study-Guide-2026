@@ -3,221 +3,201 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>NFHS Learning Lab</title>
+    <title>LAU 2026 NFHS Study Center</title>
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <div class="page-shell">
-      <section class="overview-full top-banner">
-        <article class="overview-card notice-card">
-          <p class="section-label">Important</p>
-          <h2>Use this as a study guide, not a replacement rulebook.</h2>
-        </article>
-      </section>
-
-      <header class="hero">
+      <header class="hero" id="top">
         <div class="hero-copy">
-          <p class="eyebrow">NFHS Learning Lab</p>
-          <h1>Pause, Read, React</h1>
+          <p class="eyebrow">Los Angeles Umpire Unit</p>
+          <h1>Study the exam, take the exam, work the book.</h1>
           <p class="hero-text">
-            This is a browser-based learning platform for NFHS baseball umpires.
+            This LAU study site is built from your 2026 study guide, answer key, and 2025
+            rulebook text. Use it for full exam reps, quick study sessions, and rule-based review.
           </p>
-          <div class="hero-actions">
-            <a class="primary-link" href="#quiz-lab">Start Quiz</a>
-            <a class="secondary-link" href="#rule-outline-grid">Learn by Rule</a>
-            <a class="secondary-link" href="#study-map">Learn by Situation</a>
-            <a class="secondary-link" href="#study-library">Study Library</a>
-          </div>
+          <nav class="hero-actions" aria-label="Primary">
+            <a class="primary-link" href="#exam-center">Start the exam</a>
+            <a class="secondary-link" href="#study-center">Study by question</a>
+            <a class="secondary-link" href="#rulebook-hub">Open the rulebook hub</a>
+          </nav>
         </div>
+
+        <aside class="hero-panel">
+          <p class="section-label">Session Snapshot</p>
+          <div class="stat-stack">
+            <article class="stat-card">
+              <span class="stat-label">Questions in bank</span>
+              <strong class="stat-value" id="stat-question-count">100</strong>
+            </article>
+            <article class="stat-card">
+              <span class="stat-label">Questions answered</span>
+              <strong class="stat-value" id="stat-answered-count">0</strong>
+            </article>
+            <article class="stat-card">
+              <span class="stat-label">Accuracy</span>
+              <strong class="stat-value" id="stat-accuracy">0%</strong>
+            </article>
+            <article class="stat-card">
+              <span class="stat-label">Missed to review</span>
+              <strong class="stat-value" id="stat-missed-count">0</strong>
+            </article>
+          </div>
+        </aside>
       </header>
 
       <main class="content-stack">
-        <section class="panel-card quiz-lab" id="quiz-lab">
-          <div class="panel-header quiz-header">
+        <section class="source-strip panel-card">
+          <div class="section-heading">
             <div>
-              <p class="section-label">Scenario Drill</p>
-              <h2 id="quiz-title">NFHS scenario drill</h2>
+              <p class="section-label">Source Set</p>
+              <h2>Built from your actual LAU materials</h2>
             </div>
+            <p class="panel-copy">
+              The site uses the attached study guide and answer key as the exam bank, then groups
+              everything into rule-focused study lanes.
+            </p>
           </div>
+          <div class="source-list" id="source-list"></div>
+        </section>
 
-          <div class="quiz-meta">
-            <span class="pill" id="question-tag">Rule focus</span>
-            <span class="pill muted-pill" id="question-counter">Question 1</span>
-          </div>
+        <section class="exam-layout" id="exam-center">
+          <article class="panel-card exam-panel">
+            <div class="section-heading">
+              <div>
+                <p class="section-label">Exam Center</p>
+                <h2>Take the full test or a faster rep</h2>
+              </div>
+              <p class="panel-copy">
+                Choose a mode, narrow to a rule family if you want, and work through the bank with
+                instant scoring and review.
+              </p>
+            </div>
 
-          <article class="question-card">
-            <p class="question-lead">Situation</p>
-            <h3 id="question-prompt">Loading drill...</h3>
-            <div class="answers" id="answers"></div>
+            <div class="exam-controls">
+              <div class="mode-row" id="mode-row">
+                <button type="button" class="mode-button is-active" data-mode="full">Full 100</button>
+                <button type="button" class="mode-button" data-mode="quick">Quick 25</button>
+                <button type="button" class="mode-button" data-mode="missed">Missed Only</button>
+              </div>
+
+              <label class="select-wrap" for="section-filter">
+                <span>Rule filter</span>
+                <select id="section-filter"></select>
+              </label>
+
+              <button type="button" class="primary-button" id="start-exam-button">Start session</button>
+            </div>
+
+            <div class="exam-status" id="exam-status">
+              <div class="progress-top">
+                <span class="pill" id="exam-section-pill">Full bank</span>
+                <span class="pill muted-pill" id="exam-progress-copy">Not started</span>
+              </div>
+              <div class="progress-bar">
+                <span id="exam-progress-bar"></span>
+              </div>
+            </div>
+
+            <div class="question-shell" id="question-shell">
+              <p class="empty-state">
+                Start a session to load the first question. Your score and missed questions will be
+                saved on this device.
+              </p>
+            </div>
           </article>
 
-          <div class="feedback-card" id="feedback-card">
-            <p class="section-label">Answer</p>
-            <p id="feedback-text">Pick an answer to see the ruling logic and study note.</p>
-            <div class="feedback-actions">
-              <button type="button" class="primary-button next-question-button" id="next-question-button" hidden>
-                Next question
-              </button>
+          <aside class="panel-card session-panel">
+            <p class="section-label">Session Summary</p>
+            <div class="session-grid">
+              <article class="mini-stat">
+                <span class="mini-label">Current score</span>
+                <strong id="session-score">0 / 0</strong>
+              </article>
+              <article class="mini-stat">
+                <span class="mini-label">Last full exam</span>
+                <strong id="last-full-exam">Not taken</strong>
+              </article>
+              <article class="mini-stat">
+                <span class="mini-label">Best quick score</span>
+                <strong id="best-quick-score">Not taken</strong>
+              </article>
             </div>
-          </div>
+            <div class="review-list" id="missed-preview"></div>
+          </aside>
         </section>
 
-        <section class="panel-card">
-          <div class="panel-header">
+        <section class="panel-card" id="study-center">
+          <div class="section-heading">
             <div>
-              <p class="section-label">Rulebook Spine</p>
-              <h2>Learn by Rule</h2>
+              <p class="section-label">Study Center</p>
+              <h2>Review every question with the answer key and rule reference</h2>
             </div>
-          </div>
-          <div class="rule-outline-grid" id="rule-outline-grid"></div>
-        </section>
-
-        <section class="study-map" id="study-map">
-          <div class="panel-header">
-            <div>
-              <p class="section-label">Scenarios</p>
-              <h2>Learn by Situation</h2>
-            </div>
+            <p class="panel-copy">
+              Search by situation, rule number, or keyword. Click a rule card below to jump the
+              study list to that lane.
+            </p>
           </div>
 
-          <div class="topic-grid" id="topic-grid"></div>
+          <div class="study-controls">
+            <label class="search-wrap" for="study-search">
+              <span>Search the guide</span>
+              <input
+                id="study-search"
+                type="search"
+                placeholder="Example: batting out of order, balk, obstruction, tag-up"
+              />
+            </label>
+            <div class="chip-row" id="study-chip-row"></div>
+          </div>
+
+          <div class="study-results-meta">
+            <strong id="study-results-count">100 questions</strong>
+            <button type="button" class="ghost-button" id="clear-study-filters">Clear filters</button>
+          </div>
+
+          <div class="study-list" id="study-list"></div>
         </section>
 
-        <section class="panel-card study-library-panel" id="study-library">
-          <p class="section-label">Study Library</p>
-          <details class="study-library">
-            <summary>Open Study Library</summary>
-
-            <div class="study-library-stack">
-              <section class="panel-card search-panel">
-                <div class="panel-header">
-                  <div>
-                    <p class="section-label">Situation Search</p>
-                    <h2>Search by play situation</h2>
-                    <p class="panel-copy">
-                      Type a play in plain language and the library will map it to the closest rule-backed drill result.
-                    </p>
-                  </div>
-                </div>
-                <form class="search-form" id="situation-search-form">
-                  <label class="search-label" for="situation-search-input">Type a situation</label>
-                  <textarea
-                    id="situation-search-input"
-                    class="search-input"
-                    rows="3"
-                    placeholder="Example: Runner misses second on a double and the defense appeals after the next pitch."
-                  ></textarea>
-                  <div class="search-actions">
-                    <button type="submit" class="primary-button">Search rulebook map</button>
-                  </div>
-                </form>
-                <div class="search-results" id="situation-search-results">
-                  <p class="search-empty">Search results will appear here.</p>
-                </div>
-              </section>
-
-              <section class="resources-grid">
-                <article class="panel-card">
-                  <p class="section-label">2025 Updates</p>
-                  <h2>Rules changes and emphasis areas</h2>
-                  <div class="reference-list" id="rulebook-update-list"></div>
-                </article>
-
-                <article class="panel-card">
-                  <p class="section-label">Signals and Admin</p>
-                  <h2>Book-level support topics worth reviewing</h2>
-                  <div class="reference-list" id="rulebook-support-list"></div>
-                </article>
-              </section>
-
-              <section class="panel-card">
-                <div class="panel-header">
-                  <div>
-                    <p class="section-label">Umpires Manual</p>
-                    <p class="panel-copy">
-                      These modules are based on the exported text from your NFHS umpires manual and organize the biggest study blocks into manageable reps.
-                    </p>
-                  </div>
-                </div>
-                <div class="manual-grid" id="manual-grid"></div>
-              </section>
-
-              <section class="resources-grid">
-                <article class="panel-card">
-                  <p class="section-label">Dead Ball Reference</p>
-                  <h2>Immediate dead-ball</h2>
-                  <div class="reference-list" id="dead-ball-list"></div>
-                </article>
-
-                <article class="panel-card">
-                  <p class="section-label">Awards Reference</p>
-                  <h2>Baserunning award situations</h2>
-                  <div class="reference-list" id="award-list"></div>
-                </article>
-              </section>
-
-              <section class="resources-grid">
-                <article class="panel-card">
-                  <p class="section-label">Glossary Reps</p>
-                  <h2>Terms worth knowing cold</h2>
-                  <div class="reference-list" id="glossary-list"></div>
-                </article>
-
-                <article class="panel-card">
-                  <p class="section-label">Crew Progressions</p>
-                  <h2>Study by crew size and coverage load</h2>
-                  <div class="reference-list" id="crew-list"></div>
-                </article>
-              </section>
-
-              <section class="mechanics-grid">
-                <article class="panel-card">
-                  <div class="panel-header">
-                    <div>
-                      <p class="section-label">Plate Work</p>
-                      <h2>Pre-pitch reminders</h2>
-                    </div>
-                  </div>
-                  <div class="checklist" id="plate-checklist"></div>
-                </article>
-
-                <article class="panel-card">
-                  <div class="panel-header">
-                    <div>
-                      <p class="section-label">Base Work</p>
-                      <h2>Crew movement anchors</h2>
-                    </div>
-                  </div>
-                  <div class="checklist" id="base-checklist"></div>
-                </article>
-              </section>
-
-              <section class="panel-card pregame-panel">
-                <p class="section-label">Pregame Cram</p>
-                <h2>Discuss in your pregame</h2>
-                <div class="resource-list" id="pregame-list"></div>
-              </section>
+        <section class="rulebook-layout" id="rulebook-hub">
+          <article class="panel-card">
+            <div class="section-heading">
+              <div>
+                <p class="section-label">Rulebook Hub</p>
+                <h2>Study by rule family</h2>
+              </div>
+              <p class="panel-copy">
+                These cards organize your exam bank around the 2025 book and LAU add-ons so you can
+                work one lane at a time.
+              </p>
             </div>
-          </details>
-        </section>
+            <div class="rule-grid" id="rule-grid"></div>
+          </article>
 
+          <article class="panel-card">
+            <div class="section-heading">
+              <div>
+                <p class="section-label">2025 Notes</p>
+                <h2>Changes and emphasis areas worth keeping hot</h2>
+              </div>
+            </div>
+            <div class="highlight-grid" id="highlight-grid"></div>
+          </article>
+
+          <article class="panel-card">
+            <div class="section-heading">
+              <div>
+                <p class="section-label">Rulebook OCR Notes</p>
+                <h2>Quick excerpts from the provided 2025 text export</h2>
+              </div>
+            </div>
+            <div class="note-grid" id="rulebook-note-grid"></div>
+          </article>
+        </section>
       </main>
     </div>
 
-    <div class="study-modal" id="study-modal" hidden>
-      <div class="study-modal-backdrop" id="study-modal-backdrop"></div>
-      <div class="study-modal-panel" role="dialog" aria-modal="true" aria-labelledby="study-modal-title">
-        <div class="study-modal-header">
-          <div>
-            <p class="section-label" id="study-modal-source">Study note</p>
-            <h2 id="study-modal-title">Support topic</h2>
-          </div>
-          <button type="button" class="ghost-button study-modal-close" id="study-modal-close">Close</button>
-        </div>
-        <p class="study-modal-copy" id="study-modal-copy"></p>
-      </div>
-    </div>
-
-    <script type="module" src="./app-live.js?v=20260322-rulefix"></script>
+    <script src="./exam-data.js"></script>
+    <script src="./app.js"></script>
   </body>
 </html>
