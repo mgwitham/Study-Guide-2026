@@ -144,7 +144,7 @@
       </main>
     </div>
 
-    <div class="rule-reader-modal" id="rule-reader-modal" hidden>
+    <div class="rule-reader-modal" id="rule-reader-modal" hidden aria-hidden="true">
       <div class="rule-reader-backdrop" data-close-reader></div>
       <section class="rule-reader-panel" role="dialog" aria-modal="true" aria-labelledby="rule-reader-title">
         <header class="rule-reader-header">
@@ -152,7 +152,7 @@
             <p class="section-label" id="rule-reader-kicker">Rulebook Reader</p>
             <h2 id="rule-reader-title">Rule Text</h2>
           </div>
-          <button type="button" class="ghost-button rule-reader-close" data-close-reader>Close</button>
+          <button type="button" class="ghost-button rule-reader-close" id="rule-reader-close-button" data-close-reader>Close</button>
         </header>
         <div class="rule-reader-toolbar">
           <p class="rule-reader-source" id="rule-reader-source"></p>

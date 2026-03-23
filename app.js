@@ -124,7 +124,7 @@ const ruleReaderSource = document.querySelector("#rule-reader-source");
 const ruleReaderNav = document.querySelector("#rule-reader-nav");
 const ruleReaderBody = document.querySelector("#rule-reader-body");
 const ruleReaderStudyLink = document.querySelector("#rule-reader-study-link");
-const ruleReaderCloseButton = document.querySelector(".rule-reader-close");
+const ruleReaderCloseButton = document.querySelector("#rule-reader-close-button");
 const ruleReaderBackdrop = document.querySelector(".rule-reader-backdrop");
 const ruleReaderPanel = document.querySelector(".rule-reader-panel");
 
@@ -254,7 +254,11 @@ function bindEvents() {
   }
 
   if (ruleReaderCloseButton) {
-    ruleReaderCloseButton.addEventListener("click", closeRuleReader);
+    ruleReaderCloseButton.addEventListener("click", (event) => {
+      event.preventDefault();
+      event.stopPropagation();
+      closeRuleReader();
+    });
   }
 
   if (ruleReaderPanel) {
@@ -390,6 +394,7 @@ function openRuleReader(label) {
   ruleReaderBody.innerHTML = rendered.bodyHtml;
   ruleReaderBody.scrollTop = 0;
   ruleReaderModal.hidden = false;
+  ruleReaderModal.setAttribute("aria-hidden", "false");
   document.body.classList.add("is-reader-open");
   ruleReaderCloseButton?.focus();
 }
@@ -401,6 +406,7 @@ function closeRuleReader() {
 
   openRuleReaderLabel = "";
   ruleReaderModal.hidden = true;
+  ruleReaderModal.setAttribute("aria-hidden", "true");
   document.body.classList.remove("is-reader-open");
 }
 
