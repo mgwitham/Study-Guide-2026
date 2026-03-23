@@ -559,32 +559,32 @@ body.is-reader-open {
 }
 
 .study-card-header {
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
-  gap: 14px;
+  display: block;
 }
 
 .study-card-header > div:first-child {
-  flex: 1 1 auto;
   min-width: 0;
-}
-
-.study-card-header .pill {
-  margin-left: auto;
-  align-self: flex-end;
 }
 
 .study-card-title {
   font-size: 1.22rem;
   line-height: 1.24;
+  margin: 0;
+}
+
+.study-reference-pill {
+  display: inline-flex;
+  margin-top: 12px;
+  max-width: 100%;
+  white-space: normal;
+  overflow-wrap: anywhere;
 }
 
 .study-card-meta {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
-  margin-top: 12px;
+  margin-top: 14px;
 }
 
 .study-card-body {
@@ -630,6 +630,21 @@ body.is-reader-open {
 .study-reference,
 .study-answer {
   margin-top: 14px;
+}
+
+.study-reference-card {
+  margin-top: 16px;
+  padding: 16px 18px;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--line);
+  background: #f9fbfc;
+}
+
+.study-reference-card-copy {
+  margin: 10px 0 0;
+  color: var(--ink);
+  line-height: 1.7;
+  white-space: pre-line;
 }
 
 .rulebook-layout {

@@ -223,15 +223,14 @@ function bindEvents() {
 
     const questionNumber = Number(button.dataset.launchQuestion);
     const question = findQuestion(questionNumber);
+    const card = button.closest("[data-study-question]");
     if (!question) {
       return;
     }
 
-    sectionFilter.value = question.section;
-    activeMode = "quick";
-    syncModeButtons();
-    window.location.hash = "exam-center";
-    startSingleQuestionSession(question);
+    if (card) {
+      toggleStudyReferenceCard(card, question, button);
+    }
   });
 
   ruleGrid.addEventListener("click", (event) => {
@@ -670,21 +669,6 @@ function startSession() {
   renderSessionQuestion();
 }
 
-function startSingleQuestionSession(question) {
-  currentSession = {
-    mode: "quick",
-    section: question.section,
-    questions: [question],
-    currentIndex: 0,
-    score: 0,
-    answeredCount: 0,
-    answers: {},
-    complete: false,
-  };
-
-  renderSessionQuestion();
-}
-
 function renderSessionQuestion() {
   if (!currentSession) {
     return;
@@ -879,11 +863,11 @@ function renderStudyList() {
           <div>
             <p class="section-label">${escapeHtml(question.section)} · Question ${escapeHtml(question.number)}</p>
             <h3 class="study-card-title">${escapeHtml(question.prompt)}</h3>
+            <span class="pill study-reference-pill">${escapeHtml(question.reference || "Mechanics / LAU")}</span>
           </div>
-          <span class="pill">${escapeHtml(question.reference || "Mechanics / LAU")}</span>
         </div>
         <div class="study-card-meta">
-          <button type="button" class="ghost-button" data-launch-question="${escapeAttribute(question.number)}">Review Question</button>
+          <button type="button" class="ghost-button" data-launch-question="${escapeAttribute(question.number)}">Open Reference</button>
         </div>
       </summary>
       <div class="study-card-body">
@@ -900,6 +884,7 @@ function renderStudyList() {
         </div>
         <p class="study-answer" hidden><strong>Answer key:</strong> ${LETTERS[question.answerIndex]}. ${escapeHtml(question.correctChoice)}</p>
         <p class="study-reference"><strong>Reference:</strong> ${escapeHtml(formatReferenceLine(question))}</p>
+        <div class="study-reference-card" hidden></div>
       </div>
     `;
     studyList.append(card);
@@ -929,6 +914,39 @@ function handleStudyChoice(card, question, selectedIndex) {
   if (answerLine) {
     answerLine.hidden = false;
   }
+}
+
+function toggleStudyReferenceCard(card, question, button) {
+  const referenceCard = card.querySelector(".study-reference-card");
+  if (!referenceCard) {
+    return;
+  }
+
+  const rulebookText = getDisplayedRulebookText(question);
+  const hasDirectRule = Boolean(rulebookText);
+  const fallbackText = question.reference
+    ? `This question cites ${question.reference}, but it does not map to a direct rule article text block in the reader. Review the cited reference and answer key together for context.`
+    : getRuleSummary(question);
+
+  const isOpen = !referenceCard.hidden;
+  if (isOpen) {
+    referenceCard.hidden = true;
+    button.textContent = "Open Reference";
+    return;
+  }
+
+  referenceCard.innerHTML = hasDirectRule
+    ? `
+      <p class="section-label">Rulebook Text</p>
+      <p class="study-reference-card-copy">${escapeHtml(rulebookText)}</p>
+    `
+    : `
+      <p class="section-label">Reference Note</p>
+      <p class="study-reference-card-copy">${escapeHtml(fallbackText)}</p>
+    `;
+
+  referenceCard.hidden = false;
+  button.textContent = "Hide Reference";
 }
 
 function getFilteredStudyQuestions() {
