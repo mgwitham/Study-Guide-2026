@@ -27,13 +27,11 @@ const studyResultsCount = document.querySelector("#study-results-count");
 const clearStudyFiltersButton = document.querySelector("#clear-study-filters");
 const studyList = document.querySelector("#study-list");
 const ruleGrid = document.querySelector("#rule-grid");
-const highlightGrid = document.querySelector("#highlight-grid");
 
 const safeQuestions = Array.isArray(data.questions) ? data.questions : [];
 const safeRuleSections = Array.isArray(data.ruleSections) && data.ruleSections.length
   ? data.ruleSections
   : buildFallbackRuleSections(safeQuestions);
-const safeRulebookHighlights = Array.isArray(data.rulebookHighlights) ? data.rulebookHighlights : [];
 const sections = ["All", ...safeRuleSections.map((section) => section.label)];
 
 const state = loadState();
@@ -94,6 +92,23 @@ function bindEvents() {
   });
 
   studyList.addEventListener("click", (event) => {
+    const choiceButton = event.target.closest("[data-study-choice]");
+    if (choiceButton) {
+      const card = choiceButton.closest("[data-study-question]");
+      if (!card || card.dataset.answered === "true") {
+        return;
+      }
+
+      const questionNumber = Number(card.dataset.studyQuestion);
+      const selectedIndex = Number(choiceButton.dataset.studyChoice);
+      const question = findQuestion(questionNumber);
+
+      if (question) {
+        handleStudyChoice(card, question, selectedIndex);
+      }
+      return;
+    }
+
     const button = event.target.closest("[data-launch-rule]");
     if (!button) {
       return;
@@ -159,7 +174,6 @@ function renderStudyChips() {
 
 function renderRulebookHub() {
   ruleGrid.innerHTML = "";
-  highlightGrid.innerHTML = "";
 
   safeRuleSections.forEach((section) => {
     const card = document.createElement("article");
@@ -177,19 +191,6 @@ function renderRulebookHub() {
       <button type="button" class="rule-link" data-rule-filter="${escapeAttribute(section.label)}">Study This Rule</button>
     `;
     ruleGrid.append(card);
-  });
-
-  safeRulebookHighlights.forEach((highlight) => {
-    const card = document.createElement("article");
-    card.className = "highlight-card";
-    card.innerHTML = `
-      <p class="section-label">${escapeHtml(highlight.citation)}</p>
-      <h3>${escapeHtml(highlight.title)}</h3>
-      <ul class="highlight-list">
-        ${highlight.items.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}
-      </ul>
-    `;
-    highlightGrid.append(card);
   });
 }
 
@@ -497,6 +498,8 @@ function renderStudyList() {
   questions.forEach((question) => {
     const card = document.createElement("details");
     card.className = "study-card";
+    card.dataset.studyQuestion = String(question.number);
+    card.dataset.answered = "false";
     card.innerHTML = `
       <summary>
         <div class="study-card-header">
@@ -507,7 +510,6 @@ function renderStudyList() {
           <span class="pill">${escapeHtml(question.reference || "Mechanics / LAU")}</span>
         </div>
         <div class="study-card-meta">
-          <span class="pill muted-pill">Correct: ${LETTERS[question.answerIndex]}</span>
           <button type="button" class="ghost-button" data-launch-rule="${escapeAttribute(question.section)}">Quiz this lane</button>
         </div>
       </summary>
@@ -515,12 +517,15 @@ function renderStudyList() {
         <div class="study-choice-list">
           ${question.choices
             .map((choice, index) => {
-              const answerClass = index === question.answerIndex ? "study-choice is-answer" : "study-choice";
-              return `<div class="${answerClass}"><strong>${LETTERS[index]}.</strong> ${escapeHtml(choice)}</div>`;
+              return `
+                <button type="button" class="study-choice" data-study-choice="${index}">
+                  <strong>${LETTERS[index]}.</strong> ${escapeHtml(choice)}
+                </button>
+              `;
             })
             .join("")}
         </div>
-        <p class="study-answer"><strong>Answer key:</strong> ${LETTERS[question.answerIndex]}. ${escapeHtml(question.correctChoice)}</p>
+        <p class="study-answer" hidden><strong>Answer key:</strong> ${LETTERS[question.answerIndex]}. ${escapeHtml(question.correctChoice)}</p>
         <p class="study-reference"><strong>Reference:</strong> ${escapeHtml(formatReferenceLine(question))}</p>
       </div>
     `;
@@ -528,6 +533,29 @@ function renderStudyList() {
   });
 
   renderRulebookHub();
+}
+
+function handleStudyChoice(card, question, selectedIndex) {
+  card.dataset.answered = "true";
+
+  const choiceButtons = card.querySelectorAll("[data-study-choice]");
+  choiceButtons.forEach((button) => {
+    const buttonIndex = Number(button.dataset.studyChoice);
+    button.disabled = true;
+
+    if (buttonIndex === question.answerIndex) {
+      button.classList.add("is-answer");
+    }
+
+    if (buttonIndex === selectedIndex && buttonIndex !== question.answerIndex) {
+      button.classList.add("is-incorrect");
+    }
+  });
+
+  const answerLine = card.querySelector(".study-answer");
+  if (answerLine) {
+    answerLine.hidden = false;
+  }
 }
 
 function getFilteredStudyQuestions() {

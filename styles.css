@@ -39,7 +39,7 @@ body {
 .page-shell {
   position: relative;
   z-index: 1;
-  width: min(1220px, calc(100% - 32px));
+  width: calc(100% - 32px);
   margin: 0 auto;
   padding: 28px 0 72px;
 }
@@ -90,10 +90,14 @@ body {
 }
 
 .hero-copy h1 {
-  max-width: 18ch;
-  font-size: clamp(2rem, 3.2vw, 3rem);
+  max-width: 100%;
+  font-size: clamp(2rem, 4.2vw, 4rem);
   line-height: 1.08;
   letter-spacing: 0;
+}
+
+.hero-text {
+  max-width: 100%;
 }
 
 .hero-text,
@@ -288,9 +292,9 @@ body {
 }
 
 .exam-controls {
-  grid-template-columns: minmax(0, 1.1fr) minmax(220px, 250px) minmax(180px, 220px);
+  grid-template-columns: minmax(0, 1.2fr) minmax(240px, 280px) minmax(180px, 220px);
   align-items: stretch;
-  margin-top: 18px;
+  margin-top: 6px;
 }
 
 .mode-row {
@@ -299,54 +303,13 @@ body {
 
 .exam-panel {
   display: grid;
-  gap: 18px;
+  gap: 16px;
 }
 
-.exam-steps {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 12px;
-}
-
-.exam-step,
 .control-card {
   border: 1px solid var(--line);
   border-radius: var(--radius-lg);
   background: #f9fbfc;
-}
-
-.exam-step {
-  display: flex;
-  gap: 12px;
-  padding: 14px 16px;
-}
-
-.exam-step strong,
-.control-label {
-  display: block;
-  color: var(--ink);
-  font-size: 0.95rem;
-}
-
-.exam-step p {
-  margin: 6px 0 0;
-  color: var(--muted);
-  line-height: 1.5;
-  font-size: 0.92rem;
-}
-
-.step-number {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 28px;
-  height: 28px;
-  border-radius: 50%;
-  background: var(--accent);
-  color: #ffffff;
-  font-size: 0.88rem;
-  font-weight: 700;
-  flex: 0 0 auto;
 }
 
 .control-card {
@@ -360,6 +323,9 @@ body {
 
 .control-label {
   margin: 0 0 10px;
+  display: block;
+  color: var(--ink);
+  font-size: 0.95rem;
 }
 
 .start-button {
@@ -641,15 +607,30 @@ body {
 }
 
 .study-choice {
+  display: block;
+  width: 100%;
+  text-align: left;
   padding: 12px 14px;
   border-radius: var(--radius-md);
   background: #ffffff;
   border: 1px solid var(--line);
+  color: var(--ink);
+  font: inherit;
+  cursor: pointer;
 }
 
 .study-choice.is-answer {
   background: rgba(36, 97, 65, 0.11);
   border-color: rgba(36, 97, 65, 0.24);
+}
+
+.study-choice.is-incorrect {
+  background: rgba(176, 58, 46, 0.08);
+  border-color: rgba(176, 58, 46, 0.24);
+}
+
+.study-choice:disabled {
+  cursor: default;
 }
 
 .study-note,
@@ -713,7 +694,7 @@ body {
   }
 
   .exam-steps {
-    grid-template-columns: minmax(0, 1fr);
+    display: none;
   }
 
   .page-shell {
