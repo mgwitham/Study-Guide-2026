@@ -174,7 +174,7 @@ function renderRulebookHub() {
         <span class="pill muted-pill">Starts on page ${escapeHtml(section.page)}</span>
       </div>
       <p>${escapeHtml(section.summary)}</p>
-      <button type="button" class="rule-link" data-rule-filter="${escapeAttribute(section.label)}">Study this lane</button>
+      <button type="button" class="rule-link" data-rule-filter="${escapeAttribute(section.label)}">Study This Rule</button>
     `;
     ruleGrid.append(card);
   });
@@ -191,6 +191,38 @@ function renderRulebookHub() {
     `;
     highlightGrid.append(card);
   });
+}
+
+function getPageLabel(question) {
+  if (!question.reference) {
+    return "";
+  }
+
+  const matchingSection = safeRuleSections.find((section) => section.label === question.section);
+  if (!matchingSection || !matchingSection.page) {
+    return "";
+  }
+
+  return `Page ${matchingSection.page}`;
+}
+
+function formatReferenceLine(question) {
+  const parts = [];
+
+  if (question.reference) {
+    parts.push(`Rule reference: ${question.reference}`);
+  }
+
+  const pageLabel = getPageLabel(question);
+  if (pageLabel) {
+    parts.push(pageLabel);
+  }
+
+  if (!parts.length) {
+    return "Mechanics / local policy section";
+  }
+
+  return parts.join(" · ");
 }
 
 function renderStats() {
@@ -302,7 +334,7 @@ function renderSessionQuestion() {
     <article class="question-card">
       <p class="question-kicker">${escapeHtml(question.section)} · Question ${escapeHtml(question.number)}</p>
       <h3 class="question-title">${escapeHtml(question.prompt)}</h3>
-      <p class="question-body">Rule reference: ${escapeHtml(question.reference || "Mechanics / local policy section")}</p>
+      <p class="question-body">${escapeHtml(formatReferenceLine(question))}</p>
       <div class="choice-list">
         ${question.choices
           .map(
@@ -375,7 +407,7 @@ function renderAnsweredQuestion(question, selectedIndex, isCorrect) {
       <strong>Correct answer:</strong> ${LETTERS[question.answerIndex]}. ${escapeHtml(question.correctChoice)}
     </p>
     <p class="feedback-copy">
-      <strong>Reference:</strong> ${escapeHtml(question.reference || "Mechanics / local policy section")}
+      <strong>Reference:</strong> ${escapeHtml(formatReferenceLine(question))}
     </p>
     <div class="question-footer">
       <span class="pill ${isCorrect ? "" : "muted-pill"}">${isCorrect ? "Score added" : "Saved to missed review"}</span>
@@ -489,7 +521,7 @@ function renderStudyList() {
             .join("")}
         </div>
         <p class="study-answer"><strong>Answer key:</strong> ${LETTERS[question.answerIndex]}. ${escapeHtml(question.correctChoice)}</p>
-        <p class="study-reference"><strong>Rule reference:</strong> ${escapeHtml(question.reference || "Mechanics / local policy section")}</p>
+        <p class="study-reference"><strong>Reference:</strong> ${escapeHtml(formatReferenceLine(question))}</p>
       </div>
     `;
     studyList.append(card);

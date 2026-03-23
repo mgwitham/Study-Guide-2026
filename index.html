@@ -18,32 +18,10 @@
           </p>
           <nav class="hero-actions" aria-label="Primary">
             <a class="primary-link" href="#exam-center">Start the exam</a>
-            <a class="secondary-link" href="#study-center">Study by question</a>
-            <a class="secondary-link" href="#rulebook-hub">Open the rulebook hub</a>
+            <a class="secondary-link" href="#study-center">Study By Question</a>
+            <a class="secondary-link" href="#rulebook-hub">Open The Rulebook Hub</a>
           </nav>
         </div>
-
-        <aside class="hero-panel">
-          <p class="section-label">Session Snapshot</p>
-          <div class="stat-stack">
-            <article class="stat-card">
-              <span class="stat-label">Questions in bank</span>
-              <strong class="stat-value" id="stat-question-count">100</strong>
-            </article>
-            <article class="stat-card">
-              <span class="stat-label">Questions answered</span>
-              <strong class="stat-value" id="stat-answered-count">0</strong>
-            </article>
-            <article class="stat-card">
-              <span class="stat-label">Accuracy</span>
-              <strong class="stat-value" id="stat-accuracy">0%</strong>
-            </article>
-            <article class="stat-card">
-              <span class="stat-label">Missed to review</span>
-              <strong class="stat-value" id="stat-missed-count">0</strong>
-            </article>
-          </div>
-        </aside>
       </header>
 
       <main class="content-stack">
@@ -52,27 +30,58 @@
             <div class="section-heading">
               <div>
                 <p class="section-label">Exam Center</p>
-                <h2>Take the full test or a faster rep</h2>
+                <h2>Take the test</h2>
               </div>
               <p class="panel-copy">
-                Choose a mode, narrow to a rule family if you want, and work through the bank with
-                instant scoring and review.
+                Pick a mode, add a rule filter if you want one, then start your session.
               </p>
             </div>
 
+            <div class="exam-steps">
+              <article class="exam-step">
+                <span class="step-number">1</span>
+                <div>
+                  <strong>Choose a mode</strong>
+                  <p>Full exam, quick quiz, or only missed questions.</p>
+                </div>
+              </article>
+              <article class="exam-step">
+                <span class="step-number">2</span>
+                <div>
+                  <strong>Optional rule filter</strong>
+                  <p>Leave it on all rules or narrow it to one topic.</p>
+                </div>
+              </article>
+              <article class="exam-step">
+                <span class="step-number">3</span>
+                <div>
+                  <strong>Start and answer</strong>
+                  <p>Your score and missed questions save automatically.</p>
+                </div>
+              </article>
+            </div>
+
             <div class="exam-controls">
-              <div class="mode-row" id="mode-row">
-                <button type="button" class="mode-button is-active" data-mode="full">Full 100</button>
-                <button type="button" class="mode-button" data-mode="quick">Quick 25</button>
-                <button type="button" class="mode-button" data-mode="missed">Missed Only</button>
-              </div>
+              <section class="control-card">
+                <p class="control-label">Mode</p>
+                <div class="mode-row" id="mode-row">
+                  <button type="button" class="mode-button is-active" data-mode="full">Full 100</button>
+                  <button type="button" class="mode-button" data-mode="quick">Quick 25</button>
+                  <button type="button" class="mode-button" data-mode="missed">Missed Only</button>
+                </div>
+              </section>
 
-              <label class="select-wrap" for="section-filter">
-                <span>Rule filter</span>
-                <select id="section-filter"></select>
-              </label>
+              <section class="control-card">
+                <label class="select-wrap" for="section-filter">
+                  <span>Rule filter</span>
+                  <select id="section-filter"></select>
+                </label>
+              </section>
 
-              <button type="button" class="primary-button" id="start-exam-button">Start session</button>
+              <section class="control-card control-card-action">
+                <p class="control-label">Start</p>
+                <button type="button" class="primary-button start-button" id="start-exam-button">Start session</button>
+              </section>
             </div>
 
             <div class="exam-status" id="exam-status">
@@ -87,11 +96,35 @@
 
             <div class="question-shell" id="question-shell">
               <p class="empty-state">
-                Start a session to load the first question. Your score and missed questions will be
-                saved on this device.
+                Choose your mode above and click <strong>Start session</strong> to load the first question.
               </p>
             </div>
           </article>
+
+        </section>
+
+        <section class="summary-row">
+          <aside class="panel-card hero-panel">
+            <p class="section-label">Session Snapshot</p>
+            <div class="stat-stack">
+              <article class="stat-card">
+                <span class="stat-label">Questions in bank</span>
+                <strong class="stat-value" id="stat-question-count">100</strong>
+              </article>
+              <article class="stat-card">
+                <span class="stat-label">Questions answered</span>
+                <strong class="stat-value" id="stat-answered-count">0</strong>
+              </article>
+              <article class="stat-card">
+                <span class="stat-label">Accuracy</span>
+                <strong class="stat-value" id="stat-accuracy">0%</strong>
+              </article>
+              <article class="stat-card">
+                <span class="stat-label">Missed to review</span>
+                <strong class="stat-value" id="stat-missed-count">0</strong>
+              </article>
+            </div>
+          </aside>
 
           <aside class="panel-card session-panel">
             <p class="section-label">Session Summary</p>
@@ -150,12 +183,8 @@
             <div class="section-heading">
               <div>
                 <p class="section-label">Rulebook Hub</p>
-                <h2>Study by rule family</h2>
+                <h2>Study by Rule</h2>
               </div>
-              <p class="panel-copy">
-                These cards organize your exam bank around the 2025 book and LAU add-ons so you can
-                work one lane at a time.
-              </p>
             </div>
             <div class="rule-grid" id="rule-grid"></div>
           </article>
