@@ -700,11 +700,6 @@ body.is-reader-open {
   margin-bottom: 8px;
 }
 
-.study-card-meta .ghost-button:disabled {
-  opacity: 0.55;
-  cursor: not-allowed;
-  transform: none;
-}
 
 .rulebook-layout {
   grid-template-columns: minmax(0, 1fr);

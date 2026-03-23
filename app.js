@@ -289,15 +289,27 @@ function bindEvents() {
   }
 
   if (ruleReaderStudyLink) {
-    ruleReaderStudyLink.addEventListener("click", () => {
+    ruleReaderStudyLink.addEventListener("click", (event) => {
+      event.preventDefault();
+
       if (!openRuleReaderLabel) {
         return;
       }
 
       studyFilter = openRuleReaderLabel;
+      studyQuery = "";
+      if (studySearch) {
+        studySearch.value = "";
+      }
       renderStudyChips();
       renderStudyList();
       closeRuleReader();
+
+      const studyCenter = document.querySelector("#study-center");
+      if (studyCenter) {
+        studyCenter.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+
       window.location.hash = "study-center";
     });
   }
@@ -869,7 +881,7 @@ function renderStudyList() {
           </div>
         </div>
         <div class="study-card-meta">
-          <button type="button" class="ghost-button" data-launch-question="${escapeAttribute(question.number)}" disabled aria-disabled="true">Show Rule</button>
+          <button type="button" class="ghost-button" data-launch-question="${escapeAttribute(question.number)}">Show Rule</button>
         </div>
       </summary>
       <div class="study-card-body">
@@ -919,13 +931,12 @@ function handleStudyChoice(card, question, selectedIndex) {
 
   const ruleButton = card.querySelector("[data-launch-question]");
   if (ruleButton) {
-    ruleButton.disabled = false;
-    ruleButton.removeAttribute("aria-disabled");
-    toggleStudyReferenceCard(card, question, ruleButton);
+    ruleButton.textContent = "Hide Rule";
+    toggleStudyReferenceCard(card, question, ruleButton, { forceOpen: true });
   }
 }
 
-function toggleStudyReferenceCard(card, question, button) {
+function toggleStudyReferenceCard(card, question, button, options = {}) {
   const referenceCard = card.querySelector(".study-reference-card");
   if (!referenceCard) {
     return;
@@ -940,7 +951,11 @@ function toggleStudyReferenceCard(card, question, button) {
     : getRuleSummary(question);
 
   const isOpen = !referenceCard.hidden;
+  const forceOpen = Boolean(options.forceOpen);
   if (isOpen) {
+    if (forceOpen) {
+      return;
+    }
     referenceCard.hidden = true;
     button.textContent = "Show Rule";
     return;
