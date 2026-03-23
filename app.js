@@ -922,6 +922,8 @@ function toggleStudyReferenceCard(card, question, button) {
     return;
   }
 
+  card.open = true;
+
   const rulebookText = getDisplayedRulebookText(question);
   const hasDirectRule = Boolean(rulebookText);
   const fallbackText = question.reference
@@ -947,6 +949,7 @@ function toggleStudyReferenceCard(card, question, button) {
 
   referenceCard.hidden = false;
   button.textContent = "Hide Reference";
+  referenceCard.scrollIntoView({ behavior: "smooth", block: "nearest" });
 }
 
 function getFilteredStudyQuestions() {

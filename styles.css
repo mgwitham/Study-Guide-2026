@@ -252,9 +252,19 @@ body.is-reader-open {
   align-items: start;
 }
 
+.section-heading > div {
+  display: grid;
+  gap: 8px;
+}
+
 .section-heading h2 {
   font-size: clamp(1.8rem, 3vw, 2.5rem);
   line-height: 1.02;
+}
+
+.panel-copy {
+  margin: 0;
+  max-width: 48rem;
 }
 
 .study-list {
@@ -634,10 +644,12 @@ body.is-reader-open {
 
 .study-reference-card {
   margin-top: 16px;
-  padding: 16px 18px;
+  padding: 18px 20px;
   border-radius: var(--radius-lg);
   border: 1px solid var(--line);
-  background: #f9fbfc;
+  background: linear-gradient(180deg, #ffffff 0%, #f7fbff 100%);
+  box-shadow: 0 10px 24px rgba(20, 29, 38, 0.08);
+  border-left: 4px solid var(--accent);
 }
 
 .study-reference-card-copy {
@@ -645,6 +657,10 @@ body.is-reader-open {
   color: var(--ink);
   line-height: 1.7;
   white-space: pre-line;
+}
+
+.study-reference-card .section-label {
+  margin-bottom: 8px;
 }
 
 .rulebook-layout {
