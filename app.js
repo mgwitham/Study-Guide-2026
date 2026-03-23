@@ -752,6 +752,7 @@ function renderAnsweredQuestion(question, selectedIndex, isCorrect) {
   });
 
   const displayedRulebookText = getDisplayedRulebookText(question);
+  const referenceLine = question.reference ? formatReferenceLine(question) : "";
   const feedback = document.createElement("article");
   feedback.className = `feedback-card ${isCorrect ? "is-correct" : "is-incorrect"}`;
   feedback.innerHTML = `
@@ -759,13 +760,15 @@ function renderAnsweredQuestion(question, selectedIndex, isCorrect) {
     <p class="feedback-copy">
       <strong>Correct answer:</strong> ${LETTERS[question.answerIndex]}. ${escapeHtml(question.correctChoice)}
     </p>
+    ${referenceLine ? `
     <p class="feedback-copy">
-      <strong>Reference:</strong> ${escapeHtml(formatReferenceLine(question))}
-    </p>
-    ${displayedRulebookText ? `
+      <strong>Reference:</strong> ${escapeHtml(referenceLine)}
+    </p>` : ""}
+    ${(displayedRulebookText || referenceLine) ? `
     <div class="feedback-copy">
       <strong>Rulebook Text:</strong>
-      <p class="feedback-rulebook-text">${escapeHtml(displayedRulebookText)}</p>
+      ${referenceLine ? `<p class="feedback-rulebook-meta">${escapeHtml(referenceLine)}</p>` : ""}
+      ${displayedRulebookText ? `<p class="feedback-rulebook-text">${escapeHtml(displayedRulebookText)}</p>` : ""}
     </div>` : ""}
     <div class="question-footer">
       <span class="pill ${isCorrect ? "" : "muted-pill"}">${isCorrect ? "Score added" : "Saved to missed review"}</span>
@@ -866,7 +869,7 @@ function renderStudyList() {
           </div>
         </div>
         <div class="study-card-meta">
-          <button type="button" class="ghost-button" data-launch-question="${escapeAttribute(question.number)}">Open Reference</button>
+          <button type="button" class="ghost-button" data-launch-question="${escapeAttribute(question.number)}" disabled aria-disabled="true">Show Rule</button>
         </div>
       </summary>
       <div class="study-card-body">
@@ -913,6 +916,13 @@ function handleStudyChoice(card, question, selectedIndex) {
   if (answerLine) {
     answerLine.hidden = false;
   }
+
+  const ruleButton = card.querySelector("[data-launch-question]");
+  if (ruleButton) {
+    ruleButton.disabled = false;
+    ruleButton.removeAttribute("aria-disabled");
+    toggleStudyReferenceCard(card, question, ruleButton);
+  }
 }
 
 function toggleStudyReferenceCard(card, question, button) {
@@ -932,7 +942,7 @@ function toggleStudyReferenceCard(card, question, button) {
   const isOpen = !referenceCard.hidden;
   if (isOpen) {
     referenceCard.hidden = true;
-    button.textContent = "Open Reference";
+    button.textContent = "Show Rule";
     return;
   }
 
@@ -947,7 +957,7 @@ function toggleStudyReferenceCard(card, question, button) {
     `;
 
   referenceCard.hidden = false;
-  button.textContent = "Hide Reference";
+  button.textContent = "Hide Rule";
   referenceCard.scrollIntoView({ behavior: "smooth", block: "nearest" });
 }
 

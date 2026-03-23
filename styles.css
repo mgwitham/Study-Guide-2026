@@ -549,6 +549,13 @@ body.is-reader-open {
   white-space: pre-line;
 }
 
+.feedback-rulebook-meta {
+  margin: 8px 0 0;
+  color: var(--muted);
+  font-size: 0.96rem;
+  line-height: 1.55;
+}
+
 .question-footer {
   justify-content: space-between;
   align-items: center;
@@ -691,6 +698,12 @@ body.is-reader-open {
 
 .study-reference-card .section-label {
   margin-bottom: 8px;
+}
+
+.study-card-meta .ghost-button:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+  transform: none;
 }
 
 .rulebook-layout {
