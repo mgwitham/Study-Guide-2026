@@ -213,7 +213,7 @@ function bindEvents() {
       return;
     }
 
-    const button = event.target.closest("[data-launch-rule]");
+    const button = event.target.closest("[data-launch-question]");
     if (!button) {
       return;
     }
@@ -221,12 +221,17 @@ function bindEvents() {
     event.preventDefault();
     event.stopPropagation();
 
-    const section = button.dataset.launchRule;
-    sectionFilter.value = section;
+    const questionNumber = Number(button.dataset.launchQuestion);
+    const question = findQuestion(questionNumber);
+    if (!question) {
+      return;
+    }
+
+    sectionFilter.value = question.section;
     activeMode = "quick";
     syncModeButtons();
     window.location.hash = "exam-center";
-    startSession();
+    startSingleQuestionSession(question);
   });
 
   ruleGrid.addEventListener("click", (event) => {
@@ -492,9 +497,73 @@ function getRuleSummary(question) {
   return "This question is tied to the cited rule area in the 2025 NFHS baseball rulebook.";
 }
 
+function normalizeRuleReference(reference) {
+  return String(reference || "")
+    .replace(/\./g, "-")
+    .replace(/\s+/g, "")
+    .replace(/([0-9])([a-z])$/i, "$1")
+    .toLowerCase();
+}
+
+function getReferenceMatches(reference) {
+  return String(reference || "").match(/\d+(?:[.-]\d+){2}(?:\([a-z0-9]+\))*/gi) || [];
+}
+
+function extractRulebookArticleText(reference, fallbackSection) {
+  const normalized = normalizeRuleReference(reference);
+  const baseReference = normalized.replace(/\([a-z0-9]+\)/gi, "");
+  const parts = baseReference.match(/^(\d+)-(\d+)-(\d+)$/);
+  if (!parts) {
+    return "";
+  }
+
+  const [, ruleNumber, sectionNumber, articleNumber] = parts;
+  const entry = rulebookEntriesByLabel.get(`Rule ${Number(ruleNumber)}`) || rulebookEntriesByLabel.get(fallbackSection);
+  if (!entry?.text) {
+    return "";
+  }
+
+  const lines = String(entry.text)
+    .split("\n")
+    .map((line) => line.replace(/\uFFFD/g, "").trim())
+    .filter(Boolean);
+
+  const sectionPattern = new RegExp(`^SECTION\\s+${Number(sectionNumber)}\\b`, "i");
+  const articlePattern = new RegExp(`^ART\\.\\s*${Number(articleNumber)}\\b`, "i");
+  const sectionStart = lines.findIndex((line) => sectionPattern.test(line));
+  if (sectionStart === -1) {
+    return "";
+  }
+
+  let sectionEnd = lines.length;
+  for (let index = sectionStart + 1; index < lines.length; index += 1) {
+    if (/^SECTION\s+\d+/i.test(lines[index])) {
+      sectionEnd = index;
+      break;
+    }
+  }
+
+  const sectionLines = lines.slice(sectionStart, sectionEnd);
+  const articleStart = sectionLines.findIndex((line) => articlePattern.test(line));
+  if (articleStart === -1) {
+    return "";
+  }
+
+  const collected = [];
+  for (let index = articleStart; index < sectionLines.length; index += 1) {
+    const line = sectionLines[index];
+    if (index > articleStart && (/^ART\.\s*\d+/i.test(line) || /^SECTION\s+\d+/i.test(line))) {
+      break;
+    }
+    collected.push(line);
+  }
+
+  return collected.join("\n");
+}
+
 function getRulebookText(question) {
-  const matches = question.reference ? question.reference.match(/\d+[.-]\d+[.-]\d+[a-z]?/gi) : null;
-  if (!matches) {
+  const matches = getReferenceMatches(question.reference);
+  if (!matches.length) {
     return "";
   }
 
@@ -502,24 +571,30 @@ function getRulebookText(question) {
   const snippets = [];
 
   for (const match of matches) {
-    const normalized = match
-      .replace(/\./g, "-")
-      .replace(/[a-z]$/i, "")
-      .toLowerCase();
-
-    if (!OFFICIAL_RULEBOOK_TEXT[normalized] || seen.has(normalized)) {
+    const normalized = normalizeRuleReference(match).replace(/\([a-z0-9]+\)/gi, "");
+    if (seen.has(normalized)) {
       continue;
     }
 
     seen.add(normalized);
-    snippets.push(OFFICIAL_RULEBOOK_TEXT[normalized]);
+
+    const directText = OFFICIAL_RULEBOOK_TEXT[normalized];
+    if (directText) {
+      snippets.push(directText);
+      continue;
+    }
+
+    const extractedText = extractRulebookArticleText(match, question.section);
+    if (extractedText) {
+      snippets.push(extractedText);
+    }
   }
 
   return snippets.join("\n\n");
 }
 
 function getDisplayedRulebookText(question) {
-  return getRulebookText(question) || getRuleSummary(question);
+  return getRulebookText(question);
 }
 
 function formatReferenceLine(question) {
@@ -585,6 +660,21 @@ function startSession() {
     mode: activeMode,
     section: selectedSection,
     questions: sessionQuestions,
+    currentIndex: 0,
+    score: 0,
+    answeredCount: 0,
+    answers: {},
+    complete: false,
+  };
+
+  renderSessionQuestion();
+}
+
+function startSingleQuestionSession(question) {
+  currentSession = {
+    mode: "quick",
+    section: question.section,
+    questions: [question],
     currentIndex: 0,
     score: 0,
     answeredCount: 0,
@@ -678,6 +768,7 @@ function renderAnsweredQuestion(question, selectedIndex, isCorrect) {
     }
   });
 
+  const displayedRulebookText = getDisplayedRulebookText(question);
   const feedback = document.createElement("article");
   feedback.className = `feedback-card ${isCorrect ? "is-correct" : "is-incorrect"}`;
   feedback.innerHTML = `
@@ -688,10 +779,11 @@ function renderAnsweredQuestion(question, selectedIndex, isCorrect) {
     <p class="feedback-copy">
       <strong>Reference:</strong> ${escapeHtml(formatReferenceLine(question))}
     </p>
+    ${displayedRulebookText ? `
     <div class="feedback-copy">
       <strong>Rulebook Text:</strong>
-      <p class="feedback-rulebook-text">${escapeHtml(getDisplayedRulebookText(question))}</p>
-    </div>
+      <p class="feedback-rulebook-text">${escapeHtml(displayedRulebookText)}</p>
+    </div>` : ""}
     <div class="question-footer">
       <span class="pill ${isCorrect ? "" : "muted-pill"}">${isCorrect ? "Score added" : "Saved to missed review"}</span>
       <button type="button" class="primary-button" id="next-question-button">
@@ -791,7 +883,7 @@ function renderStudyList() {
           <span class="pill">${escapeHtml(question.reference || "Mechanics / LAU")}</span>
         </div>
         <div class="study-card-meta">
-          <button type="button" class="ghost-button" data-launch-rule="${escapeAttribute(question.section)}">Quiz this lane</button>
+          <button type="button" class="ghost-button" data-launch-question="${escapeAttribute(question.number)}">Review Question</button>
         </div>
       </summary>
       <div class="study-card-body">

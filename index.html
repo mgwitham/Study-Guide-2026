@@ -32,9 +32,6 @@
                 <p class="section-label">Exam Center</p>
                 <h2>Take the Exam</h2>
               </div>
-              <p class="panel-copy">
-                Pick a mode, add a rule filter if you want one, then start your session.
-              </p>
             </div>
 
             <div class="exam-controls">
@@ -46,14 +43,9 @@
                   <button type="button" class="primary-button start-button" id="start-exam-button">Start session</button>
                 </div>
               </section>
-
-              <section class="control-card">
-                <label class="select-wrap" for="section-filter">
-                  <span>Rule filter</span>
-                  <select id="section-filter"></select>
-                </label>
-              </section>
             </div>
+
+            <select id="section-filter" hidden aria-hidden="true"></select>
 
             <div class="exam-status" id="exam-status">
               <div class="progress-top">
