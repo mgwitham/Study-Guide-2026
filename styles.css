@@ -349,10 +349,40 @@ body.is-reader-open {
 }
 
 .mode-button.is-active,
-.chip-button.is-active,
-.rule-card.is-active {
+.chip-button.is-active {
   color: #ffffff;
   background: var(--accent);
+  border-color: transparent;
+}
+
+.rule-card.is-active {
+  background: linear-gradient(180deg, #f4f8fc 0%, #eef5fb 100%);
+  border-color: rgba(52, 117, 177, 0.26);
+  box-shadow: inset 0 0 0 1px rgba(52, 117, 177, 0.08);
+}
+
+.rule-card.is-active .section-label,
+.rule-card.is-active h3 {
+  color: var(--ink);
+}
+
+.rule-card.is-active p {
+  color: var(--muted);
+}
+
+.rule-card.is-active .pill {
+  background: #ffffff;
+  color: var(--accent-dark);
+  border-color: rgba(52, 117, 177, 0.18);
+}
+
+.rule-card.is-active .muted-pill {
+  color: var(--muted);
+}
+
+.rule-card.is-active .rule-link {
+  background: var(--accent);
+  color: #ffffff;
   border-color: transparent;
 }
 

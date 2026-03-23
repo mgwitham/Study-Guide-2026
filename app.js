@@ -294,12 +294,11 @@ function bindEvents() {
         return;
       }
 
-      sectionFilter.value = openRuleReaderLabel;
-      activeMode = "quick";
-      syncModeButtons();
+      studyFilter = openRuleReaderLabel;
+      renderStudyChips();
+      renderStudyList();
       closeRuleReader();
-      window.location.hash = "exam-center";
-      startSession();
+      window.location.hash = "study-center";
     });
   }
 
