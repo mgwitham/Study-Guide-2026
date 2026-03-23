@@ -125,6 +125,8 @@ const ruleReaderNav = document.querySelector("#rule-reader-nav");
 const ruleReaderBody = document.querySelector("#rule-reader-body");
 const ruleReaderStudyLink = document.querySelector("#rule-reader-study-link");
 const ruleReaderCloseButton = document.querySelector(".rule-reader-close");
+const ruleReaderBackdrop = document.querySelector(".rule-reader-backdrop");
+const ruleReaderPanel = document.querySelector(".rule-reader-panel");
 
 const safeQuestions = Array.isArray(data.questions) ? data.questions : [];
 const safeRuleSections = Array.isArray(data.ruleSections) && data.ruleSections.length
@@ -247,11 +249,17 @@ function bindEvents() {
     window.location.hash = "study-center";
   });
 
-  if (ruleReaderModal) {
-    ruleReaderModal.addEventListener("click", (event) => {
-      if (event.target.closest("[data-close-reader]")) {
-        closeRuleReader();
-      }
+  if (ruleReaderBackdrop) {
+    ruleReaderBackdrop.addEventListener("click", closeRuleReader);
+  }
+
+  if (ruleReaderCloseButton) {
+    ruleReaderCloseButton.addEventListener("click", closeRuleReader);
+  }
+
+  if (ruleReaderPanel) {
+    ruleReaderPanel.addEventListener("click", (event) => {
+      event.stopPropagation();
     });
   }
 

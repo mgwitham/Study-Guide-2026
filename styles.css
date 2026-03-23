@@ -37,7 +37,7 @@ body {
 }
 
 body.is-reader-open {
-  overflow: hidden;
+  overflow: auto;
 }
 
 .page-shell {
@@ -698,30 +698,33 @@ body.is-reader-open {
   position: fixed;
   inset: 0;
   z-index: 20;
-  display: grid;
-  place-items: center;
-  padding: 20px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 18px;
+  pointer-events: none;
 }
 
 .rule-reader-backdrop {
-  position: absolute;
-  inset: 0;
-  background: rgba(20, 29, 38, 0.5);
+  display: none;
 }
 
 .rule-reader-panel {
   position: relative;
   z-index: 1;
-  width: min(1240px, 100%);
-  max-height: calc(100vh - 40px);
+  width: min(720px, calc(100vw - 36px));
+  height: calc(100vh - 36px);
   display: grid;
-  gap: 16px;
-  padding: 24px 26px 26px;
+  grid-template-rows: auto auto minmax(0, 1fr);
+  gap: 14px;
+  margin: 0;
+  padding: 20px 22px 22px;
   border: 1px solid var(--line);
   border-radius: var(--radius-xl);
   background: var(--surface);
-  box-shadow: 0 22px 60px rgba(20, 29, 38, 0.18);
+  box-shadow: 0 16px 40px rgba(20, 29, 38, 0.16);
   overflow: hidden;
+  pointer-events: auto;
 }
 
 .rule-reader-header,
@@ -733,14 +736,14 @@ body.is-reader-open {
 }
 
 .rule-reader-header {
-  padding-bottom: 8px;
+  padding-bottom: 6px;
   border-bottom: 1px solid var(--line);
 }
 
 .rule-reader-header h2 {
-  margin: 6px 0 0;
-  font-size: clamp(1.8rem, 3vw, 2.4rem);
-  line-height: 1.08;
+  margin: 4px 0 0;
+  font-size: clamp(1.5rem, 2.2vw, 2rem);
+  line-height: 1.12;
 }
 
 .rule-reader-close,
@@ -756,14 +759,14 @@ body.is-reader-open {
   margin: 0;
   color: var(--muted);
   line-height: 1.5;
-  font-size: 0.98rem;
+  font-size: 0.92rem;
 }
 
 .rule-reader-layout {
   min-height: 0;
   display: grid;
-  grid-template-columns: 240px minmax(0, 1fr);
-  gap: 16px;
+  grid-template-columns: 180px minmax(0, 1fr);
+  gap: 14px;
 }
 
 .rule-reader-nav,
@@ -779,7 +782,7 @@ body.is-reader-open {
   display: grid;
   align-content: start;
   gap: 8px;
-  padding: 12px;
+  padding: 10px;
 }
 
 .rule-reader-nav-link {
@@ -798,7 +801,7 @@ body.is-reader-open {
 }
 
 .rule-reader-body {
-  padding: 22px 24px;
+  padding: 18px 20px;
   scroll-behavior: smooth;
 }
 
@@ -831,7 +834,7 @@ body.is-reader-open {
 .rule-reader-paragraph {
   color: var(--ink);
   line-height: 1.75;
-  max-width: 78ch;
+  max-width: 64ch;
 }
 
 .rule-reader-emphasis {
@@ -871,6 +874,10 @@ body.is-reader-open {
   .rule-reader-layout {
     grid-template-columns: minmax(0, 1fr);
   }
+
+  .rule-reader-panel {
+    width: min(760px, calc(100vw - 24px));
+  }
 }
 
 @media (max-width: 640px) {
@@ -890,7 +897,8 @@ body.is-reader-open {
   }
 
   .rule-reader-panel {
-    max-height: calc(100vh - 18px);
+    width: 100%;
+    height: calc(100vh - 18px);
     padding: 18px;
   }
 
