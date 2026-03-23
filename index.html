@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NFHS Learning Lab</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <section class="overview-full top-banner">
+        <article class="overview-card notice-card">
+          <p class="section-label">Important</p>
+          <h2>Use this as a study guide, not a replacement rulebook.</h2>
+        </article>
+      </section>
+
+      <header class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">NFHS Learning Lab</p>
+          <h1>Pause, Read, React</h1>
+          <p class="hero-text">
+            This is a browser-based learning platform for NFHS baseball umpires.
+          </p>
+          <div class="hero-actions">
+            <a class="primary-link" href="#quiz-lab">Start Quiz</a>
+            <a class="secondary-link" href="#rule-outline-grid">Learn by Rule</a>
+            <a class="secondary-link" href="#study-map">Learn by Situation</a>
+            <a class="secondary-link" href="#study-library">Study Library</a>
+          </div>
+        </div>
+      </header>
+
+      <main class="content-stack">
+        <section class="panel-card quiz-lab" id="quiz-lab">
+          <div class="panel-header quiz-header">
+            <div>
+              <p class="section-label">Scenario Drill</p>
+              <h2 id="quiz-title">NFHS scenario drill</h2>
+            </div>
+          </div>
+
+          <div class="quiz-meta">
+            <span class="pill" id="question-tag">Rule focus</span>
+            <span class="pill muted-pill" id="question-counter">Question 1</span>
+          </div>
+
+          <article class="question-card">
+            <p class="question-lead">Situation</p>
+            <h3 id="question-prompt">Loading drill...</h3>
+            <div class="answers" id="answers"></div>
+          </article>
+
+          <div class="feedback-card" id="feedback-card">
+            <p class="section-label">Answer</p>
+            <p id="feedback-text">Pick an answer to see the ruling logic and study note.</p>
+            <div class="feedback-actions">
+              <button type="button" class="primary-button next-question-button" id="next-question-button" hidden>
+                Next question
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel-card">
+          <div class="panel-header">
+            <div>
+              <p class="section-label">Rulebook Spine</p>
+              <h2>Learn by Rule</h2>
+            </div>
+          </div>
+          <div class="rule-outline-grid" id="rule-outline-grid"></div>
+        </section>
+
+        <section class="study-map" id="study-map">
+          <div class="panel-header">
+            <div>
+              <p class="section-label">Scenarios</p>
+              <h2>Learn by Situation</h2>
+            </div>
+          </div>
+
+          <div class="topic-grid" id="topic-grid"></div>
+        </section>
+
+        <section class="panel-card study-library-panel" id="study-library">
+          <p class="section-label">Study Library</p>
+          <details class="study-library">
+            <summary>Open Study Library</summary>
+
+            <div class="study-library-stack">
+              <section class="panel-card search-panel">
+                <div class="panel-header">
+                  <div>
+                    <p class="section-label">Situation Search</p>
+                    <h2>Search by play situation</h2>
+                    <p class="panel-copy">
+                      Type a play in plain language and the library will map it to the closest rule-backed drill result.
+                    </p>
+                  </div>
+                </div>
+                <form class="search-form" id="situation-search-form">
+                  <label class="search-label" for="situation-search-input">Type a situation</label>
+                  <textarea
+                    id="situation-search-input"
+                    class="search-input"
+                    rows="3"
+                    placeholder="Example: Runner misses second on a double and the defense appeals after the next pitch."
+                  ></textarea>
+                  <div class="search-actions">
+                    <button type="submit" class="primary-button">Search rulebook map</button>
+                  </div>
+                </form>
+                <div class="search-results" id="situation-search-results">
+                  <p class="search-empty">Search results will appear here.</p>
+                </div>
+              </section>
+
+              <section class="resources-grid">
+                <article class="panel-card">
+                  <p class="section-label">2025 Updates</p>
+                  <h2>Rules changes and emphasis areas</h2>
+                  <div class="reference-list" id="rulebook-update-list"></div>
+                </article>
+
+                <article class="panel-card">
+                  <p class="section-label">Signals and Admin</p>
+                  <h2>Book-level support topics worth reviewing</h2>
+                  <div class="reference-list" id="rulebook-support-list"></div>
+                </article>
+              </section>
+
+              <section class="panel-card">
+                <div class="panel-header">
+                  <div>
+                    <p class="section-label">Umpires Manual</p>
+                    <p class="panel-copy">
+                      These modules are based on the exported text from your NFHS umpires manual and organize the biggest study blocks into manageable reps.
+                    </p>
+                  </div>
+                </div>
+                <div class="manual-grid" id="manual-grid"></div>
+              </section>
+
+              <section class="resources-grid">
+                <article class="panel-card">
+                  <p class="section-label">Dead Ball Reference</p>
+                  <h2>Immediate dead-ball</h2>
+                  <div class="reference-list" id="dead-ball-list"></div>
+                </article>
+
+                <article class="panel-card">
+                  <p class="section-label">Awards Reference</p>
+                  <h2>Baserunning award situations</h2>
+                  <div class="reference-list" id="award-list"></div>
+                </article>
+              </section>
+
+              <section class="resources-grid">
+                <article class="panel-card">
+                  <p class="section-label">Glossary Reps</p>
+                  <h2>Terms worth knowing cold</h2>
+                  <div class="reference-list" id="glossary-list"></div>
+                </article>
+
+                <article class="panel-card">
+                  <p class="section-label">Crew Progressions</p>
+                  <h2>Study by crew size and coverage load</h2>
+                  <div class="reference-list" id="crew-list"></div>
+                </article>
+              </section>
+
+              <section class="mechanics-grid">
+                <article class="panel-card">
+                  <div class="panel-header">
+                    <div>
+                      <p class="section-label">Plate Work</p>
+                      <h2>Pre-pitch reminders</h2>
+                    </div>
+                  </div>
+                  <div class="checklist" id="plate-checklist"></div>
+                </article>
+
+                <article class="panel-card">
+                  <div class="panel-header">
+                    <div>
+                      <p class="section-label">Base Work</p>
+                      <h2>Crew movement anchors</h2>
+                    </div>
+                  </div>
+                  <div class="checklist" id="base-checklist"></div>
+                </article>
+              </section>
+
+              <section class="panel-card pregame-panel">
+                <p class="section-label">Pregame Cram</p>
+                <h2>Discuss in your pregame</h2>
+                <div class="resource-list" id="pregame-list"></div>
+              </section>
+            </div>
+          </details>
+        </section>
+
+      </main>
+    </div>
+
+    <div class="study-modal" id="study-modal" hidden>
+      <div class="study-modal-backdrop" id="study-modal-backdrop"></div>
+      <div class="study-modal-panel" role="dialog" aria-modal="true" aria-labelledby="study-modal-title">
+        <div class="study-modal-header">
+          <div>
+            <p class="section-label" id="study-modal-source">Study note</p>
+            <h2 id="study-modal-title">Support topic</h2>
+          </div>
+          <button type="button" class="ghost-button study-modal-close" id="study-modal-close">Close</button>
+        </div>
+        <p class="study-modal-copy" id="study-modal-copy"></p>
+      </div>
+    </div>
+
+    <script type="module" src="./app-live.js?v=20260322-rulefix"></script>
+  </body>
+</html>
