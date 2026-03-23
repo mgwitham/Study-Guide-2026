@@ -369,16 +369,16 @@ function openRuleReader(label) {
   }
 
   openRuleReaderLabel = label;
-  ruleReaderKicker.textContent = label;
-  ruleReaderTitle.textContent = section?.title || label;
+  ruleReaderKicker.textContent = "Rulebook Reader";
+  ruleReaderTitle.textContent = section?.title ? `${label}: ${section.title}` : label;
   ruleReaderSource.textContent = label.startsWith("Rule ")
     ? `Official 2025 NFHS Baseball Rules text${section?.page ? ` · Starts on page ${section.page}` : ""}`
-    : "Supplemental local section text";
+    : `${label}${section?.page ? ` · Starts on page ${section.page}` : ""}`;
   ruleReaderStudyLink.hidden = !safeQuestions.some((question) => question.section === label);
 
   const readerText = RULEBOOK_SECTION_OVERRIDES[label] || entry.text;
   const rendered = renderRuleReaderContent(readerText);
-  ruleReaderNav.innerHTML = rendered.navHtml || '<p class="rule-reader-empty">Use the scrollable reader to move through this section.</p>';
+  ruleReaderNav.innerHTML = rendered.navHtml || '<p class="rule-reader-empty">Scroll the reader for the full rule text.</p>';
   ruleReaderBody.innerHTML = rendered.bodyHtml;
   ruleReaderBody.scrollTop = 0;
   ruleReaderModal.hidden = false;
@@ -441,7 +441,9 @@ function renderRuleReaderContent(text) {
 
   return {
     navHtml: navItems.join(""),
-    bodyHtml: bodyParts.join(""),
+    bodyHtml:
+      bodyParts.join("") ||
+      '<p class="rule-reader-empty">This rule section is still being prepared for the reader.</p>',
   };
 }
 
