@@ -17,10 +17,6 @@ const examSectionPill = document.querySelector("#exam-section-pill");
 const examProgressCopy = document.querySelector("#exam-progress-copy");
 const examProgressBar = document.querySelector("#exam-progress-bar");
 const questionShell = document.querySelector("#question-shell");
-const sessionScore = document.querySelector("#session-score");
-const lastFullExam = document.querySelector("#last-full-exam");
-const bestQuickScore = document.querySelector("#best-quick-score");
-const missedPreview = document.querySelector("#missed-preview");
 const studySearch = document.querySelector("#study-search");
 const studyChipRow = document.querySelector("#study-chip-row");
 const studyResultsCount = document.querySelector("#study-results-count");
@@ -207,6 +203,23 @@ function getPageLabel(question) {
   return `Page ${matchingSection.page}`;
 }
 
+function getRuleSummary(question) {
+  const matchingSection = safeRuleSections.find((section) => section.label === question.section);
+  if (matchingSection && matchingSection.summary) {
+    return matchingSection.summary;
+  }
+
+  if (question.section === "Mechanics") {
+    return "This question covers umpire mechanics, positioning, rotations, or crew responsibilities from the LAU/NFHS study material.";
+  }
+
+  if (question.section === "LAU Adoption") {
+    return "This question covers LAU or City Section local policy rather than the base NFHS rulebook language.";
+  }
+
+  return "This question is tied to the cited rule area in the 2025 NFHS baseball rulebook.";
+}
+
 function formatReferenceLine(question) {
   const parts = [];
 
@@ -231,45 +244,10 @@ function renderStats() {
   const answeredCount = answeredEntries.length;
   const correctCount = answeredEntries.filter((entry) => entry.correct).length;
   const accuracy = answeredCount ? Math.round((correctCount / answeredCount) * 100) : 0;
-  const fullSessions = state.examHistory.filter((session) => session.mode === "full");
-  const quickSessions = state.examHistory.filter((session) => session.mode === "quick");
 
   statAnsweredCount.textContent = String(answeredCount);
   statAccuracy.textContent = `${accuracy}%`;
   statMissedCount.textContent = String(state.missedQuestionIds.length);
-  lastFullExam.textContent = formatHistoryScore(fullSessions[fullSessions.length - 1]);
-  bestQuickScore.textContent = formatHistoryScore(bestHistoryScore(quickSessions));
-
-  renderMissedPreview();
-}
-
-function renderMissedPreview() {
-  missedPreview.innerHTML = "";
-
-  if (!state.missedQuestionIds.length) {
-    missedPreview.innerHTML = `
-      <div class="review-card">
-        <p class="section-label">Missed Review</p>
-        <p>No missed questions saved yet. Once you miss one in exam mode, it will show up here.</p>
-      </div>
-    `;
-    return;
-  }
-
-  const previewQuestions = state.missedQuestionIds
-    .slice(0, 5)
-    .map((number) => findQuestion(number))
-    .filter(Boolean);
-
-  previewQuestions.forEach((question) => {
-    const card = document.createElement("article");
-    card.className = "review-card";
-    card.innerHTML = `
-      <p class="section-label">Question ${escapeHtml(question.number)}</p>
-      <p>${escapeHtml(question.prompt)}</p>
-    `;
-    missedPreview.append(card);
-  });
 }
 
 function startSession() {
@@ -298,7 +276,6 @@ function startSession() {
     `;
     examProgressCopy.textContent = "No questions loaded";
     examProgressBar.style.width = "0%";
-    sessionScore.textContent = "0 / 0";
     return;
   }
 
@@ -329,7 +306,6 @@ function renderSessionQuestion() {
     : `${labelForMode(currentSession.mode)} · ${currentSession.section}`;
   examProgressCopy.textContent = `Question ${currentSession.currentIndex + 1} of ${currentSession.questions.length}`;
   examProgressBar.style.width = `${progress}%`;
-  sessionScore.textContent = `${currentSession.score} / ${currentSession.answeredCount}`;
 
   questionShell.innerHTML = `
     <article class="question-card">
@@ -410,6 +386,9 @@ function renderAnsweredQuestion(question, selectedIndex, isCorrect) {
     <p class="feedback-copy">
       <strong>Reference:</strong> ${escapeHtml(formatReferenceLine(question))}
     </p>
+    <p class="feedback-copy">
+      <strong>Rule summary:</strong> ${escapeHtml(getRuleSummary(question))}
+    </p>
     <div class="question-footer">
       <span class="pill ${isCorrect ? "" : "muted-pill"}">${isCorrect ? "Score added" : "Saved to missed review"}</span>
       <button type="button" class="primary-button" id="next-question-button">
@@ -424,7 +403,6 @@ function renderAnsweredQuestion(question, selectedIndex, isCorrect) {
   });
 
   examProgressBar.style.width = `${((currentSession.currentIndex + 1) / currentSession.questions.length) * 100}%`;
-  sessionScore.textContent = `${currentSession.score} / ${currentSession.answeredCount}`;
 }
 
 function advanceSession() {
@@ -580,22 +558,6 @@ function labelForMode(mode) {
     return "Missed Only";
   }
   return "Full 100";
-}
-
-function bestHistoryScore(entries) {
-  return entries.reduce((best, entry) => {
-    if (!best || entry.percent > best.percent) {
-      return entry;
-    }
-    return best;
-  }, null);
-}
-
-function formatHistoryScore(entry) {
-  if (!entry) {
-    return "Not taken";
-  }
-  return `${entry.percent}%`;
 }
 
 function findQuestion(number) {

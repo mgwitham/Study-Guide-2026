@@ -91,8 +91,8 @@ body {
 
 .hero-copy h1 {
   max-width: 100%;
-  font-size: clamp(2rem, 4.2vw, 4rem);
-  line-height: 1.08;
+  font-size: clamp(1.5rem, 3vw, 3.2rem);
+  line-height: 1.05;
   letter-spacing: 0;
 }
 
@@ -205,7 +205,6 @@ body {
 }
 
 .stat-stack,
-.session-grid,
 .rule-grid,
 .highlight-grid,
 .note-grid {
@@ -213,26 +212,23 @@ body {
   gap: 14px;
 }
 
-.stat-stack,
-.session-grid {
+.stat-stack {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .summary-row {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: minmax(0, 1fr);
   align-items: start;
 }
 
-.stat-card,
-.mini-stat {
+.stat-card {
   padding: 18px;
   border-radius: var(--radius-lg);
   border: 1px solid var(--line);
   background: #f9fbfc;
 }
 
-.stat-value,
-.mini-stat strong {
+.stat-value {
   display: block;
   margin-top: 8px;
   font-size: 1.55rem;
@@ -257,8 +253,7 @@ body {
   line-height: 1.02;
 }
 
-.study-list,
-.review-list {
+.study-list {
   display: grid;
   gap: 14px;
 }
@@ -267,16 +262,9 @@ body {
 .highlight-card,
 .study-card,
 .result-card,
-.review-card {
-  border: 1px solid var(--line);
-  border-radius: var(--radius-lg);
-  background: #ffffff;
-}
-
 .rule-card,
 .highlight-card,
-.study-card,
-.review-card {
+.study-card {
   padding: 20px;
 }
 
@@ -503,25 +491,6 @@ body {
   margin-top: 6px;
 }
 
-.session-panel {
-  align-self: start;
-  display: grid;
-  gap: 16px;
-}
-
-.review-list {
-  margin-top: 0;
-}
-
-.review-card {
-  background: #f9fbfc;
-}
-
-.review-card p {
-  margin: 6px 0 0;
-  color: var(--muted);
-}
-
 .study-controls {
   grid-template-columns: minmax(0, 1fr);
   margin-top: 20px;
@@ -714,8 +683,7 @@ body {
     padding: 22px;
   }
 
-  .stat-stack,
-  .session-grid {
+  .stat-stack {
     grid-template-columns: minmax(0, 1fr);
   }
 
