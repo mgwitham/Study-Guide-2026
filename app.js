@@ -1,6 +1,34 @@
 const STORAGE_KEY = "lau-study-center-state";
 const LETTERS = ["A", "B", "C", "D"];
 const data = window.LAU_STUDY_DATA;
+const rulebookReaderData = window.LAU_RULEBOOK_READER || { entries: [] };
+
+const OFFICIAL_RULEBOOK_TEXT = {
+  "1-3-1": "The ball shall meet the current NOCSAE standard for baseballs at the time of manufacture and is required on balls that will be used in high school competition. The SEI/NOCSAE mark is required on all balls that meet the NOCSAE standard that will be used in high school competition. A minimum of three umpire-approved baseballs shall be provided to start the game. Unless otherwise mutually agreed upon, the home team has this responsibility. No less than two baseballs shall be used to complete a game. The NFHS Authenticating Mark is required on all balls that will be used in high school competition.",
+  "1-3-2": "Bats that are altered from the manufacturer's original design and production, or that do not meet the rule specifications, are illegal. No artificial or intentional means shall be used to control the temperature of the bat. Resin, pine tar or any other drying agent to enhance the hold are permitted on the bat, not to exceed beyond 18 inches from the base of the knob. Molded grips are illegal.",
+  "3-1-1": "After the lineup cards are official prior to the game, the player listed as pitcher shall pitch until the first opposing batter has been put out or has advanced to first base. In any other case, a substitute may replace a player when the ball is dead and time has been called.",
+  "3-1-4": "A hitter may be designated for any one starting player and all subsequent substitutes for that player in the game. A designated hitter for said player shall be selected prior to the start of the game, and the player's name shall be included on the lineup cards presented to the umpire-in-chief and to the official scorer. A team forfeits the use of a designated hitter if it fails to declare a designated hitter prior to the game.",
+  "1-6-2": "A coach may use a one-way electronic communication device to communicate to the catcher for the purpose of calling pitches. Coaches may not use electronic communication device(s) to communicate with any other team member while on defense or any team member while on offense. When using the electronic communication device, the coach cannot be outside the dugout/bench area.",
+  "2-9-1": "A catch is the act of a fielder in getting secure possession in the hand or glove of a live ball in flight and firmly holding it, provided the fielder does not use the cap, protector, mask, pocket or other part of the uniform to trap the ball. The catch of a fly ball by a fielder is not completed until the continuing action of the catch is completed.",
+  "2-16-1": "A foul ball is a batted ball that settles on foul territory between home and first base or between home and third base; bounds past first or third base on or over foul territory; first falls on foul territory beyond first or third base; while on or over foul ground, touches an umpire, a player or any object foreign to the natural ground; or while over foul territory, passes out of the playing field in flight.",
+  "2-20-2": "A half-inning is the interval during which one team is on offense and the other is on defense. A half-inning ends when there is a third out or when, in the last inning, the winning run is scored. If there is a delayed out declared by the umpire for a baserunning infraction, a possible fourth out may be recognized.",
+  "2-21-4": "Follow-through interference is when the bat hits the catcher after the batter has swung at a pitch and hinders action at home plate or the catcher's attempt to play on a runner.",
+  "2-21-5": "Backswing interference is when a batter contacts the catcher or the catcher's equipment prior to the time of the pitch.",
+  "3-3-4": "Whenever team members are loosening up in an area which is not protected by a fence or other structure, another member of the team with a glove must be positioned between them and the batter to protect them from a batted or thrown ball within the confines of the field.",
+  "3-2-2": "No coach shall physically assist a runner during playing action.",
+  "3-4-1": "Each team, when on defense, may be granted not more than three charged conferences during a seven-inning game, without penalty, to permit coaches or their non-playing representatives to confer with a defensive player or players. In an extra inning game, each team shall be permitted one charged conference per inning without penalty.",
+  "4-1-3": "Before game time, the home team and then the visiting team shall deliver their respective batting orders in duplicate to the umpire-in-chief. The umpire then shall permit inspection by both head coaches and/or captains if available. Prior to the start of the game, the umpire-in-chief shall receive verification from each head coach that the team's participants are properly equipped in accordance with NFHS rules.",
+  "4-4-1": "A game shall be forfeited to the offended team by the umpire when a team is late in appearing or in beginning play after the umpire calls play; refuses to continue play after the game has started; delays more than a reasonable amount of time in resuming play; persists in tactics designed to delay or shorten the game; willfully and persistently violates any of the rules after being warned by the umpire; or is unable to provide at least nine players to start the game or eight players to finish the game.",
+  "5-1-1": "Ball becomes dead immediately when a pitch touches a batter or the batter's clothing, a runner, the ball is illegally batted or intentionally struck a second time with the bat, the batter enters the batter's box with an illegal bat, there is a foul ball, or there is interference by a runner, batter-runner, retired runner, batter, or by any person as provided by rule.",
+  "10-2-3": "The umpire-in-chief's duties include those listed in 10-2-1, 10-2-2 and the following: inspecting bats, balls, helmets, catcher's equipment and uniforms; receiving the batting orders from the captains and informing both teams of any special ground rules; being in sole possession of the game ball; and calling illegal pitches and balks.",
+  "5-1-2": "It is a delayed dead ball when there is interference by a batter; when the batter interferes with the catcher attempting to play on a runner if an out does not result at the end of the catcher's throw; when a catcher or any fielder obstructs a batter or runner; when the umpire interferes with the catcher attempting to throw; when offensive personnel try to cause the pitcher to balk; or when a ball touches an illegal glove or mitt.",
+  "5-1-4": "When the ball is in play, it remains live until a dead ball situation occurs, time is called, or the ball becomes dead under another rule.",
+  "7-1-1": "Each player of the team at bat shall become the batter and shall take a position within a batter's box, on either side of home plate, in the order in which each player's name appears on the lineup card as delivered to the umpire prior to the game. This order shall be followed during the entire game except that an entering substitute shall take the replaced player's place in the batting order.",
+  "8-4-2": "A runner is out when the runner runs more than three feet away from a direct line between bases to avoid being tagged; physically passes a preceding runner before that runner is out; misses a base and is properly appealed; leaves a base too soon on a caught fly ball and is properly appealed; fails to slide legally or avoid a fielder on a force play; intentionally interferes with a throw or thrown ball; or commits any other baserunning infraction covered by Rule 8-4-2.",
+  "8-4-1": "The batter-runner is out when the batter-runner interferes with the catcher or a fielder, intentionally drops a fair fly, bunts foul on third strike, uses an illegal bat, or commits another infraction listed in Rule 8-4-1.",
+  "8-2-8": "A runner who has retouched a base while the ball is dead is not required to retouch after the ball again becomes live unless forced to advance by the batter becoming a runner.",
+  "9-1-1": "A runner scores one run each time the runner legally advances to and touches first, second, third and then home plate before there are three outs to end the inning. A run is not scored if the third out is by the batter-runner before first base, by a force out, or by appeal on a preceding runner for missing a base or leaving too soon on a caught fly ball."
+};
 
 if (!data) {
   throw new Error("LAU study data failed to load.");
@@ -23,18 +51,30 @@ const studyResultsCount = document.querySelector("#study-results-count");
 const clearStudyFiltersButton = document.querySelector("#clear-study-filters");
 const studyList = document.querySelector("#study-list");
 const ruleGrid = document.querySelector("#rule-grid");
+const ruleReaderModal = document.querySelector("#rule-reader-modal");
+const ruleReaderKicker = document.querySelector("#rule-reader-kicker");
+const ruleReaderTitle = document.querySelector("#rule-reader-title");
+const ruleReaderSource = document.querySelector("#rule-reader-source");
+const ruleReaderNav = document.querySelector("#rule-reader-nav");
+const ruleReaderBody = document.querySelector("#rule-reader-body");
+const ruleReaderStudyLink = document.querySelector("#rule-reader-study-link");
+const ruleReaderCloseButton = document.querySelector(".rule-reader-close");
 
 const safeQuestions = Array.isArray(data.questions) ? data.questions : [];
 const safeRuleSections = Array.isArray(data.ruleSections) && data.ruleSections.length
   ? data.ruleSections
   : buildFallbackRuleSections(safeQuestions);
 const sections = ["All", ...safeRuleSections.map((section) => section.label)];
+const rulebookEntriesByLabel = new Map(
+  (Array.isArray(rulebookReaderData.entries) ? rulebookReaderData.entries : []).map((entry) => [entry.label, entry])
+);
 
 const state = loadState();
 let activeMode = "full";
 let studyFilter = "All";
 let studyQuery = "";
 let currentSession = null;
+let openRuleReaderLabel = "";
 
 initialize();
 
@@ -110,14 +150,24 @@ function bindEvents() {
       return;
     }
 
+    event.preventDefault();
+    event.stopPropagation();
+
     const section = button.dataset.launchRule;
     sectionFilter.value = section;
     activeMode = "quick";
     syncModeButtons();
     window.location.hash = "exam-center";
+    startSession();
   });
 
   ruleGrid.addEventListener("click", (event) => {
+    const openButton = event.target.closest("[data-open-rulebook]");
+    if (openButton) {
+      openRuleReader(openButton.dataset.openRulebook);
+      return;
+    }
+
     const button = event.target.closest("[data-rule-filter]");
     if (!button) {
       return;
@@ -129,6 +179,51 @@ function bindEvents() {
     renderStudyList();
     sectionFilter.value = section;
     window.location.hash = "study-center";
+  });
+
+  if (ruleReaderModal) {
+    ruleReaderModal.addEventListener("click", (event) => {
+      if (event.target.closest("[data-close-reader]")) {
+        closeRuleReader();
+      }
+    });
+  }
+
+  if (ruleReaderNav && ruleReaderBody) {
+    ruleReaderNav.addEventListener("click", (event) => {
+      const link = event.target.closest(".rule-reader-nav-link");
+      if (!link) {
+        return;
+      }
+
+      event.preventDefault();
+
+      const targetId = link.getAttribute("href");
+      const target = targetId ? ruleReaderBody.querySelector(targetId) : null;
+      if (target) {
+        target.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+    });
+  }
+
+  if (ruleReaderStudyLink) {
+    ruleReaderStudyLink.addEventListener("click", () => {
+      if (!openRuleReaderLabel) {
+        return;
+      }
+
+      studyFilter = openRuleReaderLabel;
+      renderStudyChips();
+      renderStudyList();
+      window.location.hash = "study-center";
+      closeRuleReader();
+    });
+  }
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && !ruleReaderModal?.hidden) {
+      closeRuleReader();
+    }
   });
 }
 
@@ -184,10 +279,97 @@ function renderRulebookHub() {
         <span class="pill muted-pill">Starts on page ${escapeHtml(section.page)}</span>
       </div>
       <p>${escapeHtml(section.summary)}</p>
-      <button type="button" class="rule-link" data-rule-filter="${escapeAttribute(section.label)}">Study This Rule</button>
+      <button type="button" class="rule-link" data-open-rulebook="${escapeAttribute(section.label)}">Study This Rule</button>
     `;
     ruleGrid.append(card);
   });
+}
+
+function openRuleReader(label) {
+  const entry = rulebookEntriesByLabel.get(label);
+  const section = safeRuleSections.find((item) => item.label === label);
+
+  if (
+    !entry ||
+    !ruleReaderModal ||
+    !ruleReaderBody ||
+    !ruleReaderTitle ||
+    !ruleReaderSource ||
+    !ruleReaderNav ||
+    !ruleReaderKicker ||
+    !ruleReaderStudyLink
+  ) {
+    return;
+  }
+
+  openRuleReaderLabel = label;
+  ruleReaderKicker.textContent = label;
+  ruleReaderTitle.textContent = section?.title || label;
+  ruleReaderSource.textContent = label.startsWith("Rule ")
+    ? `Official 2025 NFHS Baseball Rules text${section?.page ? ` · Starts on page ${section.page}` : ""}`
+    : "Supplemental local section text";
+  ruleReaderStudyLink.hidden = !safeQuestions.some((question) => question.section === label);
+
+  const rendered = renderRuleReaderContent(entry.text);
+  ruleReaderNav.innerHTML = rendered.navHtml || '<p class="rule-reader-empty">Use the scrollable reader to move through this section.</p>';
+  ruleReaderBody.innerHTML = rendered.bodyHtml;
+  ruleReaderBody.scrollTop = 0;
+  ruleReaderModal.hidden = false;
+  document.body.classList.add("is-reader-open");
+  ruleReaderCloseButton?.focus();
+}
+
+function closeRuleReader() {
+  if (!ruleReaderModal) {
+    return;
+  }
+
+  openRuleReaderLabel = "";
+  ruleReaderModal.hidden = true;
+  document.body.classList.remove("is-reader-open");
+}
+
+function renderRuleReaderContent(text) {
+  const lines = String(text || "")
+    .split("\n")
+    .map((line) => line.replace(/\uFFFD/g, "").replace(/\s+/g, " ").trim())
+    .filter(Boolean);
+
+  const navItems = [];
+  const bodyParts = [];
+  let sectionIndex = 0;
+
+  lines.forEach((line) => {
+    if (/^SECTION\s+\d+/i.test(line)) {
+      sectionIndex += 1;
+      const sectionId = `rule-reader-section-${sectionIndex}`;
+      navItems.push(`<a href="#${sectionId}" class="rule-reader-nav-link">${escapeHtml(line)}</a>`);
+      bodyParts.push(`<h3 class="rule-reader-section-title" id="${sectionId}">${escapeHtml(line)}</h3>`);
+      return;
+    }
+
+    if (/^Rule\b/i.test(line)) {
+      bodyParts.push(`<p class="rule-reader-rule-label">${escapeHtml(line)}</p>`);
+      return;
+    }
+
+    if (/^(ART\.|PENALTY:|NOTE:|NOTES:|EXCEPTION:)/i.test(line)) {
+      bodyParts.push(`<p class="rule-reader-paragraph rule-reader-emphasis">${escapeHtml(line)}</p>`);
+      return;
+    }
+
+    if (/^[•\-]/.test(line)) {
+      bodyParts.push(`<p class="rule-reader-paragraph rule-reader-bullet">${escapeHtml(line)}</p>`);
+      return;
+    }
+
+    bodyParts.push(`<p class="rule-reader-paragraph">${escapeHtml(line)}</p>`);
+  });
+
+  return {
+    navHtml: navItems.join(""),
+    bodyHtml: bodyParts.join(""),
+  };
 }
 
 function getPageLabel(question) {
@@ -218,6 +400,36 @@ function getRuleSummary(question) {
   }
 
   return "This question is tied to the cited rule area in the 2025 NFHS baseball rulebook.";
+}
+
+function getRulebookText(question) {
+  const matches = question.reference ? question.reference.match(/\d+[.-]\d+[.-]\d+[a-z]?/gi) : null;
+  if (!matches) {
+    return "";
+  }
+
+  const seen = new Set();
+  const snippets = [];
+
+  for (const match of matches) {
+    const normalized = match
+      .replace(/\./g, "-")
+      .replace(/[a-z]$/i, "")
+      .toLowerCase();
+
+    if (!OFFICIAL_RULEBOOK_TEXT[normalized] || seen.has(normalized)) {
+      continue;
+    }
+
+    seen.add(normalized);
+    snippets.push(OFFICIAL_RULEBOOK_TEXT[normalized]);
+  }
+
+  return snippets.join("\n\n");
+}
+
+function getDisplayedRulebookText(question) {
+  return getRulebookText(question) || getRuleSummary(question);
 }
 
 function formatReferenceLine(question) {
@@ -386,9 +598,10 @@ function renderAnsweredQuestion(question, selectedIndex, isCorrect) {
     <p class="feedback-copy">
       <strong>Reference:</strong> ${escapeHtml(formatReferenceLine(question))}
     </p>
-    <p class="feedback-copy">
-      <strong>Rule summary:</strong> ${escapeHtml(getRuleSummary(question))}
-    </p>
+    <div class="feedback-copy">
+      <strong>Rulebook Text:</strong>
+      <p class="feedback-rulebook-text">${escapeHtml(getDisplayedRulebookText(question))}</p>
+    </div>
     <div class="question-footer">
       <span class="pill ${isCorrect ? "" : "muted-pill"}">${isCorrect ? "Score added" : "Saved to missed review"}</span>
       <button type="button" class="primary-button" id="next-question-button">
