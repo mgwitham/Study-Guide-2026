@@ -332,13 +332,16 @@ body {
 .pill {
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   min-height: 32px;
-  padding: 6px 12px;
+  padding: 6px 14px;
   border-radius: 999px;
   background: var(--accent-soft);
   color: var(--accent-dark);
-  font-size: 0.82rem;
+  font-size: 0.78rem;
   font-weight: 800;
+  white-space: nowrap;
+  flex: 0 0 auto;
 }
 
 .muted-pill {
@@ -516,8 +519,19 @@ body {
 
 .study-card-header {
   display: flex;
+  align-items: flex-end;
   justify-content: space-between;
   gap: 14px;
+}
+
+.study-card-header > div:first-child {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.study-card-header .pill {
+  margin-left: auto;
+  align-self: flex-end;
 }
 
 .study-card-title {
