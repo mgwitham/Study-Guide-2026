@@ -290,11 +290,12 @@ function bindEvents() {
         return;
       }
 
-      studyFilter = openRuleReaderLabel;
-      renderStudyChips();
-      renderStudyList();
-      window.location.hash = "study-center";
+      sectionFilter.value = openRuleReaderLabel;
+      activeMode = "quick";
+      syncModeButtons();
       closeRuleReader();
+      window.location.hash = "exam-center";
+      startSession();
     });
   }
 
