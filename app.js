@@ -29,7 +29,12 @@ const studyList = document.querySelector("#study-list");
 const ruleGrid = document.querySelector("#rule-grid");
 const highlightGrid = document.querySelector("#highlight-grid");
 
-const sections = ["All", ...data.ruleSections.map((section) => section.label)];
+const safeQuestions = Array.isArray(data.questions) ? data.questions : [];
+const safeRuleSections = Array.isArray(data.ruleSections) && data.ruleSections.length
+  ? data.ruleSections
+  : buildFallbackRuleSections(safeQuestions);
+const safeRulebookHighlights = Array.isArray(data.rulebookHighlights) ? data.rulebookHighlights : [];
+const sections = ["All", ...safeRuleSections.map((section) => section.label)];
 
 const state = loadState();
 let activeMode = "full";
@@ -40,7 +45,7 @@ let currentSession = null;
 initialize();
 
 function initialize() {
-  statQuestionCount.textContent = String(data.meta.questionCount);
+  statQuestionCount.textContent = String(data.meta?.questionCount || safeQuestions.length);
   renderSectionFilter();
   renderStudyChips();
   renderRulebookHub();
@@ -156,7 +161,7 @@ function renderRulebookHub() {
   ruleGrid.innerHTML = "";
   highlightGrid.innerHTML = "";
 
-  data.ruleSections.forEach((section) => {
+  safeRuleSections.forEach((section) => {
     const card = document.createElement("article");
     card.className = `rule-card${section.label === studyFilter ? " is-active" : ""}`;
     card.innerHTML = `
@@ -174,7 +179,7 @@ function renderRulebookHub() {
     ruleGrid.append(card);
   });
 
-  data.rulebookHighlights.forEach((highlight) => {
+  safeRulebookHighlights.forEach((highlight) => {
     const card = document.createElement("article");
     card.className = "highlight-card";
     card.innerHTML = `
@@ -237,8 +242,8 @@ function renderMissedPreview() {
 function startSession() {
   const selectedSection = sectionFilter.value;
   const pool = selectedSection === "All"
-    ? [...data.questions]
-    : data.questions.filter((question) => question.section === selectedSection);
+    ? [...safeQuestions]
+    : safeQuestions.filter((question) => question.section === selectedSection);
 
   let sessionQuestions = [...pool];
 
@@ -246,7 +251,7 @@ function startSession() {
     sessionQuestions = shuffle(sessionQuestions).slice(0, Math.min(25, sessionQuestions.length));
   } else if (activeMode === "missed") {
     const missedSet = new Set(state.missedQuestionIds);
-    sessionQuestions = data.questions.filter((question) => missedSet.has(question.number));
+    sessionQuestions = safeQuestions.filter((question) => missedSet.has(question.number));
     if (selectedSection !== "All") {
       sessionQuestions = sessionQuestions.filter((question) => question.section === selectedSection);
     }
@@ -494,7 +499,7 @@ function renderStudyList() {
 }
 
 function getFilteredStudyQuestions() {
-  return data.questions.filter((question) => {
+  return safeQuestions.filter((question) => {
     const sectionMatches = studyFilter === "All" || question.section === studyFilter;
     const queryMatches = !studyQuery || question.searchText.includes(studyQuery);
     return sectionMatches && queryMatches;
@@ -534,7 +539,26 @@ function formatHistoryScore(entry) {
 }
 
 function findQuestion(number) {
-  return data.questions.find((question) => question.number === number);
+  return safeQuestions.find((question) => question.number === number);
+}
+
+function buildFallbackRuleSections(questions) {
+  const counts = {};
+
+  questions.forEach((question) => {
+    const label = question.section || "General";
+    counts[label] = (counts[label] || 0) + 1;
+  });
+
+  return Object.keys(counts)
+    .sort((a, b) => a.localeCompare(b, undefined, { numeric: true }))
+    .map((label) => ({
+      label,
+      title: label,
+      page: "",
+      summary: "Study questions grouped from the loaded exam bank.",
+      questionCount: counts[label],
+    }));
 }
 
 function shuffle(items) {
