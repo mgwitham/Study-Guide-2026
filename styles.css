@@ -705,6 +705,10 @@ body.is-reader-open {
   pointer-events: none;
 }
 
+.rule-reader-modal[hidden] {
+  display: none;
+}
+
 .rule-reader-backdrop {
   display: none;
 }
