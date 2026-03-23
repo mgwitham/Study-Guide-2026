@@ -30,6 +30,72 @@ const OFFICIAL_RULEBOOK_TEXT = {
   "9-1-1": "A runner scores one run each time the runner legally advances to and touches first, second, third and then home plate before there are three outs to end the inning. A run is not scored if the third out is by the batter-runner before first base, by a force out, or by appeal on a preceding runner for missing a base or leaving too soon on a caught fly ball."
 };
 
+const RULEBOOK_SECTION_OVERRIDES = {
+  "Rule 1": `Rule 1
+SECTION 1 POSITIONS OF PLAYERS
+ART. 1... In high school baseball, each team is permitted seven turns at bat (4-2-2) during which it attempts to score runs by having its batters become baserunners who advance to and touch first base, second base, third base and home, while causing three of its batters or baserunners to be out.
+ART. 2... Each of the two teams consists of at least nine players throughout the game (EXCEPTION 4-4-1f), one of whom must be designated captain. Lineups become official after they have been exchanged, verified and then accepted by the umpire during the pregame conference. The umpire shall not accept the lineup card until all substitutes are listed. There is no penalty assessed.
+ART. 3... A player is designated on the lineup card and in the scorebook by name, shirt number, batting order position and fielding position. A customary arrangement of the fielders is shown in Diagram 1.
+ART. 4... At the time of the pitch, all fielders shall be on fair ground except the catcher, who shall be in the catcher's box. A fielder is in fair ground when at least one foot is touching fair ground.
+PENALTY: Illegal pitch. (2-18)
+ART. 5... A player may change to a different fielding position at any time except that a pitcher, after being listed as such on the official lineup card handed the umpire, cannot change until conditions in 3-1-1 and 3-1-2 are met. Changes should be reported to the umpire-in-chief and scorekeeper.
+SECTION 2 THE FIELD
+ART. 1... A diamond (or infield) shall be a 90-foot square. When measuring the distance to first base and third base, measure from the apex of home plate to the back edge of the base. The outfield is the area between two foul lines formed by extending two sides of the diamond as in Diagram 2. The infield and outfield, including the boundary marks from home plate to first and third and their extended foul lines, are fair ground. All other area is foul ground.
+ART. 2... All lines on the playing field shall be marked with a material which is not injurious to the eyes or skin. All non-permanent lines should be white. Lime or caustic material of any kind is prohibited.
+ART. 3... The on-deck circle should be to the side and away from home plate, 37 feet if space allows. Neither team's players shall warm up in the other team's on-deck circle. The on-deck circle does not have to be occupied, but a player may choose to do so, provided the on-deck circle is located safely away from home plate. (2-23)
+ART. 4... When the dugout area is temporarily extended, for any reason, it shall be extended toward the outfield on a line parallel to the foul line. The extension of the dugout area shall be equally applied for both teams.
+ART. 5... When constructing a new field for high school play, the distance from home plate to the nearest obstruction on fair ground should be at least 300 feet down the foul lines and at least 350 feet to center field. It is recommended that the line from home plate through the pitcher's plate to second base run east-northeast. This line, using a steel tape or a strong tape or a cord, must measure 127 feet, 3 3/8 inches from the rear tip of home plate to the middle of second base. The catcher's box, home plate, bases, coaches' boxes, batters' boxes, and three-foot running lane shall be as in Diagram 2. The recommended width of a foul line is 2 1/2 inches.
+ART. 6... On a sodded field, an unsodded area, commonly referred to as the pitcher's mound, should have a radius of about nine feet centered 1 1/2 feet in front of the midpoint of the front edge of the pitcher's plate. The top of the pitcher's plate must be 10 inches above the top surface of home plate. Inside the circle, a pitcher's mound should be constructed according to the specifications shown in the diagram. The degree of slope from a point 6 inches in front of the pitcher's plate to a point 6 feet toward home plate shall be one inch to one foot, and such degree of slope shall be uniform. The pitching mound is an 18-foot diameter circle, the center of which is 59 feet from the back point of home plate. Locate the front edge of the rubber 18 inches behind the center of the mound. The front edge of the rubber to the back point of home plate is 60 feet, 6 inches. The slope starts 6 inches from the front edge of the rubber. The level area surrounding the rubber should be 6 inches in front of the rubber, 18 inches to each side and 22 inches to the rear of the rubber. The total level area is 5 feet by 34 inches.
+ART. 7... The pitcher's mound may consist in part of synthetic material that is commercially manufactured for that purpose. If a mound pad is composed of natural soil and synthetic material, the synthetic material must be securely attached to the ground and be installed at least flush or slightly below the surface of the ground. The mound area shall meet suggested height and slope specifications found in the Suggested Layout of the Pitcher's Mound. (Diagram 3)
+ART. 8... Media shall be prohibited from being in live-ball area. If a designated media area is to be used, it shall be established before the game begins. The home team or game management shall designate a lined area for the media, which shall be considered dead-ball area.
+ART. 9... First, second and third bases shall be white bags, 15 inches square and 2 to 5 inches in thickness, and made of canvas filled with a soft material, or molded rubber or synthetic material, and shall be securely attached to the ground or an anchor system as in Diagram 2. Bases may have tapered edges and/or be designed to disengage from their anchor systems. By state association adoption, a double first base is permitted. The double first base shall be a white base and a colored base. The colored base shall be located in foul territory. (Suggested Double First Base Rules, page 67)
+ART. 10... Home plate shall be a five-sided slab of whitened rubber or other suitable similar material. One edge is 17 inches long, two are 8 1/2 inches and two are 12 inches. It shall be set in the ground so that the two 12-inch edges coincide with the diamond lines extending from home plate to first base and to third base, with the 17-inch edge facing the pitcher's plate.
+ART. 11... The pitcher's plate shall be a rectangular slab of whitened rubber or suitable material, 24 inches by 6 inches. It shall be set in the ground as shown in Diagram 2 so that the distance between the nearer edge of the pitcher's plate and the rear tip of home plate shall be 60 feet, 6 inches.
+ART. 12... Any game started on a nonregulation facility by mutual agreement of the opposing coaches shall not be protested for this reason.
+SECTION 3 BATS, BALLS AND GLOVES
+ART. 1... The ball shall meet the current NOCSAE standard for baseballs at the time of manufacture and is required on balls that will be used in high school competition. The SEI/NOCSAE mark is required on all balls that meet the NOCSAE standard that will be used in high school competition. A minimum of three umpire-approved baseballs shall be provided to start the game. Unless otherwise mutually agreed upon, the home team has this responsibility. No less than two baseballs shall be used to complete a game. The NFHS Authenticating Mark is required on all balls that will be used in high school competition. A current list of NFHS authenticated products can be found on the website: www.nfhs.org.
+ART. 2... The bat shall have the following characteristics and components:
+• Each legal wood, aluminum or composite bat shall be one piece, multi-pieces and permanently assembled, or two pieces with interchangeable barrel construction.
+• It shall not have exposed attachments, rivets, pins, rough or sharp edges or any form of exterior fastener that would present a potential hazard.
+• It shall be free of rattles, dents, burrs, cracks and sharp edges. Bats that are broken, altered or that deface the ball are illegal. Materials inside the bat or treatments/devices used to alter the bat specifications and/or enhance performance are prohibited and render the bat illegal.
+• Each legal wood, aluminum or composite bat shall have the following components: knob, handle, taper, barrel and end cap, as described in the rulebook.
+• Each bat not made of a single piece of wood shall have a safety grip made of cork, tape (no smooth, plastic tape) or commercially manufactured composition material. The grip must extend a minimum of 10 inches, but not more than 18 inches, from the base of the knob. Resin, pine tar or any other drying agent to enhance the hold are permitted on the bat, not to exceed beyond 18 inches from the base of the knob. Molded grips are illegal.
+• It shall be 2 5/8 inches or less in diameter at the thickest part and 36 inches or less in length.
+• It shall not weigh, numerically, more than three ounces less than the length of the bat.
+• Bats that are not made of a single piece of wood shall meet the BBCOR performance standard and such bats shall be labeled with a silkscreen or other permanent certification mark. No BBCOR label, sticker or decal will be accepted on any non-wood bat.
+NOTE: The NFHS has been advised that certain manufacturers consider alteration, modification and doctoring of bats to be unlawful and subject to civil and, under certain circumstances, criminal action.
+ART. 3... A bat made of a single piece of wood may be roughened or wound with tape not more than 18 inches from the handle end of the bat. No foreign substance may be added to the surface of the bat beyond 18 inches from the end of the handle. Each bat made of a single piece of wood shall be 2 3/4 inches or less in diameter at the thickest part and 36 inches or less in length.
+ART. 4... Only bats may be used in warming up, including weighted bats used for this purpose, at any location. Only bats and items designed to remain part of the bat, such as weighted bats, batting donuts and wind-resistant devices, are legal at any location.
+ART. 5... Bats that are altered from the manufacturer's original design and production, or that do not meet the rule specifications, are illegal (7-4-1a). No artificial or intentional means shall be used to control the temperature of the bat. No foreign substance may be inserted into the bat. Bats that are broken, cracked or dented or that deface the ball shall be removed without penalty. A bat that continually discolors the ball may be removed from the game with no penalty at the discretion of the umpire.
+ART. 6... Gloves/mitts made of leather shall be worn by all fielders and not be altered to create an adhesive, sticky, and/or tacky surface. The glove/mitt worn by the catcher may be any size. The glove/mitt worn by the pitcher that includes the colors white and/or gray shall be removed from the game upon discovery by either team and/or umpire. The glove/mitt worn by all fielders except the catcher shall conform to the maximum specifications listed in the rulebook.
+ART. 7... Loose equipment, such as gloves, bats, helmets or catcher's gear, of either team may not be on or near the field.
+PENALTY: If loose equipment interferes with play, the umpire may call an out or outs, award bases or return runners, based on the umpire's judgment and the circumstances concerning the play.
+SECTION 4 UNIFORMS
+ART. 1... Uniforms of all team members should be of the same color and style. Caps and shoes are required equipment (no track spikes allowed). When a player is required to wear a head protector, it replaces the cap as mandatory equipment.
+ART. 2... For individual players, uniform sleeve lengths may vary. However, sleeves of each individual player shall be approximately the same length and shall not be ragged, frayed or slit. If the pitcher's undershirt sleeves are exposed, the sleeves shall not be white or gray. Compression sleeves that are solid black or solid dark-colored shall be the only colors allowed to be worn by the pitcher below the elbow. A pitcher shall not wear any item on the hands, wrists or arms which may be distracting to the batter. A pitcher shall not wear white or gray exposed undershirt sleeves or any white or gray sleeve that extends below the elbow. A vest and coordinating shirt worn underneath is viewed as a type of uniform top.
+ART. 3... A uniform shall not have any dangerous or reflective buttons or ornaments. Each player shall be numbered on the back of the shirt with a plain number of solid color contrasting with the color of the shirt. This number shall be plain Arabic style and shall be at least eight inches high, and no players on the same team shall wear identical numbers. A number may have a border of not more than one-quarter inch in width.
+ART. 4... The school's official uniform, including uniform pants, jersey, visible undergarments, socks, stockings, caps and headwear, may bear only a visible single manufacturer's logo or trademark. The manufacturer's logo/trademark shall not exceed 2 1/4 square inches with no dimension exceeding 2 1/4 inches. No more than one manufacturer's logo/trademark or reference shall be permitted on the outside of each item. One American flag 2 inches by 3 inches may be worn or occupy space on each item of uniform apparel. By state association adoption, commemorative or memorial patches may be worn as provided by rule.
+SECTION 5 PLAYER EQUIPMENT
+ART. 1... It is mandatory for on-deck batters, batters, runners, retired runners, players/students in the coaches' boxes, as well as non-adult bat/ball shaggers, to wear a batting helmet that has a non-glare surface and meets the NOCSAE standard at the time of manufacture. The batting helmet shall have extended ear flaps that cover both ears and temples and shall also display the NOCSAE stamp and the exterior warning statement.
+PENALTY: When an umpire observes anyone who is required to wear a batting helmet deliberately remove the helmet while in live-ball territory and the ball is live, the umpire shall issue a warning to the coach of the involved team. A subsequent violation of the rule shall result in ejection.
+ART. 2... A face mask/guard may be attached to batting helmets at the time of manufacture. All face mask/guards shall meet the NOCSAE standard at the time of manufacture. A face mask/guard specifically designed for a particular helmet model may be attached after manufacture, provided that procedure is approved by the manufacturer and meets the NOCSAE standard at the time of manufacture.
+ART. 3... The catcher shall wear, in addition to a head protector, a mask with a throat protector, a body/chest protector that meets the NOCSAE standard at the time of manufacture, a protective cup (male only), and baseball protective shin guards. The SEI/NOCSAE mark is required on all body/chest protectors that meet the NOCSAE standard at the time of manufacture that will be used in high school competition.
+ART. 4... The catcher's helmet and mask combination shall meet the NOCSAE standard at the time of manufacture. Eye shields shall not be attached to the catcher's mask after manufacture. Tinted eyewear worn on the face and under the face mask is permitted. Any helmet or helmet and mask combination shall have full ear protection (dual ear flaps). A throat protector, which is either a part of or attached to the catcher's mask, is mandatory.
+PENALTY: Failure by a player to wear proper equipment after being so ordered by the umpire shall result in ejection.
+ART. 5... Defensive players are permitted to wear face/head protection in the field. If a pitcher or any defensive player wears face/head protection, its outer covering shall have a non-glare surface.
+ART. 6... Defective equipment must be repaired or replaced immediately.
+ART. 7... If a ball is touched with an illegal glove or mitt and that is discovered by the umpire, the coach or captain of the team at bat has the choice of taking the result of the play or having the award for use of an illegal glove or mitt. The illegal glove or mitt must be replaced immediately. A foul fly caught with an illegal glove/mitt shall be nullified and treated as a foul ball, unless the team at bat elects to take the result of the play.
+ART. 8... Hard and unyielding items, such as guards, casts, braces and splints, must be padded with a closed-cell, slow-recovery foam padding no less than 1/2 inch thick. Knee and ankle braces which are unaltered from the manufacturer's original design do not require additional padding. State associations may authorize exceptions as provided by rule.
+ART. 9... Any player equipment judged by the umpire to be unreasonably dangerous is illegal.
+ART. 10... Any questions regarding legality of a player's equipment shall be resolved by the umpire-in-chief.
+ART. 11... Non-traditional playing equipment must be reviewed by the NFHS Baseball Rules Committee before it will be permitted to be used.
+SECTION 6 PLAYER COMMUNICATION EQUIPMENT
+ART. 1... Any wristband with defensive shifts/offensive plays/pitching choices or game directions attached shall be considered non-electronic equipment and is permitted as long as it is a single, solid color. For pitchers, it may not contain the colors white or gray or be distracting. It does not have to match the color of the uniform or the sleeves worn underneath the uniform jersey. It shall only be worn on a player's wrist or forearm, and pitchers shall wear it on their non-pitching arm.
+PENALTY: The umpire shall issue a team warning to the coach of the team involved and the next offender(s) of that team will be ejected along with the head coach.
+ART. 2... One-way electronic communication devices are permissible from the dugout to the catcher while the team is on defense for the purpose of calling pitches. When using the electronic communication device, the coach cannot be outside the dugout/bench area.
+PENALTY: The umpire shall issue a team warning to the coach of the team involved and the next offender(s) of that team will be ejected along with the head coach.`
+};
+
 if (!data) {
   throw new Error("LAU study data failed to load.");
 }
@@ -310,7 +376,8 @@ function openRuleReader(label) {
     : "Supplemental local section text";
   ruleReaderStudyLink.hidden = !safeQuestions.some((question) => question.section === label);
 
-  const rendered = renderRuleReaderContent(entry.text);
+  const readerText = RULEBOOK_SECTION_OVERRIDES[label] || entry.text;
+  const rendered = renderRuleReaderContent(readerText);
   ruleReaderNav.innerHTML = rendered.navHtml || '<p class="rule-reader-empty">Use the scrollable reader to move through this section.</p>';
   ruleReaderBody.innerHTML = rendered.bodyHtml;
   ruleReaderBody.scrollTop = 0;
@@ -341,10 +408,16 @@ function renderRuleReaderContent(text) {
 
   lines.forEach((line) => {
     if (/^SECTION\s+\d+/i.test(line)) {
+      const sectionMatch = line.match(/^(SECTION\s+\d+\s+[A-Z0-9,'\-\/() ]+?)(?:\s+((?:A|An|The|When|If|In)\b.*))?$/);
+      const sectionHeading = sectionMatch ? sectionMatch[1].trim() : line;
+      const sectionBody = sectionMatch?.[2]?.trim() || "";
       sectionIndex += 1;
       const sectionId = `rule-reader-section-${sectionIndex}`;
-      navItems.push(`<a href="#${sectionId}" class="rule-reader-nav-link">${escapeHtml(line)}</a>`);
-      bodyParts.push(`<h3 class="rule-reader-section-title" id="${sectionId}">${escapeHtml(line)}</h3>`);
+      navItems.push(`<a href="#${sectionId}" class="rule-reader-nav-link">${escapeHtml(sectionHeading)}</a>`);
+      bodyParts.push(`<h3 class="rule-reader-section-title" id="${sectionId}">${escapeHtml(sectionHeading)}</h3>`);
+      if (sectionBody) {
+        bodyParts.push(`<p class="rule-reader-paragraph">${escapeHtml(sectionBody)}</p>`);
+      }
       return;
     }
 

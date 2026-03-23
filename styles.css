@@ -284,10 +284,10 @@ body.is-reader-open {
 }
 
 .exam-controls {
-  grid-template-columns: minmax(420px, auto) minmax(220px, 260px);
-  align-items: stretch;
+  grid-template-columns: minmax(0, max-content) minmax(220px, 300px);
+  align-items: end;
   margin-top: 6px;
-  justify-content: start;
+  justify-content: space-between;
 }
 
 .mode-row {
@@ -309,19 +309,28 @@ body.is-reader-open {
   padding: 12px 14px;
 }
 
+.exam-controls .control-card:first-child {
+  padding: 0;
+  border: 0;
+  background: transparent;
+}
+
 .control-label {
   margin: 0 0 8px;
   display: block;
   color: var(--ink);
-  font-size: 0.9rem;
+  font-size: 0.82rem;
+  font-weight: 700;
 }
 
 .start-button {
   width: auto;
+  min-width: 190px;
 }
 
 .mode-row {
   gap: 10px;
+  flex-wrap: nowrap;
 }
 
 .mode-button {
@@ -826,6 +835,10 @@ body.is-reader-open {
   .section-heading,
   .exam-controls {
     grid-template-columns: minmax(0, 1fr);
+  }
+
+  .mode-row {
+    flex-wrap: wrap;
   }
 
   .exam-steps {
