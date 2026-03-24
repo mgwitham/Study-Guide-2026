@@ -848,25 +848,49 @@ body.is-reader-open {
   text-align: left;
   padding: 12px 14px;
   border-radius: var(--radius-md);
-  background: #ffffff;
-  border: 1px solid var(--line);
+  background: linear-gradient(180deg, #ffffff 0%, #f7faff 100%);
+  border: 1px solid rgba(58, 92, 128, 0.2);
   color: var(--ink);
   font: inherit;
   cursor: pointer;
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.96) inset,
+    0 10px 22px rgba(20, 29, 38, 0.07);
+  transition:
+    transform 180ms ease,
+    box-shadow 180ms ease,
+    border-color 180ms ease,
+    background 180ms ease;
+}
+
+.study-choice:hover,
+.study-choice:focus-visible {
+  transform: translateY(-2px);
+  border-color: rgba(58, 92, 128, 0.34);
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.98) inset,
+    0 14px 28px rgba(20, 29, 38, 0.11);
 }
 
 .study-choice.is-answer {
-  background: rgba(36, 97, 65, 0.11);
+  background: linear-gradient(180deg, rgba(36, 97, 65, 0.14) 0%, rgba(36, 97, 65, 0.08) 100%);
   border-color: rgba(36, 97, 65, 0.24);
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.82) inset,
+    0 10px 22px rgba(36, 97, 65, 0.1);
 }
 
 .study-choice.is-incorrect {
-  background: rgba(176, 58, 46, 0.08);
+  background: linear-gradient(180deg, rgba(176, 58, 46, 0.12) 0%, rgba(176, 58, 46, 0.07) 100%);
   border-color: rgba(176, 58, 46, 0.24);
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.82) inset,
+    0 10px 22px rgba(176, 58, 46, 0.1);
 }
 
 .study-choice:disabled {
   cursor: default;
+  transform: none;
 }
 
 .study-note,

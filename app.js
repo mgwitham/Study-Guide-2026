@@ -998,6 +998,7 @@ function renderAnsweredQuestion(question, selectedIndex, isCorrect) {
   });
 
   examProgressBar.style.width = `${((currentSession.currentIndex + 1) / currentSession.questions.length) * 100}%`;
+  feedback.scrollIntoView({ behavior: "smooth", block: "center" });
 }
 
 function advanceSession() {
