@@ -395,6 +395,23 @@ body.is-reader-open {
 .exam-panel {
   display: grid;
   gap: 16px;
+  border: 1px solid rgba(47, 110, 165, 0.24);
+  background:
+    linear-gradient(180deg, rgba(238, 245, 251, 0.7) 0%, rgba(255, 255, 255, 0.98) 22%, #ffffff 100%);
+  box-shadow:
+    0 24px 54px rgba(27, 68, 108, 0.12),
+    0 1px 0 rgba(255, 255, 255, 0.92) inset;
+  position: relative;
+}
+
+.exam-panel::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 6px;
+  border-radius: var(--radius-xl) var(--radius-xl) 0 0;
+  background: linear-gradient(90deg, var(--accent) 0%, #5b8dbc 55%, #c27b45 100%);
+  pointer-events: none;
 }
 
 .control-card {
@@ -510,9 +527,12 @@ body.is-reader-open {
 .exam-status {
   margin: 4px 0 8px;
   padding: 16px;
-  border: 1px solid var(--line);
+  border: 1px solid rgba(47, 110, 165, 0.18);
   border-radius: var(--radius-lg);
-  background: #f9fbfc;
+  background: linear-gradient(180deg, #f8fbfe 0%, #f1f6fb 100%);
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.95) inset,
+    0 10px 24px rgba(27, 68, 108, 0.06);
 }
 
 .pill {
@@ -566,6 +586,13 @@ body.is-reader-open {
   background: #ffffff;
 }
 
+.question-card {
+  border-color: rgba(47, 110, 165, 0.2);
+  box-shadow:
+    0 18px 36px rgba(20, 29, 38, 0.08),
+    0 1px 0 rgba(255, 255, 255, 0.96) inset;
+}
+
 .question-title {
   font-size: clamp(1.3rem, 2vw, 1.7rem);
   line-height: 1.24;
@@ -583,24 +610,48 @@ body.is-reader-open {
   min-height: 0;
   padding: 16px 18px;
   border-radius: var(--radius-md);
-  border: 1px solid var(--line);
-  background: #ffffff;
+  border: 1px solid rgba(58, 92, 128, 0.2);
+  background: linear-gradient(180deg, #ffffff 0%, #f7faff 100%);
   color: var(--ink);
   cursor: pointer;
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.96) inset,
+    0 10px 22px rgba(20, 29, 38, 0.07);
+  transition:
+    transform 180ms ease,
+    box-shadow 180ms ease,
+    border-color 180ms ease,
+    background 180ms ease;
+}
+
+.choice-button:hover,
+.choice-button:focus-visible {
+  transform: translateY(-2px);
+  border-color: rgba(58, 92, 128, 0.34);
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.98) inset,
+    0 14px 28px rgba(20, 29, 38, 0.11);
 }
 
 .choice-button.is-correct {
   border-color: rgba(36, 97, 65, 0.35);
-  background: rgba(36, 97, 65, 0.12);
+  background: linear-gradient(180deg, rgba(36, 97, 65, 0.14) 0%, rgba(36, 97, 65, 0.08) 100%);
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.82) inset,
+    0 10px 22px rgba(36, 97, 65, 0.1);
 }
 
 .choice-button.is-incorrect {
   border-color: rgba(157, 47, 34, 0.35);
-  background: rgba(157, 47, 34, 0.1);
+  background: linear-gradient(180deg, rgba(157, 47, 34, 0.14) 0%, rgba(157, 47, 34, 0.08) 100%);
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.82) inset,
+    0 10px 22px rgba(157, 47, 34, 0.1);
 }
 
 .choice-button.is-disabled {
   cursor: default;
+  transform: none;
 }
 
 .choice-letter {
@@ -611,11 +662,12 @@ body.is-reader-open {
   height: 32px;
   margin-right: 12px;
   border-radius: 50%;
-  background: #eef2f6;
+  background: linear-gradient(180deg, #f7f9fc 0%, #e8eef5 100%);
   color: var(--accent-dark);
   font-size: 0.88rem;
   font-weight: 800;
   flex: 0 0 auto;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.96) inset;
 }
 
 .feedback-card {

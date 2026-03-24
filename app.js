@@ -153,6 +153,7 @@ let studyFilter = "All";
 let studyQuery = "";
 let studyPage = 1;
 let currentSession = null;
+let suspendedSession = null;
 let openRuleReaderLabel = "";
 const STUDY_PAGE_SIZE = 10;
 
@@ -814,6 +815,10 @@ function startSession() {
 }
 
 function launchMissedReviewSession() {
+  if (currentSession && currentSession.mode !== "missed" && !suspendedSession) {
+    suspendedSession = createSuspendedSessionSnapshot(currentSession);
+  }
+
   activeMode = "missed";
   sectionFilter.value = "All";
   syncModeButtons();
@@ -832,6 +837,42 @@ function launchMissedReviewSession() {
   }
 
   startSession();
+  examCenter?.scrollIntoView({ behavior: "smooth", block: "start" });
+}
+
+function createSuspendedSessionSnapshot(session) {
+  const snapshot = JSON.parse(JSON.stringify(session));
+  const currentQuestion = snapshot.questions[snapshot.currentIndex];
+
+  if (currentQuestion && snapshot.answers[currentQuestion.number] !== undefined) {
+    if (snapshot.currentIndex < snapshot.questions.length - 1) {
+      snapshot.currentIndex += 1;
+    } else {
+      snapshot.resumeAtFinish = true;
+    }
+  }
+
+  return snapshot;
+}
+
+function resumeSuspendedSession() {
+  if (!suspendedSession) {
+    return;
+  }
+
+  currentSession = suspendedSession;
+  suspendedSession = null;
+  activeMode = currentSession.mode;
+  sectionFilter.value = currentSession.section;
+  syncModeButtons();
+
+  if (currentSession.resumeAtFinish) {
+    delete currentSession.resumeAtFinish;
+    finishSession();
+    return;
+  }
+
+  renderSessionQuestion();
   examCenter?.scrollIntoView({ behavior: "smooth", block: "start" });
 }
 
@@ -941,7 +982,9 @@ function renderAnsweredQuestion(question, selectedIndex, isCorrect) {
     <div class="question-footer">
       <span class="pill ${isCorrect ? "" : "muted-pill"}">${isCorrect ? "Score added" : "Saved to missed review"}</span>
       <button type="button" class="primary-button" id="next-question-button">
-        ${currentSession.currentIndex === currentSession.questions.length - 1 ? "Finish session" : "Next question"}
+        ${currentSession.currentIndex === currentSession.questions.length - 1
+          ? (currentSession.mode === "missed" && suspendedSession ? "Resume exam" : "Finish session")
+          : "Next question"}
       </button>
     </div>
   `;
@@ -960,6 +1003,10 @@ function advanceSession() {
   }
 
   if (currentSession.currentIndex >= currentSession.questions.length - 1) {
+    if (currentSession.mode === "missed" && suspendedSession) {
+      resumeSuspendedSession();
+      return;
+    }
     finishSession();
     return;
   }
