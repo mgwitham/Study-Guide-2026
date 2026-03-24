@@ -155,6 +155,7 @@ let studyPage = 1;
 let currentSession = null;
 let suspendedSession = null;
 let openRuleReaderLabel = "";
+let activeRulebookCardLabel = "";
 const STUDY_PAGE_SIZE = 10;
 
 initialize();
@@ -440,7 +441,7 @@ function renderRulebookHub() {
 
   safeRuleSections.forEach((section) => {
     const card = document.createElement("article");
-    card.className = `rule-card${section.label === studyFilter ? " is-active" : ""}`;
+    card.className = `rule-card${section.label === activeRulebookCardLabel ? " is-active" : ""}`;
     card.innerHTML = `
       <div>
         <p class="section-label">${escapeHtml(section.label)}</p>
@@ -474,6 +475,8 @@ function openRuleReader(label) {
   }
 
   openRuleReaderLabel = label;
+  activeRulebookCardLabel = label;
+  renderRulebookHub();
   ruleReaderKicker.textContent = "Rulebook Reader";
   ruleReaderTitle.textContent = section?.title ? `${label}: ${section.title}` : label;
   ruleReaderSource.textContent = label.startsWith("Rule ")
@@ -983,7 +986,7 @@ function renderAnsweredQuestion(question, selectedIndex, isCorrect) {
       <span class="pill ${isCorrect ? "" : "muted-pill"}">${isCorrect ? "Score added" : "Saved to missed review"}</span>
       <button type="button" class="primary-button" id="next-question-button">
         ${currentSession.currentIndex === currentSession.questions.length - 1
-          ? (currentSession.mode === "missed" && suspendedSession ? "Resume exam" : "Finish session")
+          ? (currentSession.mode === "missed" && suspendedSession ? "Resume Exam" : "Finish session")
           : "Next question"}
       </button>
     </div>
