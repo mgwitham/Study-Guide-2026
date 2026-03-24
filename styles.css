@@ -175,7 +175,10 @@ body.is-reader-open {
 .primary-link,
 .primary-button {
   color: #ffffff;
-  background: var(--accent);
+  background: linear-gradient(180deg, #3c7bb1 0%, var(--accent) 55%, var(--accent-dark) 100%);
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.16) inset,
+    0 14px 28px rgba(27, 68, 108, 0.24);
   cursor: pointer;
 }
 
@@ -222,6 +225,28 @@ body.is-reader-open {
 .chip-button:hover,
 .study-card:hover {
   transform: translateY(-2px);
+}
+
+.primary-link:hover,
+.primary-link:focus-visible,
+.primary-button:hover,
+.primary-button:focus-visible {
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.2) inset,
+    0 18px 34px rgba(27, 68, 108, 0.3);
+}
+
+.primary-link:active,
+.secondary-link:active,
+.primary-button:active,
+.ghost-button:active,
+.mode-button:active,
+.choice-button:active,
+.rule-link:active,
+.chip-button:active,
+.study-choice:active,
+.rule-reader-nav-link:active {
+  transform: translateY(0);
 }
 
 .primary-button:disabled,

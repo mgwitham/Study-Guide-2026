@@ -977,7 +977,7 @@ function renderAnsweredQuestion(question, selectedIndex, isCorrect) {
       <strong>Reference:</strong> ${escapeHtml(referenceLine)}
     </p>` : ""}
     ${(displayedRulebookText || referenceLine) ? `
-    <div class="feedback-copy">
+    <div class="feedback-copy" id="feedback-rulebook-section">
       <strong>${escapeHtml(referencePanelLabel)}:</strong>
       ${referenceLine ? `<p class="feedback-rulebook-meta">${escapeHtml(referenceLine)}</p>` : ""}
       ${displayedRulebookText ? `<p class="feedback-rulebook-text">${escapeHtml(displayedRulebookText)}</p>` : ""}
@@ -998,7 +998,8 @@ function renderAnsweredQuestion(question, selectedIndex, isCorrect) {
   });
 
   examProgressBar.style.width = `${((currentSession.currentIndex + 1) / currentSession.questions.length) * 100}%`;
-  feedback.scrollIntoView({ behavior: "smooth", block: "center" });
+  const rulebookSection = feedback.querySelector("#feedback-rulebook-section");
+  (rulebookSection || feedback).scrollIntoView({ behavior: "smooth", block: "center" });
 }
 
 function advanceSession() {
