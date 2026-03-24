@@ -110,6 +110,7 @@ const statProgressNote = document.querySelector("#stat-progress-note");
 const statRemainingCount = document.querySelector("#stat-remaining-count");
 const retakeMissedButton = document.querySelector("#retake-missed-button");
 const resetProgressButton = document.querySelector("#reset-progress-button");
+const heroStartExam = document.querySelector("#hero-start-exam");
 const modeRow = document.querySelector("#mode-row");
 const sectionFilter = document.querySelector("#section-filter");
 const startExamButton = document.querySelector("#start-exam-button");
@@ -180,6 +181,15 @@ function bindEvents() {
 
   startExamButton.addEventListener("click", () => {
     startSession();
+  });
+
+  heroStartExam?.addEventListener("click", (event) => {
+    event.preventDefault();
+    activeMode = "full";
+    sectionFilter.value = "All";
+    syncModeButtons();
+    startSession();
+    examCenter?.scrollIntoView({ behavior: "smooth", block: "start" });
   });
 
   if (retakeMissedButton) {
@@ -1003,10 +1013,7 @@ function finishSession() {
   const retakeInlineButton = questionShell.querySelector("#retake-missed-inline-button");
   if (retakeInlineButton) {
     retakeInlineButton.addEventListener("click", () => {
-      activeMode = "missed";
-      sectionFilter.value = "All";
-      syncModeButtons();
-      startSession();
+      launchMissedReviewSession();
     });
   }
 
