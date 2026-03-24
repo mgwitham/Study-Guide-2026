@@ -2,6 +2,7 @@ const STORAGE_KEY = "lau-study-center-state";
 const LETTERS = ["A", "B", "C", "D"];
 const data = window.LAU_STUDY_DATA;
 const rulebookReaderData = window.LAU_RULEBOOK_READER || { entries: [] };
+const manualReaderData = window.LAU_MANUAL_DATA || { mechanicsReaderText: "", mechanicsByQuestion: {} };
 
 const OFFICIAL_RULEBOOK_TEXT = {
   "1-3-1": "The ball shall meet the current NOCSAE standard for baseballs at the time of manufacture and is required on balls that will be used in high school competition. The SEI/NOCSAE mark is required on all balls that meet the NOCSAE standard that will be used in high school competition. A minimum of three umpire-approved baseballs shall be provided to start the game. Unless otherwise mutually agreed upon, the home team has this responsibility. No less than two baseballs shall be used to complete a game. The NFHS Authenticating Mark is required on all balls that will be used in high school competition.",
@@ -404,7 +405,9 @@ function openRuleReader(label) {
     : `${label}${section?.page ? ` · Starts on page ${section.page}` : ""}`;
   ruleReaderStudyLink.hidden = !safeQuestions.some((question) => question.section === label);
 
-  const readerText = RULEBOOK_SECTION_OVERRIDES[label] || entry.text;
+  const readerText = label === "Mechanics"
+    ? (manualReaderData.mechanicsReaderText || entry.text)
+    : (RULEBOOK_SECTION_OVERRIDES[label] || entry.text);
   const rendered = renderRuleReaderContent(readerText);
   ruleReaderNav.innerHTML = rendered.navHtml || '<p class="rule-reader-empty">Scroll the reader for the full rule text.</p>';
   ruleReaderBody.innerHTML = rendered.bodyHtml;
@@ -478,7 +481,7 @@ function renderRuleReaderContent(text) {
 }
 
 function getPageLabel(question) {
-  if (!question.reference) {
+  if (!question.reference || question.section === "Mechanics") {
     return "";
   }
 
@@ -505,6 +508,22 @@ function getRuleSummary(question) {
   }
 
   return "This question is tied to the cited rule area in the 2025 NFHS baseball rulebook.";
+}
+
+function getMechanicsManualEntry(question) {
+  if (question.section !== "Mechanics") {
+    return null;
+  }
+
+  return manualReaderData.mechanicsByQuestion?.[String(question.number)] || null;
+}
+
+function getQuestionReference(question) {
+  return question.reference || getMechanicsManualEntry(question)?.reference || "";
+}
+
+function getQuestionReferenceBadge(question) {
+  return getQuestionReference(question) || "Mechanics / LAU";
 }
 
 function normalizeRuleReference(reference) {
@@ -572,6 +591,11 @@ function extractRulebookArticleText(reference, fallbackSection) {
 }
 
 function getRulebookText(question) {
+  const mechanicsEntry = getMechanicsManualEntry(question);
+  if (mechanicsEntry?.text) {
+    return mechanicsEntry.text;
+  }
+
   const matches = getReferenceMatches(question.reference);
   if (!matches.length) {
     return "";
@@ -610,8 +634,13 @@ function getDisplayedRulebookText(question) {
 function formatReferenceLine(question) {
   const parts = [];
 
-  if (question.reference) {
-    parts.push(`Rule reference: ${question.reference}`);
+  const reference = getQuestionReference(question);
+  if (reference) {
+    if (question.section === "Mechanics") {
+      return reference;
+    }
+
+    parts.push(`Rule reference: ${reference}`);
   }
 
   const pageLabel = getPageLabel(question);
@@ -877,7 +906,7 @@ function renderStudyList() {
           <div>
             <p class="section-label">${escapeHtml(question.section)} · Question ${escapeHtml(question.number)}</p>
             <h3 class="study-card-title">${escapeHtml(question.prompt)}</h3>
-            <span class="pill study-reference-pill">${escapeHtml(question.reference || "Mechanics / LAU")}</span>
+            <span class="pill study-reference-pill">${escapeHtml(getQuestionReferenceBadge(question))}</span>
           </div>
         </div>
         <div class="study-card-meta">
