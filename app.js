@@ -1096,6 +1096,7 @@ function renderStudyList() {
     card.className = "study-card";
     card.dataset.studyQuestion = String(question.number);
     card.dataset.answered = "false";
+    card.open = true;
     card.innerHTML = `
       <summary>
         <div class="study-card-header">
