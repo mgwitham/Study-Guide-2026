@@ -108,6 +108,7 @@ const statMissedCount = document.querySelector("#stat-missed-count");
 const statProgress = document.querySelector("#stat-progress");
 const statProgressNote = document.querySelector("#stat-progress-note");
 const statRemainingCount = document.querySelector("#stat-remaining-count");
+const retakeMissedButton = document.querySelector("#retake-missed-button");
 const resetProgressButton = document.querySelector("#reset-progress-button");
 const modeRow = document.querySelector("#mode-row");
 const sectionFilter = document.querySelector("#section-filter");
@@ -134,6 +135,7 @@ const ruleReaderStudyLink = document.querySelector("#rule-reader-study-link");
 const ruleReaderCloseButton = document.querySelector("#rule-reader-close-button");
 const ruleReaderBackdrop = document.querySelector(".rule-reader-backdrop");
 const ruleReaderPanel = document.querySelector(".rule-reader-panel");
+const examCenter = document.querySelector("#exam-center");
 
 const safeQuestions = Array.isArray(data.questions) ? data.questions : [];
 const safeRuleSections = Array.isArray(data.ruleSections) && data.ruleSections.length
@@ -179,6 +181,20 @@ function bindEvents() {
   startExamButton.addEventListener("click", () => {
     startSession();
   });
+
+  if (retakeMissedButton) {
+    retakeMissedButton.addEventListener("click", () => {
+      if (!state.missedQuestionIds.length) {
+        return;
+      }
+
+      activeMode = "missed";
+      sectionFilter.value = "All";
+      syncModeButtons();
+      startSession();
+      document.querySelector("#exam-center")?.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+  }
 
   studySearch.addEventListener("input", () => {
     studyQuery = studySearch.value.trim().toLowerCase();
@@ -458,8 +474,8 @@ function openRuleReader(label) {
   ruleReaderKicker.textContent = "Rulebook Reader";
   ruleReaderTitle.textContent = section?.title ? `${label}: ${section.title}` : label;
   ruleReaderSource.textContent = label.startsWith("Rule ")
-    ? "Official 2025 NFHS Baseball Rules text"
-    : label;
+    ? `Official 2025 NFHS Baseball Rules text${section?.page ? ` · Page ${section.page}` : ""}`
+    : `${label}${section?.page ? ` · Page ${section.page}` : ""}`;
   ruleReaderStudyLink.hidden = !safeQuestions.some((question) => question.section === label);
 
   const readerText = label === "Mechanics"
@@ -742,6 +758,14 @@ function renderStats() {
       statProgressNote.textContent = `${state.missedQuestionIds.length} question${state.missedQuestionIds.length === 1 ? "" : "s"} are waiting for another look.`;
     }
   }
+
+  if (retakeMissedButton) {
+    const missedCount = state.missedQuestionIds.length;
+    retakeMissedButton.disabled = !missedCount;
+    retakeMissedButton.textContent = missedCount
+      ? `Retake missed questions (${missedCount})`
+      : "Retake missed questions";
+  }
 }
 
 function startSession() {
@@ -918,6 +942,7 @@ function advanceSession() {
 
   currentSession.currentIndex += 1;
   renderSessionQuestion();
+  examCenter?.scrollIntoView({ behavior: "smooth", block: "start" });
 }
 
 function finishSession() {
@@ -949,7 +974,10 @@ function finishSession() {
       </p>
       <div class="question-footer">
         <span class="pill">${currentSession.score} correct</span>
-        <button type="button" class="primary-button" id="restart-session-button">Start another session</button>
+        <div class="result-actions">
+          ${state.missedQuestionIds.length ? `<button type="button" class="ghost-button" id="retake-missed-inline-button">Retake missed questions</button>` : ""}
+          <button type="button" class="primary-button" id="restart-session-button">Start another session</button>
+        </div>
       </div>
     </article>
   `;
@@ -957,6 +985,16 @@ function finishSession() {
   questionShell.querySelector("#restart-session-button").addEventListener("click", () => {
     startSession();
   });
+
+  const retakeInlineButton = questionShell.querySelector("#retake-missed-inline-button");
+  if (retakeInlineButton) {
+    retakeInlineButton.addEventListener("click", () => {
+      activeMode = "missed";
+      sectionFilter.value = "All";
+      syncModeButtons();
+      startSession();
+    });
+  }
 
   currentSession = null;
 }

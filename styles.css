@@ -182,9 +182,32 @@ body.is-reader-open {
 .mode-button,
 .rule-link {
   color: var(--ink);
-  background: #ffffff;
-  border: 1px solid var(--line);
+  background: linear-gradient(180deg, #ffffff 0%, #f3f7fc 100%);
+  border: 1px solid rgba(58, 92, 128, 0.2);
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.9) inset,
+    0 8px 18px rgba(20, 29, 38, 0.08);
   cursor: pointer;
+}
+
+.ghost-button {
+  font-weight: 800;
+  border-color: rgba(58, 92, 128, 0.24);
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.95) inset,
+    0 10px 20px rgba(20, 29, 38, 0.1);
+}
+
+.ghost-button:hover,
+.ghost-button:focus-visible {
+  border-color: rgba(58, 92, 128, 0.36);
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.98) inset,
+    0 14px 26px rgba(20, 29, 38, 0.14);
+}
+
+#reset-progress-button {
+  min-width: 210px;
 }
 
 .primary-link:hover,
@@ -197,6 +220,16 @@ body.is-reader-open {
 .chip-button:hover,
 .study-card:hover {
   transform: translateY(-2px);
+}
+
+.primary-button:disabled,
+.ghost-button:disabled,
+.mode-button:disabled,
+.rule-link:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
 }
 
 .hero-panel {
@@ -268,6 +301,10 @@ body.is-reader-open {
   margin: 0;
   color: var(--muted);
   line-height: 1.5;
+}
+
+#retake-missed-button {
+  min-width: 250px;
 }
 
 .stat-card {
@@ -433,6 +470,9 @@ body.is-reader-open {
   background: var(--accent);
   color: #ffffff;
   border-color: transparent;
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.16) inset,
+    0 14px 26px rgba(27, 68, 108, 0.28);
 }
 
 .select-wrap span,
@@ -609,6 +649,13 @@ body.is-reader-open {
   justify-content: space-between;
   align-items: center;
   margin-top: 6px;
+}
+
+.result-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 10px;
 }
 
 .study-controls {
@@ -790,6 +837,8 @@ body.is-reader-open {
   gap: 14px;
   align-content: start;
   min-width: 0;
+  min-height: 100%;
+  grid-template-rows: auto auto 1fr auto;
   transition: border-color 180ms ease, box-shadow 180ms ease, transform 180ms ease;
 }
 
@@ -823,6 +872,18 @@ body.is-reader-open {
 .rule-link {
   width: 100%;
   justify-content: center;
+  min-height: 56px;
+  font-size: 1.05rem;
+  letter-spacing: -0.01em;
+  align-self: end;
+}
+
+.rule-link:hover,
+.rule-link:focus-visible {
+  border-color: rgba(58, 92, 128, 0.34);
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.95) inset,
+    0 12px 24px rgba(20, 29, 38, 0.12);
 }
 
 .highlight-grid,
