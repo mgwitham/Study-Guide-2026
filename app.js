@@ -161,6 +161,7 @@ const STUDY_PAGE_SIZE = 10;
 initialize();
 
 function initialize() {
+  normalizeInitialLocation();
   statQuestionCount.textContent = String(data.meta?.questionCount || safeQuestions.length);
   renderSectionFilter();
   renderStudyChips();
@@ -329,7 +330,6 @@ function bindEvents() {
     renderStudyChips();
     renderStudyList();
     sectionFilter.value = section;
-    window.location.hash = "study-center";
   });
 
   if (ruleReaderBackdrop) {
@@ -388,8 +388,6 @@ function bindEvents() {
       if (studyCenter) {
         studyCenter.scrollIntoView({ behavior: "smooth", block: "start" });
       }
-
-      window.location.hash = "study-center";
     });
   }
 
@@ -398,6 +396,13 @@ function bindEvents() {
       closeRuleReader();
     }
   });
+}
+
+function normalizeInitialLocation() {
+  if (window.location.hash) {
+    history.replaceState(null, "", `${window.location.pathname}${window.location.search}`);
+  }
+  window.scrollTo({ top: 0, left: 0, behavior: "auto" });
 }
 
 function loadState() {

@@ -659,11 +659,11 @@ body.is-reader-open {
 }
 
 .choice-button.is-correct {
-  border-color: rgba(36, 97, 65, 0.35);
-  background: linear-gradient(180deg, rgba(36, 97, 65, 0.14) 0%, rgba(36, 97, 65, 0.08) 100%);
+  border-color: rgba(36, 122, 75, 0.48);
+  background: linear-gradient(180deg, rgba(46, 150, 92, 0.28) 0%, rgba(36, 122, 75, 0.16) 100%);
   box-shadow:
     0 1px 0 rgba(255, 255, 255, 0.82) inset,
-    0 10px 22px rgba(36, 97, 65, 0.1);
+    0 12px 24px rgba(36, 122, 75, 0.16);
 }
 
 .choice-button.is-incorrect {
@@ -898,11 +898,11 @@ body.is-reader-open {
 }
 
 .study-choice.is-answer {
-  background: linear-gradient(180deg, rgba(36, 97, 65, 0.14) 0%, rgba(36, 97, 65, 0.08) 100%);
-  border-color: rgba(36, 97, 65, 0.24);
+  background: linear-gradient(180deg, rgba(46, 150, 92, 0.28) 0%, rgba(36, 122, 75, 0.16) 100%);
+  border-color: rgba(36, 122, 75, 0.42);
   box-shadow:
     0 1px 0 rgba(255, 255, 255, 0.82) inset,
-    0 10px 22px rgba(36, 97, 65, 0.1);
+    0 12px 24px rgba(36, 122, 75, 0.16);
 }
 
 .study-choice.is-incorrect {
