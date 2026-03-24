@@ -588,6 +588,32 @@ body.is-reader-open {
   margin: 18px 0 6px;
 }
 
+.study-pagination {
+  margin: 10px 0 18px;
+}
+
+.study-pagination:empty {
+  display: none;
+}
+
+.study-pagination-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  padding: 14px 16px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  background: #f9fbfc;
+}
+
+.study-pagination-copy {
+  margin: 0;
+  color: var(--muted);
+  font-weight: 700;
+  text-align: center;
+}
+
 .study-list {
   max-height: none;
 }
@@ -993,6 +1019,11 @@ body.is-reader-open {
   .question-footer,
   .study-card-header,
   .study-results-meta {
+    display: grid;
+  }
+
+  .study-pagination-inner {
+    grid-template-columns: minmax(0, 1fr);
     display: grid;
   }
 }

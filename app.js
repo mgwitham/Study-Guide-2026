@@ -117,6 +117,8 @@ const studyChipRow = document.querySelector("#study-chip-row");
 const studyResultsCount = document.querySelector("#study-results-count");
 const clearStudyFiltersButton = document.querySelector("#clear-study-filters");
 const studyList = document.querySelector("#study-list");
+const studyPaginationTop = document.querySelector("#study-pagination-top");
+const studyPaginationBottom = document.querySelector("#study-pagination-bottom");
 const ruleGrid = document.querySelector("#rule-grid");
 const ruleReaderModal = document.querySelector("#rule-reader-modal");
 const ruleReaderKicker = document.querySelector("#rule-reader-kicker");
@@ -142,8 +144,10 @@ const state = loadState();
 let activeMode = "full";
 let studyFilter = "All";
 let studyQuery = "";
+let studyPage = 1;
 let currentSession = null;
 let openRuleReaderLabel = "";
+const STUDY_PAGE_SIZE = 10;
 
 initialize();
 
@@ -174,6 +178,7 @@ function bindEvents() {
 
   studySearch.addEventListener("input", () => {
     studyQuery = studySearch.value.trim().toLowerCase();
+    studyPage = 1;
     renderStudyList();
   });
 
@@ -184,6 +189,7 @@ function bindEvents() {
     }
 
     studyFilter = button.dataset.chip;
+    studyPage = 1;
     renderStudyChips();
     renderStudyList();
   });
@@ -191,6 +197,7 @@ function bindEvents() {
   clearStudyFiltersButton.addEventListener("click", () => {
     studyFilter = "All";
     studyQuery = "";
+    studyPage = 1;
     studySearch.value = "";
     renderStudyChips();
     renderStudyList();
@@ -232,6 +239,29 @@ function bindEvents() {
     if (card) {
       toggleStudyReferenceCard(card, question, button);
     }
+  });
+
+  [studyPaginationTop, studyPaginationBottom].forEach((paginationRoot) => {
+    if (!paginationRoot) {
+      return;
+    }
+
+    paginationRoot.addEventListener("click", (event) => {
+      const button = event.target.closest("[data-study-page]");
+      if (!button) {
+        return;
+      }
+
+      const nextPage = Number(button.dataset.studyPage);
+      if (!Number.isFinite(nextPage) || nextPage < 1 || nextPage === studyPage) {
+        return;
+      }
+
+      studyPage = nextPage;
+      renderStudyList();
+      const studyCenter = document.querySelector("#study-center");
+      studyCenter?.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
   });
 
   ruleGrid.addEventListener("click", (event) => {
@@ -526,6 +556,10 @@ function getQuestionReferenceBadge(question) {
   return getQuestionReference(question) || "Mechanics / LAU";
 }
 
+function getReferencePanelLabel(question) {
+  return question.section === "Mechanics" ? "Umpires Manual Text" : "Rulebook Text";
+}
+
 function normalizeRuleReference(reference) {
   return String(reference || "")
     .replace(/\./g, "-")
@@ -794,6 +828,7 @@ function renderAnsweredQuestion(question, selectedIndex, isCorrect) {
 
   const displayedRulebookText = getDisplayedRulebookText(question);
   const referenceLine = question.reference ? formatReferenceLine(question) : "";
+  const referencePanelLabel = getReferencePanelLabel(question);
   const feedback = document.createElement("article");
   feedback.className = `feedback-card ${isCorrect ? "is-correct" : "is-incorrect"}`;
   feedback.innerHTML = `
@@ -807,7 +842,7 @@ function renderAnsweredQuestion(question, selectedIndex, isCorrect) {
     </p>` : ""}
     ${(displayedRulebookText || referenceLine) ? `
     <div class="feedback-copy">
-      <strong>Rulebook Text:</strong>
+      <strong>${escapeHtml(referencePanelLabel)}:</strong>
       ${referenceLine ? `<p class="feedback-rulebook-meta">${escapeHtml(referenceLine)}</p>` : ""}
       ${displayedRulebookText ? `<p class="feedback-rulebook-text">${escapeHtml(displayedRulebookText)}</p>` : ""}
     </div>` : ""}
@@ -884,8 +919,16 @@ function finishSession() {
 
 function renderStudyList() {
   const questions = getFilteredStudyQuestions();
-  studyResultsCount.textContent = `${questions.length} question${questions.length === 1 ? "" : "s"}`;
+  const totalPages = Math.max(1, Math.ceil(questions.length / STUDY_PAGE_SIZE));
+  studyPage = Math.min(studyPage, totalPages);
+  const pageStart = (studyPage - 1) * STUDY_PAGE_SIZE;
+  const pageQuestions = questions.slice(pageStart, pageStart + STUDY_PAGE_SIZE);
+
+  studyResultsCount.textContent = questions.length
+    ? `${questions.length} questions · Page ${studyPage} of ${totalPages}`
+    : "0 questions";
   studyList.innerHTML = "";
+  renderStudyPagination(questions.length, totalPages);
 
   if (!questions.length) {
     studyList.innerHTML = `
@@ -895,7 +938,7 @@ function renderStudyList() {
     return;
   }
 
-  questions.forEach((question) => {
+  pageQuestions.forEach((question) => {
     const card = document.createElement("details");
     card.className = "study-card";
     card.dataset.studyQuestion = String(question.number);
@@ -934,6 +977,26 @@ function renderStudyList() {
   });
 
   renderRulebookHub();
+}
+
+function renderStudyPagination(totalQuestions, totalPages) {
+  const paginationMarkup = totalQuestions <= STUDY_PAGE_SIZE
+    ? ""
+    : `
+      <div class="study-pagination-inner">
+        <button type="button" class="ghost-button" data-study-page="${Math.max(1, studyPage - 1)}" ${studyPage === 1 ? "disabled" : ""}>Previous</button>
+        <p class="study-pagination-copy">Showing ${((studyPage - 1) * STUDY_PAGE_SIZE) + 1}-${Math.min(studyPage * STUDY_PAGE_SIZE, totalQuestions)} of ${totalQuestions}</p>
+        <button type="button" class="ghost-button" data-study-page="${Math.min(totalPages, studyPage + 1)}" ${studyPage === totalPages ? "disabled" : ""}>Next</button>
+      </div>
+    `;
+
+  if (studyPaginationTop) {
+    studyPaginationTop.innerHTML = paginationMarkup;
+  }
+
+  if (studyPaginationBottom) {
+    studyPaginationBottom.innerHTML = paginationMarkup;
+  }
 }
 
 function handleStudyChoice(card, question, selectedIndex) {
@@ -992,7 +1055,7 @@ function toggleStudyReferenceCard(card, question, button, options = {}) {
 
   referenceCard.innerHTML = hasDirectRule
     ? `
-      <p class="section-label">Rulebook Text</p>
+      <p class="section-label">${escapeHtml(getReferencePanelLabel(question))}</p>
       <p class="study-reference-card-copy">${escapeHtml(rulebookText)}</p>
     `
     : `
