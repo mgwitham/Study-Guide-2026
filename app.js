@@ -715,6 +715,46 @@ function getRulebookText(question) {
   return snippets.join("\n\n");
 }
 
+function getRulebookTextBlocks(question) {
+  const mechanicsEntry = getMechanicsManualEntry(question);
+  if (mechanicsEntry?.text) {
+    return [{
+      reference: getQuestionReference(question),
+      text: mechanicsEntry.text,
+    }];
+  }
+
+  const matches = getReferenceMatches(question.reference);
+  if (!matches.length) {
+    return [];
+  }
+
+  const seen = new Set();
+  const blocks = [];
+
+  for (const match of matches) {
+    const normalized = normalizeRuleReference(match).replace(/\([a-z0-9]+\)/gi, "");
+    if (seen.has(normalized)) {
+      continue;
+    }
+
+    seen.add(normalized);
+
+    const directText = OFFICIAL_RULEBOOK_TEXT[normalized];
+    if (directText) {
+      blocks.push({ reference: match, text: directText });
+      continue;
+    }
+
+    const extractedText = extractRulebookArticleText(match, question.section);
+    if (extractedText) {
+      blocks.push({ reference: match, text: extractedText });
+    }
+  }
+
+  return blocks;
+}
+
 function getDisplayedRulebookText(question) {
   return getRulebookText(question);
 }
@@ -968,6 +1008,7 @@ function renderAnsweredQuestion(question, selectedIndex, isCorrect) {
   });
 
   const displayedRulebookText = getDisplayedRulebookText(question);
+  const rulebookBlocks = getRulebookTextBlocks(question);
   const referenceLine = question.reference ? formatReferenceLine(question) : "";
   const referencePanelLabel = getReferencePanelLabel(question);
   const feedback = document.createElement("article");
@@ -985,7 +1026,18 @@ function renderAnsweredQuestion(question, selectedIndex, isCorrect) {
     <div class="feedback-copy" id="feedback-rulebook-section">
       <strong>${escapeHtml(referencePanelLabel)}:</strong>
       ${referenceLine ? `<p class="feedback-rulebook-meta">${escapeHtml(referenceLine)}</p>` : ""}
-      ${displayedRulebookText ? `<p class="feedback-rulebook-text">${escapeHtml(displayedRulebookText)}</p>` : ""}
+      ${rulebookBlocks.length > 1
+        ? rulebookBlocks
+          .map((block) => `
+            <div class="feedback-rulebook-block">
+              <p class="feedback-rulebook-block-ref">${escapeHtml(block.reference)}</p>
+              <p class="feedback-rulebook-text">${escapeHtml(block.text)}</p>
+            </div>
+          `)
+          .join("")
+        : displayedRulebookText
+          ? `<p class="feedback-rulebook-text">${escapeHtml(displayedRulebookText)}</p>`
+          : ""}
     </div>` : ""}
     <div class="question-footer">
       <span class="pill ${isCorrect ? "" : "muted-pill"}">${isCorrect ? "Score added" : "Saved to missed review"}</span>
@@ -1198,6 +1250,7 @@ function toggleStudyReferenceCard(card, question, button, options = {}) {
   card.open = true;
 
   const rulebookText = getDisplayedRulebookText(question);
+  const rulebookBlocks = getRulebookTextBlocks(question);
   const hasDirectRule = Boolean(rulebookText);
   const fallbackText = question.reference
     ? `This question cites ${question.reference}, but it does not map to a direct rule article text block in the reader. Review the cited reference and answer key together for context.`
@@ -1217,7 +1270,16 @@ function toggleStudyReferenceCard(card, question, button, options = {}) {
   referenceCard.innerHTML = hasDirectRule
     ? `
       <p class="section-label">${escapeHtml(getReferencePanelLabel(question))}</p>
-      <p class="study-reference-card-copy">${escapeHtml(rulebookText)}</p>
+      ${rulebookBlocks.length > 1
+        ? rulebookBlocks
+          .map((block) => `
+            <div class="study-reference-block">
+              <p class="study-reference-block-ref">${escapeHtml(block.reference)}</p>
+              <p class="study-reference-card-copy">${escapeHtml(block.text)}</p>
+            </div>
+          `)
+          .join("")
+        : `<p class="study-reference-card-copy">${escapeHtml(rulebookText)}</p>`}
     `
     : `
       <p class="section-label">Reference Note</p>
