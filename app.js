@@ -184,15 +184,7 @@ function bindEvents() {
 
   if (retakeMissedButton) {
     retakeMissedButton.addEventListener("click", () => {
-      if (!state.missedQuestionIds.length) {
-        return;
-      }
-
-      activeMode = "missed";
-      sectionFilter.value = "All";
-      syncModeButtons();
-      startSession();
-      document.querySelector("#exam-center")?.scrollIntoView({ behavior: "smooth", block: "start" });
+      launchMissedReviewSession();
     });
   }
 
@@ -809,6 +801,28 @@ function startSession() {
   };
 
   renderSessionQuestion();
+}
+
+function launchMissedReviewSession() {
+  activeMode = "missed";
+  sectionFilter.value = "All";
+  syncModeButtons();
+
+  if (!state.missedQuestionIds.length) {
+    examSectionPill.textContent = "Missed review";
+    examProgressCopy.textContent = "No missed questions saved";
+    examProgressBar.style.width = "0%";
+    questionShell.innerHTML = `
+      <p class="empty-state">
+        You do not have any missed questions saved right now. Missed questions will appear here after you miss one during an exam session.
+      </p>
+    `;
+    examCenter?.scrollIntoView({ behavior: "smooth", block: "start" });
+    return;
+  }
+
+  startSession();
+  examCenter?.scrollIntoView({ behavior: "smooth", block: "start" });
 }
 
 function renderSessionQuestion() {

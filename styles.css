@@ -9,6 +9,8 @@
   --accent: #2f6ea5;
   --accent-dark: #1f4f78;
   --accent-soft: #eef5fb;
+  --mode-accent: #b86a3b;
+  --mode-accent-dark: #8a4d27;
   --olive: #5b6875;
   --gold: #2f6ea5;
   --success: #2b7a4b;
@@ -437,8 +439,11 @@ body.is-reader-open {
 .mode-button.is-active,
 .chip-button.is-active {
   color: #ffffff;
-  background: var(--accent);
+  background: linear-gradient(180deg, var(--mode-accent) 0%, var(--mode-accent-dark) 100%);
   border-color: transparent;
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.18) inset,
+    0 12px 24px rgba(138, 77, 39, 0.22);
 }
 
 .rule-card.is-active {
