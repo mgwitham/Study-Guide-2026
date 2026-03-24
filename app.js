@@ -1026,7 +1026,7 @@ function renderAnsweredQuestion(question, selectedIndex, isCorrect) {
     <div class="feedback-copy" id="feedback-rulebook-section">
       <strong>${escapeHtml(referencePanelLabel)}:</strong>
       ${referenceLine ? `<p class="feedback-rulebook-meta">${escapeHtml(referenceLine)}</p>` : ""}
-      ${rulebookBlocks.length > 1
+      ${rulebookBlocks.length
         ? rulebookBlocks
           .map((block) => `
             <div class="feedback-rulebook-block">
@@ -1270,7 +1270,7 @@ function toggleStudyReferenceCard(card, question, button, options = {}) {
   referenceCard.innerHTML = hasDirectRule
     ? `
       <p class="section-label">${escapeHtml(getReferencePanelLabel(question))}</p>
-      ${rulebookBlocks.length > 1
+      ${rulebookBlocks.length
         ? rulebookBlocks
           .map((block) => `
             <div class="study-reference-block">
