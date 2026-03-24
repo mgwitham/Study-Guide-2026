@@ -105,6 +105,10 @@ const statQuestionCount = document.querySelector("#stat-question-count");
 const statAnsweredCount = document.querySelector("#stat-answered-count");
 const statAccuracy = document.querySelector("#stat-accuracy");
 const statMissedCount = document.querySelector("#stat-missed-count");
+const statProgress = document.querySelector("#stat-progress");
+const statProgressNote = document.querySelector("#stat-progress-note");
+const statRemainingCount = document.querySelector("#stat-remaining-count");
+const resetProgressButton = document.querySelector("#reset-progress-button");
 const modeRow = document.querySelector("#mode-row");
 const sectionFilter = document.querySelector("#section-filter");
 const startExamButton = document.querySelector("#start-exam-button");
@@ -201,6 +205,30 @@ function bindEvents() {
     studySearch.value = "";
     renderStudyChips();
     renderStudyList();
+  });
+
+  resetProgressButton?.addEventListener("click", () => {
+    const shouldReset = window.confirm("Reset all saved progress on this browser and device?");
+    if (!shouldReset) {
+      return;
+    }
+
+    state.answered = {};
+    state.missedQuestionIds = [];
+    state.examHistory = [];
+    currentSession = null;
+    saveState();
+    renderStats();
+    renderStudyList();
+
+    examSectionPill.textContent = "Full bank";
+    examProgressCopy.textContent = "Not started";
+    examProgressBar.style.width = "0%";
+    questionShell.innerHTML = `
+      <p class="empty-state">
+        Choose your mode above and click <strong>Start session</strong> to load the first question.
+      </p>
+    `;
   });
 
   studyList.addEventListener("click", (event) => {
@@ -401,7 +429,6 @@ function renderRulebookHub() {
       </div>
       <div class="rule-meta">
         <span class="pill">${escapeHtml(section.questionCount)} study questions</span>
-        <span class="pill muted-pill">Starts on page ${escapeHtml(section.page)}</span>
       </div>
       <p>${escapeHtml(section.summary)}</p>
       <button type="button" class="rule-link" data-open-rulebook="${escapeAttribute(section.label)}">Study This Rule</button>
@@ -431,8 +458,8 @@ function openRuleReader(label) {
   ruleReaderKicker.textContent = "Rulebook Reader";
   ruleReaderTitle.textContent = section?.title ? `${label}: ${section.title}` : label;
   ruleReaderSource.textContent = label.startsWith("Rule ")
-    ? `Official 2025 NFHS Baseball Rules text${section?.page ? ` · Starts on page ${section.page}` : ""}`
-    : `${label}${section?.page ? ` · Starts on page ${section.page}` : ""}`;
+    ? "Official 2025 NFHS Baseball Rules text"
+    : label;
   ruleReaderStudyLink.hidden = !safeQuestions.some((question) => question.section === label);
 
   const readerText = label === "Mechanics"
@@ -694,10 +721,27 @@ function renderStats() {
   const answeredCount = answeredEntries.length;
   const correctCount = answeredEntries.filter((entry) => entry.correct).length;
   const accuracy = answeredCount ? Math.round((correctCount / answeredCount) * 100) : 0;
+  const totalCount = safeQuestions.length;
+  const remainingCount = Math.max(0, totalCount - answeredCount);
 
   statAnsweredCount.textContent = String(answeredCount);
   statAccuracy.textContent = `${accuracy}%`;
   statMissedCount.textContent = String(state.missedQuestionIds.length);
+  if (statProgress) {
+    statProgress.textContent = `${answeredCount} of ${totalCount} answered`;
+  }
+  if (statRemainingCount) {
+    statRemainingCount.textContent = String(remainingCount);
+  }
+  if (statProgressNote) {
+    if (!answeredCount) {
+      statProgressNote.textContent = "Start a session to begin building progress.";
+    } else if (!state.missedQuestionIds.length) {
+      statProgressNote.textContent = "Nice pace. You do not have any missed questions waiting right now.";
+    } else {
+      statProgressNote.textContent = `${state.missedQuestionIds.length} question${state.missedQuestionIds.length === 1 ? "" : "s"} are waiting for another look.`;
+    }
+  }
 }
 
 function startSession() {

@@ -225,6 +225,51 @@ body.is-reader-open {
   align-items: start;
 }
 
+.snapshot-banner {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 18px;
+}
+
+.snapshot-primary {
+  padding: 18px;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--line);
+  background: linear-gradient(180deg, #ffffff 0%, #f7fbff 100%);
+}
+
+.snapshot-primary-value {
+  display: block;
+  margin-top: 8px;
+  font-size: 1.7rem;
+  line-height: 1.15;
+}
+
+.snapshot-note {
+  margin: 10px 0 0;
+  color: var(--muted);
+  line-height: 1.55;
+}
+
+.snapshot-stats {
+  margin-top: 14px;
+}
+
+.snapshot-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 14px;
+  margin-top: 16px;
+}
+
+.snapshot-action-note {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.5;
+}
+
 .stat-card {
   padding: 18px;
   border-radius: var(--radius-lg);
@@ -280,6 +325,10 @@ body.is-reader-open {
 .highlight-card,
 .study-card {
   padding: 20px;
+  border: 1px solid rgba(58, 92, 128, 0.22);
+  border-radius: var(--radius-xl);
+  background: #ffffff;
+  box-shadow: 0 14px 34px rgba(20, 29, 38, 0.08);
 }
 
 .rule-card h3,
@@ -741,6 +790,13 @@ body.is-reader-open {
   gap: 14px;
   align-content: start;
   min-width: 0;
+  transition: border-color 180ms ease, box-shadow 180ms ease, transform 180ms ease;
+}
+
+.rule-card:hover {
+  border-color: rgba(58, 92, 128, 0.32);
+  box-shadow: 0 18px 40px rgba(20, 29, 38, 0.11);
+  transform: translateY(-2px);
 }
 
 .rule-card > div:first-child {
@@ -968,6 +1024,10 @@ body.is-reader-open {
 
   .page-shell {
     width: min(100% - 24px, 1220px);
+  }
+
+  .snapshot-banner {
+    grid-template-columns: minmax(0, 1fr);
   }
 
   .rule-reader-layout {
