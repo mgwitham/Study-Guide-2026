@@ -609,6 +609,10 @@ function cleanManualReaderText(text) {
     [/Clear the runner/g, "Clear the runner"],
     [/Clear the runner -At/g, "Clear the runner - At"],
     [/runner'ssaf,e/g, "runner's safe"],
+    [/requiresPU/g, "requires PU"],
+    [/rnnner'ssaf,e/g, "runner's safe"],
+    [/rnnner/g, "runner"],
+    [/rnnners/g, "runners"],
     [/two-umpirecrew/g, "two-umpire crew"],
     [/responsioility/g, "responsibility"],
     [/releasirng/g, "releasing"],
@@ -618,14 +622,25 @@ function cleanManualReaderText(text) {
     [/loul territory/g, "foul territory"],
     [/theplate/g, "the plate"],
     [/Ondiamonds/g, "On diamonds"],
+    [/thearea/g, "the area"],
+    [/eachbase/g, "each base"],
+    [/semi-circulararea/g, "semi-circular area"],
     [/eictending/g, "extending"],
     [/infrillges/g, "infringes"],
+    [/grass illfield/g, "grass infield"],
+    [/cutoutis/g, "cutout is"],
+    [/whois/g, "who is"],
     [/approximately 13 feet from the base\.The/g, "approximately 13 feet from the base. The"],
     [/llOlonger/g, "no longer"],
+    [/illdicateihat/g, "indicate that"],
+    [/raiseboth/g, "raise both"],
     [/eKtern:led/g, "extended"],
+    [/Ipallms/g, "palms"],
     [/foiward/g, "forward"],
     [/Ile as simpleas/g, "It may be as simple as"],
     [/simpleas/g, "simple as"],
+    [/pointingin/g, "pointing in"],
+    [/conciseas/g, "concise as"],
     [/d'etermined dmillg/g, "determined during"],
     [/BR- The batter-runner\./g, "BR - The batter-runner."],
     [/Beforethe play/g, "Before the play"],
@@ -637,6 +652,10 @@ function cleanManualReaderText(text) {
     [/lie ball/g, "the ball"],
     [/wants to ma.intaina/g, "wants to maintain a"],
     [/wi t11the ball/g, "with the ball"],
+    [/within his or her field of view\.Keeping/g, "within his or her field of view. Keeping"],
+    [/poilltedtoward/g, "pointed toward"],
+    [/the1playin/g, "the play in"],
+    [/exceptionse\)\(Jist\./g, "exceptions exist."],
     [/umpire:,/g, "umpires"],
     [/clear the catcher-Theplate/g, "clear the catcher - The plate"],
     [/righHoot/g, "right foot"],
@@ -663,6 +682,7 @@ function cleanManualReaderText(text) {
     [/corntinued otiservation/g, "continued observation"],
     [/IJatted or thrownIJall/g, "batted or thrown ball"],
     [/with your feet comfortably apart;keepingyourchest/g, "with your feet comfortably apart; keeping your chest"],
+    [/the lall'sdes!inatioll/g, "the ball's destination"],
     [/Pause, read and react-Athree-step/g, "Pause, read and react - A three-step"],
     [/determinewhereyou shouldgo/g, "determine where you should go"],
     [/what your responsibilities will tie/g, "what your responsibilities will be"],
@@ -732,6 +752,11 @@ function cleanManualReaderText(text) {
     [/tiall/g, "ball"],
     [/oase/g, "base"],
     [/l:Jase/g, "base"],
+    [/theinfield/g, "the infield"],
+    [/oneor two/g, "one or two"],
+    [/plateumpire/g, "plate umpire"],
+    [/baseumpire/g, "base umpire"],
+    [/batter-runner/g, "batter-runner"],
   ];
 
   let cleaned = String(text || "")
@@ -830,6 +855,66 @@ function cleanManualReaderText(text) {
     .replace(/SECTION 10 CREW OF THREE;/g, "SECTION 10 CREW OF THREE:")
     .replace(/\n([A-Z][A-Za-z0-9" -]{2,}) - /g, "\n$1 - ")
     .replace(/\n{3,}/g, "\n\n");
+
+  const lines = cleaned.split("\n");
+  const filtered = [];
+
+  for (let index = 0; index < lines.length; index += 1) {
+    let line = lines[index].trim();
+    const next = (lines[index + 1] || "").trim();
+
+    if (!line) {
+      if (filtered[filtered.length - 1] !== "") {
+        filtered.push("");
+      }
+      continue;
+    }
+
+    if (
+      /^NFHS Baseball Umpires Manual/i.test(line) ||
+      /^Official 2026 Umpires Manual/i.test(line) ||
+      /^ISBN[-\s]/i.test(line) ||
+      /^Referee Enterprises/i.test(line) ||
+      /^National Federation of/i.test(line) ||
+      /^P\.O\. Box/i.test(line) ||
+      /^DR\./i.test(line) ||
+      /^B\./i.test(line) ||
+      /^Copyright/i.test(line) ||
+      /^COilying/i.test(line) ||
+      /^Part \d+$/i.test(line) ||
+      /^KEY$/i.test(line) ||
+      /^[0-9]+$/.test(line) ||
+      /^[\W_]+$/.test(line) ||
+      /[#$%&*@|]{2,}/.test(line)
+    ) {
+      continue;
+    }
+
+    if (/^(Working|the|Plate|Bases|Team)$/i.test(line) && next) {
+      if (/^Working$/i.test(line) && /^the Plate$/i.test(next)) {
+        line = "SECTION 3 WORKING THE PLATE";
+        index += 1;
+      } else if (/^Working$/i.test(line) && /^the Bases$/i.test(next)) {
+        line = "SECTION 4 WORKING THE BASES";
+        index += 1;
+      } else if (/^Working$/i.test(line) && /^as a Team$/i.test(next)) {
+        line = "SECTION 5 WORKING AS A TEAM";
+        index += 1;
+      }
+    }
+
+    if (filtered.length && filtered[filtered.length - 1] === line) {
+      continue;
+    }
+
+    if (line.length < 3 && !/^U[123]$/.test(line)) {
+      continue;
+    }
+
+    filtered.push(line);
+  }
+
+  cleaned = filtered.join("\n").replace(/\n{3,}/g, "\n\n");
 
   return cleaned.trim();
 }
