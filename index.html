@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LAU 2026 NFHS Study Center</title>
-    <link rel="stylesheet" href="./styles.css?v=20260326-2" />
+    <link rel="stylesheet" href="./styles.css?v=20260326-3" />
   </head>
   <body>
     <div class="page-shell">
@@ -20,7 +20,14 @@
             <a class="primary-link" href="#exam-center" id="hero-start-exam">Start Exam</a>
             <a class="secondary-link" href="#study-center">Study Center</a>
             <a class="secondary-link" href="#rulebook-hub">Rulebook Hub</a>
-            <button type="button" class="secondary-link" id="hero-open-manual">Umpire's Manual</button>
+            <button
+              type="button"
+              class="secondary-link"
+              id="hero-open-manual"
+              onclick="window.openFullManualReader && window.openFullManualReader()"
+            >
+              Umpire's Manual
+            </button>
           </nav>
         </div>
       </header>
@@ -181,9 +188,9 @@
       </section>
     </div>
 
-    <script src="./exam-data.js?v=20260326-2"></script>
-    <script src="./rulebook-reader-data.js?v=20260326-2"></script>
-    <script src="./manual-reader-data.js?v=20260326-2"></script>
-    <script src="./app.js?v=20260326-2"></script>
+    <script src="./exam-data.js?v=20260326-3"></script>
+    <script src="./rulebook-reader-data.js?v=20260326-3"></script>
+    <script src="./manual-reader-data.js?v=20260326-3"></script>
+    <script src="./app.js?v=20260326-3"></script>
   </body>
 </html>
