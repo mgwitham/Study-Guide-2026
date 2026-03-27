@@ -20,6 +20,7 @@
             <a class="primary-link" href="#exam-center" id="hero-start-exam">Start Exam</a>
             <a class="secondary-link" href="#study-center">Study Center</a>
             <a class="secondary-link" href="#rulebook-hub">Rulebook Hub</a>
+            <button type="button" class="secondary-link" id="hero-open-manual">Umpire's Manual</button>
           </nav>
         </div>
       </header>
@@ -168,7 +169,10 @@
         </header>
         <div class="rule-reader-toolbar">
           <p class="rule-reader-source" id="rule-reader-source"></p>
-          <button type="button" class="secondary-link rule-reader-study-link" id="rule-reader-study-link">Show related study questions</button>
+          <div class="rule-reader-actions">
+            <button type="button" class="ghost-button rule-reader-manual-link" id="rule-reader-manual-link" hidden>Open Full Umpires Manual</button>
+            <button type="button" class="secondary-link rule-reader-study-link" id="rule-reader-study-link">Show related study questions</button>
+          </div>
         </div>
         <div class="rule-reader-layout">
           <aside class="rule-reader-nav" id="rule-reader-nav"></aside>

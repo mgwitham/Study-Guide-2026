@@ -2,7 +2,7 @@ const STORAGE_KEY = "lau-study-center-state";
 const LETTERS = ["A", "B", "C", "D"];
 const data = window.LAU_STUDY_DATA;
 const rulebookReaderData = window.LAU_RULEBOOK_READER || { entries: [] };
-const manualReaderData = window.LAU_MANUAL_DATA || { mechanicsReaderText: "", mechanicsByQuestion: {} };
+const manualReaderData = window.LAU_MANUAL_DATA || { mechanicsReaderText: "", fullManualText: "", mechanicsByQuestion: {} };
 
 const OFFICIAL_RULEBOOK_TEXT = {
   "1-3-1": "The ball shall meet the current NOCSAE standard for baseballs at the time of manufacture and is required on balls that will be used in high school competition. The SEI/NOCSAE mark is required on all balls that meet the NOCSAE standard that will be used in high school competition. A minimum of three umpire-approved baseballs shall be provided to start the game. Unless otherwise mutually agreed upon, the home team has this responsibility. No less than two baseballs shall be used to complete a game. The NFHS Authenticating Mark is required on all balls that will be used in high school competition.",
@@ -111,6 +111,7 @@ const statRemainingCount = document.querySelector("#stat-remaining-count");
 const retakeMissedButton = document.querySelector("#retake-missed-button");
 const resetProgressButton = document.querySelector("#reset-progress-button");
 const heroStartExam = document.querySelector("#hero-start-exam");
+const heroOpenManual = document.querySelector("#hero-open-manual");
 const modeRow = document.querySelector("#mode-row");
 const sectionFilter = document.querySelector("#section-filter");
 const startExamButton = document.querySelector("#start-exam-button");
@@ -133,6 +134,7 @@ const ruleReaderSource = document.querySelector("#rule-reader-source");
 const ruleReaderNav = document.querySelector("#rule-reader-nav");
 const ruleReaderBody = document.querySelector("#rule-reader-body");
 const ruleReaderStudyLink = document.querySelector("#rule-reader-study-link");
+const ruleReaderManualLink = document.querySelector("#rule-reader-manual-link");
 const ruleReaderCloseButton = document.querySelector("#rule-reader-close-button");
 const ruleReaderBackdrop = document.querySelector(".rule-reader-backdrop");
 const ruleReaderPanel = document.querySelector(".rule-reader-panel");
@@ -156,6 +158,7 @@ let currentSession = null;
 let suspendedSession = null;
 let openRuleReaderLabel = "";
 let activeRulebookCardLabel = "";
+let ruleReaderShowsFullManual = false;
 const STUDY_PAGE_SIZE = 10;
 
 initialize();
@@ -193,6 +196,11 @@ function bindEvents() {
     syncModeButtons();
     startSession();
     examCenter?.scrollIntoView({ behavior: "smooth", block: "start" });
+  });
+
+  heroOpenManual?.addEventListener("click", (event) => {
+    event.preventDefault();
+    openFullManualReader();
   });
 
   if (retakeMissedButton) {
@@ -391,6 +399,18 @@ function bindEvents() {
     });
   }
 
+  if (ruleReaderManualLink) {
+    ruleReaderManualLink.addEventListener("click", (event) => {
+      event.preventDefault();
+      if (openRuleReaderLabel !== "Mechanics" || !manualReaderData.fullManualText) {
+        return;
+      }
+
+      ruleReaderShowsFullManual = !ruleReaderShowsFullManual;
+      renderOpenRuleReader();
+    });
+  }
+
   document.addEventListener("keydown", (event) => {
     if (event.key === "Escape" && !ruleReaderModal?.hidden) {
       closeRuleReader();
@@ -463,6 +483,23 @@ function renderRulebookHub() {
 }
 
 function openRuleReader(label) {
+  openRuleReaderLabel = label;
+  activeRulebookCardLabel = label;
+  ruleReaderShowsFullManual = false;
+  renderRulebookHub();
+  renderOpenRuleReader();
+}
+
+function openFullManualReader() {
+  openRuleReaderLabel = "Mechanics";
+  activeRulebookCardLabel = "Mechanics";
+  ruleReaderShowsFullManual = true;
+  renderRulebookHub();
+  renderOpenRuleReader();
+}
+
+function renderOpenRuleReader() {
+  const label = openRuleReaderLabel;
   const entry = rulebookEntriesByLabel.get(label);
   const section = safeRuleSections.find((item) => item.label === label);
 
@@ -479,19 +516,33 @@ function openRuleReader(label) {
     return;
   }
 
-  openRuleReaderLabel = label;
-  activeRulebookCardLabel = label;
-  renderRulebookHub();
-  ruleReaderKicker.textContent = "Rulebook Reader";
-  ruleReaderTitle.textContent = section?.title ? `${label}: ${section.title}` : label;
-  ruleReaderSource.textContent = label.startsWith("Rule ")
-    ? `Official 2025 NFHS Baseball Rules text${section?.page ? ` · Page ${section.page}` : ""}`
-    : `${label}${section?.page ? ` · Page ${section.page}` : ""}`;
-  ruleReaderStudyLink.hidden = !safeQuestions.some((question) => question.section === label);
+  const showFullManualToggle = label === "Mechanics" && Boolean(manualReaderData.fullManualText);
+  if (ruleReaderManualLink) {
+    ruleReaderManualLink.hidden = !showFullManualToggle;
+    ruleReaderManualLink.textContent = ruleReaderShowsFullManual
+      ? "Back to Two-Umpire Mechanics"
+      : "Open Full Umpires Manual";
+  }
 
-  const readerText = label === "Mechanics"
-    ? (manualReaderData.mechanicsReaderText || entry.text)
-    : (RULEBOOK_SECTION_OVERRIDES[label] || entry.text);
+  if (ruleReaderShowsFullManual && showFullManualToggle) {
+    ruleReaderKicker.textContent = "Umpires Manual Reader";
+    ruleReaderTitle.textContent = "2026 Umpires Manual";
+    ruleReaderSource.textContent = "Official 2026 Umpires Manual";
+    ruleReaderStudyLink.hidden = true;
+  } else {
+    ruleReaderKicker.textContent = "Rulebook Reader";
+    ruleReaderTitle.textContent = section?.title ? `${label}: ${section.title}` : label;
+    ruleReaderSource.textContent = label.startsWith("Rule ")
+      ? `Official 2025 NFHS Baseball Rules text${section?.page ? ` · Page ${section.page}` : ""}`
+      : `${label}${section?.page ? ` · Page ${section.page}` : ""}`;
+    ruleReaderStudyLink.hidden = !safeQuestions.some((question) => question.section === label);
+  }
+
+  const readerText = ruleReaderShowsFullManual && showFullManualToggle
+    ? manualReaderData.fullManualText
+    : label === "Mechanics"
+      ? (manualReaderData.mechanicsReaderText || entry.text)
+      : (RULEBOOK_SECTION_OVERRIDES[label] || entry.text);
   const rendered = renderRuleReaderContent(readerText);
   ruleReaderNav.innerHTML = rendered.navHtml || '<p class="rule-reader-empty">Scroll the reader for the full rule text.</p>';
   ruleReaderBody.innerHTML = rendered.bodyHtml;
@@ -508,6 +559,7 @@ function closeRuleReader() {
   }
 
   openRuleReaderLabel = "";
+  ruleReaderShowsFullManual = false;
   ruleReaderModal.hidden = true;
   ruleReaderModal.setAttribute("aria-hidden", "true");
   document.body.classList.remove("is-reader-open");
@@ -522,6 +574,7 @@ function renderRuleReaderContent(text) {
   const navItems = [];
   const bodyParts = [];
   let sectionIndex = 0;
+  const manualHeadingPattern = /^(Introduction|Definition ?of ?Terms|Working the Plate|Working the Bases|Working ?as a Team|Pregame ?Preparations|Signal Chart|Crew of One|Crew of Two|Crew of Three|Crew of Four)$/i;
 
   lines.forEach((line) => {
     if (/^SECTION\s+\d+/i.test(line)) {
@@ -535,6 +588,14 @@ function renderRuleReaderContent(text) {
       if (sectionBody) {
         bodyParts.push(`<p class="rule-reader-paragraph">${escapeHtml(sectionBody)}</p>`);
       }
+      return;
+    }
+
+    if (/^PART\s*\d+/i.test(line) || manualHeadingPattern.test(line)) {
+      sectionIndex += 1;
+      const sectionId = `rule-reader-section-${sectionIndex}`;
+      navItems.push(`<a href="#${sectionId}" class="rule-reader-nav-link">${escapeHtml(line)}</a>`);
+      bodyParts.push(`<h3 class="rule-reader-section-title" id="${sectionId}">${escapeHtml(line)}</h3>`);
       return;
     }
 
