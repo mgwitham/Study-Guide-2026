@@ -26,3775 +26,4719 @@ Initial Position: U1 starts in the C position and may work a step or two deeper.
 
 SECTION 9 RUNNER ON THIRD
 Initial Position: U1 starts in the C position. Since there is no runner on first, U1 can work one or two steps deeper and still stay in position for pickoffs at third. PU has R3's tag at third on a fly ball and all plays at the plate. U1 has plays at any base involving any runner other than the plate. On a fly ball to left-center, PU observes R3's tag and returns to the plate, while U1 has R2 tagging and all plays on the bases.`,
-  fullManualText: `SECTION 1 INTRODUCTION
+  fullManualText: `m:troduction
+Baseball continues to be one of the most popular sports inthe country. especiallyat the high school level.With the growth in the number of athletesand teams,theneedfor umpires is greater than ever.
+Unlil<.esports where youmight havea set partner or crew, high school basetlall umpires usually don't work with the same partner. Umpires typically work witha diHerent partner every game.
+Because of this,it'simportant for umpiresto beon the same page when it comes to mechallicsand prescribed play coverages. The illustrationsinthis book will give you the referencepoints toexplain the.proper mechanicsandprocedurt1s.
+llnth'ts book, the core concepts of theNFHS Umpires Manual are expanded, enhanced amd:gr�phically presented for easier understanding.Incertain situations.Refereehas rn�ommended an alternate way to cover the play.We encourageall umpiresto check w'1thth.eir leagues, associations, assignersand other governing bodies on the prescribed ImiecllaAics,procedures and coverages in their area.
 
-Baseoall continues to be oneof themost popular sports inhecountry, especially at ,e higlhsclmol level.With the growth in thenumber of athletes and teams, theneed for umpires is greater than ever.
+U.rnpifesare the third teamonthe field.Andwhile umpires never win orlose the game, they are vilal to thegame.Working IDgelher as ateam ensuresthe game will run smoothlyand withou,t.any issues.This book will ensure that teamwork willbe in sync.
 
-Unlikesports where youmight havea set partner or crew, highschool baseball umpires usually don't work with the same partner. Umpirestyp,ically work witha differernt partner every game.
+Playb:a/1!
 
-Because of this, it's important for umpires to beon,thesame page when it oomes to mechariics and prescribedplay coverages.Theillustrations inthislbook will give you the reference points to explainthe proper mechanics and procedures.
-In this book, thecore concepts of the NFHS Umpires Manual are expanded, enhanced and graphical!presented for easier understanding.In certain situations, Refereehas recommended an alternate way to cover the play. We encourageall umpires tocheck with,their leagues,assoc!iations,assignersand other governing oodies on 111e prescribed mechanics, procedures andcoverages in their area.
+<
+<
+>
+>
 
-Umpires arethethirdteam on the field Anc.l whileumpires never winorlose the game, they are vital tothegame. Workiingtogether as a teamensuresthe game will run smoothly and withollt any issues.This book will ensure that teamwork will be in sync.
 
-Play ball!
 
-Baseoall continues to be oneof themost popular sports inhecountry, especially at ,e higlhsclmol level.With the growth in thenumber of athletes and teams, theneed for umpires is greater than ever.
 
-Unlikesports where youmight havea set partner or crew, highschool baseball umpires usually don't work with the same partner. Umpirestyp,ically work witha differernt partner every game.
 
-Because of this, it's important for umpires to beon,thesame page when it oomes to mechariics and prescribedplay coverages.Theillustrations inthislbook will give you the reference points to explainthe proper mechanics and procedures.
-In this book, thecore concepts of the NFHS Umpires Manual are expanded, enhanced and graphical!presented for easier understanding.In certain situations, Refereehas recommended an alternate way to cover the play. We encourageall umpires tocheck with,their leagues,assoc!iations,assignersand other governing oodies on 111e prescribed mechanics, procedures andcoverages in their area.
 
-Umpires arethethirdteam on the field Anc.l whileumpires never winorlose the game, they are vital tothegame. Workiingtogether as a teamensuresthe game will run smoothly and withollt any issues.This book will ensure that teamwork will be in sync.
 
-Play ball!
 
-SECTION 2 DEFINITION OF TERMS
+
+
+
+
+
+	
+
+	
+DEFINITION OF TERMS
+
 
 Part[)
 Delinilian al Terms
+ ·QJear:therunner -At the conclusion of anyplay thatrequires PUto cover arunner's safe adv,inoe toa base,U1 (two-umpirecrew) must assumeresponsibility for that runner, thus releasYngPU, who must return to his or her normal position. Before heor she can "clear
+!lie ru1111er," PUwill wait for Ul totaKe responsibility tor allrunners by saying,"OK,I've got ilile1umws." At that time,PU can move out of the infield, into foulterritory and assume his pos'rtion at the plate.
 
-Clear the runner -At the conclusion of any play that requiresPU to cover a rnnner'ssaf,e advance to a base, U1(two-umpirecrew) must assumeresponsioilityfor that runner, thus releasirngPU, wllo must return to his or her normal positiorn. Before he or she can "clear the rnnner," PU will wait for U1 to take responsillility for all runners by saying, "OK,I'vegot the rnnners." At that time, PU can move,out of theinfield, ito loul territory and assume his position at theplate.
+.Cutout - On diamonds with grass infields, thearea adjacent to each base includes asemi-Gircul·ar areaof dirt extending approximately 13 feet from thebase.The areawhere that d'ut imfinngeson thegrass infield iscalled the "culoot."' Anumpire who rsat thecutout is
+approximately12-15 feet from the play.
 
-Cutout - Ondiamonds with grass infields, thearea adjacent to eachbase includes a semi-circulararea of dirt eictending approximately 13 feet from the base.The area where that dirt infrillges on the grass illfield is called the"cutout· All umpire whois at the cutoutis approximately 12-15 feet from the play.
+Dead,ball signal - To indical!! thattime isout and theballis nolonger inplay,anumpire will raise both hands slightly abovehisor her head,arms exrended, palms forward,and call, "ilime!"
 
-Dead-ball signal - To illdicateihat time is out and the ball is llOlonger in play,an umpire will raiseboth hands slightly above his or her head,arms eKtern:led,Ipallms foiward,and call, "Time!"
 
-Ile as simpleas pointingin,the general direction of a base or as conciseas a specific verbal reply. How you will acknowledge your partner should be d'etermined dmillg your pregame conference.
 
-BR- The batter-runner.
+<
+<
+be assimple as pointing in the general direction of abase or as concise as aspecific verbal reply.How you will acknowledge yourpartner Should be determined during your pregame conference.
+BR - The batter-runner.
 
-Beforethe play -All abbreviationfor one of the following phrases:"before a fielder attempts to tag a runner." "beforea fielder attempts a catch," or "before tile runner arrives at tile oase." Ideally,an umpirewill always assume a set position before the play.
+Before theplay-An abbreviation for one of·the foUowing phrases: "before a fielder attempts to tag a runner," "before a fielder atlempls acatch," or·'before lhe runner arrives at the base." Ideally,anumpire willalways assume asetposition before the play.
 
-Below the knee catch -A catch made "below the knee" is one whichrequiires the covering umpireto signal thesuccessful catch and (at times) verl:lallyconfirm, "That's a catch'":
-or, to signal "safe" and verbally confirm,"No!,No!" A calch is "below theknee" when the fielder reaches down below the knee, dives to make the play, falls before or after the llall arrives, makes a catch with his !Jack turned to the infield; collides with another fielder as or immediately atter reachingtheball.
+Below the.knee catch-A catch made "llelow theknee" isone whichrequires the covering umpire to signal the successful catchand (at times) verbally confirm, "That's acatch!":
+or, tosignal "safe'' andverbally confirm, "No!, No!" Acatch is "below theknee'' when the fielder reaches down below the Knee,dives to maKe the play, falls before or after the ball arrives, makes a catch withhisback turned to the infield: collides withanother fielder asor immediately after reachingthe ball.
+Chest to the ball - Each umpire wants to maintain aposition with the ball within hisorIler field of view.Keeping lhe chestpointed toward the bal.1al.lows umpires tokeep the play in front of them. Although exceptions exist,umpires should turn lheir chest IDthe ball.
 
-Chest to lie ball - Each umpirewants to ma.intaina position wit11the ball within his or her field of view.Keeping the chest poilltedtoward theball allows umpire:, to keep the1playin front ot them.Although exceptionse)(Jist. umpires should turn their chest to the ball.
+Clear thecatcher - The plate umpire(PU) will clear the catcher when aplay follows apitoh. To doso, step back withyour back foot(right foot with a right-handed batter,lelt footwitha lef1°handedbatter) first.That will increase thedistance between your body andthe catcher. Next,step withyour opposite foot and move to your left,bacK from or around the catcher.
+ 
+Drift- Slight movement byabase umpire towarda base where anextplay may occur: for example, the movement byU1 in the two-umpire system toward firstbase IDsee theback half-Of apotential double play.
 
-Clear the catcher-Theplate umpire (PU) will clear the catcher whena play follows a pitch. Todo so, step back with your back foot (righHoot with a right-hancledlbatter, left foot witha lefl-lhandedbatter) lirst. That will increasethe distance lletween your llody and the catcher. Next,step with your opposite foot and move to your left, back from or arollnd the catcher.
+Fi11lders - The defensiveplayers. routinely designated by their numerical scorekeeping identifying numbers: F1 isthe pitcher, F2 is thecatcher, F3 is lhe firstbaseman,etc.
 
-Drift - Slight movement by a base umpiretowarrd a base where a next play may occur; for example, themovement by U1 in the two-umpir,esystem toward first llase to see the back half of a potential double play.
+f"IJ'st-.base line extended -An imaginary linethat e)(tends ttie first-base fairJ1oul line into foul tenr:1tory behind theplate. PUwill assume a position on selected tagplays atthe plate andon fly ball.s thatremain close to the plate area.Fair/foul decisions onballed balls down the right-field lineshould not betaken from this position.
 
-Fielders - The defensiveplayers,routinely designated lly their numerical scorekeeping identifying numbers: F1 is the pitcher,F2 is the catcher, F3 is the first baseman,etc.
+·45-foot line- The 45-fool line,which is three fee!across and isdrawn at the bestpossible angle to the first-base line 45 feet from the plate, marks the beginning of the runner's lane.It is avisiblebenchmarl< for several position adjustments.
 
-First-baselineextended -An imaginaryl1inethat extendsthefirst-basefair/foul line into foul territory behindtheplate.PU will assume a positioll on selected tag plays at the plate andon fly balls that remai11 close to theplate area.Fair/foul dec,isions on llattedballs down the right-field line should not be taken from thisposition.
+Glance at therunner-Althoughumpires are advised to "keep youreye on lhe ball," you
+\l\illlfind it necessary toglance at the runner on several occasions, including:as each runner tags up ortouches each base,whenever a runner an!lfielder pass within close proximity(to observe obstruction or interference),andto monitor arunner's progress as aplay develops.
 
-45-foot line- The 45-foot line,which isthree feet across and is drawn at th.abest possillle angle to thefirst-baseline 45 feet from the plate,marksthebeginning of the runner's lane.It is a visiblebenchmark for several position adjustments.
+"'Go'"OJ"goes" - Under avariety of circumstances, a base umpiremay be required to"go," 1,111ysicalyentering the outfield-grassarea.If there are no runners onbase,Ul orU3 •goes" to rule catch/no catchona "trouble'' ball and todetermine fair/foul on abatted ball in flight down lhe riglMield (U1) or left-field(U3) line.
 
-Glance at the runner-Although umpires are advised to "keepyour eye onthe l:lall,"you will findii necessary to glanceal the runner onseveral occasions,including:as each runner tagsup or touches eac!h base, whenever a rnnner and fielder passwithin closeproimity(to observe obstruction or interferellce),and to mollitor a rullner's progress as a play develops.
+Imaginary box- That area inlair territory oordercc! by the plate, the 45-foot line, thepitcher's 11i1i10wmdandthe mid-point of the third-base line.The box isapproximately45 feetby 45
+feet square. Plays that originate in the imaginary box ar-etheones that most olten result in running-lane interference violations.
 
-"Go"or "goes" - Under a varietyof circumstances,a base umpiremay Ile•required to "go," physically ellterillgthe outfield-grassarea. If there are no rullners on base, Ul or U3 "goes" to rulecatch/no catchon a "trouble" ball and to determine fair/foul on a batted ball in flight down the right-field(U1) or left-field(U3) line.
+>
+>
 
-Imaginarybox - llhat areain fair territory oordefed l:ly the plate,the 45-foot line,the pitcher's mound allclthe mid-point of the third-base lille.Thebox isapproximately 45 feel by 45
-feet square. Playsthat originateill the imaginary box arethe ones that most otten result in running-lane interferenceviolations.
 
-Opening the gate-A basicumpire's movemenit which allows corntinued otiservation of a IJatted or thrownIJall as theball passes the umpire.To "open the gate," begin in ari upright sta11ce with your feet comfortably apart;keepingyourchest to the ball, take an initial step oackward whilepointing yourfoottoward the lall'sdes!inatioll; as or beforetheball passes your location, turn by stepping withyouropposite foot and focus onthedevelopinigplay. "Openingthegate" is similar lo "clearing the catcher."
+	
 
-Pause, read and react-Athree-step methodthat will help youdeterminewhereyou shouldgo and what your responsibilities will tie duringa (levelopingplay. Pause: observethe initial action: Read:determinewhat playis goiirlgtodevelop and what position adjustment youshould make; React:move into posilion for theanticipated play and,as .appropriate, communicate your intentions toyour partner."Pause, read and react" is important in coordinating two-manumpiring coverage It ensuresthat the umpires identically evaluate eachdeveloping play.
+DEFINITION OFTERMS	DEFINITION OF TERMS
 
-Pivot- The tlilree-stepmovement usedby Ul as heor she movesinto the infiel(lfromposition A, When a batted ball is tilit lo theoutfield,U1 will pivot lo observe thebatter-runner's louohof first !:Jase,anticipating the batter-runner'sadvancetoward second.A proper pivot oocurs on
 
-PU - The plate umpire.
+Opening Ille gate -A basic umpire's movement whichallows continued observation of a batted or thrown ball as the ballpasses the umpire.To"openthe gate," begin in anupright stance With your feet comfortably apart; keeping yout chest tothe ball, takeaninitial step
+backward wt1ile pointing your foottoward the ball's destination; asor before the ballpasses your location, turn by stepping withyouropposite foot and focuson the developing play. ''Opening thegate''is similar to ''clearing thecatcher."
+Pause, readand react -A three-step method that will help youdetermine where you shouldgo and what your responsibilities will beduring a developing.play.Pause,observe the initial action: Read:determine what play is going to develop and what positionadjustment you should make; React: move into position ror theanticipated play and,as appropriate, communicate your intentions to your partner. "Pause, readand react" is important in coordinatil)g two-man umpiring coverage,It ensures thatthe umpires identically evaluate each developingplay.
 
-Play- The action that developsas a runner,theball and a fielder arrive at tile same place at approximatelythesame time. A.playusually occurs at or near a oase and normally requires an umpire's decision.Astheumpire, you must movetoa play onlywhenall threeelementsare coming together.
+<
+<
 
-PositionA-The"A" position isin foul territory,about HJ-to-15 feet behind the first baseman, but generallyno closer than 10 feet behind filrst base.In the two-umpiresystem, the oase umpirnstandsiinthe A positionwhen there areno runners on base.With tllrneumpires,U1 stands there unless thereis a runner on secoml only or second and thirdonly and less than two outs.That position allowsthe IJase umpiretoget intotheinfield to judge a play and/or lake a runner beyond first base without interfering with the field'er.
+PU- The plate umpire.
 
-Position8 - Tlle tlase umpireposition on the first-oaseside of themiddle of the infield. Position B is midway between the pitcher's mound and secondbase, just to the fit-oase sideof the mound.The umpire's feet should strad'dllean imaginaryline drawn fromtheplate thron.rgh the edge of the dirt circleof themound. Whenth,epitcherlakes his stance on the mound, the oase umpireshouldbe in a hands-on-kneesset, shoulllers square and chest directly facingtheplate. On a two-umpirecrew,U1will Ilein position B whentherei,sa ruInner onfirst base or runners on first and third bases.In a three-umpirecrew,IJ1 will assume
-a "deep position,B" (at the edge of the Infieldgrass) when thereis a rnnner on second or runnersonsecond and third and less thantwo outs.
+Play - The action that develops as a runner, the balland a fielder arrive at thesame place at approximately the same time. A play usually occurs at or near a base and normally requires an umpire's decision.As the umpire, youmust move toa play only when all three elements are coming together.
 
-Position C -Thebas,eumpire position on thethird-tiaseside of themid'dlleof the infield. Position C ismidway betweenthepiteher's mound and second IJase, just to thethird-base sideof the mound. The umpire's feet should straddle an imaginary linedrawn fromthe plate through,the edge of thedirtcircle of the mound.Whell l'he pitcher takes his stance on the mound thebase umpire should oe in ahands-on-knees set,shoulderssquare and chest direcUyI.acing theplate.In a two-umpirecrew,U1 will begiri inposition C with all runner coml:Jinations other than,nobody on, first !:Jase only or first and third base. With three umpires, U3 will begin in position C when there are runners on first and second, or a runner on second only or runners on second an(! third withtwo outs.Also w,ith a three-umpire crew, U3can assumea "deepC" position (at theedge of theinfield grass) whenthere is a runner on first only,lirst and third,or when,tlile bases are loaded.
+Position A- The''A"' position isin foul territory, about1O-to-15 feetl>ehinct the firstbaseman. but generally nocloser than 10 feetbehind firstbase.Inthe two-umpiresystem, the base umpire stands in the Aposition when•there areno runners onbase.Wi1h three umpires,Ul stands there unless there isa runner onseconclonly or second ancl third onlyand less than two outs.That position allows lhebase umpire toget into theinfield to judge aplay and/or takea runner beyond firstbc;1se without interfering withthe fielder.
 
-PositionD - Inathree-umpiirecrew,Positioni D is U3's position at thestart of eachinning and whenever a play begins with no runnerson base, Position Disnear the third-baseline, standing with oolh feet in foul territory,at least 10-15 feet beyond third lbaseand at least two steps behind the third baseman. U3 also assumes PositionD (althoughmuch nearer thir(l base) when, on a three-umpire crew, a play beginswitha runner on thirdonly,second only and lessthantwo outs,or withrunnerson,second and thirdand llessthan two outs.
+Position B- Tile l>ase umpire position on t11e first-base sideof the middle or the infield. Position Bismidway between the pitcher's moundand second base,just tothe first-l>ase sideal the mound. The umpire's feet should straqdle animaginary line drawn from the plate through the edge of the dirt circle of the mound. When the pitcher takes hisstance on the mound,U1e base umpire should be in ahands-on-kneesset, shoulders square andchest directly facing the plate. On a two-umpirecrew,U1 will be inposition 8 when there isa runner onfirstbase or runners on first and thirdbases.In athree-umpi°re crew, U1 will assume
+a "deep posi1ion B'' (at the edge of the infieldgrass) when thereis a runner onsecond or runners onsecond and thirdand less t11an twoouts.
+ .Position C- The ba.se umpfreposi1ion onthe third-baseside of the middle of the infield. 1Pos1bionC ismidway between the pitcher's mound andsecond base, justto1he third-base side of,themound.The umpire's feet should straddle animaginary linedrawn from the plate uirou.gh the edge of thedirt circle of the mound. When the pitcher takeshis stance on the 1rnn01/Jnd�hebase umpire should be in ahands-on-knees set,shoulders square and chest
+.d'1reolly facing the plate.In a two-umpire crew,U1 will begin inposition C withallrunner oomoinalions other thannobody on. first base only or first andthird base.With three umpires, 193,,..;1b1egin inpositionC when there are runners onfirst arnlsecornl. or a runner on second
+orly orrunners on second and thirdwithtwo outs.Also with athree-umpire crew,U3can a�ume a"deepc··position (at the edgeof the infield grass) when there isa runner onfirst
+0�y,,Tir.sl and third, or When the bases are loaded.
+Position D- Ina three-umpirecrew,Position O isU3'sposition atthestart al each inning and whenever aplay begins With norunners on base.Posi1ion Disnear1he third-base line, stamd'rng with both feetin foul territory, al least10-15 reet beyond lhirct base anclat least two
+stepsbehincl the thirdbaseman. U3alsoassumes Position D (although much nearer third base) when, on athree-umpirecrew,a play begins with a runner on thirdonly.second only and less than twoouts, or with runners on second andthird and less than two outs.
+>
+>
 
-PositionE- In a four-umpirecrew, Position Eis U2's positionat the start of each inning in the outfieldarea behindsecond base,shifted to theside to whichthe batter is mcis1 likelytcihit
-Rea(!the throw-Asa play develops, youmust judgethe qualityof the thrnw. If the throw is goijd, you will maintain your positionto otiserve thedeveloping play; if thethrow is tiad, you adjust your positionaccordinglo the throw.
+Read thethrow-As aplay develops, youmust judge thequality of the throw.If the throw is good.you will mainlain your position to observe thedeveloping play; it the throw is bad,you adjust your position accordingto the throw.
+Qelease!'Unner IDthird-When the plate umpire on a two-umpire crew verbally informs U1, '\l'11e,gotthirdii he comes," or 1'1've-gotthird if he tags," U1 willobserve thetouch or tag-up a'!.sei:-ondbase, thenrelease responsibility for that runner toPU andassume responsibility for plays made on Other (trailing) runners.
 
-Releaserunner to third -Whentheplateumpireon a two-umpirecrew verballyinformsUl, "I'vegot third i1hecomes," or "I'vegot thirdif he tags," U1will observe the touchor tag-up at second base,therireleaserespons'ibility for that runner to PUand assume r,espon,sibilityfor plays made on other(trailing) runners.
+Rdtal,eor Rotation - The movement of umpires. In general. umpire crews "rotate'' in adockwise direction.Ina two-man crew, clockwise rota1ion generally describes PU's Imow..ment toward third base.Three-umpire crews rotate often, withPUmoving tocover third anti01 rotating locover aplay at ttie plate.
 
-Rotate or Rotation- The movement of umpires.In general, umpire crews "rotate" in a clockwisedirection.In a two-mancrew, clockwiserotation generally describesPU's
-movemenl toward tlilirdbase. Three-umpire crewsrotateoften, withPUmoving to cov,er third and U1 rotating tocover a play at the plate.
+Ro'lation (reverse) - The coordinated movement of two baseumpires. designed loshift 1-e.r;pons1bllity ror plays at secondbase. A reverse rotationoccurs when U3 begins inside atl(jU1is not responsible for rotating home.Initially, U3 isresponsible for plays at second andthird. ti the batter-runner attempts toadvance to second base,U1 plvats and rakes fespons'1bilityfor the batter-runner at first andsecond.
 
-Rotation (reverse) - TM coordinated movement of two base umpires,designed to shift responsibilityfor playsat second oase. A reverse rotationoccurs when U3 tlegins inside and U1 is not responsible for rotatinghome. Initially,U3 is responsiblefor plays at second and third.If lhe batter-runner attempts to advance to second tiase,IJ1pivotsandtakes responsibilityfor the l:Jatter-:runner at first aind second.
-RunningIlane -Tlle three-foot-widelane,beginning at the 45-foot line and extendingto firnt base,A batter-runner isiinnocent of unintentional interferencewitha fielder cciveringfirst base If tlile lbatter-runner advancesto first with l:Joth feet stepping on,or insidethelines of the lane. The batter-ruinner canstill be guilty of intentional interference even if thebatter-run11er is insidethe lane.
+Rullnimg lane - The three-foot-widelane,beginning a\the 45-foot lineand extending to first base. Albatter-runner is innocent al unintentional interference with a fielder covering first base'if•the•batter-runner advances to first with both feet stepping on or inside the lines of the llaoe.'Thebatter-runner canstill be guilty ofintentional interferenceeven if the batter-runner is iosideilhelane.
 
-Runners- Playersfrom the team at bat are identifiedby their locations onbase at the IJeginningof aplay orsequenceof plays:R1isthe runner who starts a senario at first tlase, R2 at second, R3at third.
+	
+DEFlNITION OF TERMS	DEFINITION OF TERMS
 
-Secondaryplay-Actionthat foJlows the defensiveteam's first attempt to retire a runner and is reasonablypredictatle.For example.,whenB1hits a groundball and the defense "holds" R3, the play at first base is the initial play; ii R3 advanceson the throw tofirst,theensuing play at home isa secondaryplay. (See "subsequent play.")
 
-Set for the play - You must come toa completestopbefore the critical moment of any play cllld remain stationaryuntil youmake your decision.Just likea camera taking a picture, your eyes must be stationary to prnduce a clearimage.
+Runners - Players from the team atbat are identifiedby their locations onbase at the beginning ofa play or sequence of plays: Rl isthe runner who starts a scenario at firstbase, R2at second, R3at third.
 
-Set positions- There are two usedby base umpires.Hands,-on-knees set: With your feet sli:ghtlymore than shoulder wirlth apart,squat and lean forwardslighlly, aml placeyour hands on your knees. Kee,p your back straight and your head up, lookingat theplay.Your arms shouldlock firmly to keepyour head still andallow youto see the play.Use the hancls-on-kllees set prior to each pitch when you are iinpositionB or C, and at yourdiscretion as plays develop.Standing set With your feet comfortably apart, keep yourshoulderssquare to the play.Your knees should besliglltilybent lbut your body remainsupright with your hancls at your
+Secondary play -Action thatfollowsthe defensive team's firstattempt to retire arunnerand isreasonably predictable.For example, when 81 hits aground ball andthe defense "holds" R3, the play at firstbase isthe initial play; ii R3 advances on the throw to first, theensuing play athome is asecondary play.(See"subsequent play.")
 
-base.By taking a position squareto the bag, you will avoida temlency to turn away from the play before it iscomplete.
+Set for the play- 'mumustcome IDa complell! slopbefore the critical moment of anyplay and remain stationary untilyou make your decfsion.Justlike acamera takinga picture, your eyesmust bestationary to produce aclear image.
+<
+<
 
-Split at Fa- Indicates that theumpires dividethe outlield in hatt. One umpirei5 responsible for all plays on all balls hit directly at thecenter fielder, across the outfield to the dead-ball area adjacent to theumpire'sloul line:another umpire is responsible forallballs tiil to the opposilesicleof thecenter fielcler,across the oulfiield to the deacl-ball area adjacent to the other foul line.
+Split atF8- ln<licates that the umpires divide theoutfield inhalf. One umpire isresponsible for all plays on all balls hit directly at tne center fielder,across theoutfieldtotiledead-ball area adjacent tothe umpire's foul line; another umpireisresponsiblefor allballs hit tothe opposite side of the center fielder, across111e outfield tothedead-ball areaadjacent tothe other foulline.
 
-Startingposition- The onfieldlocationoccupiedby anumpireas aplay begins,determined for the baseumpire by therunner configuration.
-Stays home- PIJ stayshomeand covers only plays at the platewhena play begins with a runner(s) in scoring position.
+Starting position - Theonfield location occupied by anumpire as aplay tleglns,determined for the base umpire by therunner configuration.
 
-Step up,tum andface theball-Athree-stepmovement used by U1 or U3 in,position B or C when theball is hit.Using your foot nearest where the tlaJIishit, take one step forward; tL1m or pivot and mov,e,chest to the l:Jall;determineyour nextmove or r.esponsil:lililyand execute.
+Stayshome - PU stays home andcover..only plays atthe plate when aplay begins with a runner(s) in scoring position.
 
-Squareto the bag - When set foraplayat any base,youir head,shoulders and feet shouldbe in line and perpendicular toa linefromyour location to the base. By taking a position square to thebag, you willl avoid a tendencyto tum away fromthe play beforeit is complete.
+Stepup,turnandface the ball-.Athree-step movement used by U1 orU3 inposition Bor C when the ball is hit.Using your lootnearest where !he ball is hit.lakeone step·forward;tum or pivot and move, chest to!he ball; determine your next moveor responsillilityand execute.
 
-Subsequent play-Actionthat followsthe defensive team's first attempt to retire a runner but is not reasom11:lly predic:table.For example, when there isa sgueeze bunil and collisionat the plate,the tag play at homeistheinitial play; if after theplay at home B1advances toward second, the ensuingplay at second isa subsequent play.(See "secondaryplay.")
+Square lothe bag - Whenset for aplay at any base,your head, shoulders andfeet should be inline and perpendicular toa linefrom your location to thebase.By takinga position square tothe bag, youwlll avoida tendency to tum away from the play before it is complele.
+ Subsequent play - Actiontnat followsthe defensive team's first attempt to retire arunner butis notreasonably predictable.For example. when there isasqueeze bunt and collision at the plate, the tagplay athome is the iniliaf play; ii after the play athome 81advances toward second, the ensuing play at second isasubsequent play.(See "secondaryplay.·i
 
-The V- Indicatesthat a l:lase umpire who starts insideisrespornsiblefor allplays on all balls hit directly al the left fielrler,directlyat theriglht fielrler,and anywherebetween those
-outlielders: another umpire(s) is responsiblefor all playson allballs hit to theleft fielder's right and across to the clead,-ballarea adjacent to the left-fieldline. and for all playson all ballshil to theright fielder'sleft andacross to the dead-1:lall areaadjacent to the right-fiield line.Some umpires refer to lhi;sas·thebaseumpire "havingthecone."
-Third-baseline extended-Animaginaryline that extends the third-basefair/foullineinio foul territory behind the plateanurnlimited distance. PUwill assumea positlorn on the third-base lineextended inseveralinstances induding: to render fair/foul decisionsonbattedballs totheleft of the plate,to observe a runner touching thirdbase as another runner scores,and cm selected tag plays at the plate.
+The V - lndicales that a base umpire who starts insidels responsible for all plays onall ballshit direcuy at the left fielder,directly at the right fielder, and anywhere between those
+outlieiders; another umpire(s) isresponsible for all plays on all balls hit tothe left fielder'sright and across tothe dead-ball area adjacent totheleft-field line. and!or allplays on allballshit ID the right fielder'sleft andacross tothedead,ball areaadjacent tothe right-field line.Some umpires refer to this as the base umpire "having the cone."
 
-Time play- Situationinvolvinglwo outsand runners on base. If thebatter-mnner or another ruriner is retiredonsomethingother than a forceplay, theumpires mu,stknow if a runner or rurmerstouchedtheplatebefore thethird out was recorded.
-Troubleball-Abatted ball hit to theoutfield that willpresent a problem for the fielder. Examples: A fly oaJIthat forces theleft or right fielder to chargetoward the foul line,a fl¥ oall that forces anoutfielder to chargestraight in or straight oack,a fly oall at which twoor more fielders converge,any batted ball that will require a fair/foul decisionin theoutfield. When
-a trouble ball is identifiedin your areaof responsibility, you mustcommunicate with your partner,indicatirigwhich umpire will take the fair/foul and catch/nocatch decisions.Use the "pa1.1se,read and react" methoo to ioentifyandrespond to a trouble oa11.
+Third-base lineextended -An imaginaryline that extends the third-basefair/foul line into foul territory behind the plate anunlimited distance.PUwill assume a position on the third-base line extendedin several Instancesincluding: to render fair/foul decisions onbatted balls tot11e left of the plate,toobserve a l'UJloer toucl1ingthird base asanother runner scores, and on selected tagplays at the plate.
+Timeplay-Situation involving twooutsamlrunners onbase.If the batter-runner or another runner is retireclon something other than aforce play,theumpires must know if a runner or runners touched the platebefore thethird outwas recorded.
+Troublebatl -A baited ball hit to the outfield U1at Willpresent a problem !or the lielder. Examples:A fly ballthat forces the left or right fielder tocharge toward the foul line,afly ball that forces an outtielder tocharge straight in orstraight back,a fly ball at which two or more fieldersconverge,anybatted ball that will require afair/foul decisionin theoutfield. When
+a troubleball is identified in your areaof responsibility,you must communicate withyour partner, indicatingwhich umpire willtake the fair/foul and catch/no catch decisions.Usethe ''pause,read and react" method to identify and respond to atrouble ball.
+Trail BR - Typically onroutine ground balls, PUwillfollow the batter-runner toward firstbase, pausing at or near the 45-l'oot line toobserve·thedeveloping play at firstbase.
 
-Trail BR-Typically on routine ground balls, PUwill follow the oatter-runnertoward first base, pausing at or near the 45-foot lineto observe the developingplayat first base.
+U1- U1 isthe base umpire.In athree-umpire crew,U1 isthe first-base umpire.
 
-U1 - Ul Is the l:lase umpire.In a three-umpirecrew,U1is the first-baseumpire. U2 - In a four-umpirecrew,U2 is the second-base umpire.
-U3 - In a three-umpirecrew, U3 is thethird-1:laseumpire.
+U2- Ina four-umpire crew,U2 is thesecond-base umpire,
 
-U1's or U3's oulfietd - That portionof theoutfield inwhichthe base L1mpire isresponsiblefor determining whethera batted ball iscaught in flight and, at times, whether a batted l:lalll is fair or foul.
+U3- In-athree-umpire crew,U3 istl1e third-base umpire.
+U1'sorU3'solltfield - Thatportion of the outfield in which thebaae umpire is responsiblefor delermining whefher abatted ball is caught in flight and,at times, whether a oatted ballis fair or foul.
 
-Working the wedge - Theposition an umpire should betrying to obtain for any tagplay, especially plays al the plate. The umpire should adjust his or her position to see the catcher/ fielder "open up" while receivingthe throw andhaea clear look at theball,therunner and the plate/baseall oomirigtogether.
+Working the wedge - Thepositionanumpire should be tryingtoobtain for any tag play, especially plays at the plate.The umpire should adjust hisor her position to see thecatcher/ fielder ''open up'' while receiving the throw and have a clear look at the ball, the runner and the plate/baseall coming together.
 
-Part[]]
+>
+>
+
+
+
+Part]]
 Working
 the Plate
+<
+<
 
-There may not bea position in officiating with more focus or attention than theplateumpire in oasebalJ. Heor she is involved in every pitch and when properlyn;itating,a g1J1Jd share Qf plays in thefielcl, too.
+Whatthatmeans isyou have to be "onit" every pitch and every play, because if you are not,your credibility will suffer.
 
-What that means is you have to be "onit" every pitch andevery play, becau1seif you are not,your credibility will suffer.
+The important parts of the job that we'll tackle here are your stance, tracking the pitch, calling it a ball or strike, usingthe indicator andfinally plays at ttiP,plate itself.
+ ...
+ WORKING THE PLATE
+ 
 
-The important parts of the job that we'll tackle here are your stance, tracking the pitch, calling it a ball or strike, using the indicator and finally plays at theplate itself,
-NFHSBaseball UmpiresMa!lluall2025 311d 2026 11
-Part[]]
-Working
-the Plate
 
-There may not bea position in officiating with more focus or attention than theplateumpire in oasebalJ. Heor she is involved in every pitch and when properlyn;itating,a g1J1Jd share Qf plays in thefielcl, too.
 
-What that means is you have to be "onit" every pitch andevery play, becau1seif you are not,your credibility will suffer.
 
-The important parts of the job that we'll tackle here are your stance, tracking the pitch, calling it a ball or strike, using the indicator and finally plays at theplate itself,
-NFHSBaseball UmpiresMa!lluall2025 311d 2026 11
 
-The·Box
+
+
+
+
+
+Tbe Bo¥
 profile view
 
-TheBox
-front view
 
-Your feet arespreaclslightly more than shou1:c1er wiclth apart ancl areplacecl in a heel-toe configuration, withyour slot foot (left foot for a right-handedbatter)slightly ahead of your back foot and your weight evenly distributed ontheballs of your fe,et. As the pitcher
-delivers, bend at ttie knees, keeping your shoulderssguare to thepitcher, and lean slightly forward, intothe pitch, to establish your head height a!lld stability.Thel:lox stance is the easiest for beginning umpires becauseit provides good l:lalanceand it distributes stress evenly between thelegs.
 
-For a right-handedbatter, your right handis onyour right knee, helping you feel locked in. That can Ile there becauseyou areprotected by the catcher and the nisk of getting hit by a foul ball or wildpitc:h is minimal. Your left:hand should be tucked so that your left elbow is on your thighand your handisbetween your legs.Th,at hand isless protected sohaving it ha!llg as opposed to being lockedinallowsfor it to get hit witha lesschance of beingbadly injuredi.
 
-12 NFHS Baseball Umpires Manual 2025 and 2026
 
-The Scissors
-profile view
 
-·front view
+
+
+
+
+
+
+
+
+
+
+>
+>
+Iron! view
+
+
+
+
+
+Your feet are spread slightly more than shoulder width apart and are placed ina heel-toe configuration, with your slot toot (left foot for a right-handed baller} slightly ahead of your back foot and your weight evenly distributed on the balls of your feet.As the pitcher
+deJivers, bend at the knees, keeping your shoulders square to the pitcher, and lean slightly forward, into the pitch, to establish your head height and stability. Thebox stance is the easiest for beginning umpiresbecause it provides good balance and ii distributes stress evenly between the legs.
+
+For a right-handed batter. your right hand is on your right knee,helping you feel locked in. Thal canbe there because you are protected by the catcher and the risk of getting hitby a foul ball or wild pitch isminimal.Your letthand should be tucl\ed so that your lett elbow1s
+on your thi,gh andyour hand is between your legs.That hand is less protected so having it hang asopposed to being locked inallows for it to get hit with aless chance of beingbadly injured.
+
+		
+
+
+WORKING THEPLATE
+
+ 
+
+
+
+
+
+
+
+
 
 The Knee
 profile view
 
-The Knee 
-front v.iew
 
-Your legs will be fully open, similar to an open pair of scissors, with your feet directly behind each other one full stride apart.Your slot foot (left toot for a right-lhanded batter) i1s positioned approximately six inc1hes tlehind thecatcher's inside foot; your back leg is fully extemled, knee straiglht, with the ball of the foot ontheground and theheel elevated.When th.epitcher delivers, your slot-leg knee isbent at the best possibleanglle; bM vast majority of your weigh,! is on your lent leg; keeping your shouldersSQuare to thepitther,lean forward into the pitch and establish your head height and stability.
 
-Thescissors stanceisdifficult for beginningumpires because it provides poor balance and (due to !he high number of right-handed ballers) tt places extreme stress on the left leg. By forcing YO'U to lean forward, it also exposes your shoulder and collar-boneareas to potential injury.
 
-Tlhe knee stance is similar to thescissors. Your feet will le directlybehind each other, about one-half strideapart.Your slot foot (left foot for right-handed batters) ispositioned approximately six inches behind the catcher's inside foot; your back knee wiill tie on the ground. As the pitcher delivers,keep your shou1lder square to the pilcher and your lack essentially straiglht, out lean foiward slightly to estalJlish your head height and stability. Th,eknee stance is fairlyeasy to learn, provides good balance and excellent stability,but it places heavy stress on the left leg(standing up after each pitch) and can hinder tM plate umpir,e's movement reacting to batted balls.
 
-The Hands-on-knees profll&vlew
 
-The Hands-on-knees lmntvlew
-The hands-on-knees stance is very similar to the box, but instead of having your feet ina heel-toe configuration, they are square, about six inches behind the catcher As the pitcher de'liv,ers, bend at the knees, keeping your shoulders square to the pilcher, andl,ean sligh·tly lorwaird, into the pilch, to establish your head height and stability. The hands-on-knees stance is widely praised because it is easier to est:aolish a consistent head height. However, umpires tend to get hit more and with the exposed hand being locked on the krnee, there is no "give" in the hand and a direct shot is more likelly to cause a severe injury.
-The Hands-on-knees profll&vlew
 
-The Hands-on-knees lmntvlew
-The hands-on-knees stance is very similar to the box, but instead of having your feet ina heel-toe configuration, they are square, about six inches behind the catcher As the pitcher de'liv,ers, bend at the knees, keeping your shoulders square to the pilcher, andl,ean sligh·tly lorwaird, into the pilch, to establish your head height and stability. The hands-on-knees stance is widely praised because it is easier to est:aolish a consistent head height. However, umpires tend to get hit more and with the exposed hand being locked on the krnee, there is no "give" in the hand and a direct shot is more likelly to cause a severe injury.
 
-Head Height and Position
-Regardless of which stance you use, your head height and position shouldbe consistent and identical.
 
-Your position should be behind the catcher,looking between him and the batter. You must be able to clearly see the pitcher, the en,tireplateancl the tlatter's knees.To see all 01those elements,it isimportant to move lllto "!hesllot" - thal area between the catcher and the batter.
 
-Ideally,.your eyes silould be on the inside corner of the plate, althoughthereare times when the location of the batter and/or catcher may forceyou toacljust. If you must adjust - because for example, thecatcher works inside- never move to a spot over the catcher's opposite shoulder; instead, workhigher over his head.
 
-Two acldltional factors have tremeMous impact on your view of thestrike zone: heacl height and staoility. Your head should be positioned so the bottom of your chinis even with tt1etop of the c;atcher'shelmet. If yciu work with your head lower, your view of the knee-high pitch at or neair the outsidecorner of the plate will be restricted.
 
-To determine proper head height,use a dining roomor folding chair to simulate a squatting catcher.Pretend thetop,of lhe chair back is the top of the catcher'shead. Practicedropping into youirstanceuntil it isa crisp,one-motion movement. Working in front of a mirror is
-a great techni(lue; so is theuse of videotape, if you can find someone whowill tape you settinginto your slot posirtion. If you lhave a partner, work on it together.
 
-Practicing Your Stance
-You canpractice your stancewithout being on a baseball diamond.In fact, it is a good idea totry thosepractice techniques and to become comfortable with themovement beforeyou take the field.
 
-For example, here is a simple practice method for the box stance (you can adapt the equipment to the scissors or knee stance on your own):
 
-Get two pairs of shoes and two yard sticks (or any straight slicks, or even rope, about three to four feet long,).Placeone pair of shoes where a batter wouldstand in the batter's box. Place the second pair where a catch,er's feet would normally be when set lo receive a pitch.
-Place one of the slicks in a straight line, parallel!to the pitcher's rubber; behind the heels of the "catcher," toward the batter. Place the lo!lS of your slot foot 011 that slick. Place the
-second stick parallel tothe first stick behind theheel of your slot foot. Place the toes of your back foot on the second stick,slightly more than should'er widthfrom your slot foot. Now turn the back foot out,about 30- to 45-clegrees away from your slot foot. That will keep you from"kneeing" the catc!her when yousquat Make sure tile toas of your slot foot are pointed directly at thepitcher,so foul balls and wild pitches will caromoff tlhe steel toe of your shoeinstead of the side of your foot.
+>
+>
+front view
 
-Place your slot arm across your wai1st with your elbow tucked close to your side. Your other hand shout:cl grasp the top of your thigh,elbow tucked tightly against your side.Those arm positions will helpprotect tlile bones in your arms from pilclilecl and foul balls, which can cause serious injury.
+WORKING THEPLATE
+....
+TheScissors
+profile view
+<
+The Scissors 	
+Iron! view
+Your legs willbe fully open. similar to an open pair of scissors, with your feet directly behind each.other one lull stride apart. Your slot loot (left loot for a right-handed batter) is positioned approximately six inches behind the catcher's inside foot; your back leg isfully extended, knee straight, withthe ball of the foot on the ground and the heel elevated. When the pitcher delivers. your slot-leg knee is bent at the bestpossibleangle: the vast majority of your weight is on your bent leg; keeping your shoulders square to the pitcher, lean forward into the pitch and establish your head height anel slability.
+The scissors stance is difficult for beginning umpires because itprovides poor balance and (due to the high number of right-handed batters) it places extreme stress on the left leg.By fQrcing you to lean forward. it also exposes your shoulder and collar-bone areas to potential injury.
+WORKING THEPLATE
+....
+TheScissors
+profile view
+<
+The Scissors 	
+Iron! view
+Your legs willbe fully open. similar to an open pair of scissors, with your feet directly behind each.other one lull stride apart. Your slot loot (left loot for a right-handed batter) is positioned approximately six inches behind the catcher's inside foot; your back leg isfully extended, knee straight, withthe ball of the foot on the ground and the heel elevated. When the pitcher delivers. your slot-leg knee is bent at the bestpossibleangle: the vast majority of your weight is on your bent leg; keeping your shoulders square to the pitcher, lean forward into the pitch and establish your head height anel slability.
+The scissors stance is difficult for beginning umpires because itprovides poor balance and (due to the high number of right-handed batters) it places extreme stress on the left leg.By fQrcing you to lean forward. it also exposes your shoulder and collar-bone areas to potential injury.
 
-Tracing the Pitch
-From themoment the pitcher releases a pitchuntil the llalll arrives in the catcher's glove, your head should remain absolutely stable. If your hem! moves at all, your view of thestrike zonewill be olurred and your judgment will be inconsistent.
 
-Here is an easy-to-unde.rstand parallel: If you suddenly jerk a camera the instant you press theshutter, the picture will be blurred and out of focus. That princip'le is thesame when you view a pitch approaching the plate.If you keep your head still and follow the ball with only your eyes, you will see the pitchand location muchbetter.
 
-Follow the ball from the pitcher's hand to the catcher's glove l:ly only moving your eyes.
-By following the pitch into the catcher's glove, you have the advantage of seeiing how and where he caught the pitch. That will aid your ability to call it correctly. If the catcher catches the bafl am! then yanks the glove back toward the strike zone, he is telling you that he didn'tthink the pitch was a strike. Conversely,if he holds the catcher's glove still or slightly moves it (commonlycallea framing), he believes it was a good pitch. Not all pitches that are framed are strikes, but that is an additional tool you can use to aid your judgment..
 
-Practice getting in,toyour set •position until you can drop into your stance smoothly and crisply.Have someone "soft toss" a rolled-up pair of white socks, underh,and into the strike zone. Follow the lb,all with just your eyes all the way in and tllrough,the zone. Have your partner, who is tossing the ball, watch closely to seeif your head moves or if you are drifting intoor away from the pitch. Make sure the soft toss drill includes pithes that are up, down and near eachof the corners. Have your partner note which pitches cause you to move and when you stay stal:lle. Work on the pitches where movement is a prnblem.
 
-IJo not be concerned with calling balls and strikes until you can remainstable and follow the ball with only your eyes. Again, that practice exercise is well s1.1ited for a video camera. You will see yourself drift or move, even though you probably will not feel themovement.
 
-Wrth the marking sticks still in place,step back from theslot position, as you would when the ball is being retl.lrned to the pitcher.Get l:lack into youir slot position and proper foot position for several pitches.Practicegetting into and out of the slot until you can place your feet into position without having to look down at them. Practice the "soft toss" with,the chair,until you can sit down in your set position crisply, wi1lhoul having to check if your head is positioned at Ule proper height.
 
-Practicingi those techn,iques, either in front of a mirror or with the aid of a video camera, w,ill enh,ance your abilityto get into the slot and will help your confidence - in your calls and in yourself.
 
-Calling the Pitch
-Timing is critical on the pitched oall. Watch the ball with your eyes all the way to the glove, and watch·the catcMr catchtheball.Then make up your mind on the bilJll's location and call the pitch: ball or strike.
 
-If the pitch clid not cross through any part of the strike zone ancl the batter dicl not swing, it is a ball. To call a ball, remain In your stance and calll, "Ball." Thecall should be loud enough for thepitcher,catcher and batter to hear. Only after you've made the call, should you come out oi your stance.
 
-If the pitch did cross through,any part of the strike zone and the batter did not swing, it is a called strike. To call a strike,come out of your stance and call, ''Strike." Again, thecall should be loud enoughfor the participants to hear. In conjunction with,your call, you should make an arm motion.
+The knee stance is similar to the scissors. Your feet will oe directly behinct each other. about one-half stride apart. Your slot foot (left foot for right-handed batters) is positioned approximately six inches behind the catcher's inside foot; your back knee will be on tile ground. As the pitcher delivers, keep your shoulder square to the pitcher and your back essentially straight. but lean forward sligl1tly to establish your heael height and stability. The knee stance is fairly easy to learn, provides good balance and excellent stability, but if places heavy stress on the left leg (standing up atter each pitch) and can hinder the plate umpire·s movement reacting to batted balls.
 
-The two common ones are thehammer (Jike you are caJling an out) or pointing out to the side.If you point to the side, it is imperativethat you do nol take y,our eyes o,ff the action in front of you. Drnpped third strikes and trappecl foul lips are easily missed when plateu111pires fly out of the plate area to emphasize a called strike. For that reason, It ls
-recommended calling strikes using Ule hammer-fist call until you have enough experi:ence to develop your own strike call without taking your eyes ott the actioninfront of you.
 
-If the batter swung at the pitch, you do not need to judge whether the pitch iitsell was a ball or strike.You also do not need to verbalize, "Strike," since everyonesaw the batter swing. Come out of your stance and use the same signal as when callinga strike, only with no voice.
 
-Half swings and the proper procedure for appealing them is covered later in lhisbook.
+
+
+...
+WORKING THEPLATE
+The.HanllS-on-knees profile vie\!/
+<
+TheHands-on-knees
+front view
+The hands-on-knees stance is very similar tothe box, but instead of having your feet ina heel-toe configuration, they are square, about six inches behind the catcher. As the pitcher delivers, bend at the knees, keeping your shoulders square to the pitcher, and lean slightly forward, into the pitch, to establish your head height and stability. The han(ls-on-1\nees stance is widely praised because it is easier to establish a consistent head height. However. umpires tend to get hit more and with the exposed hand being locked on the knee. there is no ·'give" fn the hand and a direct shot is more likely to cause a severe Injury.
+...
+WORKING THEPLATE
+The.HanllS-on-knees profile vie\!/
+<
+TheHands-on-knees
+front view
+The hands-on-knees stance is very similar tothe box, but instead of having your feet ina heel-toe configuration, they are square, about six inches behind the catcher. As the pitcher delivers, bend at the knees, keeping your shoulders square to the pitcher, and lean slightly forward, into the pitch, to establish your head height and stability. The han(ls-on-1\nees stance is widely praised because it is easier to establish a consistent head height. However. umpires tend to get hit more and with the exposed hand being locked on the knee. there is no ·'give" fn the hand and a direct shot is more likely to cause a severe Injury.
+
+WORKING THE PLATE
+
+
+Head HeightandPosition
+Regardless of which stance you use, your head height and position should beconsistent and identical.
+
+Vo.11rpositionshould be behind the catcher, looking between him and the batter.You must be ab'le to clearly see the pitcher, the entire plate and the batter's knees.To see all of those elemMls, it is important to move into ''theslot" - that area between the catcher and the
+.batter.
+
+!d:eally,your eyes should be on the inside corner of the plate, although there are times when the location of the batter and/or catcher may force you to adjust II you mustadjust - becal)se for example, the catcher works inside - never move to aspot over the catcher's 0p,posite shoulder; instead, work higher over his head.
+
+Jrwo additional factors have tremendous impact on your view of the strike zone: head height arnlstability. Your head should be positioned so thebottom of your chin is even with the top 0f lthecatcher's helmet. If you work with your head lower, your view of the knee-high pitch at orirrear the outside corner of the plate will be restricted.
+
+>
+>
+Practicing You(Stance
+¥mi can practlce your stance without beingon a baseball diamond.In fact,it is a good idea tonry!hose practice techniques and to become comfortable withthemovement before you lake the field.
+
+For example, here isa simple practice method for the box slance (you can adapt the equipment·IDthe scissors or knee stance on your own):
+
+Get two pairs of shoes and two yard sticks (or any straight sticks, or even rope, about three 10·fol)r feet tong). Place one pair of sr10es where a ba"er would stand in the batter's nox.
+Pl-ace·lhe second pair where ac·atcher's feet would normally be when set to receive apitch. Place 0ne of the Sticksin a straight line, parallel to thepitcher's rubber. behind the heels 01tthe '\catcher," toward the batter. Place the toes of your slot foot on tllat stick.Place the secimo stickparallel to the first stick behind the heel of your slot foot. Place t11e toesof your bar.k foot on the second stick,slightly more than shoulder width from your slot foot.Now turmillileback foot out,about 30- to 45-degrees away from your slotfoot.That will keep you•fr@m "kneeing" thecatcher when you squat. Make sure the toes of your slot foot are pointed directly at the pitcher, so foul balls and wild pitches will carom off tbe steel toeof yourshoe instead of theside of your foot.
+
+WORKJNG THEPLATE	WORKJNG THEPLATE
+
+
+Placeyour slot arm across your waist with your elbow tucked close toyour side.Your other hand shoul(I grasp the top of your thigh, elbow tucked tightly against your side-.Those arm positionswillhelp protect the bones in your arms from pitche(Iand foulballs, which can causeserious injury.
+
+Tracking the Pitch
+From the moment the pitcher releases a pitch until theball arrives in the catcher's glove, your head should remain absolutely stable.If your heaclmoves at all, your view of thestrike zone willbe blurredandyour judgment will be inconsistent.
+
+Here is an easy-to-understand parallel: If you suddenly jerk a camera the instant youpress theshutter, the picture willbe blurred andout of focus.Thatprinciple isthesame when you
+view a pikhapproaching the plate,If you keep your head still a.nd follow the ball with only
+your eyes, you will see the pitch and location much better.
+
+Follow tne ball from thepitcher's hand to thecatcher's glove oy only movingyour eyes.
+By following the prlch into the catcher's glove, youhave ihe advantage of seeing how and where he caught the pitch.That will aidyour ability to call it correctly. If the catcher catches the ball and then yanks the glove back toward the strike zone, he is telling you that he didn't tbinKt.hepitch wasastrike, Conversely, if he Mids the catcher's glovestill or slightly moves it (commonly called framing), he believes.it wasa good pitch. Not allpitches that are framed are slrikes, but that is an additional toot you can use to aid your judgment.
+
+Practice getting into your set position until you can drop into your stance-smoothly and crfsply.Have someone "soft toss" a rolled-up pair of white socks, underhand into the strike zone.Follow the ball withJust your eyes allthe way inand through the zone. Have your partner, who is tossing the ball,watch closely to see if your head moves or if you are drifting into or away from the pitch.Make sure thesoft toss drill includes pitches that are up, down and near each-of the corners. Have your partner note which pitches cause youto move and when you stay stable. Work on the pitches where movement is a problem.
+
+Do nm be concerned with calling balls and strikes until you can remain stable and follow the ball with only your eyes. Again, that practice exercise is well suited for avideo camera. You will see yourself drift or move, even though you probably willnot feel the movement.
+
+Withthe marking sticks stiUin place, step back from the slot positio°'.as you would when the ball is being returned ID the pitcher. Get back into your slot positionand proper fool position for several pitches. Practice getting into and out of the slot until you can placeyour feet into position without hav1ng to look Clown at them.Practice the "soft toss'' with the chair, until you can sit down in your setposition crisply. without having to check if your head is positioned at the proper height.
+
+Practicing those techniques, either infront of a mirror or with the aid of avideo camera, will enhance your abilityto gelilltD the slot and will help your confidence - in your calls and in yourself.
+ Calling the Pitch
+liming is critical on the pitched ball.Watch the ball with your eyes all1he way to the glove, and watch the catcher catch the ball.Then make up your mind on the ball's location and call the pitch:ball or strike.
+
+If the pitch didnot cross through any part of the strike zone and the batter didnot swing, it Isaball.To call aball,remain in your stance and call, "Ball.'' Thecall should be loud enough for the pitcher, catcher and batter to hear. Only after you've made the call, should you come out of your stance.
+If u,e pitch did cross through any part orthe strike zone and the batter didnot swing, it Is a called strike.To call a strike, come out of your stanc-e and call,"Strike.'·Again, thecall should be loudenough for the participantsto hear,In conjunction with your call, you should make an arm motion.
+
+The two common ones are thohammer (like you are calling an out) or pointing out to
+·theside.If you point to the side, it is impe_rativethat you do not take your eyes olf the action in front of you.Dropped third slrikes and trapped foul lips are easily missed when plate umpires fly out of the plate area to emphasize a called strike. For that reason, it is recommended calling strikesusing thehammer-fist calluntil you have enough experience to develop your own strike call without laking your eyes off the action in front of you.
+
+If the batter swung at the pitch, you do not need to judge whether the pitch itself was aball or strike. You also do not need to verbalize, "Strik,e," since everyone saw the batter swing. Come out of your stance and use the same signal as when calling astrike,only withno voice.
+
+Half swings andthe proper procedure for appealing them is covered later in this book.
 
 Making Adjustments
-If every catcher and every tatter positioned themselves exactly the same on every pitch, your job as plate umpire would be easy. You could esta.blish a "groove" in th,eslot,sit down i1nthe same spot every time, andlcall all the pitches.In reality,it doesn't happen.
+If every catcher and every batter positioned themselves exactly the same on every pitch. your job as plate umpire would be easy. You could establish a"groove" in the slot, sit down in thesame spot every time,and call all the pitches. Inreality, It doesn't happen.
 
-Catchers will "squeeze" the inside cornerior their pitchers and take away your slot space.Batters will crowd the plate and take more of that space from you.Some catchers, especially those with little experience, work highand l:llock your view of the plate.
+Catchers will "squeeze'' the inside corner for their pitchers and take away your slot space.Batters will crowd the plate and take more of that space from you.Some catchers. especially those with little experience, work high and block your view of the plate.
 
-As you gainexperiience,you'll read those situations and adjust your slot positionto accommodate calling baJls and strikes.Remember, the mostiimportant thing is tu keep your head stable so you can see he platearea. If a catcher's position lakes that view away, adjust. Youdirst adjustment is uPU: Work higher above the catcher's head when he crowds the inside comer. That will allow you to look down onto the plate area and improve your view of the plate,compared to the view you woulcl have if you made no adjustment
+As you gain experience, you'll read those situations and adjust your slot position to accommodate calling balls and strikes. Remember, the most important thing is to keep your head stable so you can see the plate area.If acatcher's position takes that view away. adjust. Your first adjustment isuPU: Work higher above the catcher's head'wl1en he crowds the inside comer. That will a.now you to look down onto the plate areaand improve your view of the plate.compared tothe view you would have if you made noadjustment.
 
-The second adjustment you can make on a catcher who sets up inside is to move farther into the slot, toward the batter. That will increase your viewing angle to the plate and reopen
+The second adjustment you can make on a catcher who setsup inside isto move farther into the slot.toward the batter.That will increase yourviewing angfe to the plate and reopen
 
-theplatearea (and strikezone).That move pushes theoutside-comer pitchfarther outside, but again, your goal is to see as muchof the strik.e zone as possible.
-Never move to the catcher's outside shoulder.
+<
+<
+	
 
-KeepingandSignalingtheCount
-The plate umpireis responsible for keeping and signalingthe count during a oatter's plate appearance.
+WORKING THEPLATE	WORKING THE PLATE	•
 
-To,keep the count, use an indkator.The plastic or metal devic,e is about the size of a pack of chewing gum andisdesigned to be used in your left hand withk.nollsto keep track of oalls,strikes,outsand sometimesinnings.
 
-Here are someguidelines for indicator usage:
+the platearea (andstrike zone).Thatmove pushes theoulside-corner pitch farther outside, but again, your goalisto see as muoh of the strike zone as possible.
+Never move tothecatcher's outside shoulder.
+Keeping and Signaling theCount
+The plale umpire isresponsible for keeping and signaling the count during abatter's plale appearance.
 
-Use It. Even with the best of memories, it'spossible to lose thecount That is especially true after a conference that occurs during the middle of a batter's plateappearance or a pickoff play at a llase.
+Tokeep the court\, use an.indicator.The plastic or metal device is about the size of apack of chewing gum andisdesigned tobe used in your left hand with knobs to keep track of balls, strikes.outs and sometimes innings.
+Here are someguidelines for ind.icator usage:
+Use It.Even with the best of memories. it's possible to lose the count.Thalis especially true alter aconference that occurs during the middle of a ba.ner'splateappearance or apickoff play at abase.
+While scoreboards are great for fans, they do not display theofficial count. A plate umpire should be diligent in displaying the count and trying to ensure that whatis displa.yecl onthe scoreboard is correct. But the only count that is atficial isthat of the plate umpire.
+Not the focus. The plate umpire should never bring the indicator upto eye-level as if it is the only place he isfocusing attention. The umpire should keep the indicator below chest level and glance at it while keeping the playing action asllis main focus.
+Say ttie count frequently. One way to avoid losing the count is to say it frequentlyduring every plate appearance. Some supervisors recommend saying tile count onthe thirdpitch am) then on decisionpitches. others   ...
+recommend showing the count after the second pitchand every pitch thereafter. Either way, showing and saying the count frequently willavoid the problems of the base umpireandplayers not knowing thecount or the count being lost
+At one lime it wasacceptal>le (or at least popular) forbaseball umpires to indicatea full count by raising both fists. Thatis no longer recognized as a proper mecllanic. A rull count should
+ in a 3-0 count.When using the hands tosignal the count, give it verbally as well.The baner and ca'tt:her can't see your hands and need toknow the count as well.
+Lost count.Even withusing it every pitch, sometimes the plate umpire can lose the count.Usually, thecatcher or batter will quickly correct theerror and the plate umpire can announce the correct count.
+If a dispute remains, then theplate umpire should consult with his partner and go through the pitch sequence.
+As alastresort,get with the official scorer or person keeping the pitching charts tosee what count !hey have andif they canprovide information to help get thecorrect count. Of course.,they can't make you change what youhave, but their input couldhave value.
+.Re.set it.Make certain at the end of eachbatter's lime at-bat to reset the balls and strikes lo zero and update the correct number of outs.That isespecially true at the beginning of each half-inning. Before dusting off'the plate and resuming play,make sure youhave a.II zero.es.
+Some umpires have notched the wheels on !heir indicator sothey canreset the indicator without looking atit.They simply tum the wheels umil they feel the notches, and theyknow it's1t>acktozeros.
 
-While scoreooards are great for fans, they do not display the official count.A plate umpire should bediligent in di;splaying the count and trying to en,surethat what isdisplayedon the scoreboard iscorrect.But theonly count that isofficial is that of the plateumpire.
+locatio,n. Another reason that the indicator should be heldin ttie left handis that one-handed calls (putting the ballinplay,signaling strikes and ouls andpointing for obstruction
+.andilnterference) are made withthe righthand.
 
-Not the focus.The plate umpireshould never bring theindicator up to eye-level as if it is theonly place heis focusing attention.Theumpire should keep theindicator below chest level and glance at it whilekeeping theplaying action as his main focus..
+Asmore umpires goto ahands-on-kneesstance behind the plate, it is morecomfortable to
+nothaveanything inthe hands.
 
-Say thecount frequently. One way to avoid losinghecount is to say it frequently during every plate appearance.Som,esupervisorsrecommend saying thecount on the thirdpitch and then on decision pitches. Others
-recommend showing th.ecount after the second pitchand every pitch thereafter. Either way, showing and saying the cou11t freque11tly will avoidthe prolllems of the base umpireancl players not knowing the count or thecount being lost.
+nn those cases,umpires willkeep the indicator in their pocket orball bag.That is OK,as Uo.og:as•umpiresare maintainingthe count and outs actively. Relying ontnescoreboard isa badi1deabecause the people inthe pressbox will get distracted or will inadvertently reset thecount after apickoff.
 
-At one time it was acceptatlle (or at least popular) forbaselball umpires to indicatea full count l:ly raising l:loth fists.That is nolonger recognized as
-a proper mechanic.A full count should
+Plays atthe Plate
+One of the most exciting momerits in abaseball game is when arunner is trying toscore and the catcher isabout toget the ball anclmake a swipe tag on the runner, producing a liluge dust cloud.
+Time suddenly stops while everyone waits for the umpire's call.Andas much asthe umpire wants torush that call and fuelthe excitement, it isimperative that the umpire have
 
-in a 3.•Q count. When using thehands to signaJthecount,giveit verbally as well.The batter and catcher can't see your hands and need to know the count as well.
+be indicatedby extending three fingers on the lelt hand and two on the right, asseen inPlayPic.Fists should only be raised to indicate no balls or strikes..as
+ A fullcount should notbeindicated with two fists,but just asany olher count,by extending three fingers ontheleft handand two onthe right.
+ excellent timin,g.
 
-Lost count.Even with usillgit every pitch, sometimes theplateumpire canlosethe count Usually, the catcher or batter will quickly correct theerm and the plateumpirecan announce thecorrect count.
+<
+<
+>
+>
+	
 
-If a disputeremains, thenheplateumpire shouldconsult withhis partner and go hrough the pitch sequenc,e.
+<
+<
 
-As a last resort, get with the official scorer or person keeping the pitching ch•artsto see what count they have and if they can provide irnfonmationto helpget thecorrect count. Of course, they can't make youchangewhat you have,but their input could have value.
+To get setup, the plate umpire should be 2·3 steps behind the plate andlined up with the poirrt of the plate.That starting positionenables the plate umpire to move toward either the first- or third-base lineextended to get the proper angle for the throw as it arrives.
 
-Reset It. Make certain at the encl of each baiter's time at-bal to reset t11e balls alld strikes to zero and update the correct number of outs.That is especially true at the beginning of each half-inning. Before dusting oft the plate and resuming play, make sureyou have all zeroes.
+The umpire should let thettirow andtheset up of thecatcher take him one or two steps in either direction from hisstarting point to obtain ihe best angle.The umpire wants to be looking through where the catcher "opensup" to make a tag,creating a clear view of the
+ball, the runner andthe plate all coming together. This iscommonly referred'to as"working the wedge" or "wedge mechanics."
+InPlayPic A,(next page) the umpire isIn position torule on a tag play at the plate.If the runner has beaten the tag,it doesn't matter whether ornot the catcher has the ball and the runner shouldbe called safe (PlayPic B),If, however. the umpire is certain the tag w,15made first but the ball cannot be seen,he should point to the catcher and say, ''Shew me the ball!'' (PlayPic C). IFthe catcher has possessionof the ball,sell theout with an enthusiastic pumpof the arm and a loud out call. If,asthe dirt clears or the catcher shows the umpire an empty mitt,a confident and demonstrative safecall as inPlayPic B is appropriate.
+If the ballis on the ground, many umpires indicate thatbypointing and saying, "Hedoesn't have it! Safe!"
 
-Some umpires have notchedthe wheels on their indicator so they can reset theindicator withoutlooking at it. They simply tum the wheels until they feel thenotches, and they know it's back to zeros.
+Do not ask the fielder tosee the ball if you're already sure the runner is safe.That conveys lack of confidence in your decision. You should only ask toseethe i>ail if the tagwas properly applied but youcannot see it in the fielder's glove.
 
-Location. Another reason that the indicator shouldlbeheld in the left hand is that one-handed calls (putting theball inplay,signaling strikes and outs and pointing for obstruction, and interierence) are madewith the right hand.
 
-As moreumpires go toa hands-on-knees stance llehind theplate, it is more comfortableto not haveanything in the hands.
 
-Inhosecases, umpires will keep theinclica1or in their pocket orball bag.11hat is OK,as long as umpires are maintaining the count and outsactively. Relying onthescoreboard is a bad ideabecausehepeop,le in the press box willl get distracted or will inadvertentlyreset the count after a pickoff.
 
-SECTION 3 WORKING THE PLATE
 
-Plays at the Plate
-One of themost exciting momentsina baseball game is when a runner is trying to score and the catcher is aboLJt to get theball and make a swipetag on the runner, producing a hugedust cl,ou(l.
 
-Tirne SLJddenly stops while everyone waits for the umpire's call.And as much as the umpire wants to rushthat call and fu.el theexcitement. ii is imperative that the umpire have
 
-i)e indicated by extending threefingers onthe left hand and two onthe right, as seen inPlayPic.Fists should only Ile raised to indicateino balls or strikes, as
+Ona play atthe pl.ate,·lfleumpire not only has tose!!tagapplied(PlayPic A),but mustalso ensure thecatcher holdsonto theball.Whentheumpire sees the ballont11eground,hecancall therunner safe (PlayPic B)andshould then'indicate the ballrson the ground(PtayPic C),
 
-A full count should n0t be indicatedwithtwo fists, but just as an1olher eount, by e)(tending threefingers on the lelt hand and twoon lhe right,
 
-excellent timing.
+	I 
+Part(!]
+Working
+the Bases
+A former college umpire and·highschool basel>all coach was asked a questtori about umpiring. now thathe was acoach,
+"Onyour game today, you willhave one umpire who isvery good and the other who is l>elow average. You get to pick who works the plate and who works the oases,Where do youput the umpires?"
 
-NFHSBaseball Umpires Manuall2025 and 2026 19
-NFHSBaseball Umpires Manuall2025 and 2026 19
-
-To get set up, the plate umpire should be 2-3 steps behind the plate and linedup with the poiint of theplate.Th,at starting position enables thepl!ateumpire to move towar,deither the first- or third-base lineextended to get the proper anglefor the throw as it arrives.
-
-The umpire should let tne throw andtheset up of thecatcher take himoneor two steps in either direction from his starting point to obtain the best angle.Theumpirewan,ts to be looking through where the calcher "opens up" to makea tag,creating a clear view of the
-oall, the runner and theplate all coming together.Thisis common[yreferred to as "working thewedge" or "wedge mechanics."
-
-In PlayPicA,(next page) the umpire is inposition to rule on a tag play al the plate..If the runner has beaten the tag, it doesn't matter whether or not the catcher has the ball and the runner should be called safe (PlayPic BJ. If, h.owever,theumpire is certain the tag was made first bu1 the ball cannot be seen, he shoulld point to the catch,er and say, "Show me the oall!" {PlayPic C), If the catcMr has possession of the tiall,sell theout withan en1thusiastic pump of the armanda loud out call.If,as thedirt clears orthe catcher shows ttle umpire anempty mitt,a corifident and demonstrativi; safe call as in PlayPic B is appropriate.
-
-If theball is onthe ground,.many umpires indicale that by pointing and saying,"Hedoesn't have it! Safe!"
-
-Do nol ask the fielder to see th,eballlif you'rnalready surelhe runner is safe.That conveys lack of confidence in your decision.You,should only ask to see the oall iif the tag was properly applied but you cannot see it in thefiet(ler's gloe.
-
-On a play at the plate, lhe umpire not only has tu see tag applied (PlayPic A), but must also ensure th& catcller holds on to the ball. When theumpiresees the ball on the grmund,he cancall the runner safe{PlayPic B) andshould thenindicatetheball is on theground(PlayPic C).
-
-SECTION 4 WORKING THE BASES -,..
-
-3
-3
-A lormer college umpire and high school baseball coach was askecl a question about umpiring, now that he was a coach.
-
-"On your gametoday, you wiill have one umpire who is very good and the other whois below average. You get to pick who woMks the plateanr.l who works thebases.Where do you put the umpires?"
-
-He responded without hesitation,and i1you think he put thebetter umpirebehind the plate, you would be totally wrong.
-
-"I want the weaker umpirebehlind the plate,because he will miss pitches,but probably not that many more in critical times than the veteran," hesaid. "On theother hand,I only get 21 or 27 outs cin offense, and if he misses one on the bases, then it becomes a tiig deal,"
-
-That anecdote illustrates the importance of working th,e lases.While you won't have as many clecisions as the plate umpire, your decision,stake on a much greater magnitucle.
-
-Therefore, it is imperativemat you put as much or even more effort into workingthe bases as you do the plate. Working the bases consists of starting in tne right position, knowing where to go when theball isput intoplay,knowing what plays you are responsibl:efor ancl calling theout-of-the-orclinary plays like a fielder forcing you into foul territory or a pulled toot/swipe tag.
+He responded without hesitation. andif you think he put the better umpirebehind the plate. youwould betutally wrong.
+"I want the weaker umpirebehind the plate,because he will miss pitches, but probably not that many more incritical times than the veteran,'' he saiit "Ontheother hand,I only get 21 or 27outs on ottense, and if he misses one on·ttiebases,thenit becomes abig deal."
+ 
+---W-ORKING T-HEBASES-""-
+That anecdote illustrates the importance of working,the bases. Whileyou won't have as many decisionsasthe plate umpire, your decisions takeon a much greater magnitude.
+Therefore, it is imperative that youput as much or even more effort into working the bases as you do the plate.Working the basesconsists of starting inthe rightposition, knowing where tQgo when the ballisput into play, knowing what plays you are responsible for and calling the out-of-the-orclinary plays likea fielder forcing youinto foul territory or apulled fooVswipe tag.
 
 Basic Positioning
-The base umpirewill work from one of four basic positiorns 111the two- and three-umpire systems. Where exactly you start depends on runner configuration and that is covered in clelail in the later chapters of the book.For now, we are just clescribing the positions ancl showing them in the MechaniGrams.
+The base umpire will work from one of lour basicpositionsin the two- and three-umpire systems. Where exactly you start depends onrunner configuration and that iscovered in detail in the later chapters of the book.For now,we are just describing the positions and showing them inthe MechaniGrams.
 
-The "A" position.The "A" position is in foul teriritory,about 1O-to-15 feet behind the first baseman, but generally no closer than 10 feet behind first base.That position allows you to get into the infield to make a play and takea runner oeyond first base without inte,rfering withthe fielder.Remember,on a fly ball Intllat area or foul terrilory, Ille first baseman will be tracking theIJall,not watchingiyou. It is your responsibility to watch the fielcler and get out of his way.
+The "A" position. The ''A" position isin foulterritory,about 10-to-15 feet behincl thefirst baseman, but gener11lly nocloser than l O feetbehind firstbase,Thatpositfonallows youto getinto the infield to makeaplay andtake arunner beyond first base withoutinterfering with the fielder. Remember, on a fly ball in that area or foul territory, the firstbaseman will be tracking the ball,not watchingyou,It is your responsibility to watch the fielder and get out af his way.
+'1l
+'1l
+Depending on lherunner confi9uralion and number of umpires, each baseumpire should start each play In one of the four basic positions shown.
 
-Depending on the runner configura.timn and number of umpires, each base umpire sllould start each play rn on.e of the four basic positions shown.
+<
+<
+	
 
-The "B" and"C" positions. The"B" and "C" positions aremirror images of each other in, themiddle of the infield. TIheumpireshould stand halfway between the mound and second base.The "B" positionis on the first-llase side of themound, and the "C" position is 011 the th,ird-baseside.
+WORKING THEBASES	WORKING THE BASES	1111
 
-In three-person mechanics, there will be situations where the umpire in themicldlle of the flerc1shoulclwork in Ille "cleep B" or "deep C" positions.Instead of beinghalfway between, themollnd and second base, the umpire is at the edge of the infield grass.
+The "B"and "C" positions, The "B" and "C" positions are mirror images of each other in the middle of the infield.The umpire should stand halfway between the moundand second base.The "B" position is on the first-base side of the mound>, andthe "C" position is on the third-baseside.
+Inthree,person mechanics, there willbe situations where lhe umpire in the middle of the field shOuld work in the "deep B" or "deep C" positions. Instead of being halfway between the mound and second base, the umpire is at the edge of the infieldgrass.
+ 
 
-Ihe "D"position. The "D" position is in foul territory, about 1O-to-12 feet behind thethird baseman, but generally n.ocloser than15 feet behind third base. II is only used in the three-umpire system.The sameprinciiples of clearing the iielder apply as in the"A" position.
 
-Stances. Inall positions on the oases, umpires can work in the standing set with your feet comfortatlly apart at shoulder width. However, once thepitcher engages the pitching plate, base umpires should go to a moreready positionby going hands-on-knees set.
 
-A hands-on-knees set is where you flex at theknees and "sit down" into your stance, leaning forward slightly, bending at the waist. In a good hands-on-knees set, you shoul'1 be able tolook forward comfortably; if you bend too far, you will have to strain your neck muscleslo avoidlooking downat thegrounr:l.
+The"D"IPOSition. The "D" position is in foul territory,about 10-to-12 feetbehind the third baseman, but generally nocloser than15 feetbehind th1rd base. It is only used inthe three-umpire system. The same principles of clearing the fielder apply as in tile "A'' position.
+
+Stances. In allpositions on the bases, umpires can work in lhe standing set with your feet comfortably apart at shoulder width.However, once the pitcher engages the pitching plate, base umpires should go toa more ready position by going hands-on-kneesset.
+
+A hands-on-knees setis where you flex at the knees and ''sit down" into your stance, leaning forward slightly, bending at the waist. In a good hands-on-kneesset, you should be able to look forward comfortably; if you bend too far, you willhave to strain your neck muscles toavoid looking down at theground.
 
 Play Responsibility
-Theback section of this book will ta.ke you throughthespecific responsibilities that each umpireis responsible for once theball isbattedintoIplay.But themethod for handling some playsis consistent lliroughout a gameand are tlest clescribed here.
+The back section of thisbook will tal<.e you through thespecific responsibirilies that each umpireisresponsiblefor once the ball is batted into play, But the method for handling some-plays is consistent throughout a game and are best described here.
 
-Balks.With a runner on!Jase,the base umpire must be aware of the pitcher trying to gain an illeg1al advantage.That is whyit is importan,t for the l:lase umpire tobe in the hands-on-knees set when the pitcher engages the pitching plate.All attentionshould be onthe pitcher.
+Balks. With a runner on base. the base umpire must be aware of the pitcher trying to gain anillegal advantage. That iswhy ii is important forthe base umpireto be inthe hands-on,knees set when the pitcher engages the pitching plate. All attention should beon the pitcher.
 
-Hands-on,-kneesset profileview
 
-Standing set profile view
 
-Hands-on-kneess&t front view
 
-Standln!I set front view
 
-Althoughthe plateand baseumpire share responsibility on tml, the baseumpireshould concentrateon the pitcher coming to a complete stop and r,ight-handedpitchersbreaking theiriront l!Jneesbefore the jump turn. While it's common for peopleto think the l:laseumpire should call the lett-handed pitcher's step to first, that call belongs to the plate umpire
+Hands-o-n-kneessetprofile view
 
-Whenabalk iscalled theproper mechanic Is to call timeand thenpoint at·tile pitcher aM say, "That's a balk."
-Onc,ea balk is called, it is QKto explainto the coach or pitcher what he did if he asks,but do not '1emonstrate.
 
-Steal of second. An umpire in the"B" position (two umpires) or "C" position(three 1.1mpires) will haveresponsibility for thesteal of second.
 
-By startingout iinthe proper position, you can typically see the runner break for seconci out of the comer of your eye.Once heis committedro second, take on,estep backward and
-open up to the base. Keep your eyes 011 the ball at the plate tlecauseyo1.1 neecl to also judge tile half swing or tieaware where thetlall goes if the batter hitsit
+Standing setprolile view
+ 
 
-Onc•ethecatcher throws, let the tJall pass you and then turn and be square to the play at second base. You canremainIn a standing-set position, although goingto a hands-on,-knees set iis also permissible.
+Hanlls-on-knee.s set front view
 
-Just as the plate umpire does with plays at the plate, it is important lo see the fielder apply the tag and tile runner touch the base. If he runner has beaten the tag, it doesn't matter whether or not the fielcler has the ball and the runner should be called safe.
 
-If there is a tag before the runner arrives at the l:lase, make sure the fielder retains corntrol of the ball before callling the out It is OK to ask the flelder to show you the ball before making the out call. Do not ask the lielderlo see if the ball if you're alreacly sure the runner is safe.That conveys lack of confidence in your decision. You should only ask to see the baJI if the tag was properly applied but you cannot see it in the fielder's glove.
 
-If the ball is on the ground, many umpires indicate that by pointing and sayirng,"Hedoesn't lhave it! Safe!"
+Standingset front view
+ Although the plate and base umpire share responsibilityonbalks, the base umpire should concentrate onthepitcher coming toacomplete stopand right-handed pitchers breaking their front knees before the jump turn.While it's common for people tothink the base umpire should call ttie left-handed pitcher's step to first,ttiat ca.IIbelongstothe plate umpire.
 
-Steal of third.. An umpire starting in the "C" position in the two-umpire system or the "C" or "D" position in thethree-umpiresystemwill haveresl)onsibility for tt1e steal play atthinl.
+Whena balkis called the proper mechanic is tocall time and then point at the pitcher and
+say."That's abalk."
+Once abalkis called, it is OK to explain to lhe coach or pitcher what hedidif heasks,but do not demonstrate.
 
-From the "B" or "C" position, you cannot see the runner break from seco11d,so it is lml)ortanl to sneak a quick glance over your right shoulder once the pitcher has committed to pitch. You have time to glaJnce and return your focus to the J)latefor the hali-swing or to se the balI put intoplay.
+Steal of second. Anump1re in the "B" position (two umpires) or "C" position (lhree umpires) willhave responsibility for the steal of second.
 
-If the ball is not pul intoplay, the steal of thirdis different because the umpire doesn't have to worry about the throw hitting him. While that is better, it is tougher, because the umpire alsocannot get as closeto theplay.Move toward the plate lo developas good an angle as Ipossioleand then turn to get a clear look at the play.
+By starting out in theproper position, you can typically see the runner break for second out of the corner of your eye.Once he is committed io second. take-one step b11ckward and open up to the base. Keep your eyes on the ball at the plate because you need to also judge the hair swing or be aware where the ball goes if the batter hitsit.
 
-From the "D" position, theumpire needs only to take a couple of steps toward the play and get a clear look at theplay.
+Once thecatcher throws. let the ball pass you andthen turn and be square to the play at second base. You can remain Ina standing-set position,although goingtoahands-on-knees set is also permissible.
 
-Plays at first base from the'"A" position. With no runners on base, a ground ball anywhere inthe infield (and sometimes even to the right fielder) will result in a play at first lbase.Here are the keys for those plays.
+<
+<
+	
 
-Take the minimumsteps necessary to obtain,a 90-degree angle. Mariy times only one or two steps are needed. Many umpires are overrunning angles and getting too far into fair territory. That is taking th.emaway from being able to see a pulled foot or potential swipe tag.
+WORKING THEBASES	WORKING THEBASES
 
-On many throws to first base that come from within the infield, it is not necessary for the first-baseumpire to take more tha'1one or two steps into fair territory in order to have the Iproper angle.
 
-Get set. Once the first-base umpire has gotten into proper position,it is imperative that lhebe set before the play oocurs. Moving while trying to judgeaplay greatly reduces the chance of getting that play correct
 
-It is not reguired that the umpire have hishands on his knees ancl bewaiting for the play. However,he sho1dd be stopped (oody completely still) and be focused on the base ;;is the
-·throw isreleased,un1lessIit is a poor throw.
+Just as the plate umpire does with plays at the plate, it is important to see the fielder apply thetagand the runner touch the base.If the runner has beaten the tag,it doesn't matter wheth.er or not the fielder has the ball and the runner shoUld l>ecalled safe.
 
-Poor throws. When a first-base umpire moves in from the foul line and sets up for theplay, he should have his head on the ball and his body squared LIil to the potential play at first base. Once the fielder releases the ball, the umpire needs todetermine whether a quality throw isbeing made to first base.
+If there isa tagbefore the runner arrives at the base,make sure the fielder retains control of the ball before callin.9 the out. It is OK to ask the fielder to show you the ball before making the outcall.Do not ask the fielder tosee if the ballif you're already sure the runner is safe.That conveys Jack of confidence in your dedsion.You shoo.Idonly ask to see the ball if the tag was properly applied but you cannot see ii in the fielders glove.
 
-A quality throw is one thal the fielder receiving tile ball willl stretch directl,y towards the thrower to receive the oall.A ball that is not a quality throw will take the first baseman off the bag and requirethe umpire to adjust. Too often, umpires aJregetting set withtheir 90-degree angleand then not acljusting whenthereis a bad throw.
+If the ballis onthe ground, many umpires indicate that bypointing and saying, "Hedoesn't have ttl Safe!"
+Steal of third. Anumpire starting in the "C" position in the two-umpire system or the "C" or
+''0" position in the three-umpire system willhave responsibility for the steal play at thint
+From the "B'' or "·c·•position. you cannot.see the runner break from second, so it is important tosneak a quick glance over your right sl1oulder once the pitcher hascommitteel to pitch. Youhave time to glance andreturn your focus to the plate for the half-swing or to see the ball putinto play.
 
-Incases of a poor throw,a "read" step i;s needed. That step is necessary when !he throw takes the fielder's mitt toward the foul lineand enalJles the umpire to see the first basemari'sfoot in relationshipto the bag and to observe a potential swipe tag. Many umpires get set for the initial throw,.but do not react to a poor throw.
+If the ball is not put intoplay, the steal of thirdis different because the umpiredoesn't have to worry about the throw hitting him.While that is better, it istougher,because the umpire also cannot get asclose to the play.Move toward the plate to develop as good an angle as possible andthen turnto get a clear look at the play.
 
-Plays involving 'pressure'. Umpires should be taking as many plays at first oase in lair territoryas possiole. When the first IJaseman fields a ground ball and throws to the pitcher covering the bag, the umpire should still strive to remain in fair tenritory.Getting one or two steps in fair territory will enable the umpire tosee !he fielder stepon the bag aml to allow the batter-runner to run straight through the base without colliding withthe umpire.
+From the "D'' position. the umpire needs only to take acouple of steps toward the play and get a clear look at the play.
+Plays at firstbase from the "A" position. Withno runners onbase, a ground ball anywhere inthe infield (andsome'limes even tothe right fielder) will result inaplay at firs1 oase.Hereare the keys for those plays.
 
-Pitchersare taught to touch the iinslde half of he bag, and an umpire in foul territory might not be able to see ifthe pitcher hits the insidecorner or misses it entirely as he is making that play.
+Take the minimum steps necessary toobtain a 90-degree angle.Many times only one or two steps are needed.Many umpires are overrunning angles and getting too farinto fair territory. Thatis taking them away from being able ID see apulled foot or potential swipe tag.
+Onmany throws to first base that come from within the infield, it is notnecessary forthe first-base umpire totake more thanoneor two steps into fair territory inorder to have the proper angle.
 
-There are limes when an umpire may need to go into foul territoryto take a play at first base.A coupleof instances are when a second baseman fields the ball going hard lo his left or a first baseman fieldingthe ball deeply oehind first base.In both of these instances an umpirewould have to go into foul territory to see the throw while staying out of the throwing !ane as to not get hit oy a thrown ball.
+Get 6111. Once the first-base umpire has gotten into proper position-,it is imperative that he be set before the play occurs.Moving while trying to judgea play greatly reduces the chance of getting that play correct.
+ It isnot required that the umpire have hishands onhis knees andbe waiting for the play. However, he should be stopped (body completely s1ill) andbe focused on !he base as the throw isreleased,unless it isa poor throw.
 
-When an umpire does need to go into foul territory,just taking one or two steps.into foul territoryis all that isneeded.From that position. the umpire will still be out of the way of the batter-runner running through the oase am! will also have a look at the fielder's foot touching the inside of the base. Going too far into foullterritory will take away the look at the inside edge of the bag and the umpire will not be able to tell whether the base was touched or not. Additionally, being too far foul will force the base umpire to look through the
-batter-runner's legs, makiing it difflcu[t to tell when the bag was·touched or when the fielder received the ball.
+Poor throws. Wilen a first-baseumpire moves infrom the foul line and sets up for the play, he should have his head on the ball and his body squared up tothe potential play at first base. Once the fielder releases the ball, the umpire needs todetermine whether a quality throw is being matte to first base.
 
-When the first baseman comes off the bag, he will usually attempt to tag the runner out IPlayPic
-E). Whenhe Is successful, the base umpire needs to pollll that he saw the tag (PlayPlc F) and
-then call lhe runner oul (PlayPic G).
+A quality throw is one thatthe fielder receiving the ball will stretch directly towards the thrower to receive the ball. Aba.11 that is not aquality throw will take the firstbaseman off the bag and require the umpire to adjust. Too often,umpires are getting set with their 90-degree angle and then not adjusting when there isa bad throw,
+In cases of apoor throw, a"read" step is needed. That step isnecessary when the throw lakes the fielder's mitt toward the foul line and enables the umpire-to see the first baseman's foot inrelationship tothe bag andto observe apotential swipe tag.Many
+umpires get set for the initial throw,but do not react to apoor throw.
+Plays involving 'pressure'. Ump1rcs should be taking asmany plays at first base in fair territory aspossible.When the firstbaseman fields a ground ball and throws tothe pitcher covering the bag,the umpire should still strive to remaininfair territory. Getting one or two
+steps inlair territory will enable the umpire losee the fielder step on the bag anelloallow the baner-runner to run straight through the base withoutcolliding withthe.umpire.
+Pitchers are taught totouch the inside half of the bag, and anumpire in foul territory might notbe able to see if the pitcher hits the inside corner or misses it entirely as he ismaking that play.
 
-A swipe tag. Many times,the defensegets an out evenwhen a throw pulls thefirst basemanoff thebag. A good first basemanwill tag tl1e batter-runner rather thanattempt to step onthebag.
-In PlayPicIE,the throw hastakenthefirst baseman just to the plate-side of first base and has tagged thebatter-rnnner.If the umpiresimply delllares tl1e runner out, an argument may ensuebecausethe fielder did not touchthe base withhisfoot.llheumpirecan prevent an argument and lend credibility to his call by pointinglo theplay (PlayPic Fonpg. 30) and verbalizing,"On the tag," f,ollowedby Ille out signal andverbal declaration{Pla11PicG on,pg 30).
+There are times when anumpire may need to go into foul territory lolake aplay at first base. Acouple of instances are when a second baseman fields the ball going hard to his lelt or afirstbaseman fielding the ball deeply behind first base.Inboth of these instances anumpire wouldhave to go into foul territory to see the throw while staying out of the throwing lane as lonot gelhit by a thrown ball.
 
-When the first baseman comes off the bag, he will usually attempt to tag the runner out IPlayPic
-E). Whenhe Is successful, the base umpire needs to pollll that he saw the tag (PlayPlc F) and
-then call lhe runner oul (PlayPic G).
+When an umpire does needto go into foul territory, just·takingone or two steps into foul territory Is all thatis needed. From thatposition, the umpire will still be out of the way of the batter-runner running through the base and will also have alook at the fielder's fool touching the inside of the base. Going too far into foul territory will take away the look at the inside edge of the bag and the umpire willnot be a.tile to tell whether the base was touched or not.Additionally,being too far foul willforce the base umpire to look through the batter-runner'slegs, making it difficult to tell when the bag was touched or when the fielder receivedthe ball.
 
-A swipe tag. Many times,the defensegets an out evenwhen a throw pulls thefirst basemanoff thebag. A good first basemanwill tag tl1e batter-runner rather thanattempt to step onthebag.
-In PlayPicIE,the throw hastakenthefirst baseman just to the plate-side of first base and has tagged thebatter-rnnner.If the umpiresimply delllares tl1e runner out, an argument may ensuebecausethe fielder did not touchthe base withhisfoot.llheumpirecan prevent an argument and lend credibility to his call by pointinglo theplay (PlayPic Fonpg. 30) and verbalizing,"On the tag," f,ollowedby Ille out signal andverbal declaration{Pla11PicG on,pg 30).
+<
+<
+	
 
-A pulled foot. When a higm throw beats a runner to a basebut forces the fielder off the base, umpires can indicate why the runner is safe by adding a signal to the safe signal.In the illustrationon the previous page, the first baseman had to leapfor the throw (PlayPic A on pg. 29) and therunner reacmed the bag safely beforethe first basemantouchedthe bag (PlayPic B on pg. 29).The umpire calls the runner safe {PlayPic Conpg. 29) and then a signal- a sweepof the arms (PlayPic Don pg1. 29)- to confirm that the runner is safe becauselhe fielder was off 111€ base.
+WORKING THEBASES
+When the first baseman comes olf Illebag,he will usually attempt to tag therunner out (PlayPic E).Whenheis successful, the baseumpire needs to point !hat hesaw!he tag (Playl'ic F)and then callthe runner out(PlayPic G).
 
--
+A swipe tag.Many times, the defense gets an out even when a throw pulls the first baseman off the bag. A good first baseman will tag the batter-runner rather than attempt to step on the bag.
+
+In PlayPic E, the throw has taken the first baseman just to tile plate-side of first base and has tagged t11e batter-runner.II tile umpiresimply declares the runner out. an argument may ensue because the fielder didnot touch the base with his foot.l'he umpire can prevent
+an argument and lencl credibility to hiscallby pointing.to the play (PlayPic Fonpg. 30) and vetbaJizing,·•onthe tag,·followed by the out sighal and verbal declaration (PlayPre Goil pg
+30).
+WORKING THEBASES
+When the first baseman comes olf Illebag,he will usually attempt to tag therunner out (PlayPic E).Whenheis successful, the baseumpire needs to point !hat hesaw!he tag (Playl'ic F)and then callthe runner out(PlayPic G).
+
+A swipe tag.Many times, the defense gets an out even when a throw pulls the first baseman off the bag. A good first baseman will tag the batter-runner rather than attempt to step on the bag.
+
+In PlayPic E, the throw has taken the first baseman just to tile plate-side of first base and has tagged t11e batter-runner.II tile umpiresimply declares the runner out. an argument may ensue because the fielder didnot touch the base with his foot.l'he umpire can prevent
+an argument and lencl credibility to hiscallby pointing.to the play (PlayPic Fonpg. 30) and vetbaJizing,·•onthe tag,·followed by the out sighal and verbal declaration (PlayPre Goil pg
+30).
+<
+<
+
+A pulled foot When a higti throw bea.ts a runner to a base but forces the fielder off the base, umpires can indicatewhy the runner issafe by adding asignal to the safe signal.In the illustration on the previous page, the first baseman had to leap for the throw (PlayPic A onpg. 29) and the runner reached the bag safely before the first baseman touched the bag (PlayPic Bon pg. 29).The umpire calls the runner safe (PlayPic Con pg. 29) and then
+a signal - a sweep of the arms (PlayPic D on pg. 29)- toconfirm that the runner is safe because the fielcler wasoff the base.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 •
--
+
+
 •
-Wilen the first basel!flan tiad to leap for the ttirow (PlayPic A), the runner was able to reach the bag before th& first banman louchecl the bag (PlayPlc B). The umpire calls the runner safe (PlayPic CJ and then signal with a sweep of tile arms (PlayPic D) to confirm the fielder was off the base.
+When the firstbaseman had to leap for lhe throw (PlayPic A), lherunner was able to reachihe bagbefore the firstbaseman touch&.d thebag (PlayPic B).The umpire callstherunner safe (PlayPic C}and thensignal witb a sweep of Oleanns {PlayPic D) toconfirm the fielder wasoH thebase.
 
-WORKINGTHEBASES 
-'Selling1' the Call
-A routine out deserves a routinecall. But many plays onthebases are a lot closer than a routineplay.In thoseInstances, base umpires can use their voiceand Mdy language to lend credibility to closecalls. llhetechnique is called "selliing" thecall.
-Below, the runner and the ball have arrived at first base at nearly the same time(PlayPic H on pg. 31). Becauseit'san,extremely close play, the umpire must displayconfidence in his docisionwith a decisivecall.
 
-The closer theplay, the more an umpire has to "sell"' the call. Whe11 theb•all and runner arrive at fir.;t almost simultaneously (Playllic H),the umpire lhas to judge thepay,If he judges the runner was sale, he can stll the call by stepping toward the play and aggressively signaling (PlayPic I).
-WORKINGTHEBASES 
-'Selling1' the Call
-A routine out deserves a routinecall. But many plays onthebases are a lot closer than a routineplay.In thoseInstances, base umpires can use their voiceand Mdy language to lend credibility to closecalls. llhetechnique is called "selliing" thecall.
-Below, the runner and the ball have arrived at first base at nearly the same time(PlayPic H on pg. 31). Becauseit'san,extremely close play, the umpire must displayconfidence in his docisionwith a decisivecall.
+...
+...
+WORKING 11iEBASES
 
-The closer theplay, the more an umpire has to "sell"' the call. Whe11 theb•all and runner arrive at fir.;t almost simultaneously (Playllic H),the umpire lhas to judge thepay,If he judges the runner was sale, he can stll the call by stepping toward the play and aggressively signaling (PlayPic I).
+'Selling' the can
+Aroutine out deserves a routinecall.But many plays on the tiases are alot closer than a routine play.In those instances, base umpires can use their voiceand body,languageto lend credibility to closecalls.The tecl1nique fs called "selling" thecall.
+Below, the runner and the ball have arrived at first base atnearly the same time (PlayPic H on pg. 31).Because it's an extremely close play, the umpire must display confidence Inhis decision witha decisive call.
+<
+--©-
+...
+The closer theplay,the more anumpire has to"sell" the call. When theballandrunner arrive at first almostsimul!i!neousfy(Playl'ic HJ,the umpire h.as to judge the play.If he judgesthe runner was safe,he can sellthecall by stepping toward theplay andaggressively signaling (PlayPic I).
+WORKING 11iEBASES
 
-II it is a doseplay tllat the umpire judges to be an om,the wmpire should use an overhand motlon by preparing to throw a p1111ch (PlayPlc J) and followlng through by slepping toward the bagand shouting,"Out!" (PlayPiKJ,
+'Selling' the can
+Aroutine out deserves a routinecall.But many plays on the tiases are alot closer than a routine play.In those instances, base umpires can use their voiceand body,languageto lend credibility to closecalls.The tecl1nique fs called "selling" thecall.
+Below, the runner and the ball have arrived at first base atnearly the same time (PlayPic H on pg. 31).Because it's an extremely close play, the umpire must display confidence Inhis decision witha decisive call.
+<
+--©-
+...
+The closer theplay,the more anumpire has to"sell" the call. When theballandrunner arrive at first almostsimul!i!neousfy(Playl'ic HJ,the umpire h.as to judge the play.If he judgesthe runner was safe,he can sellthecall by stepping toward theplay andaggressively signaling (PlayPic I).
 
-If tile runner is judgeclsafe (PlayPic I on,pg. 31), th.e umpiresleps toward tile base, thrusts out his arms andsays,"Safe!" in a loud, confident voice.An out call on a very close Iplay is equally demonstrative, and is a two-step process. Again, step toward the tJase, brililg the arm backas if preparing to throw a punch (PlayPic J) andfollow tllrough while shoutiing, "Out!" as shown in PlayPlcK.
+If it is a closeplay Dlattlle umpire jud9es to beanout, theumpire shoulduse anoverhand m.otionbypreparing to throw a punch(Playl'ic J) and followingthroughby steppingtowardihe bagand shouting, "Out!" (PlayPic K),
 
-Remernoer tllat thesell technique shold be saved for close plays,Using it a!I of the timeis liike shouting all of the time; after a while, people can't tell when you're really shouting and when you're spealingin youir normal tone.
+IF the runner is judged safe (PlayPic I on pg. 31), theumpire steps toward the base, t11rusts outhis arms and says.''Safe!" ina loucl, confident voice. An out call on a very close play is equally demonS1rative,and is atwo-step process,Again, step toward the base, bringthe arm backas if preparing to throw a punch (PlayPic J) and follow through while shouting, "Out!" as shown in PlayPic K.
 
-WORKIN:GTHE BASES
-WORKIN:GTHE BASES
+Remember !hat the sell technique should be saved for close plays. Using it all of the time is like shouting all of the time; after a while, people can't tell when you're really shouting and when you're speaking in your normal tone.
+
+
+WORKING THEBASES	WORKING THEBASES
+
 
 Philosophy of Positioning
-At any moment during a game,each base umpire assumes theposition on the fie!IJ that wlll give himor her theIJest opportunity to rule correctly on the next play; as each play develops, each umpire acljuists his or her position1to observe theongoing action.
+Atany moment (luringa game,each base umpire assumes the position on the field that will give him orher the best opportunity to rule correctly on the nextplay; as each play develops, each umpire adjusts his orher position to observe theongoing action.
 
-Two-umpire mechanics is a systemof angles, distances, shared responsibilities and anticlpa!iorn; the most important Isanticipation. When you can reasornably predict what Is most likely to happen next, youcan establish your angle,cut the distanceand meet your responsibilities; you can alsomov,eto the proper position before theplay begins and adjust as it develops.
+Two-umpiremechanics isa system of angles, distances,shared responsibilities and anticipation; the most important is anticipation. When you can reasonably predict what is most likely to happen next, you can establish your angle,cut the distance andmeet your responsibilities; you can also move to the proper position before the play begins and adjust asItdevelops.
 
-Of course, you coulclwind up in the proper position merely by following the action, the ball, or both. Youcould get to the right spot purely by acC!ident, just becauseyou have to be someplace. Andinmostsituations you'd be luckyenough to see the play no matter where you areon the field- most plays don't really needanumpire. But when there is a decision to be made, it will be more accurate and will l:Je accepted more readily if you are in a position toreally see what happens.
+Of course,you could wind up in the proper position merely by following the action. the ball. orboth.Youcouldget to the right spot purely by accident, just because youhave to be someplace. And inmost situations you'd be lucKy enough to see the play no matter where you are on the treld- most plays don't really need an umpire. But when there isa decision to be made,it willbe more accurate and will be accepted more readily if you are ina position toreally see whathappens.
+If you've umpired for any amount of time,you've been told to"get in position" to make thecall. That'sgood advice, even whenit comes from angry players,coaches and fans who have no idea whatthatposi1ion is.It'sthe sameadvice1his book offers, except here you'll get useful suggestions and the reasoning behind them.The suggestions will foe-us on helping you gelinto position in·ume to wail tor the play to develop, because anumpire whocan standstill and watch the action hasabetter opportunity to rule accurately on that action.
+While"get in position" is good advice, it isincomplete. As you strive to be in the proper positionto see aplay, youmust concen1rate on seeing the entire play.Never 1.ookaway from one play,hurrying to movetothe next action,before you arecertain the first play isover.
+Remember the sage advice ottered by virtuallyevery umpire training stall: •11ain't nothin'
+untilI callit!"
 
-If you've umpired for any amount of ti111e, you've oeen told to "get in position" tomake thecall. That's good advice, even when it comes fromangry players,coaches and fans whohave no idea what that positionis. It's the same advice this book offers,except here you'll get useful suggestions and thereasoni11gllehind them. Thesuggestions will focus onhefping you get intoposition in time to wait for theplay to dev,elop, because an umpire
-whocan stand still and watchthe action has a better opportunity toruleaccurately on that action.
+Along with judgment, rulesknowledge, concentration and courage,positioningis an important umpiring asset.When you are inaplace on the field that offers an advantageous view of theaction,your decision willbe moreconfident. more orten correct andmore readilyaccepted by players, coaches and spectators.
+1rsImportant to understand the advantages of each position andits associated movement. When youunderstand why one position isbetter than another, you'll!ind yourself in great position throughout each game.
+ Proper Positioning
+"Angle is primary; distance issecondary; closer isbetrer,up toapoint.•
+While nosentence can summarize everything youneed to know about positioning,that one comes close.When youunderstand how an.9le.distance andproximitywork togethe.r. you understand how your on-field position affects your opportunity to rule correctly on a given play.Let's consider each element.
 
-While "get in position" is goocl advice,it is incomplete. As youstriveto be in theproper position to see a play, you must concentrateonseeing the entire play.!Never look away from oneplay,hurryingto moveto thenext action, tlefore you am certainthe first play is over.
-Remember lh,esage acMce offered by virtually every umpire training staff: "IIain't nothin' until I call it!"
+Angle. Your tine of sight must provide youwith an opportunity to view anunportant, instanlaneous activity (on a tag play) or combination of two activities (ona force play).To get the rightlineof sight, you have toestablish thecorrect angle.
 
-Along with judgment, rulesknowleclge, concentrationandcourage,positioning is an Important umpiringasset. When you are Ina place on the field that offers an a'1vantageous view of theaction, your decision will be more confident, more often correct andmore readily accepted by players, coaches and spectators.
+For decades, veteran umpires have preached to rookie umpires: Get the 90-degree angle. That's awonderful starting poihl, tf youunderstand what 90-degrees youare trying toget.
+For example, on atag play you woulcllil<e to be looking at thespace between the fielder's hand or glove (holding the balli and the runner's body.Assume for amoment that the fielder has thelball andis waiting withhis glove extended to tag the runner.tv;,the runner slides, his movement esta1>1isl1es his line of action.Your standard '"90-degreeangle" would place your lineof sight perpendicular tothe runner'sslide- a good starting point.You may nave toadjus:t your angle toseeover,under or around the fielder's body or the runner's body.
+Distance. In theory,once you establish the proper angle, youhave areasonable opportunity to accurately view theaction,regardless of the distance between your position and the play. The theory holds as long asyou do not have to adjust your angle.
+In reafity, thefinalmoments of virtually every play require some amount of adjustment. The greater your distance from the pJay, the moredifficult it will be to make that adjustment, but if you have not first established the proper angle your ability to adjust is inconsequential.
+Proximity,How close you want to be to adeveloping play depends on several variables, lncluding the type ofplay. your mobility,your peripheral vision.Beg]nby movlng to a position eight to 10 feet from a tagplay; 15 to 18 feet from aforce play.As you gain experience, adjust those distances to fit your own ability.
 
-It's important tounderstand theadvantages of each positionand itsassociated movement. When you understand why one position isbetter than another, you'll find yourself in greal position throughoul each game.
+<
+<
 
-Proper Positioning
-"Angleis primary; distanceis secondary; closer isbetter, up to a point."
 
-Whileno sentence can summarize everything you need to know about positioning, that one comes close. Whenyou understand how arJgle,diSilanoeand proximity work together, you understand how your on-field position affects your opportuITTity torulecorrectly on a given play. Let's consider each element.
 
-Angle.Your line of sight must provideyou with an opportunity to view an important, instantaneous activity (on a tag pI1ay)or comtlination of two activities (ona forceplay).To get the righl lin.eof sight, youhaveto estal:llishthecorrect angle.
 
-For decades, veteran umpires have preached to rookie umpiires:Get the 90-degreeangle. That's a wonderful starting point, if you understand wllat 90-degrees youare trying to get.
 
-For example, O!'l a tagiplay you would like to belooking at thespace between thefielder's hand or glove (holding theball) and the runner's body. Assume for a moment that thefielder has theball and is waitin,gwith his glove exte11ded to tag therunner.As theru11ner slides, his movement establishes his lineof action.¥our standard "90-degreeangle" would place your lineof sight perpendicular to the runner's slide - a good slarting point You may have to adjust your angleto see over,under or around the fielder's body or therunner's body.
+	
 
-Distance. In theory, once you establish theproper angle, you have a reasonableopportunity to accurately view theaction, regardlessof thedistance l:Jetween your positionand the play. Thetheoryholds as long as yciu dci ncit have tciadjust your angle.
+	I 		WORKING ASATEAM	
 
-In reality, thefinal moments of virtually eve,ry play requiresome amount of adjustment. The greater your distance from the play, the more difficult it will be to make that acljustment,but if youhavenot first established the proper angle your ability toadjust is inconsequential.
+Part@
+ 
+Before the FirstPitch
+A plate umpire willjudge more than 150 pitches during agame and abase umpire will probably have more thana handful of close plays in the field, either fair/foul or catch/no catch calls.
 
-Proximity.How close you want to be to a developingiplay depends on several variables, includingthetypeof play, your mobility, your peripheral vision. Begin by moving to a position eight to 1O feet from a tag play;15to t 8 feet froma forceplay. As youg1ain experience, adjust those distaimes to fit your own,ability.
-
-)
-)
-
-Beforethe First Pitch
-
-SECTION 5 WORKING AS A TEAM -...
-
-Partlll
 Working
 as a Team
-Whether it is two or three umpires working a game, you are a team on the field,and it is imperativethat you work together to cover aJI of theplays that come up in a game.
+Whe1her it is twoor111Jee umpires working a game, you are a team on thefield,and it is imperative that you worx together tocover all of the plays that come up ina game.
+Nothing looks worse when there isarunner sliding into third with adramatic tag being madeandno umpire is around1o make thecall.Bycommunicating before and during the game, those problems canbe avoided.
+Specific rotations and initial play assignments make up the heart of this book,but the general communication tools listed here will get you started.
+ But neither umpire has areasonable chance of being successful during the game if the crewhasn't taken care of business before the ball is made live and the firstpitch isthrown.
 
-Nolhing looks worse when thereis a runner sliding into third witha drnmatic tag being madeand no umpire is around to make the call. By communicating IJefore and during the game, those problems can be avoided.
+Here are things that every umpire needs totake care of inadvance of every game.
+Assignment calendar.When an assigner opens up the calendar for the season,it is imperativethat umpires block out dates they are not available.Wedding anniversaries ancl birthdays are tile same every year; so if you know you aren't going tobe avaitableon those days,block them out immediately.
 
-Specific rotations and initial play assignments make up the heart of thisbook,but the general communication tools liisted here will get you started.
+Once your calendar is ready, accept theassignment as soon aslts harn:ted out.Barring unforeseen issues withwork or family,you shoul.dbeabletoaccept any assignment that comes your wayif youhave kept your calendar up to dale.
 
-A plate umpiire will judge morethan 150pitches during a game anda base umpire will probably have morethana handful of close plays in theield, either fair/fou1I or catch/no catchcalls.
+A game should never get turned back unless you have permission from your assigner to take another game or one of those rare worx/family issues occurs.
+Confinn wi1Jlhome team,partner. About a week before the game,the umpires should communicate and.confirm ttie siteand time of theassignment. If !here isa designated crew chief, the crew chief needs to be the one to reach out tothe crew.
+The crew chief should al5(1make contact with the host schoolto confirm the game details as well.Itdoesn't took good for1he crew to have a game onit's schedule for 7p.m.and ttie athletic director and teams have it as a 4p.m. game on !heir schedules.
+Part of confirming with the home team isbeing aware of potential weather issues.Teams are likely to switch the date, timeand even locationof a game if weather is going to ltueaten,thegame·s original starting lime.And coaches will often communicate with each other ancl assume that umpires willbe available at their beck and call.By communicating withthe coach inadvance, youbecome apart of the equation.
 
-But neither 1.1mpirehas a reasonablechance of lleing successflll d1.1ring th,egameif the crew hasn't takencare of business oefore the balll is made live and the fiirst pitch is thrown.
+Pack your bag. You should lake all of your equipment anduniforms to every game.Just because you are assigned the bases doesn't give you an excuse tonothave things when the original plate umpire doesn't show up or thought he was working the bases anddicln't bringanything either.
 
-Here are things that every umpire neetlsto take care of in advance of every game.
+Before going into the bag,makesure everything you are going totake is.ingood conditiol). Panis should be wrinkle-free and clean,which means getting them inthe wash or to the dry cleaners more than once per season.
 
-Assignment calendar. Whenanassigner opens up the calendar lor theseason,it is imperativethat umpires tllock out dates they are not availatlle. Wedding anniversaries and birthdays are hesameevery year; so if youknow y,ouaren't going to be available on those days, block themout immediately.
+<
+<
 
-Onoe your calendar is ready, accept theassignment as soon as its handed out. Barring 1.1nforeseenissues with work or family, you should tie able to accept an,y assignment that comes your way if youhave kept your calendar up to date.
 
-A game shoul(l never get tumed llack unless you have permission from your assigner to take anC1ther g.arneor one of those rare work/family iss1.1es occl!rs.
-Conftirmwithhome team,pa1rt11er.About a week oefore 'the game, theumpires should communicatearnr.l confirm!tie siteand time of theassignment.If there isa designated crew chief,the crew chief needs to be the one to reachout to thecrew.
+	
 
-The crew chief should also make contact with the host school to confirm thegamedetails
-as well.It doesn't look good for the crew to have a game on it's schedulefor 7 p.m. and the athleti:c director and teams have it as a 4 p.m.game on their schedules.
+WORKING ASATEAM	WORKING ASATEAM
 
-Part:of confirmingwith the home team is being awareof potential weather issues.Teams are likely to switch the date, timeand even location of a game if weather isgoing to threaten the game's original starting time. AM coaches will oftencommunicate with each other an(!assumethal umpires wlll be aailableat lhelrbeck andcall. By communicating withthecoach inadvance, you become a part of the equation.
 
-Pack your bag. Youshould take all of your equipment anduniforms to every game.Just because youam assignee!the llases doesn't give you an excuse to not havelhings when the original p[ate ump:ire doesn't show up or thought he was workingthe bases and didn't bring anyth1ing either.
+Don't forget that ballbags andshoes also need attention.It doesn't matter how clean the rest al your clothes look, if youcome out with unpolished shoesand dirty bags,you
+won't lookimpressive. It'sa good idea to throw the ballbags intu the wash several times a
+season.
 
-Beforegoinginlo the bag, makesure ev,erytlling you are goingi to take is in good condition. Pants should tie wrinkle-freeand clean, which means getting themin the wash or to !tie dry cleanersmore than once per season.
+Getting!here. If you've been to afield or stadium betore, then youlikely know where to park and where your locker room is(ii you are fortunate to have one). If not,then that's something that hopefully you confirmed witll the home team in your phone call.
 
-Don't forget that oall bags and shoes also need atten,tion. It doesn!t matter how clean therest of your clothes look, if youcome out withunpolished shoes and dirtybags, you
-won't look impressive.It'sa good ideato throw the ball bags intothe wash several times a season.
-Gettingthere.If you've been to a fieldor stadiium before, then you likely know where to pat1 and where your locker room is (if you are fortunate to have one).If not, thenthat's somethirng thal hopefully you confirmed with thehometeamin your phone call.
+Make certiin youleave yourself plenty ofUme. A game getsol'f ID abad st.art if you are rushed because you got caught in typical rush-hour traHic. Sometimes,youhave to leave before the rush hour hits in order toget there ontime.
+In the locker room. The locker room, if you get one, should be the place where younot only get physically ready, but also mentally ready.
 
-Make certain you leave yourself plenty of time.A game gets off to a l:iacl start if you are rushecibecau1seyou got caught in typical msh-hour traffic. Sometimes, you have to leave beforethe rushhour hits in order to get there on time.
+The physical is what everyone thinks of-getting dressed,rubbing up game balls and leaving at the rigttltime tobe on the field when required.
 
-In the locker room. The locker room, if you get one, should tJe tile place w'here you not onlyget physically ready, l:UI also mentally ready.
+The mental side is often overlooked. First, tile game deserves your full attention, so when theentire crew hasarrived, the cellphones should be tume(j ol'f and put away,There are obviousexceptions, such as family situations. but gabbing with the umpiresat another game site is not necessary.
 
-The physical iswhat everyone thinks of - getting dressed, rubbing up game balls and leaving at tM rigllt time to Ile on the field when required.
+When you start your pregame discussion.make sure it fits the crew thatyou are with for that game.Three veteran umpires who have worked together before probably don't need a complete discussion of all rotations. However, if it's one veteran and one new person on a varsity game, going through the whole pregame not only ensures coverage, but it willlikely put the newer umpireal ease.The newer umpire willhear thingshe's heard before, and will grow more comfortable.
 
-The mental sideis oftenoverlooked. Rrst, thegamedeserves your full attention, so when theentire crew has arrived, the cell phones should beturned off and put away There are obvious exceptions,suchas family situations, but gabbing with the umpiresat another gamesite is not necessary.
+The list onPage 42 gives you acomplete rundown of the topics that should be covered during apregame discussion.
 
-When you start your preg'amediscussion,make sure ii fits the crew that you are withfor that game.Three veteran umpires whohave wonked together beforeprobabliy don't need a comprete discussion of all rotations.However,if it's oneveteran and one new person on a varaity game, going through the wholepregamenot only ensures coverage, but it will likely pm tile newer umpireat ease. The newer ump:irewill hear things tie's heard tiefore,and will grow morecomfortable.
+No locker room. At alot of highschool fields,there isno locker room.Instead you are forced to(jress andhold your pregame discussion by your cars.
+In those cases, it isstrongly recommendecl that you park as far away from the fansand teams as possible. Also, you should come to the game with your undergarments already on. There isnothing good Iha.I can come from getting naked in the parking lot of ahigh school,
+You will sometimes have to askpeople to leave you alone when you areInthe parking lot area.It is important that you treat that area asyou would your locker room.It is your area and that time before a game is whenyou are getting both physically and mentallyready for the garne.
+ Going to the field, Make certain you arrive at thefieldin timeto take careof all necessary pregame responsibilitiesbefore the plate meellng.
+Use the time when you walk ontothe fieldtogive it aninspection. Take noteof wind conditions orpotential safety hazards.
+Since the ground rules meeting willlikely take five minutes, youneed toarrive on the field
+1ominutes before thestartlime in order toget the game started on time.
+Getlo the plate meeting and allow I.he plate umpire to do most of the lalking for the crew. The only time abase umpire should be involvedis during introductions,clarifying-any ground rules that aren't clear andfilling inanything that gets omitted. The plate meeting is when all special rules for that day are decided. II a ground rule or game-endingrule isn't declared and agreed upon at that meeting,then ii can't be used that day.
 
-The list on Page 42 gives you a complete rundown of the topics that should be covered during a pregamediscussion.
+After the meeting, One last thing to know before the meeting breaks up is if theNational Anthem willbe performed or played.If so,it looks better for the umpires tobe together duringIha!time.
 
-No lockerroom.At a lot of highschool fields, there is nolocker room.Instead you are forcedto dressandholdyour pregame discussionby your cars.
+Once the pregame activities are concluded, the base umpire or umpires should hustle to the outfield. However, they should notrun totheir P(}Sitions at thesame lime the defense is laking the field.Let thedefensive players clear thearea before leaving the plate.
+The plate umpire should usethis timeto watch pitches and establish a goodrapport with the catcher.Observe if•thepilctter has anormal delivery andhow the catcher receives the ball.That alsogets the mind right for the pitthes !hat count.
 
-Inthose cases,ii is strongly recommendecithat you park as far away from the fans and teams as possible.Also, you should cometo the game withyour undergarments already on. There is nothing good that can come fromgelling naked in the parking lot of a high school.
+Another thing to watch for istosee if the pitcher is throwing from the set position, and if he is, ensure he is coming ID acomplete anddiscernable slDp. If he's not,now's the time ID tell the catcher, ''Make sure if he getsa runner onbase thathe stops."
 
-You wlll sometimes have to ask people to leave you alone whenyou are in tile parking lot area.It is important that you treat that areaas you would your locker room.It is your area and that time before a game is when you are getting both physically and mentally ready for thegame.
+Asthe pitcher throws his finalwarmup pitth and the catcher throws ID second base.brush off the plate, lake adeep breath•anclput the ballin play.
+To everyone else,it may appear that the work has just begun. But you know better.
+Befort:Each Play
+Just asa coach gives signals1D his ttitter andrunnef1' beforea play,umpires have a setof signals they should use.
 
-Goingto the field. Make certain youIarrive at the field in time to take care of all necessary pregame responsibilities before theplatemeeting.
+Before each new batter, confirm the number of ouls with your partner. Also confirm if the plate umpire is going to rotate tothird base whenthe ballisput into play or s1ay alhome. Lastly, youneed to know if the infield flyisinellect.
 
-Use the timewhenyou walk on to thefield to giveit aninspection.Take noteof wine! condition,s orpotential safety hazards.
+<
+<
 
-Since th,egrounclmies meeting will likely take flVe minutes, you neecl to arrive on the field 10 minutes before thestart timeinorder to get the game started on time.
-Gel to theplate meetingarid allow the plateumpireto do most of the talkingfor the crew. Theonlylime a baseumpire shoulcibe involveciis duringintrociuctions,clarifying any ground rules that aren't clear and filling in anything that gets omitted.The plate meetirng is when all special rules for that day 1re decided. If a groundruleor game-ending rule isn't declarnd and agrned uponat that meeting, thenit can't be used that day.
+	
 
-After themeeting, One last thingto know before the meeting breaks up is if the National Anthemwill be pertormed or played.If so, it looksoetter for theumpires.to tie together during that time.
+	
+WORKING AS ATEAM
+WORKING AS ATEAM
 
-Once thepregame activities are concliucied, the base umpire or umpires should hustle to the oulfielci.However, they shouldnot run to their positions at thesame time the defense is taking thefield. Let thedefensiveplayers clear thearea before leaviing the plate.
 
-Theplateumpire should use this time to watch pitches anclestablish a goocl rapport with the catcher.Observe if the pitcher has a normal deliveryancihow thecatcher receives the balll.That allso getsthemind right for thepitches that count.
 
-Another thing to watch for is to see if thepitclher is throwing fromthe set position,and if lhe is, ensure heis coming to a completeand discernaole stop.If he's not. now's the time to tell the catcher,"MaKesure if hegels a runner on tlase that he slops."
+The plate umpire should initiate thesignals andhave them echoed back to him by the base umpire(s).By getting onthesame page before the play, you dramatically increase the chances that every play will be covered.
+During thePlay
+If umpires were-robots and nothingout of the ordinary ever happened, this step would be unnecessary. After all,you communicated before the play,so why cloyouneed lokeep talking?
 
-As the pitcher throws his final warmup pitch and tlle catcher throws to second base, brush off theplate, take a deep tlreathand put the ball inplay.
+Unfortunately,umpires are human and sometimes forget to rotare when they just said they would,or rotate when they shouldn't. And sometimes, the way a ball is hit dictates a change in the normal coverage.
 
-To everl{one else, it may appear that the work has just begun. Bui you know better.
-BeforeEachPlay
-Just as a coach gives signals tohis hitter andrunnersbefore a play,umpires have a set of signals they shouId use.
-
-Before each new batter, confirmhe nllmber of outs with your partner.Also confin,nif the plate umpireis going to rotate to third basewhen the ball is put into play or stay at home. Lastly, you need to know if the illflellclfly is In effect
-
-)
-)
-
-The plate umpire should initiatethe signals and have them echoed back tohimby the base umpire(s). By gettingon the same page before th,eplay, you dramatically increasethe chances that every play will be coverecl.
-
-During the Play
-If 1umpires were robots and nothing out of the ordinary ever h•appened,this step wouldbe unnecessary.After all, you communicated beforethe play,so w'h,y do you need to keep talking?
-
-Unfortuna!lely, umpires arehuman and sometimes torgetto rntatewhen they Just said th!ly would,or rotate when !hey shouldn't. And sometimes,lhe way a ball Is hit dictates a change irl the normal coverage.
-
-So if the plate umpireis sup,posed to rotate to third,he should still call out,"I've got third Iflhe(the rnnner) comes." That lets the llase umpireknow that h,enolonger has to be concerned about that play. The reason tor the communication is the plate umpirecould have fallen downor just forgotten to rotate.
-
+So if \heplate umpire is supposedlorotate lo third,heshould still call out,"I've got third ii he (the runner) comes." Thallets \he base umpire know that he no longer has to be concerned about that play.The reason for thecommunrcation is theplate umpirecould have fallendown or just forgotten to rotate,
+If the,oase umpire cloesn·t hear the plate umpire take tilecall, it stillbelongs tothe base umpire.The base umpire cannot release the play until he!\nows the plate umpire has it coverecl.
 Between Innings
-There is plenty of time for umpires to talk before and after games.They shouldnot need to get together between innings.
-
-However, there are times when you do need to relay information to your partner. In those cases, thecommunication should be quick and umpiresshould return to their normal positions oetween innings.That is inot the time to discuss where you aregoing for dinner or the funny Joke that you heard at the omce.
+There isple,rty (If time fur umpires totalk before and after games.They should notneed to get together between innings.
+However, there are times when you do needto relay information to your partner.Inthose cases, thecommunication should be quick andumpires should return to theirnormal positions between innings.Thatisnot thetime todiscuss where you aregoing for dinner or the funny joke that you heard at the office.
 
 End of the Game
-When the game is over, the crew should leave the field together.Sometimes th.efinal play is controversial,so it i;simportant that the umpires leave together and that one umpireisn't left on the field with the angry mob of playersand coaches.
+When the game is over, the crew should leave the field together. Sometimes the finalplay Is controversial,so ii is important that the umpires leave together and that one umpire isn't lelt on the fieldwith the angrymol>of player.. anct coaches.
+Your goal,however,should be1D get oilthe field as quickly as possible. Once you areol'f the field aMback in the locker room or at your cars.you can talk about anything that needs discussing.
 
-Your goal,however,should beto get off thefielld as quiickly as possible. (Ince you are off the fieldand back in thelocker room or at youircara, you can talk about anything that needs discussing.
+A wrapup following each game can be more important than the pregame meeting. While plays and rulings are fres11in all of tile umpires' minds,It is the perfect time toreview situations that occurred during the game.
+The most experienced umpire on a crew should initiate the discussion andbethe oneto admit mistakes first.That will open the discussion tor lesser experienced umpires to feel
+ less threatened for admitting their mistakes. Umpires should never start the discussion by asking, "Didyou see anything?" andbeing satisfied withno response.Successful umpires are aware of plays and/or situations ineve(y game that could have been better handled.
 
-A wrapup following each game can be more important than the pregame meeting. Wh,ile plays and rulings are fresh in all of the umpires' minds, ii is theperfect time to review situations that occurred during the game.
-
-The most experienced umpire on a crew should initiatehe discussionand be the one to admit mistakes first. That wiill openlhe discussion,for lesser experienced umpiires to feel
-
-lessthreatenedfor admitting their mistakes. Umpires should never start the discussion by asking, "Did you see anything?" and beingisalisfied with no response. Successful umpires are awareof plays andl/or situations in every game tilat could have l:Jeen lletter hanclled.
-
-Here are several topics that should be covered in each postgame review:
-• Judgment plays
-• Strike zone Interpretation
-• Proper positioning for plays
-• Crew mechanics
+Here are several1opics that should be covered ineach postgame review:
+	•	Judgment plays
+	•	Strike zone interpretation
+	•	Proper positioning for plays
+	•	Crew mechanics
 
 Get the Call Right
-0llviously, the goal of anumpire is to get every play correct. Realiistically,that will never happen.Umpires arehumanand will make mistakes.Fortunately,in somecases, there is a mechanism inplace in theruleslor "gettin.g a call right" when it has been potentially missed.
+Obviously, the goal of an umpire is to get every play correct. Realistically,that will never happen.Umpires are human and willmake mistakes.Fortunately, in some cases,there isa mechanism inplace in the rules for "getting acallright" when it has been potentially missed.
 
-However, there are some pitfalls withthat philosophy as well. Hereare some general guiclelines.
+However, there are some pitfalls withthat philosophy as well.Here aresome general guidelines.
 
-• By rule, there are some calls that can be changed and some that cannot. It is imperativeto know the ones that can be reviewed by theumpiireteam.
-• There are some calls that don't neecl to wait for anappeal or conference.For example when a batted ball hits a batter in thebatter's l)ox, a caught/uncaught third strikeand if a foul tip is caught or dropped or trapped should be called immediately by the base umpiire and not wail for an appeal.
-•Asa general rule, a decision that involves juclgment Is not reverslllle. Playsthat involve misapplicationof rules or thatthe calling umpir,e might not have seen fully are the calls covered by theguidelines for changing a call. Sonneof !hose calls are:
-• A cnecked swingthat is called aball;
-• A question on whether a loot was pulled lly the fielder at a base;
-• Whether a swipe tag was made;
-• A dropped ball after a lag;
-• If the ball was juggled on a forceplay at first;
-• Whether ahomerun was fair or foul;
-• Whether ahit was a home run or a ground-rule double;
-• The catch of a foul fly;
-• Thecatch of a fair fly with no runners on base; and
-• Thedeclaration of a balk when the pitcher's foot was not on lhe pitcher'splate.
+	•	By rule, there are some calls that canbe changed and some that cannot.It is imperative to know the ones that can be reviewed by the umpire team.
+	•	There are some calls that don't need to wait for an appeal or conference. For example
+when abatted ball !lits abatter in the batter's box, acaughVuncaught third strike and if afoul tip is caught or dropped or trapped should be called immediately by the base umpire and not wait for an appeal.
+	•	As a general rule. adecision thatinvolves judgment is not reversible. Plays that involve misapplication of rules or that the calling umpiremight not have seenfully are thecalls covered by theguidelines for changing a call. Some of those callsare:
+	•	Achecked swing that is called aball;
+	•	A question on whether aroot was pulled by the fielder at abase;
+	•	Whether a swipe tag was made;
+	•	A dropped ball attera tag;
+	•	If the ball was juggled on a force play at firsti
+	•	Whether a hOme run was rair or foul;
+	•	Whether ahit wasahome run or a ground-rule d.ouble:
+	•	Thecatch of afoul fly;
+	•	Thecatch of a fairfly withno runneis on base; and
+	•	Thedeclaration of abalk whenthe i>ilcher's foot wasnot on the pitcher's plate.
+Some calls justcan'1be changed.Those include:
+	•	Calls on close force plays:
+	•	Tags onnon-forcesituations;
+	•	Achecked swing when astrike is first called; and
+	•	The catch or nocatch of afair fly with runners on ba.se.
 
-Some caHs just can't be chan.ged.Those include:
-• Callison close force plays;
-• Tags on non-force situations;
-• A checked swing when a strike is first called; and
-• The catch or no catch of a fair fly with runn,erson base.
+<
+<
+	
 
-Making the call. Umpires should always.make their initial call.It is oetter to make the call and then cliscuss ancl make a change.The alternative is to not mae a call anclthen go for help, only to find no helpavaillaole.At that poirnt, your credibility istotally olown.
+WORKING ASATEAM	WORKING ASATEAM
 
-Once you hav,emadethecall,.if you realize that youImay not have gotten the best look and a partner might beabletohelp,doso immediateliy.Read the reactionof the runners, fielclers anclcoaches. Don't waii for the discussion wilh the coach.lnsteacl,call lime and seek helpimmediately.
 
-However, if you are 1 oo percent confident of your call, there isno need to ask for assistance simply tlecause the coach clid not like your decision.
+Making the call.Umpires should always make their initial call. It is bener to make the call and then discuss andmake achange. The alternative isto not make a call and then go for help, only to find no help available. At thatpoint,your credibility is totally blown.
 
-The most common play for help. The swipetag/pulledfoot is the most common play in whicn help is requested. Lei's take a groundball to the infield ancl go thr,ough the procedure that should Ile folrowecl.
+Once youhave made the call, if you realiz.ethat you may not have gotten the best look ani;I apartner might be able tohelp,doso immediately. Read the reaction of the runners, rielders and coaches. Don't wait for the discussion with the coach. Instead, calllime and seek help immediately.
 
-With no runners on, the plate umpire slilould move toward the 45-foot linein orderlo assist withthepotential pullled foot/swipe tagscenario at first oase.
+However, if you are 100 percent confident af your call,there isno need ID ask for assistance simply bec.ause the coach didnot llke your decision.
+The most C(lmmon play for help. The swipe tag/pulled·root1s lhe most common play in which help is requested. Lers lake a ground ball to·lheinfield and go through lhe procedure that snould l>e followed.
+Wilhno runners on, the plate umpire should move towam lhe 45-foot line in orderto assis1 withthe pafential pulled foal/swipe tag scenario at first t>ase.
 
-As discussed, the base umpjre shall make the call. If theoffensive coach beli;eves you wheri you called the out, hewori't argue and 1110 discussioriwill ensue.
-
-If thereactionor argument convinces you that you needhelp, then seek it If the request appears wicle open, it's OK to ask from across thediamond(Justiin,diclhe pulllhisfoot? Or Kimdo you have a tag?}
-
-The plateumpire shall make nocall,but instead,shall answer the baseumpire's question. Immediately after that answer, thebase umpire shaJi uphold or reverse his call.
-
-If thebaseump:ireasks for help ancl the plale umpireanswers in a way that would change thecall, me base umpirehas NO choice but to change hecall.
-
-If there ispotenUal proolemin the quick answer, the plateumpireand oase umpire should get together (away from the coaches andplayers) and have a quickdiscussion.Example:If theplateumpire saw a tag, but believesit was late, hecan't truthfully answer the "Do you have a tag?"'question without causing further problems.
-
-With runners on base, tile base umpirewill be in themiddle alld theplate umpirewill have other responsibilities(force-play-slid'erule,play at nome), therefore, the base umpire cannot ask for help on that play. If me plateumpire "sees" theplay at first,he likely wasn't looking where he was supposecl to tielooking.
+Asdiscusse(I, the base umpire shallmake thecall.If theoffensive coach believes you when you called theout,he won't argue andno discussion will ensue.
+If the reaction or argument convinces youthat youneed help,then seekit.If the request appears wide open,it'sOK toask from across thediamond (Justin,didhe pull his foot? Or Kim do youhave a tag?)
+The plate umpire shallmake nocall, but instead, shall answer the baseumpire's question. Immediately alter lhat answer,the base umpire shall uphold or reverse hiscall.
+If the base umpire asks for help anti the plate umpire answers inaway that wouldchange thecall, the base umpire has NO choice but tochange the call.
+If there is potential problem in the quick answer, the plate umpireand base umpire should get together (away from lhe coaches and players) and have a Quick discussion.EXample: II theplate umpire saw a tag,but believes it was late,hecan't truthfully answer the "Do you have a tag?" question without causing further problems.
+With runners onbase, the baseumpirewillbe in the middle and the plate umpire will have other responsibilities(force-play-sliderule,play at tiome). therefore, the baseunipire cannot ask for help onthatplay.If the.plate umpire "sees" the play at first.he likely wasn't looking where he wassupposed to be looking.
 
 Rundowns
-While rundowns can beexcitirig plays forrans to watch, they areamong the toughest to umpiire.Th.oseare the rareplays when the umpire will likely be on the move and making thecall all atthe same time.
+While rundowns can be exciting plays for fans to watch, lhey are among the1oughest to umpire.Those are the rare plays whenthe umpire will likely be onthe move andmaking the call all at the same time.
+ How many rundowns you'llsee ina season depends on the style of baseball played by the teams youump1re.Teams wilh aggressivebaserunning tendencies - those that attempt alot of stolen bases or hlt-and-runs - will olten find1hemselves in more rundowns.
+Regardless of individual style,however,you are likely to have a few rundowns each year.
 
-How many rundowns you'll see ina season depends onthestyle of basebaJI played by the teams you umpire.learns with aggressive baserunriing tendencies- those that attempt a lot of stolen bases or hit-and-runs -will oflen findthemselves in more rundowns.
-Regardless of individual style, however, you are likelyto have a few rundowns each year.
+Because al the nature of the play - arunner trapped between two bases - a lhree-umpire crew will findrundownsrelatively easy to cover.Thecrew willbe able to station one umpire at each base and watchthe rundown unfold.
 
-Because of the natureof theplay - a runner trapped tletwee11two oases- a three-umpirecrew will find rundowns relatively easy tocover.Thecrew will be able to stanionone umpire at each base and watch therundownunfold.
+In atwo-umpire crew,however, few situations provide betmr opportunities forumpire teamwork than arundown.
 
-Ina two-umpire crew, however, few situations providebetter opportunities for umpire teamwork than a rundown.
-llhe two keys aredistance and timing,The leaclumpire (theorie originally responsible for the runner) must estalllish hispositionat a comfortal:lle distance tothe basepathso hecan flow laterally lletween the bases to observe theactivity.The other umpire must understa11cl how and when tostepintothe coverage.
+The two keys are distance and timing,The leadumpire (the one originally responsiblefor lhe runner) must establish his position at acomfortable distance to the basepath so hecan flow laterally between lhe bases to observe the activity. The other umpire must understand how and whentostep into the coverage.
 
-In theMechaniGram, U1 is the lead umpireas R.1attempts to get back on a pickoff throw. U1 must read theplay and move aggressively towarcleither first or seconclii he senses a play developingthere. But if hereads a rundown, U1 should square his shoulders to the
-
+In ttie MechaniGram,Ul is lhe leadumpire asRl attempts to getback on apickoff throw. Ul must readthe play and move aggressively toward either first or second if hesenses a play developing there.But ii he reads arundown, Ul should square hisshoulders to the
 RUNDOWN
+-	®--
+RUNDOWN
+-	®--
+Ona rundownbetween first andsecondbase,01 willslay withtherunner until PUcangetto the first-base cutout andassist.PUshould only movein to thecutout while therunner is going away from first base.
 
-'PICKOFF
+<
+<
+	
 
-On a rundownbetween first:and secondbase, U1 will sta1 with the nmmn until PU canget t11 the first-base c11tout andassist. PU should only movein to the culout whil.e the runner isgoing away from lrrst base.
+WORKING AS A TEAM	f11..l,l-l!a
 
-)
-)
+ WORKING ASA TEAM
 
-WORKINGAS A TEAM
-WORKINGAS A TEAM
 
-runner and move laterally, approximating therunner's progress.U1 will not try to keep
-upwith the runner; instead,he will shadow the runner's movemrmts and let R1 lead him laterally allong the basepath. By remaining1O or more feet fromtheb.asepath and flowing with the play, U1 will have a reasonable anglefor a tag at either base.
 
-Theplateumpiremust recognize the rundown ancl move toward one eM of theaction-logic.ally, thelirst-baseside. Move aggressively to the play out stop and holdaoout 20 feet from first base in foul ground. That prevents a collision withplayers.participatingin the rundown and precludes a double call. From the holding spot, wait for the play tomov,eaway from you,thenadvanceto theedge of the first-base cutout aM communicate verbally with your partner, ''I've got thisend."
 
-Upon hearing the commun1ication,U1 should acknowledge his partner, then conserve
-his own movement by flowingtoward the second-oase cutout, moving a llit closer to th,e basepath and focusing his attention on the runner's action from a more stationaryposition..
 
-Once the umpires estaolishshared responsibility,theplate umpire should ru1leontag attemptsif the runne,r dives tlaclk tofirst, whileU1 is responsible for activity l:letween the oases. U1 also rules on a tag attempt ii the runner dives intosecond.
+runner and move laterally, approximating the runner's progress. U1 will not try to keep up with the runner; instead, he will shadow the runner's movements and letR1 lead him laterally along the basepath. By remaining 10or more feet from the basepath and flowing with1he play,U1 will have areasonableangle for a tag at either base.
 
-Other points toremember regarding run.downs ina two,-umpirecrew:
-• The plate umpire will never !leavethe plate toassist thefieldumpireon a play when anolher runner may attempt to score.
-• If PU decidesto assist U1,PIU will retainall responsioility for resulting plays at the
-plate.
-• Umpires must comllilunicate and keepthe field in proper officiating balance.
-• PU must not be so eager to help that he "runs" U1 off the play.
-• U1 must be aware of other runners.For instance, if R2 is trapped between second and third, R1 may anticipate R2 being safe at third or tagged out and attempt to advanc,eto second. Only U1 can make that call.
-Regardless of the number of umpires:
-• During a rundown, a runner is out for leaving1the baseline if he runs morethan three feet away from a direct linebetween basesto avoidbeing tagged. lit a runner deviates one step, heIs likely still in the baseline.
-• If a rundown results in two players on the same oase, the trail runner isout if bothare tagged.
-• Don't forget about obstruction ancl interference.Either is a possibility in the action
-leadIng up to, during and immediately after a rundown.
-• If you're unsure if the runner was tagged,observe theplayers' body language. Their actions w,ilol ften help you make the call.
+The plate umpire must recognize the rundown and move toward one end of theaction - logically, the first-base sicle.Move aggressively to the play but stop and hOlclabout 20 feet from firstbase in foul ground.That prevents a collision withplayersparticipating in the ru.ndown and precludes a double cal!.From the holding spot, wailfor the play to move away from you, then advance tothe edgeof the first-base cutout and communicate verbally with your partner, ''I'vegot this end."
 
-Time Plays
-Inbaseball,a timeplay isnot formally defined inany of the codes, but is generally unders.toodto occur when it is important toknow ti a nm scored l:Jefore the thirdout of the inning was madeor mit
-For example, with a runner onsecond and two outs, the batter singles is out at second trying to stretch the base hit.If R2 crosses theplate,beforethe l:latter's out, then the run scores.If not, then no run scores.
+Upon hearing the communication,U1 should acknowledge his partner, then conserve
+his own movement by flowing toward the second-base cutout, moving a bit closer to the l>asepath and focusing hisattention on the runner's action from a more stationary position.
 
-On a timeplay,each umpirehas a set job to do.
+Once the umpires eslablish shared responsibility, the plate umpire should rule on lag attempls if lhe runner clives back1D first, whileU1 is responsible for activity between the bases. U1also rules on atag attempt if the runner dives in1osecond.
 
-For the base umpire, it's nothingout of theonlinary.In fact, it is critical that1he base umpire do everything correctly and normally.It, in the play example above, B1 was safe at second,
-·then there is no timeplay to be called.
+Other points to remember regarding rundowns ina two-umpire crew:
+	•	The plate umpire willnever leave the plate to assist the field umpire on aplay when another runner may attempt to score.
+	•	If PU decides to assist U1, PU will retain aJIresponsibilityforresulting plays at the plate.
+	•	Umpiresmust communicate and keep1he fiel.dinproper olflciating balance.
+	•	PUmust not be soeager to help that he •runs;' U1 off the play.
+	•	U1 must be aware of other runners.For instance, if R2 istrapped between second a.nd
+third, R1 may anticipate R2 being safeat third or tagged out and attempt to advance to second. Only u1 can make that call.
+Regardless of the number of'umpires:
+	•	During a rundown, a runner is out for leaving the baseline 1f he runs more1han three feet away from adirect line between·bases to avoid being tagged.If a runner deviates one step, he islikely still in the baseline.
+	•	If a rundown results in two players on the same base, the trail runner is out if l>oth are tagged.
+	•	Don't forget abou1obstruction and interference. Either is apossibility in the action leading up to,during andImmediately after a randown.
+	•	If you·re unsure if the runner was tagged. observe the players' body language. Their ac1ions will often help you make the call.
+ Time Plays
+In baseball, a time play is not formally defined inany of ihe codes, butis generally understood10occur when it is important to know if a run scored before the third out of the inning was made ornot.
 
-Thebase ,umpire nee(ls to not rushhis call - theplate umpire cansee when the tag was applied ancl that's theimportant time, not when thebase umpire calJs the out.
+For example, with a runner on second and twoouls,the batter singles is out at second trying tostretch the base hit.If R2 crosses the plate, before the batter's out, then the run scores.If not, thenno run scores.
 
-For the plateumpire, recognition that a timeplay is possibleIs key. In the play atlove, seeingthe llatter stretch the sin,gleinto a potential doullle is the most significant clue.The plateumpireshould tledirectlybehind the plate, in linewith thepotential play on the bases. See if the ta,g ismade before or after the runner who iisattempting to score crosses the plate. Don't make any signal until the base umpire calls the runner at secondout. If that runner issafe, then you don't have to jiuclge the time play.
+On atime play.each umpire has a set job to do.
 
-Whenthebase umpire does make the out call,only thenshould you indicate emphatically whether toscoretherun or waveit off.
+For the base umpire. it's nothing out of the ordinary.Infact.it is critical1hat the base umpire do everything correctly and normaUy. If,in the play example above. 81 was safe at seconcl, then there is no lime play to becalled.
 
-SECTION 6 PREGAME PREPARATIONS
-• Prior to arrival at gamesite:
+The ba.se umpire needs to not rush hiscall - the plate umpire cansee when the tag was applied and'that's the important lime,not when the base umpire calls the out
 
-• Contact partner(s) one to two days prior to the game;
-• Confirmgametime, meeting time(if carpooling,) and gamesite:
-• Confirmplate/llase assignments;
-• Confirmcrew shirt color.
+For the plate umpire, recognition that a time play is possible is key.In tile play above, seeing the batter stretch the single into a potential double is the most significant clue.The pla1e umpire should be directly behind the plate, inline with the potential play onthe bases. See if the tagis made before or after the runner who is attempting to score crosses the plate,.Don't mal<e any signal until the base umpire calls the runner al second out.If Iha! runner is safe, thenyou don't have to judge the time,play.
 
-• Uponarrival at game site (451o 60 minutesprior fo game):
+When the base umpire does make the out call, only !hen should you indicate emphatically whether toscore the run or wave it off.
 
-• Inform game administrator (if present) or home team's head coach of crewarrival.
-• Let the game aclministrator or home team's head coach know thecrew will be at home plate 5 to 1o minutes prior to game time.
-• Confirmgamestart time. b.Walk thefield ill possiole.
-• UmpirePre-GameConference(whiledressing);
+<
+<
+>
+>
 
-• Review current year rulechanges and points of emphasis:
 
-• Fair/foul ball responsibilities;
-• Check swing responsibilities and mechanics;
 
-• Outfield fly ballresponsibilities withnorunners on and with runner(s) on:
-• Routine fly baJls:
-• Troutlle ball situations - catch/no catch;
-• "V" between the outfielders.
 
-• Infield flyball and linedriveresponsibilities with no runners and with rurmer(s) on;
 
-• Batted ball contacting tM batter (dead tJall immediately or the crew doesn't have It);
+	
 
-• Base touches and tag up responsibilities; h.Overthrow responsibilities;
-• Balk (dead ball) responsibilities including legal and illegal pitctiing positions;
+WORKING ASA TEAM	WORKING ASATEAM
 
-• Non-velillal signals:
-• Outs;
-• Standard rotation-(PlateumIpire rotatesto third base with R1 only or R1and R3 and R1 advances to third);
-• 
-Reverse Rotation- (3- and 4-person crews);
-• Infield fly;
-• Baseumpiregoing out 011 trouble ball; (6)Appeal;
-• Time Play;
-• PUcoverageof thirdbase 011 fly oall, tag up with runners on first andsecond:
-• Partner has informationona play to share- protocol for play review request by coach;
-• Ey,econtact.
 
-• HandlingArguments (keep it one-on-one,head coach and one umpire) including verbal wamings, wnitten1warnings and restrictions and ejections;
-I. Coverage onforce plays, illlegal slides, doublle-play balls:. m.Handlingcharged conferences andpitching changes;
-• Handling dugouts:
-• Ben,chJockeyln,g;
-• Celeorations- playersleaving dugout during live- and deacl-ball situations
-• Location of playersand coaches:
-• Arguing balls ancl strikes.
+Pregame Preparations
+	•	Prior toarrival at game site:
+	•	Contact partner(s) one to twodays prior to the game:
+	•	Confirm game time,meeting time (if carpooling) and game site;
+	•	confirm plate/base assignments;
+	•	Confirm crew shirt color.
 
-• Fights - control players IJefore fight starts, procedure if a fight/altercation should occur:
-• Hometeamplayers (who is responsible for);
-• Visiting team players (who is responsiole for).
+	•	Upon arrival atgame site (45 to 60 minutes prior to game):
 
-• Other:
-• Hustleat all times,
-• Runner at third, tag up on a foul flyball clownthe ri,gIht-fielclline- U1 can assist PUon tag up at third;
-• Communicate;
-• Pitcher's feint to third base, then disengages with pitcher's plate and throws to first base (legal);
-• Pitcher going to mouth on the mound, on thepitcher's plate;
-• Unusual GroundRules
-• Get together 011 unusual situations:
-• Get theplays right;
-• Haveiun out there;
-• Rundowns - covering umpirehas it all un,til another umpire communicates"I've got this end."
-• A:ppeals(live and dead ball);
-• Positions duringpregameconferenceanclduring National Anthem.
+	•	Inform game administrator (if present) or home team's head coach of crew arrival.
+	•	Let the game administrator or home team's head coach know thecrew willbe at home plate 5 to 1O minutesprior to game time.
+	•	Confirm game start time. b.Walk the fieldif possible.
+	•	Umpi-re Pre-Game Conference (while dressing):
 
-)
-)
+a,Reviewcurrent year rule changes and points of emphasis; b.Fair/foul ball responsibilities:
+	•	Check swing responsibiltties and mechanics;
 
-• Pre-game Conference with Head Coaches and Team Captains:
+	•	Outfield fly ball responsibilities with no runners on and with runner(s) on;
+	•	Routineflyballs;
+	•	Trouble ball situations - catch/no catch;
+	•	"V" between the outr.ielders.
 
-• Umpires, head coaches ancl team captai11s (if available);
+e,Infield fly ball and line drive responsibilitieswith no runners and with runner(s) on:
 
-• Plateumpire does all talkingafter introductions aml handshakes;
+	•	Batted ball contacting the batter (dead ball immecliately or the crew doesn·t have II):
 
-• Home team's head coachreiews grouM rules;
+	•	Base touches and Jag up responsibilities:
 
-• Receive home team's lineup card first. Plate umpiire looks over all sul)stitutes, confirms DH situations (traditional DH,player/DHor straight 9). Same withthe visiting team's lineup card. Lineup cards become official after the lineupcards are aocepted oy the plate umpire;
+	•	Overthrow responsibilities;
 
-• One 7-inning game (unless otherwise notecl);
+i,Balk (dead ball) responsibilitiesincluding legal andIllegal pitching positions;
 
-• Sportsmanship is themain concern;
+j. Non-verbal signals:
+(1)Outs;
+(2}Siandard rotation- (Plabl umpire rotates to third base with R1 only orR1andR3 andR1 ailvances tolhlro);
+	•	 Reverse Rotation - (3- and 4-personcrews);
+	•	Infield fly;
+	•	Base umpite going oulon trouble ball;
+	•	Appear;
+	•	Time Play;
+	•	PU coverage of third base on fly ball, tagup with runners on first and second:
+	•	Partner has information on aplay toshare - protocol for play review request by coach;
+	•	Eye coritact.
 
-• Speed-up ruled and state association adoptions;
+k. Handling Arguments (keep ii one-on-one, head coach and one umpire) Including verbal warnings, wrinen warnings and restrictions and ejections;
 
-• Confirm with tloth head coaches that their respective teams arelegally and properly equiipped. A verbal confirmation from both head ooaches is required;
+I. Coverage on!Orce plays, illegal slides. double-play !>alls;
 
-LA11substitutes throughthe plate umpire;
+	•	Hanelling charged conferences and pitching changes:
 
-j.Remind both teams to hustle and wishthem good luck.
+	•	Handling dugouts:
+	•	Bench jockeying;
+	•	Celebrations-players leaving dugout during llve- and dead-ball situations
+	•	Location of players and coaches;
+	•	Arguing balls and strikes.
 
-• After pre-game conference with head coaches and 1eam captains:
+	•	Fighl'S - control players before fight starts, procedure if a fighValtercation should occur:
+	•	Home team players (who is responsible for);
+	•	Visiting team player.. (who is responsible for).
 
-• Assume positions for National Anthem;
-• All umpires shoulcl take their hats off and face theflag respecttully;
-• Each umpire should raisethe hat over the heart iin unisonas the music begins until it ends.
-ll. After the National Anthem, umpires sllall hustle to their respective positions.
+	•	Other:
+	•	Hustle at all times.
+	•	Runner at third, lagup on a foul flyball down the right-field line- U1 can assist PU on tagup at third;
+	•	Communicate;
+	•	Pitcher's feint to third base, then disengages withpitcher'splate and throws to first base (legal);
+	•	Pitcher going to mouth on the mound, onthe pitcher's plate;
+	•	Unusual Ground Rules
+	•	Get together on unusual situations:
+	•	Get the prays right;
+	•	Have fun out there;
+	•	Rundowns-coveringumpire has it all until another umpire communicates ''I'vegot t�is end."
+111) Appeals (live and dead ball);
+(12) Positions during pregame conference and during National Anthem.
 
-Part[5]
+<
+<
+
+	
+
+	WORKING ASATEAM		Ill
+
+	•	Pre-game Conference withHeadCoaches andTeam Captains:
+
+	•	Umpires, headcoaches and team captains (if available);
+
+	•	Plate umpire does all talking alter introductions andhandshakes;
+	•	Home team's head coach reviews ground rules;
+
+d,Receive home team's lineup card first.Plate umpire looks over all substitutes, confirms DH situations (traditional DH,player/DH or straight 9). Same with thevisiting team's line upcard.lineupcards become official after the lineup cards are accepted by the plate umpire;
+	•	One 7-inning game (unlessotherwise noted); f.Sportsmanship isthe main concern;
+	•	Speed-up ruled and slate association adoptions;
+	•	Confirm withboth head coaches that their respective teams are legally amsproperly equipped. A verbal confirmation frombath head coaches is required:
+	•	Allsubstitutes through the plate umpire;
+
+j Remind bath teams to huSlle and wish them good luck.
+	•	Afterpre-game conference withheadcoaches and team captains:
+	•	Assume positions For National Anthem;
+	•	Allumpires should take their hatsoN and face theflagrespectfully:
+	•	Each umpire should raise the hat over tl'le heart inunison as the music begins untilit ends.
+	•	After theNational Anthem,umpires shallhustle totheir respective positions.
+ PartCSJ
 Signal Chari
 
+
 Play or Play Ball
-Point with the right hand directly at the pitcher. Call forcefully, "Play ball!"
+Point withthe right hand direcily at the pitcher. Call forcefully, ''Play ball!"
+
+
+
+
+
+
+
+
+
+
+
+
 
 Do Not Pitch
-IHold the riglll arm straight out with palm outward and iingers up. That signifies that the ball is deacl ancl the pitcher should not pitch.
+Holclthe right arm straight out wiU1palm outward andfingers up.That signifies that the ball is dead and the pitcher should not pitch.
+
+<
+<
+
+
 
 Out
-Beginin a set position. Stand with your shoulders square to the play, keeping your head still.Bring your right arm up, arm extenclM ancl parallel to the ground. Bend the elbow 90-degrees; close your fingers intoa fist, thumb tucked along the front of the curleel fingersand facing you. Motion youir right fornanmforward and then back, as if poundingia nail. Declare loudly,"He's out!" as you knock on a door.Return to a set position.
-Foul Ball,.Time Out, Dead Ball Extend both arms in front of your llody, slightly higher than your shoulders and wid'er than shoulder width. Extend your
-hands out, fingers together and pointed up, palmsfmwan:las if trying to stop something with your hands. Declare, "Time!" In any dead-ball situation, the !all must be put back intoplay.
+Begin inaset position. Stand with your shoulders square to the play, keeping your head still. Bring your right arm up, arm extended and parallel to the ground. Bend the elbow 90-degrees; close your fingers into a fist, thumb tucked along the front of the curled fingers and facing you.Motion your right forearm torward,and then bacK, as if pounding a naii.Declare loudly.''He's out!" as you knock on a door.Return toa set position.
+Foul Ball, Time Out,Dead Ball Extend both arms in front of your body, slightly higlier than your shoultlers and wider than shoulder widtl1.�end your
+hands out, fingers together and pointed up, palms forward as ii trying to stop something with your hands. Declare,"Time!" In any dead-ball situation, the ball must be put back inlD play.
 Fair Ball
-Move as closeto tM ball as safety and the play will allow, then straddle the foul line. Come to a standing-set position before the play happens. Point to fair territory with the hand and arm on that side of your llody.
+Move asclose to the ball as safety and the play will allow, then straddle.tile foul line. Come to a standing-set position before the play happens.Point to lair terrrtory with the hand and arm on that sfde of your body.
 Out
-Beginin a set position. Stand with your shoulders square to the play, keeping your head still.Bring your right arm up, arm extenclM ancl parallel to the ground. Bend the elbow 90-degrees; close your fingers intoa fist, thumb tucked along the front of the curleel fingersand facing you. Motion youir right fornanmforward and then back, as if poundingia nail. Declare loudly,"He's out!" as you knock on a door.Return to a set position.
-Foul Ball,.Time Out, Dead Ball Extend both arms in front of your llody, slightly higher than your shoulders and wid'er than shoulder width. Extend your
-hands out, fingers together and pointed up, palmsfmwan:las if trying to stop something with your hands. Declare, "Time!" In any dead-ball situation, the !all must be put back intoplay.
+Begin inaset position. Stand with your shoulders square to the play, keeping your head still. Bring your right arm up, arm extended and parallel to the ground. Bend the elbow 90-degrees; close your fingers into a fist, thumb tucked along the front of the curled fingers and facing you.Motion your right forearm torward,and then bacK, as if pounding a naii.Declare loudly.''He's out!" as you knock on a door.Return toa set position.
+Foul Ball, Time Out,Dead Ball Extend both arms in front of your body, slightly higlier than your shoultlers and wider than shoulder widtl1.�end your
+hands out, fingers together and pointed up, palms forward as ii trying to stop something with your hands. Declare,"Time!" In any dead-ball situation, the ball must be put back inlD play.
 Fair Ball
-Move as closeto tM ball as safety and the play will allow, then straddle the foul line. Come to a standing-set position before the play happens. Point to fair territory with the hand and arm on that side of your llody.
+Move asclose to the ball as safety and the play will allow, then straddle.tile foul line. Come to a standing-set position before the play happens.Point to lair terrrtory with the hand and arm on that sfde of your body.
+<
+<
 
-)
-)
 
-Infield Flv
-Begin in a set 1position; when the ball is hit, pause, read and react; step up, turnand face the flelcler(s) and the play.Wlhen the ball is descending and you are convinced the batted ball iis an infield fl. poirit straight up with your right handaM declare,"Infield fly!" II the batted lball is near foul territory, the verbal call is, "Infield fly, if faJir!" II the batted !JalI is fair l.lut uncaught,signaJ
-an out and declare,"He's out! He's out!
-The batter is stiill out!" If the battedball becomes an uncaught foul ball, signal and declarea foul ball.
+
+
+
+Infield Fly
+Begin inaset position; when the ball is hit. pause. read and react; step up.turn and lace the Fielder(s) and the play.When the ball is descending and you are convinced the batted ball is aninfield fly, point straight up with your right hand and declare, "Infield fly!" Ir the batted ball is near Foul territory, the verbal can is,"Infield fly, if fair!'' If the batted ba.1i1sfair butuncaught,signal
+an out and declare,"He's out1 He's out! The batter is Still out!" It lhe batted ball becomes anuncaught foulball, signal and declare afoulball.
+
+
+
 
 Strike
-Strike
-As PU1,stanclup from your stance and step back away from th,ecatcher. Continue watchingthe llall,normally inthe catcher's possession; bring your riglll anmup, arm extended andparallel to the ground. Bend the elbow 90-degrees; close your fingllrs into a fist, thumbtuck.eelalong the firont of the curled fingersand facing you. Motion your right forearm forward andUlen back, as if pounding a nail.Declare loudly, "Strike!" as you knock 011 a door.Then, relax as you prepare for the next pitch.
-Verbalize a strikeso that your voice can be heard in the outfield, When U1 responds to P's questionatlout a checked swing, the strike signal isused to indicate that a batter didswing. On a swinging strike, you do not verbalizethecall.
+As PU, stand up from yourstance and step back away from thecatcher,Continue watching the ball,normally in the catcher's possession; bringyour right arm up, arm extended and parallel to the ground. Bend
+the elbow 90-degrees; closeyour lingers intoa fist, thumb tucked along the front of the curled fingers and lacing you.Motion
+your right forearm forward andthen back, as if pounding a nail.Declare Joudly, ''Strike!" as you knock on a door.Then, relax as you prepare For the next pitch.
+Verbalize a strike so that your voicecan be heard in the outfield. When U1 responds to P's question about achecked swing, the strike signal is used to indicate that a baiter didswing. On a swfnging strike, you do not verbalize the call,
 
-Safe, Uncaught ThirdStrike, "Did Not Go"
-Begiin in a set position. Starad with your shoulders squarelo the play,keepirag your head still.Bring bothhands together, shoulder high. Extend botharms straight out parallel to thegrmmd infront of your chest,,shoulder high. The •fingersol each hand are straight and together, thumbs along forefingers. Sweep both arms out, separating toward the sides of
-your body even with your shoulders until the arms are1ully extended along thelines o1your shoulders.Gall, "Safe!" (not "He's safe!") as you sweep your arms. Return your arms, still parallel to the ground, in front of your chest. Drop your arms to your sides and resumea set position.When lit responds to P's questionabout a checked swing, the sate signal isused loindicatethat a batter diid not swing. The samesigna!I indicates a catcher didnot catch a third strike.
 
-Foul Tip
-Scrape the fingers of one handacross the other hand to indicate a batted went directly to the catcMr's hands and was legally caught by a fielder then signal a swingiing strike.
+
+
+
+
+
+SIGNAL CHART	SIGNAL CHART
+
+
+
+
+
+
+
+
+
 
 Time Play
-Tapone wrist with two fingers on the opposite hand.
+Tap one wrist with two fingers onthe opposite hand.
 
-IDoubleTag Rotation
-Bump both1ists on top of each other wltll the index finger of Ule right hand extended, signalling that the PUwill rotate to thirdon a double-tag situation.
 
-Information Available
-Umpires can indicatethey have relevant iinformation for a partner by tapping two times over thelirleft chest (heart).
+
+Safe,Uncaught Third Strike,"Did Not Go"
+Begin ina set position.Stand wittl your shoulders square to the play, keeping your head still. Bring both hands together, shoulaer high. Extend both armsstraight out parallel to theground in front or your chest,s110ulder high. The fingersof each hand are straight and together, thumbs along forefingers. Sweep both arms out, separating toward the Sid.es of
+your body eveA with your shoulders untilthe arms are fully el(tended along the lines of your shoulders. Call, "Safe!" (not "He's saFe!'') as you sweep your arms. Return your arms.stlll parallel to the ground, in front or your cllest. Drop your arms to your s(des and resume aset position. When Ul responds to P;s questionabout a checked swing, the safe signal is used to indicate that a batter did not swing.The same sfgnal indi'cates a catcher did not catch a thirdstrike.
+
+
+
+
+
+
+
+
+
+
+
+
+Foul Tip
+Scrape the fingers of one hand across the other hand to indicateabatted went drrectly to the catcher's hands and was legally caughtby a fieJd·er then signal a swinging strike,
+
+ 
+
+
+
+
+
+
+
+
+
+Double-Tag Rotation
+Hump both fists on top of each other with the index finger of the right hand extended, signalling that thePU will rotate to third on a double-lag situation.
+
+
+
+
+
+
+
+
+
+
+
+
+lnfotltiation Available
+Umpires can indicate they have relevant information for a partner by lapping two times over their left chest (heart).
+
+<
+<
+
+	
+
+SIGNAL CHART	,Ill
+
+
+Part!]]
+
+
 
 Rotation
-Official NFHS signal.Thumbs aml pinkie finger ex.tendec.l. Arms downby side. Rotate hands toindicatemovement.
-
-PartlIJ
-Crew al One
+Official NFHS signal. Thumbs andpinkie finger extended. Armsdownby sicle.Rotate hands toindicate movement.
+ Crew al One
 Basic Principles
+	•	Pregame conference
+Themeeting with head coaches ancl team captains followsnormal procedures. Remind the coaches at the pregame meeting that one-umpire mechanics mean some decisions will be made in less than ideal positions. Encourage lhe coaches to lake that into account before protesting acall and that youwill, like lhem andtlleir players,give your best effort and hustlethroughout the game.
 
-• Pr,egame conference
-The meeting withhead coadhes and teamcaptains follows normal procedures. Remind the coaches at thepregame meeting that one-umpiremechanicsmean some decisions will be made in less than ideal positions. Encouragethe coaches ·to take !hat intoaccount before protesting a call and that you will,liket11em and theirplayers, give your best effort and hustlethroughout thegame.
+	•	Status Of the ball
+Always know where the!>allis and who has it.
+	•	Order orresponslbllltles
+On anyball plllinplay, first determine fair or foul, then catch orno-catch, then finally safe or out.The next priority isrunners (�ggI11g up,touching bases, advancing orreturning).
+	•	Movement onbatted balls
+Anytime the ball ishit infair territory, you must first takesteps to clear the batter and catcher white removing the umpire mask thenmovingtoward the center of the infield, unlessaball hit down the line requlres your attention,Even then you shouldstill move out toward the cente( of lhe fnfield ii you call the balllair,or there is a possibleplay on arunner tagging up.
 
-• Status of the ball
-Always know where the oall is and who hasit.
+	•	Dead-ball area rulings
+When a ball appears to be goingout of play, wait alittle longer tobe sure it is inan out-of-play area. Once you declare the ball out of play,11lere is no going back.
+	•	Steal attempts
+Onrunners stealing second base or third base, call the pitch first and thenmove out from behindthe catcher tothe left side toward the base afew steps, get set and make the call. For pickoff attempts, try to move toget a clear view to see the play.The general guideline onlong-distance calls is if the ballbeats the runner and the tag isdown, call the runner out.
 
-• Order of re.sponslblllties
-On any ball put inplay, first determine fair or foul, then catchor no-catch, then finally safe or out.The next priority is runners {tagging up, touching bases, advaJncingor returning).
+<
+<
 
-• Movement on battedballs
-Anytimethe ball islhit in fair territory, you must first take steps to clear the tlatter and catcher whileremoving the umpire mask thenmoving toward he center of the infield. unless a tJall hit down the line requires your attention, Eventhen youshould still move out toward the center of the infield if you call the ball fair,or there is a possible play on,a runner tagging up.
+	
 
-• Dead-ball area ruling.s
-When a ball appears tobegoing out of play, wait a little longer to be sure ii is in an out-of-play area. On.ce youdeclare the•ball out of play, thereis no going back.
 
-• Steal attempts
-On runners stealing second oase or third base, call !hepltc!h first and then move out1rom behind the catcher to theleft sidetoward the llase a few steps,get set and make the call. For pickoff attempts, try to movetoget a clear view to see theplay.The general guideline onlong-distancecalls is if the ball beats theru11ner and the tag is down, call the runner out.
 
-• Angle over distance
-As you move to gel in position,to view aplay and make a call, angle takes priority over proximity.
 
-• Prioritize
-Since you can't possibly cover everything, the umpire must develop priorities and use commonsense. Concentrate on the most important aspect of the play and moveon to llhe next.
+	•	Angleover distance
+ CREW OF ONE	CREW OF ONE	•
 
-• Dead•baII situations
-Call timewhenever theplay is over and you turnyour back to return to homeplate,and wh,enyou go to l:lrush off homeplate.
 
-• Complete authority
-11 there is only one umpire, you have comprete Jurisdiction inadministering the rulesand may take any position you (lesire,preferably behind thecatcher.
 
-• Hustle, hustle, hustle.
+NO RUNNERS ON, CLEAN HITTO THE OUTFIELD
 
-NO RUNNERS ON, CLEAN HIT TO THE OUTFIELD
+Asyoumave toget inposition to view aplay andmake acall, angle lakes priority over proximity.
 
-. . ··---.
-. . ··---.
+	•	Prioritize
+Since you can't possibly cover everything, the umpire mus1develop priorities anduse common sense. Concentrate on the most important aspect of the play and move on totl1e next.
+	•	Dead-ball siluaticns
+Gall tfme whenever the playisover and you turn your back to return to home plate, and whenyou go to brush off home plate.
+1o.Complete authority
+If there isonly one umpire, youhave complete jurisdiction inadministering the rules ancl
+may takeany position you desire. preferably behindthecatcher.
 
-Umpireresponsibilities:
-PU: Move outto thepitcher's moumJamJ observe. Be aware or a throw back to first base.
+11.Hustle,hustle, hustle.
+ 
 
-NO RUNNERS ON, GROUND BALL IN THE INFIELD RUNNER ON SECOND BASE, GROUND BALL INTHE INFIELD
-..
-..
+Actionon the field:A clean hit to the outfield.
+Umpire responsibilities:
+PU:Move out to the pilther·s mound and observe. Beaware a1athrowback to first base.
 
-Action, on the field: Ground llall to shortstop,overthrow onthe pllay at first base.
+<
+<
+)
+)
 
-Umpireresponsibiliities:
-PU:Clear tlatter and catcher before movingtoward first-basesiele of pitcher'smounel.Be prepared!to rule on overthrow while standing behindpitcher's moundin case of play at second base.
 
-Action on the fieId: Ground ball to shortstop with a runner on s.econdbase,second throw
-to third base.
-Umpireresponsibilities:
-PU: Ruleon play at fiirst11ase beforemoving towan:Ithethird-baseside to observe a possibleplay at third base.Come to a stop before makina call.
 
-SECTION 8 CREW OF ONE
 
-RUNNERS ON SECOND AND THIRD, FLY BALL TO THE OUTFIEILD
-I
-I
-Action,on the field: Fly l:lall toleff field withless than1wo outs, runnerson secondand thirdbaseeach tag up and attempt to advance.
+
+
+
+
+
+
+
+
+
+
+
+	
+
+CRMOFONE	CREW OF ONE	•
+
+
+NO RUNNERS ON, GROUND BALL JN THE lNFIELD
+
+
+
+
+
+
+
+
+. ,
+. ,
+
+
+
+
+
+
+
+
+
+Action on the field: Ground ball to shortstop, overthrow on the play at first base.
 
 Umpire responsibilities:
-PU: Move tothe test spot to see thetag-upsof R3 andR2. After the tlall is caught, moveto home platefor a possioleplay. Be aware of a cutoff in an attempt to retire R2 instead.
+PU;Clear batter am;! catcher before moving toward ffrst-base side of pitcher's mound.Be prepared torule on overthrow while standing behind pitcher's mound in case of playat second base.
+ RUNNER ON SECOND BASE, GROUND BALL IN THE INFIELD
 
-Partrll
-Crew al Twa
+Actiononttle fleld:Ground ball to shortstop wlth arunner on second base.second throw tothirdbase.
+Umpire responsibilities:
+PU:Ruleonplay at first base before moving toward the third-base side to observe a possible play at thirdbase. Come to astop before making acall.
+
+<
+<
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+CREW OF ONE
+
+
+RUNNERS ON SECOND AND THIRD, FLY BALL TO THE OUTFIEL.D
+
+
+Action on the field: Fly ball to left field with less than two outs.runners on second and thirdbase each tagup and attempt toadvance.
+Umpire responsibilities:
+PU:Move to the best spot to see the tag-ups of R3 andR2.After the oalliscaught, move to home plate for apossil>le play. Be aware of a cutolt inan attempt to retire R2 instead.
+ Part[i]
+Crew al Two
 Basic Principles
 
-• Angle is primary, distance is secondary
-Thismechanics manual points 011t areas, not specifiic spots, forumpiresto takeplays.With onlytwo umpires, you'renot going to be able lo get as close as you'd like onsome plays. Work to get thebest angleto make the call.
+1, Angle is primary, distance is secondary
+This mechanics manual pointsout areas, not specific spots, forumpiresto take plays,Wi1h only two umpires,you're not going to be able to get as closeas you'd like on some plays. Work to get the best angle to make the call.
 
-• Tha plate umpire (PU) will move
-Helpingon a pullli,dfoot at first base... helpingon slides al secondbase ... coveriing plays at !hirdbase ... PUis responsible for much more than oalls and strikes.
-• Studying two-1,1mpiremechanics will help you 1understandthree-umpiremechanics Thetwo-umpire system is thfr basis for manycoverages withmultipleumpires.
+2.The plate umpire (PU) will move
+Helping on apulled loot at firstbase ... helping on slidesat second Mse ... covertngplays at thirdbase ... PUisresponsible for much more than balls and strikes.
 
+3.Studying two-umpire mechanics willhelp you under..tand three-umpire mechanici;
+The two-umpire system isthe basis for many coverages with multipleumplres.
 Basic Outfield Coverage
-• Do not go out automaticallyon all flyballsin your coverage area.
-• Pause,readandreact. Thengo harcl and get a goocl angle. Be stopped when ifle playoccurs.
-• Four conditionsthat shouldguiclean umpireon when to go toheoulfielclwhen bases are empty;
-• The outfielderturns and beginsto run toward theoutfield fence(possiblehomerU1n).
-• Multipleplayers convergingon a flyball.
-• A catch beingmade below thie waist
-• Outfieldermovingtoward the foul line and possiblefair/foul decision.
-• If in cloubt,go out on fly ballsinyour coverage area.
-• If youare going out, go out hard.
-• Leave no doubt inyour partners mindabout whether or not you are going out.
-• Signal your partnerIJy raisingyour arm if youare goingout.
-• If youare not g:oing out,hold your armout to your partner withyour palmfacinghim andcontinuewith your responsitilities.
+A.Donot goout aulDmalically on aufly balls in your coverage area.
 
-FAIR/FOIJL COVERAGE
-• , . . . . . . . . , PU RESPONSIBILITY
-VZ7Z22Zl U1 RESPONSIBILITY
+8.Pause. read and react.Then go hard and get a good angle.Be stopped whenthe play occurs.
+C.Four conditions that should guide an umpire onwhen to gotothe outfielcJ whenbases areempty:
+	•	The ouffielderturns and begins to runtowardthe outfield fence (possible home run).
+	•	Multiple players converging on a fly ball.
+	•	Acatch being madebelow the waist.
+	•	Outfielder moving towarcJ the foulline andpossible fair/foul decision.
+D.II in doubt,goout on fly balls1nyour coverage area.
+	•	If you are goingout, go outhard.
+	•	Leave no doubt in your partners mind about whether ornot y.ouare goingout.
+	•	Signal your partner by raising your armif you aregoing out
+	•	Jf you are not going out, hold your arm outtoyour partner with your palm facinghim andcontinue with your responsibilities.
 
-, . . . . . . . . , PU RESPONSIBILITY
-VZ7Z22Zl U1 RESPONSIBILITY
-a. Exception:Wilh no runners on base and U1 goes out, U1 would return to the plate for any play on the batter-runner tl1ere after ruling no catch, fair/toul and whenno more trouble ex.ists(ball can't get under a fence).
-• u1positioned wilhin1the infieldnever crosses tlle base path to observe catch/no catch
+<
+<
+	
+
+<
+<
+
+FAIR/FOUL COVERAGE
+	•	PURESPONSIBILITY
+PURESPONSIBILITY
+a.Exception:With no runners onbase andU1 goes out,Ul would return to the plate tor any play onthe batter-runner there alter ruling nocatch, fair/foul and wllen no more trouble exists (ball can't get under a fence).
+	•	U1 positioned within the infield never crosses the base path to observe catch/no catch.
 
 Overthrows
-Overthrow responsibility belongs to the plateumpire with one exception.
+Overthrow responsibility belongs to the plate umpire with one exception,
 
-If the base umpilre(with no runners 011) goes to theoutfield and them rotates tohome, overthrow responsibility will then belong to the base umpire at the plate on all overthrows, except theplate umpire (rotated tothird) will have theoverthrow at thirdbase that goes toward the outtielcl.
+If the base umpire (with no runners on) goes lo theoutfield and then mlates to home, overthrow responsib1Iity will then belong to the base umpire at the plate on all overthrows. except the plate umpire (rotated to third) will hav.e the overthrow at third base that goes toward the outfield.
+
+
+
+
+
+
+
+
+
+
+
+
+
+Actionon the field: No action.
+Umpire responsibilities:
+PU: Has responsibility for balls up w first base and allballs along ttle ttlird-base line.
+
+U1: Has responsibility for balls that hit first base and/or beyond.
+
+
+
+
+
+
+
+
+
+
+
+
+CREW OFlWO:NORUNNERS ON	CREW OFTWO: NO RUNNERS ON	•
+
+INITIAL POSITIONS ANO OUTFIELD COVERAGE	INFIELD CATCH COVERAGE
+PU'-·@•�!!!)
+'
+•
+;
+,PU
+.,.
+�r-�Pii•
+-PU
+t
+--�--�--'121-
+J.
+PU'-·@•�!!!)
+'
+•
+;
+,PU
+.,.
+�r-�Pii•
+-PU
+t
+--�--�--'121-
+J.
+
 
 Action on the field:No action.
 
-Umpireresponsibilities:
-PU: Has responsibility for baJlsup to first base and all baJls along the third-base line.
+Umpire responsibilities:
+PU:Has ceriter fielder moving towardthe left-field foulline.
 
-U1: Has responsibility for balls that hil first base and/or beyond.
-
-INITIAL POSITIONSANO OUTFIELDCOVERAGlE INFIELDCATCH COVERAGE
-UIIIU
-ODVIIWII
-
-PUIIU
-OGVIRMa
-
-UIIIU
-ODVIIWII
-
-PUIIU
-OGVIRMa
-U1
-U1
-
-Actionon the field:No action.
-
-Umpir,eresponsibilities:
-PU: Has center fielder moving tow1rd the left-field foul line.
-
-Ul:Is Inthe"A" position. U1 dictates outfield coverageandnas the center fielder straight in and straight back and anyball to theright fielder.Ui onlymakes thecalls 011fly ballsin that area when he goes out on a fly ball.If U1 comes in,pivots and takesthe runner, then PUwill makethecalI on the fly IJall.
-
-Action on the field: No action.
+U1: Is in the "A" position. U1 dictatesoutfield coverage and has the center fielder straight in an<l straight backand any ball to the right fielder. Ul only makes the calls on fly balls inthat area when he goes out on a fly ball.If UJ comes in, pivots and takes the runner, thenPU will make the call on the fly ball.
+ Action onthe field: No action.
 
 Umpire responsibilities:
 PUhas catches:
-• By thepitcher moving in, left or right.
-• By thefirst tlaseman moving inor right
-• By thethirdbaseman in all directions.
-• By theshortstop moving in,out or toward third base.
-• By thesecond baseman moving in or towardseconcl base.
+	•	By the pitcher moving in,left or right
+	•	By the first baseman moving in or right.
+	•	By the third baseman in all directions.
+	•	By the shortstop moving in.out or toward thfrd base.
+	•	By the second baseman mov1ng in or toward second base.
+u, has catches:
+	•	By the firstb1;1seman moving lelt or out.
+	•	Bythe second baseman moving out or toward first base.
+	•	By the shortstop moving towanl second base.
+	•	By the pitcher moving back,
 
-Ul has catches:
-• By thefirst oasema1nmoving let or out.
-• By thesecond baseman moving out or toward firstbase.
-• By theshortstop movingIowan! secondbase.
-• By thepitcher moving back.
+<
+<
 
-ROUTINE GROUND BALL GROUND BALL WITH PRESSURE
-F
-....
-IRST
-CHOICE
-THROW
-F
-....
-IRST
-CHOICE
-THROW
 
-Action on the field: Ground ball to shortstop,throw to first oase.
 
+	
+
+CREW OFTWO:NORUNNERS ON	CREW OF TWO: NO RUNNERS ON
+
+ROUTINE GROUND BALL	GROUND BALL WITH PRESSURE
+
+
+
+Action onthe field:Ground ball to.shortstop, throw to first base.
+Umpireresponsibilities:
+PU: Moves toward first base toassist Ul onswipe tag orpulle<l lootby the first baseman.
+Will also watch for potential running-lane interference.
+
+U1:Moves into the best position to rule onplays at first base.
+ Actionon the field:A ground ball ishit that either takes the second baseman lohis left or the first baseman has tomake aplay with the pitcher covering first.Thal situationIs reterred1o as "pressure" since the umpireis getting the ball and one ormore fielders is headed directly at him orher.
+Umpire responslbllllles:
+PU:Moves toward firstbase lo assistUl on swipe tag or pulled footby the firstbaseman or pitcher (ii he is covering first base).
+U1: ldeaTiy,U1 will be able tomove one or twosteps fair andremain out of theway of t11e play.Especially when the pitcher covers first base, he will often touchthe inside of tile bag with his foot, so theU1 needs to be in fairterritory to see tlJat.If being in fairterritory puts him in theway, IJlen U1 can move one step foul.Be wary of the batter-runner bearing down and not looking where he isrunning.
+
+TaDleelf Cona,ru:s and Bookmarics \Alr+Q
+<
+TaDleelf Cona,ru:s and Bookmarics \Alr+Q
+<
+m=
+m=
+
+
+
+	
+
+CREW OFTWO:NORUNNERS ON	CREW OFTWO: NO RUNNERS ON
+
+PLAYS WITHIN THE INFIELD: OVERTHROW	CLEAN HIT TO THE OUTFIELD
+
+
+
+Action on the field:Ground ball to shortstop,overthrow to ffrst base.
 Umpire responsibilities:
-PU: Moves toward first I.Jase to assist U,1on swipe tag or pulled foot by thefirstI.Jaseman.
-Will also watch tor potential running-llanein,terference.
+PU:Observes the ball andrules if it ente�dead-ball territory, moving into foul territory as necessary. Returns to the plate for any possible plays on the batter-runner.
 
-U1:Moves into the best positionto rule on plays at first base.
-
-Action on the field: A ground ball islhit that either takes the second baseman tohisleft or the first baseman haslo makea play wm1 the pitcher covering first. Tllatsiruation is refernitl to as "pressure" since the umpireis getting the ball and one or morefielders is headed diirectly at himor her.
-
-Umpire res:ponslbllltles:
-PU: Moves toward first base to assist U1on swipe tag or pulled foot by the first baseman or pitcher (if he is covering first I.Jase).
-Ul: lcleally,u11will be able to move one or two steps lair and remainout ol the way of the play. EspeciaJly when the pitcheircovers first base, he will often touch the insideof U1e bag with histoot, so the U1 meeds to lbe in fair territory to see that. If being in fair territory puts him 111the way, the11 Ul can move 011e step foul. Be wary of the batter-runner beariing down and not looking wllerehe isrunning.
-
-Table of Contents aoo Bookmarks (AltO
-
-Table of Contents aoo Bookmarks (AltO
-
-)
-)
-
-PLAYS WITHIN THE INFIELD: OVERTHROW CLEAN HIT TO THE OI.ITFliELD
-CLEAN HIT
-CLEAN HIT
-
-Action on the field: Gro11nd tlall to shortstop,overtllrow to first base,
-
+U1:Enters the infield andhasall plays on thebases. Thegoal should be to move into the infieldaheadof the runner. However, if the runner makes aquick turn, Ul might have to let the runner pass andmove inbehind him.
+ Actiononthe field: Aclean hit tothe outfield,
 Umpire responsibilities:
-PU:01.Jserves tjhe baJIam! rules if i1 enters dead-I.Jail territory, moving into foul territory as necessary.Returnsto theplate for any possiil:leplays onthebatter-rnnner.
+PU:Moves out of thedirt circle and observes the play.Has allplays onbatter-runner into 'lhird base.
+Ul: Enters the infield with apivot andprepares for allplays onthe batter-runner at first base and second base.
 
-U1:Ellters ttle iinfield and hasall plays on ttle bases.Thegoal should be to moveiinto the infieldahead of the runner.However,if the runner makes a quickturn, u,1 might have to let therunner pass and move in Mhind him.
+<
+<
 
-Action on thefield: A clean hit to theoutfield,
 
-Umpire responsibilities:
-PU: Moves out of the dirt circle and observes theplay. Has all plays onbatter-r11nner into thirdbase.
 
-Ul: Enterstheinfield with a pivot and prepares for all plays on the batter-runner at first baseand second oase.
 
-)
-)
+
+
+
+
+	
 
 Crew of Two: Runners on Base
-General Information
+Gerner,al lnfonnation
 
-If there's a runner on first, bases limded or any otner runner combination, three coverages remain constant withat least a runner on base in the two-umpire system: fair/foul rnsponsibilities,infield catch coverage and outfield coverage.
+lfithere's arunner on first,bases loaded or any other runner combination. three coverages remaiA constant with at least arunner onbase in the two-umpire system: fair/foul responsibilities,infield catch coverage and outfieldcoverage.
+Fair/Foul Responsibilities
+PU:Has responsibility for allballs onbalh the1irst- andthird-base lines and all foul fly balls.
 
-Fair/Foul R11s11onsibilities
-PU:Has responsibility for alllball's on both the first- and third-base lines and all foullfly balls.
+Ul: Has no fair/foul responsibility down foul lines.But we dorequire that theyhelp with the batter being hit in the batrer's box.
+llrlfi�ld Catch Coverage
+PU)Jascatches:
+	•	By the pilther moving in,left orright
+	•	By thethirdbaseman moving back or towardthe foulline.
+	•	By the first baseman moving back or toward the foulline.
 
-Ul: Has no fair/foul responsib:ility down foul lines. But we do require that they help with the batter being hit iin thebatter's box.
-
-Infield Catch Coverage
-PU has catches:
-11.By thepitcher movingin, left orright.
-2. By the third baseman moving back or toward the foul line.
-3. By the first baseman movingback or toward the foul line.
-
-U1 has catches:
-11.By the pitcher movingback.
-• By the shortstop moving in all directions.
-• By thesecond baseman moving1inall direct!ions.
-• By the third baseman moving in or toward themiddleof the field.
-• By the first baseman movinginor toward the midcll,eof the field.
-
+llJ1 has catches:
+	•	By the pitcher moving back.
+	•	By·(heshortstop moving inall directions.
+J. By IJlH second baseman moving in all directions.
+	•	By thethirdbaseman moving in or towardthe middleof the field.
+	•	5.By thefirst baseman moving in or toward the middle of the field.
+>
 Outfield Coverage
-PU:Has the left fielder (or potentially the shortstop or thirctbaseman) movingtowarct the
-left-field foul lineanct the right fielder (or potentially the secoM baseman or first l:laseman) moving toward the right-fieldfoul line.
-Ul:Inthe "B" or "C" position,U1has outfield coverage from the left fielder straight in or straight oack to the right fielder straight in or straight back. Tllat area Is commonly known as the "V."
+PU:ltas the left fielder(orpotentially the shortstop or thirdbaseman) moving toward the llett-llield foul line and the right fielder (Or potentially!he second baseman or first baseman) 111111oii,1tngoward the right-field foulline.
+
+U1:Inthe ''B" or "C" position, U1 hasouftield coverage from the lert fielder straight in or straight back tothe right fielder straight in or straight back. niat area iscommonly known as.the"V."
 Crew of Two: Runners on Base
-General Information
+Gerner,al lnfonnation
 
-If there's a runner on first, bases limded or any otner runner combination, three coverages remain constant withat least a runner on base in the two-umpire system: fair/foul rnsponsibilities,infield catch coverage and outfield coverage.
+lfithere's arunner on first,bases loaded or any other runner combination. three coverages remaiA constant with at least arunner onbase in the two-umpire system: fair/foul responsibilities,infield catch coverage and outfieldcoverage.
+Fair/Foul Responsibilities
+PU:Has responsibility for allballs onbalh the1irst- andthird-base lines and all foul fly balls.
 
-Fair/Foul R11s11onsibilities
-PU:Has responsibility for alllball's on both the first- and third-base lines and all foullfly balls.
+Ul: Has no fair/foul responsibility down foul lines.But we dorequire that theyhelp with the batter being hit in the batrer's box.
+llrlfi�ld Catch Coverage
+PU)Jascatches:
+	•	By the pilther moving in,left orright
+	•	By thethirdbaseman moving back or towardthe foulline.
+	•	By the first baseman moving back or toward the foulline.
 
-Ul: Has no fair/foul responsib:ility down foul lines. But we do require that they help with the batter being hit iin thebatter's box.
-
-Infield Catch Coverage
-PU has catches:
-11.By thepitcher movingin, left orright.
-2. By the third baseman moving back or toward the foul line.
-3. By the first baseman movingback or toward the foul line.
-
-U1 has catches:
-11.By the pitcher movingback.
-• By the shortstop moving in all directions.
-• By thesecond baseman moving1inall direct!ions.
-• By the third baseman moving in or toward themiddleof the field.
-• By the first baseman movinginor toward the midcll,eof the field.
-
+llJ1 has catches:
+	•	By the pitcher moving back.
+	•	By·(heshortstop moving inall directions.
+J. By IJlH second baseman moving in all directions.
+	•	By thethirdbaseman moving in or towardthe middleof the field.
+	•	5.By thefirst baseman moving in or toward the middle of the field.
+>
 Outfield Coverage
-PU:Has the left fielder (or potentially the shortstop or thirctbaseman) movingtowarct the
-left-field foul lineanct the right fielder (or potentially the secoM baseman or first l:laseman) moving toward the right-fieldfoul line.
-Ul:Inthe "B" or "C" position,U1has outfield coverage from the left fielder straight in or straight oack to the right fielder straight in or straight back. Tllat area Is commonly known as the "V."
+PU:ltas the left fielder(orpotentially the shortstop or thirdbaseman) moving toward the llett-llield foul line and the right fielder (Or potentially!he second baseman or first baseman) 111111oii,1tngoward the right-field foulline.
 
-EXTRA-BASE HIT TO THE OUTFIELD
-. . ··----..·-
-.,.
-II
-. . ··----..·-
-.,.
-II
+U1:Inthe ''B" or "C" position, U1 hasouftield coverage from the lert fielder straight in or straight back tothe right fielder straight in or straight back. niat area iscommonly known as.the"V."
+<
+<
+CREW OF TWO: NORUNNERS ON
+CREW OF TWO: NORUNNERS ON
 
-A.clion on the field:A cleanhit totheoutfieldresults in the batter ad,vancingbeyoM first base.
+EXTRA-.BASEHIT TO THE OUTFIELD
+
+
+Action onIlle field:Aclean hit1D theoutfield results inthe batter advancing beyond first	I base.
+Umpire responsibilities:
+PU:Moves out of lhe dirtcircle andollserves the play.PUreturnshome for any potential play at the plate.
+U1:Enters the infield with apivot and prepares for all playson the batter-runner at first t>ase, second base and thirdbase.
+
+
+
+
+
+
+
+
+
+
+CREW OF TWO: RUNNERS ON BASE
+
+OUTFIELD COVERAGE
+Actionon the field:Noaction.
 
 Umpire responsibilities:
-PU:Moves. out of the dirt circleandot,serves.the play.PU returns home for any potential play at theplate.
+PU: Has the left fielder (or potentially the shortstop or thrrdbaseman) moving toward the left-field foul lineand the right fielder (or potentially the second baseman or first baseman) moving toward the right-field Foul line.
 
-U1• Enters the infieldwith a pivot arnd prepares.for aJl plays on the batter-runner at first base, seconcl base and third base.
+U1:Inthe "B"and "C" position. U1 hasouftield coverage from lhe left fielder straight inor straight back to !he right fielder straight inor straight back.That area iscommonly known asthe·'V."
+CREW OF TWO: RUNNERS ON BASE
 
-FAIR/FOUL COVERAGE
-! ; PURESPONSIBILITY
+OUTFIELD COVERAGE
+Actionon the field:Noaction.
 
-Action on the field:No action.
+Umpire responsibilities:
+PU: Has the left fielder (or potentially the shortstop or thrrdbaseman) moving toward the left-field foul lineand the right fielder (or potentially the second baseman or first baseman) moving toward the right-field Foul line.
 
-Umpireresponsibilities:
-PU:Has responsibility for all balls onthefirst· and third-base lines,
+U1:Inthe "B"and "C" position. U1 hasouftield coverage from lhe left fielder straight inor straight back to !he right fielder straight inor straight back.That area iscommonly known asthe·'V."
+<
+<
+CREW OF TWO: RUNNERS ON BASE
 
-U1: Has 110 fair/foulrnsponsibility down foul lines. Bui we do require thal they helpwith the oatter beinghit in thebatter's box..
-FAIR/FOUL COVERAGE
-! ; PURESPONSIBILITY
+FAIFI/FOUL COVERAGE
+  PU RESPONSIBILITYI
 
-Action on the field:No action.
 
-Umpireresponsibilities:
-PU:Has responsibility for all balls onthefirst· and third-base lines,
+  PU RESPONSIBILITYI
 
-U1: Has 110 fair/foulrnsponsibility down foul lines. Bui we do require thal they helpwith the oatter beinghit in thebatter's box..
-OUTFIELD COVER.AGE
--
-PU
-u,
-oov.MIII
-PU
-COllmlla
-GD
-
-Action on the field: No action.
+.Action on the field:Noaction.
 
 Umpireresponsibilities:
-PU:Hasthe left fielder (or potentia!lly the shortstop or thirdbaseman) moving toward the left-field foul line aM theright fiellder (or pote11tially the s.econdbaseman or first baseman) moving toward the right-lield foul line.
+PU: Has responsibility for allballson the first·and lhird-base lines
 
-U1:In the "B" and "C" position, U1 has outfield coverage from tlhe left fielder straight inor straight back to the right fieldler straiglht inor straight back. That area is commonly known as th,e "V."
-OUTFIELD COVER.AGE
--
-PU
-u,
-oov.MIII
-PU
-COllmlla
-GD
+Ul: Hasno fair/foul responsibilitydown foul lines.But wedo reQuire that they help with the baller being hitin tile batter's box.
 
-Action on the field: No action.
+CREW OF TWO: RUNNERS ON BASE
 
-Umpireresponsibilities:
-PU:Hasthe left fielder (or potentia!lly the shortstop or thirdbaseman) moving toward the left-field foul line aM theright fiellder (or pote11tially the s.econdbaseman or first baseman) moving toward the right-lield foul line.
 
-U1:In the "B" and "C" position, U1 has outfield coverage from tlhe left fielder straight inor straight back to the right fieldler straiglht inor straight back. That area is commonly known as th,e "V."
-
-INFIELD CATCH COVERAGE Crew of Two: Runner on First
-
-U1
-
+Uf14··®·•-iih
+•
+.UI
 t
-PU
-U1
-
+ff
+	•	··$-·+\�
 t
-PU
+fin\
+	•	&-·®··..t'iit
+t
+i,,---�-lf.lb.
+Uf14··®·•-iih
+•
+.UI
+t
+ff
+	•	··$-·+\�
+t
+fin\
+	•	&-·®··..t'iit
+t
+i,,---�-lf.lb.
+INFIELD CATCH COVERAGE
+INFIELD CATCH COVERAGE
 
-Initial Position: U1will start in the "B" poshion. However,1it is important to be aware of several factors th,at might cause you to adjust fromthe basic starting position.Among those factors:
+General Information
 
-Game situation: Is a bunt 1inorder? Adjust forward a step or two.When a tlunt does occur, it willlbe easier to moveintoposition and prepare for a play at first base; if the bunt is missed and a pickofl thro,wgoes to first, again it will tie easier tomoveintoposition.Is the game orne-sided?That means conservative base runnirng, few steals arnd almost no bunting, so you can moveback one or two steps rom yo1Jr normal position.Thal will make it easier lo set and adjust when a tag play develops at second base.
+Initial Position: Ul will start in the "B" position. However, it is important to beaware of several Factors that might cause you to adjust from the basic starting position. Among those factors:
+Game situation: Is a bunt inorder? Acljust forward astep or two.When abunt does occur. ii will be easier to move into position and prepare for aplay at first base: if the bunt is missed and a pickoff throw goes to first. again it will be easier to move into position. Isthe game one-sided? That means conservative base running, few steals and almost no bunting, so you can move bacl\ one ortwo steps from your normal position.That willmake rt easier to set and adjust when atagplay develops at second base.
+Defensive tendencies: If the pitctier �n particular,aleft-hander) has agood pickoff move,you may want toadjust forward astep or twotoward the plate.Ona pickoff·play,that will open theangle between your line of sightand the runner's return path to firstbase. Make.the same adjustment. although not b\'asmany steps. if thecatcher makespickoff lhrows himself.
 
-.
+The runner:If R1 isa recognized base.stealer or if the situation seems right for a steal, or if the defense is not attempting to holdthe runner on,adjust back from your normal position.
 
-.
+The batter:For your safety, if Bl is anunusually strong, left-handed pull hitter, consider adjusting back a step.That will give youmore time to react to aball batted in your direction. You'll rarely be hurt by that step because the kind of power hitter we're discussing rarely hasa runner steal in front of him. Coaches don't want to "take the bat out of his hand.··
 
-The runner: If R1 is a recognized base stealer or if the situation seems right for a steal,or if the defense is not attempti11gto hold the ru11ner on,adjust back from your normalposition.
 
-The batter: For your satety, if 1B1is an unusually strong, lett-handed pull hitter,consider adjusting back a step. That will give you moretimelo react lo a l:Jall batted in,your direction. You'll rarely be hurt by that step because the kind of power hitter we're discussing rarely has a runner steal in rront of lhim.Coaches dorn't want to "take the l:Jat out of hishand."
-
-Action on the field: No action.
+Ac.lion onthe field:No action.
 
 Umpire responsibilities:
 PUhas catches:
-• By the pitcher rmoving in,left or right.
-• By thethirdbasermanmoving tlack or loward tile foul line.
-• By the first baseman moving back or towarci the foul line.
+	•	By the pitcher moving in,left or right.
+	•	By the third baseman moving bacK or toward the foul line.
+	•	By the first baseman moving back or toward the foul line.
 
-U1 has catches:
-• By all infielders rmovingtoward themiddleof the field.
-• By the shortstop moving inall directions.
-• By the second baseman moving inall directions.
-• By the third basemanmoving in.
-• By the•first baseman moving in.
-
-Potential plays: PU and ll1 share respon,sibilily for balks and/or illegal pitches.U1 will have a tough time seeling if a right-handed pitcher stops sinceU1 is in the "B" position.
-
-PUis alsoresponsiblefor:
-• Galling the pitch
-• All fair-foul calls
-• IFly balls in your areas of theoutfield
-• Slides at second base on potential double plays
-• R1 advancing from first to thirdonany batted tlall lo the outfield
-
-U1 is alsoresponsiblefor:
-• !'ick off attempt at first base i:ly the pitcher or catchr
-• IHelp (when asked by your 1partne,r} on a checked swingi
-• Stolen base attempt by R1
-• IFly balls in your areaof the outfield
-• !'lays at first, second and third on balled balls in the infield
-• !'lays on R1 at second or on BR at first or s,econd 011 base lhits
-• !'lays on R1 or BRat arny base if i'Uhas to cover a fair/foul downthe light-field line
-
-CREW OFTWO: RUNNIERON FIRST C_R_EW_OF_TW_O_:R_U_N_NE_R_O_N_F_IR_ST •
-
-PICKOFF AT FIRST STEAL OFSECOND
-
-Action on the field:Beforepitching, thepitcher attempts to pick off the runner at first base.
-
-Umpire responsibilities:
-PU:Watches thepitcher forpotential balks then takes a step out from behindthecatcher to observe the action or in case ball isoverthrown.
-
-U1:Watches the pitcher for potential balks before throwing. Once thepickoff attempt has started, U1should take a quick step with his left foot and tum and step with the right toot at the same time to square up to the bag. Be stoppecl when F3 tags R1.If R1 is out or safe on a close play, take two or three steps after the tag whilemaking thecall to give the
-appearnnoet11at you were closer to the play.
-
-Action on the field: lhe l:latter swings and misses at the pitch as R1attempts to steal second base.
-
-Umpire responsibilities:
-PU: Signals the swinging strike without taking his focus off the play at hand.Ensuresthe batter does not inte,rterewith thecatcher's throw and that the catcher does not obstmct the batter's swing.Steps out as1neededto observe the play.
-
-U1: Takesabackwardstep or two as the throw is released fromthe catcher. Keeps eye on, the baJIand turns as the ball passes U1.Comes to a hands-on-knee set to seethe play al second base. If theplay is a swipetag out, ensurethe fielder retains possessionof the baJI before makingthe out call.If therunner is safe, no delay is necessary
-
-GROUND BALL TO THE INFIELD BASEHiT liO THE OUTFIELD
--- R1 ••
-THROW
--- R1 ••
-THROW
-F9
-THROW
-F9
-THROW
-
-Action on the field::Double-play ground ball to lhfrshortstop, witha throw to second base followed by a throw to first base.
-
-Umpireresponsibilities:
-PU: Moves lo thethird-base side ol the pitcher's nnoundlo assist U1 on the slIde al second oase by R1. PUhas secondary responsibility for assistingU1on a swipe tag and/or pulled foot al first base. On any tmtted ball within the plate area or near the first-base lime•,PU nnust rennain with,thebatter-runner to observe himrunning within therunning lane.
-
-U1:Moves into th.elbest positionto rule onplays at first or second base, in.eluding a "drift" toward first on a potential double play.
-
-Action on the field: A clean hit to left field, no catch; R1 advances to thirdbase, drawiing a throw there.
-
-Umpireresponsibilities:
-PU: Moves halaytoward third. Reads R1andthe ball and whenii appears tmth will anive at third base at the same lime, communicates to U1 that PUhas the play at third and moves into the cutout for theplay at third base on R1.In thecase of an overthrow, PU retreats to home for all possibleplays at theIplate.
-
-U1: Moves into the working area and reacts to the play.Has all plays al firs! and seco11d base.
-
-FLY BALL10 RIGHT FIELD, NO CATCH, PU STAYS ON THE LINE
-
-Action on the field: Deep flyball along !heright-field foul line, no catch; PUremains along theline; R1 advances toward third base, drawing a throw there; thebatter-runner rounds first base.
-
-Umpireresponslbllltles:
-PU: Must remain near the foul line to rule on lair/foul and catch/no catch. PUwill communicatelo U1 that PUis "on tlhe line" and will not have normal rotation coverage.
-
-U1: Has any plays that develop at lirst, second and third tlase. U1 must not overcommit to theplay at third base in case ol a subsequent play on BR at either first or second base.
-
-Crew of Two: Runners on First and Second
-NOCA'ICH
-..--------- t···-····
-R1
-NOCA'ICH
-..--------- t···-····
-R1
-
-Initial Position:Ui will start in the ''C" position.However,1it is important to be aware of several factors that might cause you to adjust from thebasic starting position.
-
-Player request: Frequently, in posiu1onC you will obstruct the runner's or shortstop's view of the pitcher or the plate. Beforea player asks you to move, and youalways should,
-oonsider which direction.Movingforward or back a step afters your position in theplayer's view ainddoesn't cut your angle as much as movingrl,g1ht or left.
-
-Game situation:Is a bunt in order?Adjust forward a step or two.When a bunt does occur, it will be easier to move into position and prepare for a play at first or third base; if the bunt is missed and a pickoff throw goes to first,againII wlll be easier to move Intoposition.
-Remind eaclhother of an infield fly situation.
-
-Defensive tendencies:A piciloff throw to first by he pitcher isun,likely,although not impossltlle. However, mainy aggressive catchers like to throw behind the runner at first.II the defense has a reputationfor unusual plays or thecatcher is unusually aggressive, you may adjust forward a ste;por two. Resist moving toward the center of the infield,because that will put you in the lineof a throw to second!lase.
-
-The runners:: Steals of thirdand/or doublestealsarenot as common,but still happen a lot inhigh school baseball. Once the pitcher has committed topitch,glance back at R2to see if he's breaking for third. If you exipect a steal, adjust forward fromyour normal position to create a better angleat third base.
-
-The batter:If the batter isa righit-handed hitter, consider adjusting back a step.That will give you mor,elime to react to a ball batted in your direction.Especialllyif that batter is a power hitter, hiscoach will be less likely to steal and "take the bat out of his harid."
-
-Potential plays:PUand U1 share respon,sibility for balks and/or illegal pitches..U1 will have a tough timeseeingif a left-handed pitcher stops sinoeU1is in the "C" position.And while either umpire may call an infieldfly, it is better if PUmakes the call sincelhehas the wide view of the field.
+Ul hascatches:
+	•	By allinfielders moving toward the middle of the field.
+	•	By the shortstop moving in all directions.
+	•	By the second baseman moving inall directions
+	•	By the th1rd baseman moving in.
+	•	By the first baseman moving in.
+ Potential plays:PU and U1 share responsibility for balks and/or illegal pitches. Ut willhave a tough time seeing if a right-handed pitcher stops since U1 is in the "B'" position.
 
 PUis also responsible for:
-• Calling the,pitch
-• All fair-foul caJls
-• Fly balls inyour areas of the outfield
-• Slides at seoond or third tlaseon potential doubleplays
-• R2 advancing from second to third on any caught fly ball in the outfield
-
-U1 is also responsibletor:
-• Pickoff attempts at first or second base by·the pitcher or catc,her
-
-• Help(when asked by your partner) on a checked swing
-• StolenIJase attempts IJyR1and/or R2
-• Fly balls inyour arna of the outtield
-• Plays at any base on batted balls in theinfield
-• Plays at any base (except home) on base hits
-• P,lays on R2 at tllird if PUhasto cover a caught fly ball downthe right-field line
-
-PIClKO:FFTHROW TO SECOND
-
-R1
-R1
-
-Umpireresponsibilities:
-PU: Watches tile pitcher forpotential balks tllen takes a step out from tiehind th.ecatcher to observe theaction.
-
-U1::Watches thepill:;her for potential balks beforethr,owing. Once the picoff attempt has started,U1 shoulld take a quick backward step and turn with the ball as it passes him towardthe fielder.If possible,U1should come to a hands-on-neeset to see the play at second base. If theplay is a swipetag out, ensurethe fielder reta.ins possessionof tile ball before making the out call.If the runner is safe,no delayis necessary.
-
-PICKOFF THROW TO FIRST DOUBLE STEAL
-2
-THROW
-2
-THROW
-
--4- R1 -·- .••••••••••••• ©
-
--4- R1 -·- .••••••••••••• ©
-
-Action on the field: Beforepitchin,g, the pitcher attempts to pick off therunner at second base.
-
-Umpireresponsibilities:
-PU: Watches thepitcher for potential l:lalks then takes a step out frombehind thecatcher to observe title actlon or in case balI is overthrown.
-
-Ut: Watches the pitcher for potential balks beforethrowing, Once the pickoff attempt has started,U1 should take a quiick step withhisleft foot ancl turn ancl step with th.e1right foot at th,esame timeto square upto thebag. Be stopped when F3 tags R1. If R1 is out or safe on a olose play, takea step or two after the tag whiile making the call to give the appearance that you were closer to the play, Don't overcommit towarcl first in case F3 makes a snap
-throw to secolld or R2 attempts to aclvance tothird.
-
-Action on the field: The!:latter swings andmisses at the pitch as R2 attempts to steal third and R1 attempts to steal second oase.
-
-Umpireresponsibilities:
-PU:Signals the swinging strike without takinghis focus off lheplay at hand.Ensuresthe batter cloes not interfere wittl the catcher'sthrow and the catcher does not obstructs the batter's attempt to swing, They haveforce-p[ay-slide responsibilities.
-
-U1; When the runnersstart to steal, takes several steps forward and reacls F2's throw. If F2 throws to third,step towardthird.If F2 throws to second, move back toward second,
-watching Ule IJall and turning as it passes you.If either runner is out or safe on a close play, take a step or two after the tag while making the call to give the appearance that you were closer to the play. Don't overcommit toward that call in case the fielder makes a snapthrow to the other oase.
-
-GROUND BALL TO THE INFIELD CLEAN HIT TO THE OUTFIELD
-R
-THROW
-R
-THROW
-Al
-Al
-
-Action on the field:Ground ball lo the shortstop, whoattemptsto start a doubleplay by throwing to second to retire R1.The relay then goes to first in an attempt to retire BR.
-
-Umpir•eresponsibilities:
-PU: Moves to a positionto assist m on the sllide.cannot moveintothe infield since there is potentlial for R2 totry and score.Must also observe R2'stouch of third. PUhas secondary responsilility for assistingU1 on a swipetag or pulled foot at first base.
-
-U1: Whenball ishit, moves ·towardthe backof the moundto be iin position for play at secondbase. As throw Is released from second lo·first,,makes theinitial out call while drifting toward first. Be set for ooUl plays. Don't overcommit to first oase as there might be a snap throw across theinfield to third base.
-
-Action on the field:A clean hit to right field; R2 advances toward theplate; R1 advances toward thiird base,drawing a throw there; the llatter-runner advances to first base.
-
-Umpireresponsibilities:
-PIJ: miserves R2's touch of the plate and allbase touches at third oase (ecept B!R).PU moves toa position toruleonall plays at theplate.
-
-U1: Observes base touches at first and second !Jaseon all runners anti atthird on BR.U1 moves to a position to rule onall plays on the bases. Don't overcoirnmitto any one base because of a possible seconclplay at another llase.
-
-FLY BALL TO CETER FIELD, CATCH FLY BALL TO Ri'GHT FIELD, CATCH
-•
-•
-
-Action on the field:With zero or one out, a routine fly ball caught by thecenter fielder; IR2 tags at secom:I and draws a throw to third oase; Rl returns to first base.
-
-Umpire responsibilities:
-PU: Moves halfway up th.e line toward third oase. WhenR2 attempts to advance, PU moves Into tile third-loasecutout for the play there. If a play develops at third base and R2 then attempts to advance to the plate,PU must retreat in fair territory for anyplay at the plate.If the ball iisnot caught,PU returnslo the plate for all plays there.
-
-Ul: Moves tothe best position possible to view the catch/no catch.If the catchis routine, U1 can easily move back for an angle on bothrunnersashey tag up. If the catchis not routine, move forward for he catch, sacrificing the best angle.sonthetags.U1 then moves intoa position for anyplays at first or second base. If the ball is not caught,U1moves to a position to ruleonany play onlhebases.
-
-Action on the field: Fly ball down theright-field line caught by the right fielder; R2 tags up at second and draws a throw tothird base; R1 alsotags up and advances to second base.
-
-Umpire responsibilities:
-PU: Moves to the best positionpo-ssibleto view thefair/fo-ul ancl catcll/no catch. f'U must communicate to U1that PUis "on theline" thus notify,ing U1 that PU will not be al third base for any play there.PIJ returns to the plate for any plays there.
-
-U1: With no responsibility for the catch/no catch, U1 retreats to theback of Ille mounclancl observes R1 and R2 taggingup. U1 moves ·to a position to cover all pfays on the bases.
-
-Crew of Two: Bases Loaded STEAL OF HOME
-
-,•R1 ••••
-2
-• ,•R1 ••••
-2
-
-Initial Position:U1 will startin the "C" position.There will be the very rare attempted triple steal, but youshould not adjust for 111at slight possibility. W.ithbasesloaded, there will also le fewer pickoffs., so you might be able towork a step or two deeper than normal.However, you must still be ready for pickoff throws from both the pitcher and catcher.
-
-Potential plays: PUaindU1 share responsibility forbalks and/or illegal pitches. U1 willlhave a tough time seeing if a left-handed pitcher stops since U1 is in,the"C" position. And wihile either umpiremay call aninfield fly, it is better if PUmakesthe call since he has the wide view of thefield.
-
-fUis alsoresponsible for:
-• Callingthepitch
-• All lair-foul calls
-• Fly balls in youir areas of the outfielld
-• Observing R3"s tag upif heattempts to advance home ona fly bal!
-• Slides at second or third !Jase or at the plate on potential doubleplays
-• Infield fly responsibilitie.s
-
-Lil is alsoresponsible for:
-• Pickoff attempts at any base by thepitcher or catcher
-• Help(when asked by your partner) on a checked swing
-• Stolenbase attempts by R1and/or R2
-• Flyballs in youir area of the outfield
-• Plays at any base onbatted IJalls
-
-Action on the field: All three runners attempt to steal bases.
-
-Umpireresponsibilities:
-PU: Must ensurethe pitcher did not commit a IJalk when the runner IJroke fromth,ird.Musi judge whetherlhepitchis a ball or strikebeforejudging the play at he plate. Must be aware of potenliaJinterferenceby thebatter or oostruction by the catcher.
-
-U1:Moves severnJsteps forward tobeinpositionto rule on potential secondaryplays at second or third base. Observes lhe play at the plateand assists if PU asks for help on a potential dropped ball on the tag play at the plate.
-
-PICKOFF THROW TO THIRD GROUND BALLTO THE INFIELD
-◄ 1
-- ®
-THROW
-LAY '
-..
-GROUND BALL
-◄ 1
-- ®
-THROW
-LAY '
-..
-GROUND BALL
-
-Action on the field: Before pitching, the pitcher attempts to pick ofl the runner at third oase.
-
-Umpireresponsibilities:
-PU: Watches thepitcher for potential balks then lakes a step out from behind the catcher to observe the action or in case ball isove,rthrown.
-
-Ut:Watchesthe pitcher for potentiaJbalks before throwing. Once the pickoff attempt has started, U1 should takea quick step toward the moundto open up the angle for the tag play at third base. Comes to a h-ands-on-kneeset to see the play at thirdlbase.If the play is a swipe tag out,ensurethe fiel(ler retains possession of the IJall before making the out call. If therunner is safe, nodelay is necessary. Do not overcommit to third base in case thereisa secondary throw at another base.
-
-Action on the field: The batter hits a groundball to F6, who throws to seconclfor the firat out. F4 lhen turns and throws to fiirst for thesecond out. R3 adva11ces homea11cl R2 advances to third.
-
-Umpire responsibilities:
-PU: Because IR3 is headed home, PUcannot move tothemiddleof the inflelcl.PUobserves theaction, in particular the slide at second base.II there is interference on the slide,PU must step intotheinfield as the call is made to,make ii appear he was closer to theplay than he was.
-
-U1: When the baJI ishit, takes one step forward andturns withliebaJI. As the throw heads towaro secono base, U1 steps toward firstbase. U1 gets into a standing-set position for the play at secolld, thenmove.s one more step toward first whiile calliing the play at second. U1 thengets set for the1play at first. II A1 was safe at second, moves back toward second after play ends and calls R1 safe again to ensure players knew call. Do not overcommit tofirst base in case there isa suoseqvent play at another oase.
-
-CREWOFTWO: BASESLOADED
-FLY BALLTO LEFT-CENITERFIELD,,CATCH
-
-Action onthefield:Flyball cauglht oy the centerfielder; R3 tags upat thirdand drawsa throw to the plate;R2 tags up at secondand advances toward thirdbase;R1retreatsto first oase.
-Umpireresponsibilities:
-PU: Moves to a positionto best view R3'stag 11pat thirdbase andrewms to the plate for all Iplays there.
-
-Ul:Moves to the best positionpossibleto view the catch/nocatch.U1 readsthe runners andthrow andmoves toa positionto r11le on all playsontheoases.Has tag up by R2 and R1.
-CREWOFTWO: BASESLOADED
-FLY BALLTO LEFT-CENITERFIELD,,CATCH
-
-Action onthefield:Flyball cauglht oy the centerfielder; R3 tags upat thirdand drawsa throw to the plate;R2 tags up at secondand advances toward thirdbase;R1retreatsto first oase.
-Umpireresponsibilities:
-PU: Moves to a positionto best view R3'stag 11pat thirdbase andrewms to the plate for all Iplays there.
-
-Ul:Moves to the best positionpossibleto view the catch/nocatch.U1 readsthe runners andthrow andmoves toa positionto r11le on all playsontheoases.Has tag up by R2 and R1.
-
-CREWO:FTWO: BASES LOADED
-CREWO:FTWO: BASES LOADED
-
-FLYB.ALLDOWN THE LEFT-FIELDLINE, CATCH
-•
-.. R2
-•
-.. R2
-
-Actiononthe field: Flyball caught by theleft fielder near the foul line; R3 tags up ancl drawsa throw to theplate; R2 tags up ancl advances towardthird base; R1 retreats toward first base.
-Umpire responsibilities:
-PU:Moves to Ille best positionpossiblelo view the fair/foul andcatch/nocatch.Also
-observes R3's tag up. PUreturns to the platefor all plays.
-
-U1: Retreats andlobserves tag ups of R2 and R1. U1 readsthe runnersand throw and moves to a position to ruleonall plays on the bases.
-
-SECTION 9 CREW OF TWO: BASES LOADED
-
-CLEAN HIT TO THEOUTFIELD Crew of Two: Runners on First and Third
-
-BR
-®--- --- ·--
-BR
-®--- --- ·--
-
-Initial Position: U1 will start in the "B" posi1ion
-
-Game situation: Because so much can happen, staying In the "B" position is best, without adjusting forward or backward. This runner configuration is probably the most challengirig for a base umpire oecause so much can happen. lnvariaoly, the offense will try to steal second,and th:e defense, through a series of real arnd feint pickoff moves will try to prevent
-ii. Anet when a throw d:oes go to second, R3 willlbreak for home.
-
-Potential plays: PU and U11share responsibility for balks and/or illegal pitches. U1 will have a tough time seeing if a right-handed pitcher stops since U1 is in the "B" position.
-
-Action on the field: A clean hit to right-center field; R3 aovances 10 the plate: R2 aicivances to Ille plate; R1 advances toward third tlase, drawing a throw there; the batter-runner rounds first base.
-
-Umpire responsibilities:
-PU: Observes R3's touclhing of the plate andlhe third-tlase·touch of R2 (and R1 if advances home). PU moves to a position to rule on all plays at the plate.
-
-PU is also responsible for:
-1. Calling the pitch
-• All fair-foul calls
-• Fly balls In your aireas of the outfield
-• R3's tag at third base on a flyball
-• Slides at second base on potential double plays
-• R1 advancing from first to third om any batted ball to the outfield
+t. Calling the pitch
+	•	AII fair-foul calls
+	•	Fly balls in your areas of theoutfield
+	•	Slides at second base onpotential double plays
+	•	R1 advancing Imm first IDthird on any batfed oalltotheoutfield
 
 Ul is also responsible for:
-• Pick off attempl at first base or third base oy the pitcher or catcher
-• Help(when asked by your 1partner)on a checked swing
-• Stolen tlase attempt by R1 (and the accompanying trick plays)
-• Fly balls in your areaof the outfield
-• Plays at anybase on batted balls in the irnfie!cl
-• Plays on R1 at second or on BR at at any base on base hits
-• Plays on R1 atthird base if PU has to cover a fair/foul or catch/no catch down the right· field line
+	•	Pick off attempt at first base by the pitcher or catcher
+	•	Help (when asked by your partner) on a checked swing
+	•	Stolen base attempt by R1
+	•	Fly balls in your area of the outfield
+	•	Plays.at first. second andthird onbatted balls in the infield
+	•	Playson R1 at second or onBR at first or second onbase hits
+	•	Plays-onR1 or BR at any base if PUllas to cover a fair/foul down the right-field line
 
-NFHSBaseball Umpires Marnuall2025 and 2026 95
-NFHSBaseball Umpires Marnuall2025 and 2026 95
+<
+<
+	
 
-96 NIFHSBaseball Umpires Marmal 2025 and 2026
+CREW OF TWO: RUNNER ONFIRST	CREW OF TWO:RUNNER ONFIRST	"
 
-SECTION 9 CREW OF TWO:RUNNERS ON FIRST AND THIRD
-THIRD-TO-FIRSTMOVE
+PICKOFF AT FIRST	STEAL OF SECOND
 
-Action on the field: The pitcher fakes to third before tuming and throwing to first base.
+
+
+Action on the lield:Before pitching, the pitcher attempts to pick off the runner at firstbase.
+Umpire responsibilities:
+PU:Watches the pitcher forpotential balks then lakes a step out from behind thecatcher to observe lhe action orincase ballisoverthrown.
+
+U1:Watches thepitcher forpotential t>alks before throwing. Once the pickoff attempt has started, U1 should takea quick step withhis let! foot and turn and step with theright foot at the same time to square up tothe bag.Be stopped whenF3 lags R1.IfR1 is out or safe on aclose play,lake two or three steps after tile tag while making the call logive the appeararice that you were closer to the play.
+ AC1ionon the field:The batmr swings andmisses at the pitch as Rl attempts to steal second base.
+Umpire responsibilities:
+PU:Signals the swinging strike without taking his focus ott the play at hand.Ensures the
+.batter cloes notinterfere withthecatcher's throw and that the catcher does not obstruct the batter's swing. Steps out as needed toobserve the play.
+U1:rakes a backward step or two as the throw isreleased from the catcher. Keeps eye on tt:ieballand turns as lhe oall passes Ul. comes toa hands"on-kneeset to see the play at sec01Jdlbase.If the play isa swipe tag out. ensure the fielder retains possession of the ball before makfng the out call.If the runner is safe,no clelay isnecessary.
+
+<
+<
+>
+>
+
+
+
+
+
+	
+
+CREW OF TWO: RUNNER ON FIRST	CREW OF TWO: RUNNER ON FIRST	•
+
+GROUND BALL TO THE INFlELD	BASE HITTO THE OUTFIELD
+F8
+F8
+
+
+Action onth& l'ield:Double-play ground ball to theshortstop, with a throw tosecond base followed llyathrow to first tlase.
 
 Umpire responsibilities:
-PU: Watchesthe pitcher for potentiaJ balks then takes a step out fromlbehinclthe catcher to observe tl1e action or in case balll is overthrown.
+PU: Moves to the third-base sideof'lhe pitcher'smound to assistU1 on the slide at second base by R1.PUhas secondary responsibility For assistingU1on aswipe tag and/or pulled foot at firstbase. On any battedball withfn the plate areaornear ttie first-base line,PU must remain with the batter-runner to observe him running within the running lane.
 
-U1: Watches the pitcher for potential balks before thrnwing.Once the pickoff attempt has
-.started. U1 steps in as F1 fakes tothird.U1 thentakes another step as F1 throws lo first. Be stopped w,henF3 tags R1. If R1 is out or safe on a closeplay, take two or tl1ree steps after tl1e tag whilemaking the call to give theappearance that you were closer to lhe play.
-Don't overcommit toward first in case F3 makes a snap throw to third or home. Be wary of following too closetoa rundown involving R1, since the defense will most likely throw home if R3 attemptsto advance.
-SECTION 9 CREW OF TWO:RUNNERS ON FIRST AND THIRD
-THIRD-TO-FIRSTMOVE
-
-Action on the field: The pitcher fakes to third before tuming and throwing to first base.
-
-Umpire responsibilities:
-PU: Watchesthe pitcher for potentiaJ balks then takes a step out fromlbehinclthe catcher to observe tl1e action or in case balll is overthrown.
-
-U1: Watches the pitcher for potential balks before thrnwing.Once the pickoff attempt has
-.started. U1 steps in as F1 fakes tothird.U1 thentakes another step as F1 throws lo first. Be stopped w,henF3 tags R1. If R1 is out or safe on a closeplay, take two or tl1ree steps after tl1e tag whilemaking the call to give theappearance that you were closer to lhe play.
-Don't overcommit toward first in case F3 makes a snap throw to third or home. Be wary of following too closetoa rundown involving R1, since the defense will most likely throw home if R3 attemptsto advance.
-
-CREW OFTWO: RUNNERS ON FIRST AND THIRD
-
-STEAIL OF SECOND
-•••·······•••• •• A
-•••·······•••• •• A
-
-Action on the field: The batter swings and misses at tl1e pitchas R1 attempts to steal second base.
-
-Umpire responsibilities:
-PU: Signalsthe swin,ging strili.e withouttakinghis focus off theplay at hand.Einsures the batter does not intertere withthe catcher's throw.Thelikelihood of interference is increased when the catcher has madea poor throw.
-
-U1: Observes the pitch and initial throw to second.Tums with the ball and gets stopped for theplay at second base. Oon't overcommit intothesecond-tlase cutout tlecausethe defensewill try a number of plays toprevent R3 fromscoring. The catcher could throw to tlilird or themidi;IJ,einfielder could cut across and cut off tnethrow. U1 must be ready for
-Ille tag of R1 at second,IR1 getting intoa rundown l:letween first and second or the defense makinga snap throw in order to rellreR3 at eitherthinl or home.
-
-CLEANHIT TO THE OUTFIELD Crew of Two:Runner onSecond
-
-General Information
-
-Initial Position:Ul will start in the "C" position.
-
-Playerrequest:Frequently, in position C you will ollstrucl the runner's or shortsto;p's view of the pitcheror the plate. Before a player asks you to move, and youalways snould,
-consider which direction.Movingforward or back a step alters your position in th,e player's view and doesn't cut your angle as much as movingright or left.
-
-Game situation:Is a bunt in order?Adjust foiward a step or two. When a bunt does occur, it will beeasier tomove intoposition and prepare for a play at either first or third base; if the bunt is missed and a throw goes to second, you will have plenty of time to move toward the second·-basecutout.If Ille game is one-sided, you can expect amore conservative offensive approachand moveback oneor two steps fromyournormal position.
-
-The runner: A straight steal of third is not very likely, but does happenmore inhigh school baselall than at moreadvanced levels. Once the pitcher hascommilted topitch, glance back at R2 to see if he's breaJkingfor third.If you expect a steal,adjust forward from yom normal positionto create a better angle at third base.
-
-Thebatter:If BR is a right-handed power hitter, you might move a step backward. Moving back will give you more time to react to a ball batted in your direction.
-
-Potential plays:PU and U1 shareresponsibility for ialks and/or illegal pitches.U1 wiill have a tough timeseeingif a left-handed pitcher stops sinceUl is in the "C" position.
-
-Actiononthe field:Clean hit toright-center field, nocatch: R3 advances toward the plate; R1 advances towarclthirclbase and draws a throw there; BRrounds first and returns there.
+Ul:Moves Into the best positiol) torule onplays at first or second base,including a "drift" toward first on apotential double play.
+ Actionon the field:A clean hitID left.field,nocatch; R1 advances ID thirdbase, drawing a throw there.
 
 Umpireresponsibilities:
-PU: ReadsR1 and theball and moves halfway up the third-tJase line, while observingR3 touch theplate. When it Is apparent that theball and R.1will arrive at thirdlbase, PU moves into the third-basecutout for the play.
+PU: Moves halfway toward third.Reads R1and the ball and when it appears both will arrive at thlrdbase at the same time, communicates toU1 that PUhas the play at third andmoves into the cutout for the play at thirdbase onRl. In the case of an overthrow, PU retreats to home for all possibleplays at the plate.
+U1; Moves into the workingarea andreacts to t11eplay.Hasall plays at first and second base.
 
-U1: Observes base touches at first and seconcl tJase and is respon.sibleif BR advances toward third base.
+<
+<
+
+
+
+
+
+
+	
+
+CREW OF TWO: RUNNER ON FIRST
+
+
+
+FLY BALL TO RIGHT FIELD, NO CATCH, PU STAYS ON THELINE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Action onthe field:Deep fly ball along the right-field foul line,no catch:PU remains along the line; Rl aavances toward1hird base,drawing athrow there; the baner-runner rounds first base.
+Umpireresponslbllltles:
+PU: Must remain near tl'le foul line to rule on fair/foul and catch/no catch.PU will communicate toU1 thatPU is ''on the line" and willnothave normal rotation coverage.
+U1:Hasany plays that develop at first, second and third base.U1 must not overcommit to the play at thirdbase incase of a subsequent play on SR at either first or second base.
+ Crew of Two: Runners on First and Second
+General Information
+Initial Position: Ul willstart in the "C" position.However, it is important to beaware of several factors that might cause you toadjust from the basic starting position.
+Player request:Frequently,in position C you will obstruct the runner's or shortstop's view of the pitcher or the plate.Before aplayer asks you to move. and youalways should.
+consider which direction.Moving forward or back astep alters your position in theplayer's
+view ancl doesn't cut your angle as much as movingright or left.
+
+Game situation:Isabunt in order? Adjust forward astep or two.When abunt doesoccur, it will be easier to move intopositionand prepare for aplay at first or thirdbase; if the bunt is missed and apickoff throw goes to first, again ii willbe easier to move into posltion.
+Remindeach other of an infield fly situation.
+Defensive tendencies: A pickoff throw to firstby the pitcher isunlikely.although not impossible. However, many aggressive catchers like to throw behind the runner at fits!.II thedefense has areputation for unusual plays or the catcher isunusuallyaggressive, you may adjust forward a stepor two.Resist moving toward the center of the infield,because
+t)lat will put you in the·line of a throw to second base.
+
+The runners: Steals ot third and/or double stealsare not as common, but still happen alot in high school ba.seball.Once the pitcher has committed topitch,glance back at R2tosee if he's breaking for third.If you expect asteal,adjust forward from your normal positionto create abetter angle at third base.
+
+The batter:If the batter isaright-handed hitter, consider adjusting back astep.That will give youmore timeto react to a oallbatted Inyour direction. Especially if IJ1at batter isa power hitter, his coach willbe less likely tosteal ana "take the bat out of his hana."
+Potential plays;PU and U1 share responsibility for balks and/or illegal pitches.U1 willhave a tough timeseeingIf aleft-handed pitcher stops.sinceU1isin the "C'' position.And while either umpire may call aninfield f!y,it is better ifPU makes the call si'ncehe ha.sthe wide view of the field.
+PU Is also responsible for:
+	•	Calling the pitch
+	•	AUfair-foul calls
+	•	Fly ballsin your areas CJ!theoutfield
+	•	Slides at second or third base on potential double plays
+	•	A2 advancing from second to thinJ on any caught fly ballin tl'le outfield
+Ul is also responsible for:
+	•	Pickoff attempts at first or second base by the pitcher or catcher
+
+<
+<
+)
+)
+	
+
+CREW OF TWO: RUNNERS ON FIRST AND SECOND	CREW OF TWO: RUNNERS ON FIRST AND SECOND
+
+
+	•	Help (when asked by your partner) on achecked swing 3, Stolen base attempts by R1 and/or R2
+	•	Fly balls in your area of the outfield
+	•	Plays atany base on batted1>.ails1nthe intield
+	•	Plays at any base (except home) onbasehits
+	•	Plays onR2 at third ii PU has tocover acaught fly ball down the right-field line
+ PICKOFF THROW TO SECOND
+
+
+Actionon the field:Before pitching, the pit&her attempls Ill pick ott the runner at second base.
+
+Umpir11l'l!ISC)Onsibilities:
+PU: Wal&hes ltle pitcher for potential balks ihen takes a step out from behind thecal&her to observe theaction.
+Ut:Watches the pitcher for poten1ial balks before throwing. Once the pickott attempt has started!,Ut should take aquick backward stepandturn with the ball as it passes him towarcl1the fielder.If possible, U1 should come to a hands-on-knee set to see the play at secornd!base.If the play is a swipetag out, ensure the fielder retains possession of theball before making !tie out call,If the runner is safe,no delay is necessary,
+
+<
+<
+>
+>
+
+
+
+
+
+	
+
+CREW OFTWO: RUNNERS ONFIRST AND SECOND	CREW OF TWO: RUNNERS ON FIRST AND SECOND	•
+
+PICKOFF THROW TO FIRST	DOUBLE STEAL
+... @•····················@
+... @•····················@
+
+
+Actiononlhe field:Before pitching, the pitcher attempts topick ott the runner at second base.
+Umpire respollSibililies:
+PU: Watches the pitcher for potential balks then takes a step out from behind thecatcher to observe theaction or In case ball is overthrown.
+
+U1: Watches the pitcher for potential balks before throwing. Once the pickoH attempt has started, U1 should lake aquick step with his lefl toot and turn and step with the right foot at the same time tosquare up to the bag.Bestopped when F3 tags R1.II R1 is out or sale on aclose·play, take a step or two after the tag while makingt11e call to give the appearance that you were cJoser·tothe play.Don't overcommit toward firstincase F3 makes a snap throw to second or R2 attempl.s to advance to third.
+ 
+Actiononttte fleld:The batter swings am!misses at the pitch as R2attempts to steal third and R1attempts to steal second base.
+
+Umpire responsibilities:
+PU: Signals the swinging strike without taking hisfocus off the play at hand.Ensures the batter does noti.ntertere withthecatcher's throw and the catcher does not ol>structs the batter's attempt to swing.They have force-play•slideresponsibilities,
+U1: When the runners start to steal, takes several steps forward and reads F2's throw. If
+F2 throws to third, step toward third.If F2 throws to second, moveback toward.seconCI, watching the ball and turning as it passes you.If either runner isout or safe on aclose play. lake astep or two after the lag while making the call to gi've the appearance that you were closer to the play.Don't overcommit toward that call Incase the fielder makes a snap throw to the other base.
+
+<
+<
+
+
+
+	
+
+CREW OFlWO:RUNNERS ONFIRST AND SECOND	CREW OF TWO: RUNNERS ON FIRST AND SECOND	"
+
+GROUND BALL TO THEINFIELD	CLEA.NHIT TO THE OUTFIELD
+...
+...
+
+
+Action on the lield: Ground llall to the shortslJJp, whoattempts to start a doullle play by throwing to second to retire R1.1he relay then goes to firstinan attempt to retire BR.
+
+Umpire responsibilities:
+PU:Moves to aposition to assistU1on the slide.Cannot move into theInfield since there is potential for R2 to lry and score. Must also observe R2's touch of third.PUhas secondary responsibility for assisting Ui on aswipe tag or pulled foot at firstbase.
+
+U1: When llal.1ishit, moves toward the back ofU1e mound to be in position for play at secollel base. As throw is released from second to first, makes the initial out call While drilling toward first.Be set for both plays.Don't overcommit to first base as there might be asnap1hrow across the irilield tothinl base.
+ Actionon the field:Aclean hit toright field;R2 advances toward the plate; R1 advances toward thirdbase,drawlng athrow there; the batter-runner advances to firstbase.
+
+Umpire responsibilities:
+PU:Observes R2's !Duch of the plate and allbase touches at third base (except BR).PU moves toa position to ruleon all plays at the plate.
+
+U1: Observes base touches at first and second base onallrunners and at third onBR.U1 moves toa position to ruleon all plays on lhe bases. Don't overcommit ID any one base because of apossible second play at anotller base.
+
+<
+<
+
+
+
+
+
+	
+
+CREW OFTWO: RUNNERS ONFIRST AND SECOND	CREW OF TWO: RUNNERS ON FIRST AND SECOND
+
+FLY BALL TO CENTER FIELD, CATCH	FLY BALL TO RIGHT FIELD, CATCH
+•
+•
+
+
+Action onthe field: With zero or one out, a routine fly ball caught by thecenter fielder: R2 tags at seconcl and draws a throw to thfrd oase: R1 retums to first base.
+
+Umpire responsibilities:
+PU: Moves halfway up the line toward third base.When R2 attempts lo advance. PU moves into the third-base cutout for the play there.II aplay develops at third base andR2 then attempts to advance to the plate. PU must retreat in fair territory for any play at thep'late.If the ball is not caught, PU returns to the plate for all plays there.
+
+U1:Moves to the best position possible to view the catch/no catch.If the catch is routine, U1 can easily move back for an angle onbot)l runners asthey tagup. If the catch is not routine, move forward for the catch, sacrificing the best angles onthe tags. Ul then moves into a position for any plays at first or second base. If the ball is not caught, Ut moves to a position to rule on anyplay on the bases.
+ Actionon lhe field: Fly ball down the right-field line caught by the right fielder; R2 l:Jgs up at second and drawsa throw to third base; R1 also tags up and advances to second base.
+
+Umpireresponsibilities:
+PU: Moves to the best position possible to view the fair/foul and catch/no catch. PUmust communicate to U1 that PUIs "on the line" thus notifying Ut that PUwill not be at thirct base for any play there. PUreturns to the plate tor any plays there.
+
+U1: With no responsitlility for the catch/no catch, U1 retreals to the back of lhe mound and observes R1 and R2 tagging up.U1 moves to a position to cover allplays on the bases.
+
+<
+<
+
+
+
+	
+
+CREW OFTWO:BASES LOADED
+
+Crew of Two: Bases Loaded	STEAL OFHOME
+General Information
+
+Initial Position: Ul will start in the "C" position. There will be the very rare attempted triple steal, but you should not adjust for that.slight possibility.With bases loaded, there will a.lso be fewer pickoffs,so you might be able to worka step ortwo deeper than normal. However, you must stillbe ready for pickoff throws from both the pitcher and catcher.
+
+Potential plays: PUandU1 share responsibility for balks and/or 111egal pitches. U1 will have a tough time seeing if aleft-handed pitcher stops since U1 is in the "C" position. And while either umpiremay call an infield fly,it is better if PUmakes the call since he has the wide view of the field,
+
 
 PUis also responsible for:
-• Calling thepitcih
-• All fair-foul calls
-• Fly IJalls in your areas of the ourtfield
-• R3's touching third tJaseif he attempts to score 5.AssislingU1 on pulled fool/swipe tags at first base.
+1, Calling the pitch 2,All fair-foul calls
+	•	Fly balls in your areas of the outfield
+	•	Observing R3's tag upIf heattempts to advance home on ally ball
+	•	Slides at second or third base or at the plate onpotential double plays
+	•	Infield fly responsibilities
 
-U1 isalsoresponsilJlefor:
-• Pickoff attempt at secolld base by theIpitcher or catcher
-• Help(when asked by your partner) ona checked'swing
-• Stolen oase attempt by R.2
-• Fly balls in your areaof theoutfield
-• Plays at anv base involvingR2 or BR
+Ul is also responsible for:
+	•	Pickoff attempts at any base by the pitcher or catcher
+	•	Help (when asked by your partner) on achecked swing
+	•	Stolen base attempts by R1 and/or R2
+	•	Fly balls in yourarea of the outfield
+	•	Plays at any base on batted balls
+ 
 
-)
-)
 
-PLAYSWliHINTHE INFIELD FLYBALLTO THEOUTFIELD, CATCH
-l
-R
-THROW • .:.
-l
-R
-THROW • .:.
-'
-'
 
-Action onthe field: Groundballlto shortstop with a throw to first base; R2 advances toward third base on thethrow and draws a throw !o thircl base.
 
-Umpireresponsibilities:
-PU:Observes the action at first tiase to assist on swipe tag or pulled foot by the first tlaseman and thenreturns to theplate for anyplay th,ere.
 
-Ut:Moves into thebest positionlo rule on all playsat first, second or third base.
 
-Action on the field: fly ball caught by thecenter fielcler; R2 tags up and advances toward third,drawing a throwhere.
 
-Umpireresponsibilities:
-PIJ: Moves out from llehinclthe catcher anclollseirves theaction. PUisrespornsible for all plays at the plate.
 
-U1: Movesto thebest positionpossibleto view the catch/no catch. U1 observes R2's tag up. U1 moveslo a position to rule on all plays on the bases.
 
-Crew of Two:Runners on Second and Third
-General Information
 
-Initial Positi'o11:U1 will start in the "C" position.Since there i,snorunner on first baseand noreasonablepossibility of a steal of thirdbase, youcan work one or two steps deeper than normal in most instances.From the deeper position, you are still in good posiition to rule on pickoffs at either second or third base.
 
-Game situation: If the infieldisplaying "in," adjust your position left or right toallow the shortstop plenty of room to field a ba't1edball. With the infieldersplaying in, thereislittle chance of apickoff throw.
-Potential plays: PU and U1 share responsibility for l:lalks and/or illegal pitches.U1 will have a toughtimeseeing if a left-handed pilclher stops since U1 is in,the"C" position.
 
-PUis alsoresponsible for:
-• Callingthe pitch
-• All fair-foul calls
-• Flv balls inyour areas of the outfield
-• R3's tagup at third base ona fly ball
-• R2's touching thirdbaseif he attempts to score on a lasehit
-• Any runner touchin[Ithe plate and any plays ai the plate
-U1 is also responsible for:
-• P;ickofl attempt at second or third base by the pitcher or catcher
-• Help(whe:n asked by your partner) on a checked swing
-• Stolen tiase attempt by R2
-• Fly balls in your area of theoutfield
-• Pllays at a11y base lnvolVlngR2 or BR
-Crew of Two:Runners on Second and Third
-General Information
 
-Initial Positi'o11:U1 will start in the "C" position.Since there i,snorunner on first baseand noreasonablepossibility of a steal of thirdbase, youcan work one or two steps deeper than normal in most instances.From the deeper position, you are still in good posiition to rule on pickoffs at either second or third base.
 
-Game situation: If the infieldisplaying "in," adjust your position left or right toallow the shortstop plenty of room to field a ba't1edball. With the infieldersplaying in, thereislittle chance of apickoff throw.
-Potential plays: PU and U1 share responsibility for l:lalks and/or illegal pitches.U1 will have a toughtimeseeing if a left-handed pilclher stops since U1 is in,the"C" position.
-
-PUis alsoresponsible for:
-• Callingthe pitch
-• All fair-foul calls
-• Flv balls inyour areas of the outfield
-• R3's tagup at third base ona fly ball
-• R2's touching thirdbaseif he attempts to score on a lasehit
-• Any runner touchin[Ithe plate and any plays ai the plate
-U1 is also responsible for:
-• P;ickofl attempt at second or third base by the pitcher or catcher
-• Help(whe:n asked by your partner) on a checked swing
-• Stolen tiase attempt by R2
-• Fly balls in your area of theoutfield
-• Pllays at a11y base lnvolVlngR2 or BR
-
-SECTION 9 CREW OF TWO: RUNNERS ON SECOND AND THIRD
-
-GROUND BALL TO THE INFIELD
-GIIOIN)BALI.
-3,.
-GIIOIN)BALI.
-3,.
-
-Action on the field: Grouindball to thirdbase witha throw to first base; R3 retreats to, third base; R2 retreats to second oase.
+Action on the field:All three runners attempt to steal bases,
 
 Umpire responsibilities:
-PU: Has secondaryresponsitlility for assisting U11 on swipetag anl'.I pulled font at first base. PU cannot overcommit to first base, because all touches and plays at the plateare also P's responsibility.PU alsohas all oerthrow responsililities at first lase an(! all running-lane interferenceresponsibilities.
+PU: Must ensure the pitcher didnot commit abalk when the runner broke from third.Must judge whether the pitch is a ball or strike before judging the play at the plate. Must be aware of potentialinterference by the batter orobstruction by the catcher.
 
-u: Movesinto the best position to ruleon all plays at first, second or third tlase.U1 cannol overcommit to first base incase of a second play in the infieldonce the out ismade at first base.
+U1:Moves several steps forward ID be inposition to rule onpotential secondary plays at secondor third base. Observes the play at the plate and assists if PU asks for help on a potential dropped ball on tile tag play at the plate.
 
-"
-FLYBALL TO LEFT-CENTERFIELD, CATCH Crew of Two:Runner on Third
+<
+<
+
+
+
+
+
+
+
+	
+
+CREW OF TWO: BASES LOADED	CREW OF TWO: BASES LOADED
+
+PICKOFF THROW TO THIRD	GROUND BALL TO THE INFIELD
+THROW ;,I '[11
+
+
 ...
+GROUND BALL
+
+
+
+
+
+
+
+
+
+
+THROW ;,I '[11
+
+
 ...
+GROUND BALL
 
-InitialPosition: Ul will start in the "C" position. Since there is no runner on first base, vou can work one or two steps deeper than1normal irn most irnstances. Firom the deeper position, youare still in good position to rule on pickoffs at third base.
 
-Game situation: If the infield isplaying "in." adjust your 1positionleft or right to aJlow tne shortstop plenty of roomto fiield a batted ball. Since y11u are working deeper, tie ready to move quickly on a lbattedball withiinthe infield.
+Action onlhe field:Before pitching, the pitcher attempts topick off the runner at ltlird base.
+Umpireresponsibilities:
+PU: Watches the pitcher for potential balks then lakesa step out from behind the catcher to observe the action,or incase ball is overthrown.
 
-Pote11tial plays:PU and Ul share respon,sibilityfor balks andJor illegal pitches.U1 will have
-a tough time seeing if a left-handed pitcher stops since LH is in 111e "C" position.
+U1: Watches the pitcher for potential balks before·throwing.Once tile pickoff·attempt has started, U1 should take a quick step toward lhe mound toopen up the angle for the tag play at tllird base. Comes to a hancts-on-knee set tosee the play at third l>ase. lfthe play is a swipe tag out.ensure the fielder retains possession of the ball before making theout call.If the runner is safe, nodelay is necessary. Do not overcommit to third base in case there isa secondary throw at another base.
+ Action onthe field: The batter hilsa ground ball to F6, who throws to second for the first oul.F4 then turns and throws to first for the second out.R3 advances home andR2 advances to third.
+
+Umpire responsibilities:
+PU: Because R3 is headed home, PU cannot move to the middle of the infield. PU observes theaction, in particular the slide at second uase.If there is interference ontheslide, PU must step into the infield as the callis made to make it appear he was closer to theplay than he was.
+
+U1: When the ball is hit, takes one step forward ancl turns with the ball. As the throw heacts toward second base, U1 steps toward first base. U1 gets into astanding-set position for the play at second, then moves one more step toward first while calling the play at second. U1 then gets set for the play at first.If R1 wassafeat second. moves back toward second alter play ends and calls R1 safe again to ensureplayers .k.new call. Do not overcom111it to first base incase there is a subsequent play at another base.
+
+<
+<
+
+
+	
+
+CREW OF TWO: BASES LOADED
+
+FLY BALL TO LEFT-CENTER FIELD, CATCH
+<
+Action on the field:Fly ball caught by the center fielder; R3tags upat third and draws a throw to the plate:R2 tags up at second and advances toward lflirdbase;Rl retreats to first base.
+Umpireresponsibilities:
+PU: Moves toaposition to best view R3's tagup at lflirdbase andreturns to the plate for all plays there.
+
+U1:Moves to the bestposition possible to view the catch/no catch.U1 reads the runners and throw andmoves to aposition to rule on allplays on the bases.Has tagup by R2 and R1.
+CREW OF TWO: BASES LOADED
+
+FLY BALL TO LEFT-CENTER FIELD, CATCH
+<
+Action on the field:Fly ball caught by the center fielder; R3tags upat third and draws a throw to the plate:R2 tags up at second and advances toward lflirdbase;Rl retreats to first base.
+Umpireresponsibilities:
+PU: Moves toaposition to best view R3's tagup at lflirdbase andreturns to the plate for all plays there.
+
+U1:Moves to the bestposition possible to view the catch/no catch.U1 reads the runners and throw andmoves to aposition to rule on allplays on the bases.Has tagup by R2 and R1.
+CREW OFTWO: BASES LOADED
+FLY BALL DOWN THE L.EFT-FIELDL.INE, CATCH
+Actionon the field: Fly ball caught by the left fielder near the foulline; R3 lags up and draws a throw tothe plate; R2 tags upand advances toward thirdbase;R1 retreats toward firstbase.
+Umpire responsibilities:
+PU:Moves to tile best position possible to view the fair/foul and catch/no catch.Also observes R3's lagup.PUreturns tothe plate for all·plays.
+U1: Retreals andobserves tag ups CJ!R2 and Rl. Ul reads the runners and throw and moves toaposition to rule on all plays on the bases.
+CREW OFTWO: BASES LOADED
+FLY BALL DOWN THE L.EFT-FIELDL.INE, CATCH
+Actionon the field: Fly ball caught by the left fielder near the foulline; R3 lags up and draws a throw tothe plate; R2 tags upand advances toward thirdbase;R1 retreats toward firstbase.
+Umpire responsibilities:
+PU:Moves to tile best position possible to view the fair/foul and catch/no catch.Also observes R3's lagup.PUreturns tothe plate for all·plays.
+U1: Retreals andobserves tag ups CJ!R2 and Rl. Ul reads the runners and throw and moves toaposition to rule on all plays on the bases.
+
+CREW OF TWO: BASES LOADED
+
+CLEAN HIT TO THE OUTFIELD	Crew of Two: Runners on First and Third
+,
+.
+...-! .......····_·----
+.,. :	1
+.
+..·�:
+• "¥' •
+,
+.
+...-! .......····_·----
+.,. :	1
+.
+..·�:
+• "¥' •
+l11itiaJ Position: U1 will start in the "B" position.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Action on thefield:Aclean hit toright-center field;R3advances to the plale; R2 advances to the plate;R1advances toward.thirdbase, <lrawing a throw there; the batter-runner rounds first base.
+Umpireresponsibilities:
+PU: Observes R3's touching of the plate and the third-base touch of R2 (andR1 if advances home). PUmoves to aposition to rule on allplays at tile plate.
+U1:Observes base touches at first ancl second on allrunners andthirdbase by the batter-runner,U1 moves to aposition behind the mound and adjusts to rule on any play on the bases.
+ Game situation: Because so much can happen;staying in the "B'' posiliM isbest.without adjusfmg forward orbacl<Ward. This runner configuration isprobably the most challenging t0rii lbase umpirebecauseso much can happen. Invariably,theoffense will try to steal sec0111d,andthedefense, through aseries of real and feint pickoff moves will try toprevent i1t.And when a throw does go losecond, R3 will breal<forhome,
+
+Potential plays: PU andU1 shareresponsibility for balks and/or illegal pitches,U1 willhave
+atough timeseeing if aright-handed pitcher stopssince U1 is in the ''B" position.
 
 PU is also responsible for:
-11.Calling thepitch
-• All fair-foul ca.Ils
-• IFly MIi,s1n your areas o·f the olllfield
-• A3's tagup at third oase on a fly ball
-• Any runner touching heplateandany plays at the plate
+L Calring the pitch '2.AII!air-foul calls
+3.Fly balls in your areas of the outfield
+4.H3's lag at third base on a fly ball
+:5,Slide:; at second base onpotential double plays
+6.Rnadvancing from first to third on any batted ballto the outfield
+\!11is also responsible for:
+1, Pick iOfl attempt at first base or thirdbaseby the pitcher Of catcher '2.Help(when asked by your partner) on a checked swing
+'3.Stolen base attempt by R1 (andthe accompanying trick plays)
+4.flyballs in your area of theoutfield
+	•	5, Plays atany base onbatted balls in the infield
+	•	Play.son Rt alsecond or onBR at at any base on base hits
+	•	Plays oriRl at thirdbase it PUhas tocover a f'air/foul or catch/no catch downthe right-fieldline
 
-U1 is also responsit:Jle for:
-11.Pickoff attempt at third base bl' thepitcher or catcher
-• IHelp (when askecl by your partner)ona checkecl swi111g
-• fly l:lalls 1lnyour area of he outMld
-• Plays at any base involving any runner
+<
+<
+>
+>
 
-Action on tile leld:Fly tall caught by 111e left fielder: R3 tags upand advances toward the plate, drawing a !hrow 111ere; R2 tags up and advances loward third llase.
+
+
+
+
+
+	
+
+<
+<
+	CREW OF TWO: RUNNERS ON FIRST AND THIRD	
+STE.ALOF SECOND
+Action on the field: The batter swings and misses at the pitch as R1attempts Ill steal second base.
+Umpire responsibilities:
+PU: Signals the swinging strike without taking hisfocus oHthe play at hand.Ensures the batter does notinter1ere with thecatcher's throw.The likelihood of interferenceIs increased when the catcher has made a poor throw.
+
+U1: Observes •thepitch and initial throw tosecond.Turns withthe ball and gets stopped for the play al second base. Don't overcommit into the second-base cutout because the defensewill try a number of plays to prevent H3 from scoring. The catcner could throw to third or the middle infielder couldcut across and cut off the throw. U1 mustbe ready for
+lhe tag of R1 at second, R1 gefling into a rundown between first and second or the defense mak'ing asnap throw In order to retire R3 at either third or home.
+	CREW OF TWO: RUNNERS ON FIRST AND THIRD	
+STE.ALOF SECOND
+Action on the field: The batter swings and misses at the pitch as R1attempts Ill steal second base.
+Umpire responsibilities:
+PU: Signals the swinging strike without taking hisfocus oHthe play at hand.Ensures the batter does notinter1ere with thecatcher's throw.The likelihood of interferenceIs increased when the catcher has made a poor throw.
+
+U1: Observes •thepitch and initial throw tosecond.Turns withthe ball and gets stopped for the play al second base. Don't overcommit into the second-base cutout because the defensewill try a number of plays to prevent H3 from scoring. The catcner could throw to third or the middle infielder couldcut across and cut off the throw. U1 mustbe ready for
+lhe tag of R1 at second, R1 gefling into a rundown between first and second or the defense mak'ing asnap throw In order to retire R3 at either third or home.
+•
+•
+	CREW OFTWO:RUNNERS ON FIRST AND THIRD	
+
+THIRD-TO-FIRST MOVE
+�
+�
+
+Action onthe lield: The pitcher fakes to third before turning and throwing to first base.
 
 Umpire responsibilities:
-PU: Moves to the llest position possible to observe R3's tag up. PUreturns to the plate for all plays there.
+PU: Watches the pitcher for potential balks thentakes astep out from behind lfle catcher to observe lfle action or incase ball is overthrown.
 
-U1:Moves to the best position possible to view thecatch/nocatch.U1observes R2 tagging up. U1 movesintoposition for all plays on the bases.
+U1: Watches the pitcher for potential balks before throwing. Once the pickoff attempt has started, U1 steps inas F1 fakes to1hird.Ul thentakes another step as F1 throws to first Be stopped When F3 tags R1.If R1 is out or sate on a close play, take two or three steps after the tag while making the call to give the appearance that you werecloser to the play. Oon't overcommit toward first incase F3 makes a snap throw to ttiird or llome. Be wary of following too close toa rundown involving Rl. since the defense will most likely throw home if R3 attempts to advance.
 
-SECTION 9 CREW OF TWO: RI.INNER ON THl;RD
 
----CREW O-f TWO: RU-NNER ON-THIRD -
 
-GROUND BALL TO THE INFIELD FlY BALL TO THE OUTFIELD
+
+
+
+CREW OFTWO: RUNNERS ON ARST.ANDTHIRD
+
+
+CLEAN HIT TO THE OUTFIELD	Crew of Two: Runner on Second
+•�,
+.......... A1  '
+.
+\
+•�,
+.......... A1  '
+.
+\
+
+Initial Position: Ul will start inthe "C" position,
+Player request:Frequently, inposition C you will obstruct the runner's or shortstop·s view of thepitcher or the plate. Before aplayer asks you to move, and you always should,
+consider which direction.Moving forward orback a step alters your position in the player's view and doesn't cut your angle as much as moving right or left.
+Game situation:Is abunt in order? Adjust forwanl astep or two.When abunt doesoccur, it will be easier to move intoposition and prepare foraplay at either first orthirdbase; if ltie bunt is missed and a throw goes tosecond. you will have plentyof time to move toward the second-base cutout If the game isone-sided, you can expectamore conservative offensive approach andmove bacK one or twosteps from your normal position.
+
+The runner: A straight steal of third is not very likely. but does happen more in high school basel>all than at moreadvanced levels. once lhe pitcher has committed to pitch, glance back atR21o see if he's breaking for third. 'If you expect asteal,adjust forward from your normal position to create a better ang)e at thirdbase.
+Thebatter:If BR isaright-handed power hitter, youmight move a step backward. Moving back will give youmore timeto react·toaballbatted in your direction.
+Potentlal plays: PU and Ul share responsibility for balks and/or illegal pitches. Ut willhave atough time seeing it alel\-hamled pitcher stops since U1 is in the "C" position.
+
+
+Action onthe field: Clean hit toright-center field,nocatch; R3 advances toward the plate: R1 advances toward thirdbase and draws a throw there; BR rounds lirst andreturns there.
+Umpire respo11sibilities:
+PU: Reads R1 and the ball andmoves hallway up \he third-base line,while observing R3 touch the plate.When ii is apparent that \he ball and R1 will arrive at third base,PU moves into the third-base cutout forthe play.
+U1:Observesbase touches at first and second base andisresponsible if BR advances toward thirdbase.
+ PUis also responsible for:
+	•	Calling the pitch
+	•	All fair-foul calls
+	•	Fly balls inyour areas of theoutfield
+	•	RJ's !Duelling thirdbase if he attempts to score
+	•	Assisting U1 onpulled foot/swipe tags at lirst base.
+
+Ul is also responsiblefor:
+	•	Pickott attempt at second base by the pitcher or catcher
+	•	Help (when asked by your partner) on a checked swing
+	•	Stolen base attempt by R2
+	•	Fly balls in your area of the outfield
+	•	Plays at any ba$e involving R2 or BR
+
+<
+<
+
+
+
+
+	
+
+CREW OF TWO:RUNNER ON SECOND	CREW OF TWO: RUNNER ONSECOND
+
+PLAYS WITHIN THE INFIELD	FLY BALL TO THE OUTFIELD, CATCH
 THROW
-GROUND BALL ,
+...
 THROW
+...
+
+
+Action onthe field: Ground ball toshortstop wilh athrow tofirst base; R2 advances toward third baseon the throw and draws a throw to thirdbase.
+Umpire rasponsibilities:
+PU: Observes the actionat first base toassist on swipe tag or pulled footby lhe first baseman and then returns to the plate for any play there.
+U1:Moves into the best position torule on allplaysat first, second or thirdbase.
+ Actiononlhe field:Fly ball caughtby thecenter fielder;R2 lags up and advances toward third,drawing a throw there.
+Umpire l\!SllOnsibilities:
+PU:Moves out from behind the catcher and observes theaction. PUis responsible for all plays at the plate.
+U1: Moves tothe bestposition possible toview the catch/no catch.Ul observes R2's tag up.U1 moves to aposition to rule on allplays onthe bases.
+
+<
+<
+>
+>
+
+
+
+
+
+
+
+
+	
+
+CREW OF TWO: RUNNERS ONSECOND AND THIRD
+GROUND BALL TO THE INFIELD
+.,,.�
+PU
+>
+Actionon the field:Ground ball ID1hird base witha throw tJlfirstbase; R3 retreats to third base:R2 retreats tosecond base.
+Umpire res,ponsibilities:
+PU: Has secondary responsibilityfor assisting.U1 on swipe tag andpulled foot at firstbase. PU cannot overcommit to first base,because all touches andplaysat the plateare also P's responsibility.PU also has all overthrow responsibilities at first base- an!l all running-lane interferenc.e responsibilities.
+U1: Moves into the bestposition to ruleonall playsat first,second or thirdbase.U1 cannot overcommit tofirst base incase of a.second play in1he infieldonce1he out ismade at first base.
+CREW OF TWO: RUNNERS ONSECOND AND THIRD
+GROUND BALL TO THE INFIELD
+.,,.�
+PU
+>
+Actionon the field:Ground ball ID1hird base witha throw tJlfirstbase; R3 retreats to third base:R2 retreats tosecond base.
+Umpire res,ponsibilities:
+PU: Has secondary responsibilityfor assisting.U1 on swipe tag andpulled foot at firstbase. PU cannot overcommit to first base,because all touches andplaysat the plateare also P's responsibility.PU also has all overthrow responsibilities at first base- an!l all running-lane interferenc.e responsibilities.
+U1: Moves into the bestposition to ruleonall playsat first,second or thirdbase.U1 cannot overcommit tofirst base incase of a.second play in1he infieldonce1he out ismade at first base.
+<
+<
+Crew of Two: Runners on Second and Third
+General.Information
+Initial Position: Ul will startin the "C" position.Since there is no runner on first baseand no reasonable possibility of asl.eal of thirdbase, you can work one or two steps deeper than normal inmost instances. From tile deeper position. you are stillin good position to rule onpickoffs at either second or thirdbase.
+Game situation: If the infield is playing ''in," adjust your position left orrightto allow the shortstop plenty of room tofield abatted ball.With the Infielders playing in,there is little chance of a pickoff throw.
+Potential plays: PU and Ul share responsibility for balks and/or illegal pilches. U1 willhave a tough time seeing if aleft-handed pitcher stops since U1 isin the"C'' position.
+
+PUis also responsible for:
+	•	Calling the pilch
+	•	All fair-foul calls
+	•	Fly balls in your areas of the outfield
+	•	R3's tagup atthirdbase on a fly ball
+	•	R2's touching thirdbase if he attempts to score on abase hrt
+	•	al._
+al._
+Ul isalso responsible for:
+Ul isalso responsible for:
+	•	Pickoff attempt at second or thirdbase by the pitcher or catcher
+	•	Help (when asked by your partne� on achecked swing
+	•	Stolen base attempt by R2
+	•	Fly balls in your area of theoutfield
+	•	Plays at any base involving R2or BR
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<
+<
+FLY BALL TO LEFT-CENTER FIELD, CATCH	Crew of Two: Runner on Third
+•
+....'""'
+A
+�
+•
+....'""'
+A
+�
+Initial Position: Ul will start in the "C" position,Since there is no runner on firstbase, you canwork one or two steps deeper than normal inmost instances. From the deeper position. you are still ingoodposition to rule onpickoffs at thirdbase.
+Game situation:It the infield is playing "in," adjust your position lert or right toallow the shortstop plenty of room to field abatted ball. Since you are working deeper, be ready to move quickly on abatted ball within the infield.
+
+Potential plaY11: PU and Ul share responsibility for balks and/or illegal pitches. Ul willhave a tough timeseeing if aleft-handed pitcher stops since U1 is in lhe "C" position.
+
+PU is also responsible for:
+	•	Calling the pitch
+	•	Allfair-foul calls
+	•	Fly balls inyour areas of theouHield
+	•	R3's tagup at thirdbase on afly ball
+	•	Any runner touching the plate and anyplays at the plate
+U1 is also responsible tor:
+	•	Pickoft attempt at thirdbase by the pitcher or catcher
+	•	Help (when asked by your partner) on a checked swing
+	•	Fly ballsInyour area of theoutfield
+	•	Plays at any base involving any runner
+
+Action on the lield: Fly ball caught by lhe left fielder; R3 lags up and advances toward the plate, drawing athrow there: R2 tags upand advances toward thirdbase.
+
+Umpire responsibilitin:
+PU:Moves IDthe bestposition possible ID observe R3's tagup.PUreturns to tt,e plate ror allplays there.
+
+U1:Moves to lhe best position possible toview thecatch/no cal!:h.U1 observes R2 lagging up.U1 moves intoposttion for all plays on lhe bases.
+
+
+
+
+
+
+
+
+
+
+CREW OF TWO:RUNNER ON THIRD	CREW OF TWO:RUNNER ON THIRO	•
+
+GROUND BALL TO THE INFIELD	FLY BALL TO THE OUTFIELD
+THROW
+THROW
+
+
 GROUND BALL ,
+"
+GROUND BALL ,
+"
 
-A.ction on the field: The batter hits a ground balllto the second baseman,R3 heads toward honne ontheplay.
+Umpiremsponsibifilias:
+PU: Steps out from behind the catcher and observes R3 tDuch the plate.Provicles minimal assistance onpotential swipe tag/pulled foot at firstbase.
 
-Umpire responsibilities:
-PU:Steps out from behind thecatch,er and observes R3 touch the plate.Providesminimal assistance on potential swipe tag/pulleclfoot at first base.
+U1:Moves wward the moundand gets setror the play at first base Do not cross into lhe path of a fielder's potential throw home.
+ Action on the field:Flyball caught by the center fielder; R3 tags upancf advances 1Dwarcf the plate, drawing a throw there.
 
-U1: Moves toward themound and gets set for theplay al first IJase. Do not cross into the path of a Mlder'spotential throw home.
+Umpireresponsibilities:
+PU: Moves tothe bestposition possible toview R3's lagup and the catch.PUretums tothe plate for allplays there.
 
-Action on the field:Fly ball caught by the center fielder; R3tags upanclaclvances towarcl theplate, cir.awing a throw there.
+U1:Moves ID the bestposi1ion ror thecatch/no catch.U1 ha.sa.II plays on the bases, including any throw back into lhirdbase.
 
-Umpire responsibilities:
-PU: Moves to the nest position possitlleto view R3's tag up and thecatch. PUreturns to the platefor all plays there.
+<
+<
 
-U1: Moves to the best positionror the catch/no catch. U1 has aJI plays on the bases, inclucling any throw oack into·third base.
 
-)
-)
 
-Part
-8
-Part
-8
 
-Basic Principles
 
-• Box 'emin. Havingtheth,ird umpire often allows umpirestheluxury of h,avingiom: umpireinfront of a runner andoneumpire tlehi11d a runner- but not always!
 
-• Communicationis crucial. You nave to know where your partners are - and what they're doing - in order to function as a unit. Communicatebothwith signals and verbally.
 
-• Infieldumpires do not go out. In college andhigher level games,sometimes an
-umpire positioned in the middleof me diamond maycross thebase,pathsand head into the outfield for better coverage,However, that assumes that tne other two umpires can read thesituation,andadljust. In high school play,it is better for umpires not to go out in th,at situation.
 
-Basic Outfield Coverage
-• Do not go out automatically..On fly balls,rely on the same "Pause,read and react" concept as in the two-umpiresystem. Wl7enyou make thedecision to go out, go hard and get a good angle.Be stopped when the play occurs.
+	
 
-• Whento go out. Four conditions that require an umpire to go to theoutfield fromthe "A" and "D" positions:
-• The outfielder turns and begins toruntoward theoutfield fence (possible home run).
-• Multipleplayersconverging ona fly tlall.
-• A calch tleing madelbelow thewaist.
-• Outfielder movingtowarclthe foul lineand possible fair/foul decision.
+	
 
-• Whenin doubt, go out. If in doubt,go out on fly ballsin your coveragearea.
-• If youare going out,go out hard.
-• Leave no doubt in your partners' minds about whether or not you are going O'Ut.
-• Signal your partners byraising yourarm if you aregoing out ancl verbalize,"I'mgoing om."
-• If youare not going out,hold your arm out to your partnerswithyour palmfacing them.
-• 11youdonot goout,you still maintain responsibility for thecatch,
-• Once you go out, do not rntumuntil the play iscomplete.
+
+Partlfil
+ 
+
 
 Rotations
-When,theplate umpire moves to cover thirdandIJ1 moves to cover home- a rotation, whichoccursonly on clean base lhits and routine fly llalls to the olllfield (where noumpire is going out on a trouble llall)-the umpires can time their movements by mirroringthe movemenTIJof a runner.For example, in a rotationwilth IJ1covering home witha runner on fi1rst base, U1 cain advance homeas R1 aclvances from second to third.
+ CREW OF THREE: BASIC PRINCIPLES
 
-Overthrows
-• Nobody on base
-AlI overthrnws will be takenby PU with the i.xceplion of when the crew has rotated and that responsitJility will revert toIJ1, who has rotated to tneplate.
-
-• Runner on first base or firstaridthird
-PUwill have responsibilityfor overthrowswithtne exceptionof whenthecrew has rotated and U1hasrotatedto 'theplate.U1 will thenhavethat overthcow.Ininstances whenthe crew revertsto two umpires,PU hasall overthrows.Onplaysat thirdbase taken by PU whenthe crew has reverted to two umpires, the overthrow will be taken from insideas welJas the po$ibleplay at theplate.
-
-• Runners onfirst andsecond
-PU will take all ove1rthrows withth1eeJceptionof whenthere is a tag-uprotation and IJ1 has rotated to the plate. U1 will thenassumethat responsil:lility. Whenthe crew reverts to a two-umpire sys!emand PUhas a tag play at third base, PUwill take that play at third, the overthrow and possible play at the plate from the inside.
-
-• Runnerson second and third, third oase only or oases loaded PUhas all overthrow responsibilities.
-
-)
-)
-
-General ConceptsAndTenninology
-Whileonemay think that aclclingan umpiretotile traclitional 2-umpirehlgh1school umpiring crew would makeeach individual umpire's joteasier, theopposite is true. For most, 3-umpire mechanicsare themost complicatedand difficult to master.It isa blend of conceptsfrom both 2-umpiremechanics(whichmost of us are intimatelyfamiliar with)and 4-umpire mechanics (of whichmany of us have very littleknowledge).When working inIa 3-umpirecrew each umpireMUST, before the first pitch to eachnew batter(or whenever the runners' positions
-on thebases change),mentally review responsibilitiesshould the ball be put inplay. One's pre-pitch mental review should be reinforced by all three membersof thecrew whenlhey use standardi,ei:Ihandsigmlslo signal each other the proper crew movement ona ball hit to the outfield.
-
-Ideally,3-umpiremechanicsseek to keep oneumpire in front of the lead runner always.
-However,thisisnot alwayspossible;especially whena11 umpire goes out to the outfield on a "trouoleball." Like the oase umpireina 2-:umpireorew, base 111mpires in the 3-umpirecrew
-1.1Se the "Pause-Read-and-React" technique to determine whether a IJatted ball to outfield is a "trouble oall" requiringa lase umpire to "goout" to the outfield,or whether ii isa routine fly ball or cleanbase hit not requiringan umpire to go out
-
-Whenbothbase umpires start in foul territory(withno runnerson IJase ora runneron third lase only),they split theoutfielclcoverage. Toe first-baseumpire has the center fielder straig1ht-in/straight-backall the way to the right-field foul territory.The thinl-baseumpire has the center fielder moving toward left field au the way to left-fieldfoul territory.
-
-When orte of the base umpires Is in themiddre,outfiielclcoverage differs on whether the batted ball is a "trouble ball" or whether it is aroutinefly ball or cleanbase hit. II the batted ball is
-a trouble ball,the wing umpire(the umpireon the foul line) has the center fielder straight-in/ straig1ht-backall the way to the foul territoryon that umpire'sside of the field.Theumpire in the middllehas the "wedge" between the center fielder moving towarcl theopen side(the sideof thefieldwithno base umpire onthe foul line) to thewing fielder on the open side.The pu1takes thewing outfielder movingtoward the foul line. However,if theIJatted ball isnot a troubleball but rather is a routine flyor clean base iii! in Ille ''V" (thearea of theoutfielclbetween theleft fielder and right fielder) no umpire will go out and the umpire inthemiddle will100responsitlle for thecatch/r10 catc,h.
-
-Whfrnorte of the base umpires goes outto theoutfieltl on a troul:llel:lall,theremaiiningItwo llmpires (the PU and theother base umpire) will revert to 2-umplre.Revertingi to 2--umplreis a commonphrase used by umpireinstructorsto teach3-umpire mechanics.Whena crew revertsto 2-umpire it means that thetwo umpires remai111ingin the infield will use 2-umpire mechanicsto cover the bases. This usualllymeansthe remainingbase umpire will "open-up" in the working area behinclthe mound and coer any play at most jif not all) the bases. The PU,insteadof immediatelybustingintothethird-lJasecutout as the base umpire would on a rotation (see the next paragraph) wou!duse tile 2-umpire mechanic of telling the remaining lase umpire,"Ihave third if the runner comes," ancl fllen only bust into·thethird-lasecutout if ooth oa11 and runner are headinginto the base.
-
-When no umpiregoes outon a IJatted ball to the outfield, theumpires use various movements to keep an,umpire ahead of the leadrunner,Withno run111ers onbase,the third-tase umpire will
-runto the seconcl-basecutout to rule on an atttempted clouble,the PUwill run to lhird llase to rule onan attemptedtriple, aml after having watchedth,ebatter/rnnner touch first and second base, the first-lJaseumpire will run home to rule on an attempted inside-the-parkilome run. Likewise,
-witha runner on first only,the PU willltake any playSat third base againstR1 or the BIR and the first-oaseumpirewill take any playsat the plate. The movement of the PUto third oase and the
-first-tase umpire tohomeplate iscalledrotating or a rotation.k. set forth in the diagrams that follow,a rotationis alsoused on a flyball with rnnners on first and secondbase with lessthan two outs when R2 tags up and tries to advance to thirdbase.This is calleda tag-up rotation.
-
-In other situations (as set forth inthe diagramsthat follow) the third-baseumpire will take all plays at secondbase against an R2 andR1 as well asall plays at third base,white thefirst-base umpire will come intothe infieldgrass ancl pivot (same as in 2-umpiremechanics) and take the BIR Intosecond base (In additionto rulingon any play at first base). Whenthe first-baseumpire pivots and takes theBIR intosecond base (allowingthe third-baseumpire to move into the third-base cutout)this is called a slideor a reverserotation.
-
-Another concept thal canbe difficult to grasp is when1exactly an umpireshoulclbeginthe rotation or sMe.To assist an umpire in makingthis determination, we usetheconcept of mirroring.An umpire is mirroring whentheumpireisdoing the same movementsas a IJase runner that is parallel totile umpire. For instance,with a runner on firstbase only, on a clean llase hit to the outfield where the crew is rotating, the first-baseumpire should not run toward homeplate until
-Rl has touchedsecond oase and isadvancing to third oase.Inlact, as Rl is runningto third base,
-U1 shouldbe ruririingto the plate.If you look at a baseball field,one can see that thebaseline between second and thircl base is parallel to the baseline between first base anti llome plate. Thus, as R1 is running from second to third base, U1should be running in loul territorybetween first base and home.WhenU1 is doing this, U1 ismirroringR1. Ul shouldarrive at the platearea as Rl is arriving attnirdlase. Ukewise,will1norunners on base, tl1e PUshould runup to thircl
-base as the BIRisrunning from first oase to secondbase. ThePUshouldarrive at third base as
-the BIR isarriving at:second base. In this manner,thePUismirroring the B/R.
-
-on.efinal mle to rememller aoout crew movements:if the battecl ball does not leavethe infielcl, then the crew does not rotate or reverse rotate/srlde.Rotationsallcl slides are only used on clean base hitsand routine fly ballsto the outfield(where no baseumpire hasgone out). Most importantly, when working in a 3-umpirecrew do NOT IJe afraidto verbally oommunicatewith your partners.Communicating with your parfllers,bothby usinghantl signals and vertlall.is crucial to successfully working in a 3-umpirecrew.
-
-NORMAl ROTATION- On cleanbase hits to theoutfield with 1) no runners on,2) runneron first base onlyancl 3) runner al thirclbase only.PUrotates to make calls at thirdbase,U3 covers plays at second tase andU1 rotales to cover playsat homeplate.
-
-REVERSEROTATION("SLIDE") - On cleainbase hits to theoutfield with 1) runners onlirst and seconcl lase, 2) runners on first and third base, and3) bases loadooihe PU remains at:home to watch playsat the plate,U3 takes the lead runner(s) from first and second intothird base. u, takes theBIR all the way to s,econd base.
-
-SECTION 10 CREW OF THREE:: NO RUNNERS ON SECTION 10 CREW OF THREE: NO RUNNERSON -,..
-
-FAIR/FOU,LcovERAGE INITIALPOSITIONS AND OUTFIELDCOVERAGE
-! ••••••••••• jPURESPONSIBILITY
-VZZlZ7ZlU1 RESPONSIBILITY R$2S&3222j U3 RESPONSIBILITY
-KEY
-! ••••••••••• jPURESPONSIBILITY
-VZZlZ7ZlU1 RESPONSIBILITY R$2S&3222j U3 RESPONSIBILITY
-KEY
-U,HM
-COrllllllla
-UIHM
-CDIISllla&
-U,HM
-COrllllllla
-UIHM
-CDIISllla&
-
-Action on the field: No action.
-
-Umpirerespo111sib'ilities:
-PU: Has responsitiility forballs up to fiirst base and third base, including all foul territory.
-
-Ul:Has responsibility for barls that hit first base ancl/or g,o oeyond.
-
-U3:Has responsibility for balls that hit thiirdl base an(lfor go tJeyond.
-
-Actionon tile field: No action.
-
-Umpire responsibilities:
-PU: Has nooutfield responsitiility.
-
-Ul:Starts in the "A'' position.Ul cliclates coverageor responsltlility,has tile center fl,elder go'ing straight back, coming straiglht in, when he1urns to his left and when he moves toward right field.Ul also has all balls to the rightfielder.
-
-U3:Starts in the "D" position.U3 has the center fielder when he turns to his right. U3 also has aJIIJalls to the left fielder.
-
-If an u1111pire goes out ona fly ball, verbalize,and stay oUil until the play is over.
-
-Note:For all routine fly balls,rotations are similar to a clean hit
-
-Gt
-Gt
-
-Before the play: Givepre-pitchsignals.
-
-Action on the field: No action.
-
-Umpireresponsibilities:
-PU has catches:
-• By the pitcher moving in,left or right.
-• By the first and third baseman movingtowardtheplateor toward the middleof lhe infield.
-
-U1 has catches:
-• By the second baseman moving in, out or toward first base.
-• By the shortstop moving toward second base.
-• By the first baseman moving IJack or toward the liine.
-• By the pitcher moving back.
-
-U3 has catches:
-• By the shortstop moving in,IJack or toward third IJase.
-• By the second basemanmoving toward second base.
-• By the thirdbaseman moving back or toward the line.
-
-Action on the field:BR hits a gro1111d ball to F6, who is11nableto throw toward first base in anattempt to retire BR.
-
-Umpireresponsibilities:
-PU: Clearsthecatcher,removes mask ancl moves toward the 45-foot lline.Does not take eye all ball and stops whenit tiecomes apparent there wiill tie n.oplay at first tlase. If F6 throws, moves intopositionfor potential overthrow and to assist on possible swipe tag or pulled foot scenarios
-
-U1: When !he ball ishit, moves into fair territory aml triesto get a 90-clegreeangle to Judge play at first base. When no throw comes, moves intoposition in case a late throw comes in anattempt to pick off BR.
-
-U3:Wh1en the ball ishit, moves toward second-base cutout for any plays onthebatter-runner at second base.Stays out of potential throwing lane for f6 until it is clear F6 will not makea throw toward first base. Also, taes any plays on the oatter-rum1er at thiirdbase.
-
-At the end of play, positionyourself tor next play and repeat signals.
-
-NFHS Baseball Umpire.sManual 2025 and 2026 115
-NFHS Baseball Umpire.sManual 2025 and 2026 115
-
-CLEAN HIT TO THE OUTFIELD TROUBLEBALL: U1 GOESOUT
-
-Before the play: Give pre-1pitchsignals.
-
-Action 011lhe field:A (leep clean hit to the outfiel(l withthe batter-runner advancing towardthirdbase, drawing a throw there,
-
-Umpireresponsibilities:
-PU: Removes mask and moves halfway toward third, reads theball and moves to thecutout for any play ontheI.latter-runner at thirdbase.
-
-U1: Oiserves batter-runner'sbase touch at lirst base and begins to move toward the plate if thebatter-runner commits to third base.
-
-U3:Enters the infieldand has all plays on the batter-runner at second base.
-
-Before the plav: Give pre-pitchsignals.
-
-Actionon the field: Fly ball to right field, nocatch; the llatter-runner advances toward third bas,ed,rawing a throw there..
-
-Umpire responsibilities:
-PU:Removes mask and moves to first base for any play on thebatter-runner.Responsible for throws back to•first base on a batter runner.Once thebatter-runner reaches second base, PU r,eturns to theplate for any playthere.
-
-Ut: Goes out on the fly ball to rule on fair/foul and then thecatch/no-catchand stays out until play isover.
-
-U3: Has all play.sat second and thirdbase.
-
-i!@M
-
-i!@M
-
-TROUBLE BALL:U3 GOES OUT Crew of Three:Runner on First
-General Information
-
-U1 Initial position: Ul will start in the"A" position, but only 8 or 7 0 feet behind first base. U1 must be able to see the pitcher and the runner.
-
-U3 Initial position: U3 will start in the "Deep B" or "Deep C" position, at the edge of the infield grass.
-
-Before the play: On a base hit, the umpires will be rotating. Make sure you give each partner thenumber of outs and a signal that you know that a rotatim1is possible. Unlike in two-umpire mechanics, umpires automati,cally rotate on a base hil.lhere is noneed for PU to read if there will be a play at third,since U1 will be rotating home.
-
-Potential plays and responsibilities: All tfliree umpireshave responsibility for llalks and/ or illegal pitches.
-
-PUIs also responsillle for:
-• Calling the pitch
-• Fair/foul calls upto the first-basebag and all fair-foul calls down the thiird-base line
-• Fly l:Jalls in your areas of the outfield
-• R1 advancing from ffirst to third on any batted 1:Jall to the outfielcl
-
-Belor,ethe play: Give pre-pitch signals.
-
-Action on the field: Fly ball to left fielld; no catch; hebatter-runneradvances toward third base.
-
-Ump,ire responsibilities:
-PU: Has any play on the tiatter-ruinner at the plate.
-
-U1: Moves to theinfield for any play on the batter-runner at first, second or third oase.
-
-UJ: Goes out on the fly oall to rulle on fair/foul and th,ecatch/no-catchandstays out until play is over.
-
-U1 is a!so responsible for:
-• Pickoff attempt at first base by the p,ltcher or calcher
-• Help (when asked by PU) on1a checked swing on a right-handed latter
-• Fair/foul calls fromthe first-base bag down the right-fieldline
-• Fly l:Jalls in your area of the outfield (U1 canand should go out if necessary)
-• Any play at first InvolvingBR(if you don't go out)
-• Any play at home involving R1and BR (if Ul doesn't go out)
-
-U3 is also responsil:Jle for:
-• Help (when asked by PU)on1a checked swing on a left-handed batter
-• Fly l:Jalls in your area of the outfield (U3 should never cross theinfield dirt)
-• Any play at second involving Rf, includinganypotential illegal slide
-• Any play involving BR at second or back into first if U1 has gone oul or rotatecl
-• R1·stag at first base ii U1 goes out
-
-INITIAL POSITI
-.......
-ONS AND OUTFIELDCOVERAGE
-11!... .._
-.-.....
--
-·--
---
-.......
-=
-INITIAL POSITI
-.......
-ONS AND OUTFIELDCOVERAGE
-11!... .._
-.-.....
--
-·--
---
-.......
-=
-DY 
-::::::::: --; PU RESPONSIBILITY
-VZZZ7ZZIU1 RESPONSIBILITY
-.............·---·..........·--··.. ---··...........····--........
-DY 
-::::::::: --; PU RESPONSIBILITY
-VZZZ7ZZIU1 RESPONSIBILITY
-.............·---·..........·--··.. ---··...........····--........
-
-Action onthefield: No action.
-
-Umpireresponsibilities:
-PU: Has responsibility for all balls onthethird-base line and up tofirst base. Ul: Has responsibility for all oa[ls that hit first lbaseor go beyond first oase. U3: Has no foul-lineresponsibility.
-
-Action on the field: No acti.on. Umpire·responsibilities:
-PU: Has catch/no-catch responsil:lility if the ball ishit where the left fielder moves any distance toward the foul line.
-
-Uil: Startsin the "A" position.Ul reta1ins coverageon all troubl•eballs fromthecenter fi:elder coming straiiglll in or straight backto right-field out of play. If Ul goes out, the crew reverts to the two-umpirnsystem.
-
-U3:Startsin either the"Deep B" or "lleep C" position.U3 lhas all responsibility for all routine balls from left field to right field, and all trouble balls in the left-center field wedge.
-
-Note:For all routine flybaJls,rotations are similar to a dean hit
-
-)
-)
-
-SECTION 10 CREW OF THREE: RUNNER ON FIRST SECTION 10 CREW OF THREE: RUNNER ON FIRST -,.
-
-INFIELD CATCH COVERAGE PICKOFF AT FIRST
-A1 ►
-A1 ►
-
-A.ction on the field: No action.
-
-Umpire responsibilities:
-PU has catches:
-• By the pitcher moving in, left or right i1ncludingioul territory tlefore first base.
-• By first baseman movi1ng in.
-• By thethird baseman moving in, back or toward thefoul lineincluding the whole foul territory.
-
-Ul has catches:
-• By thelirst baseman moving tack or toward the foul line including foul territory beyond first base.
-
-U3 has catches:
-• By all fielders moving towardthemiddle of thefield.
-• By the pitcher movi1ng back.
-• By the second baseman ancl shortstop movingiinall directions.
-
-Before the play: Giivepre-pitch signals.
-
-Action on tlile field: Before pitching, the pitcher attemptsto pick off the runner at first base.
-
-Umpire responsibilities:
-PU: Watches the pitcher for potential tlalks then takes a step out from tlehind thecatcher to observe theaction or incase balI is overthrown.
-
-U1: Watches thepitcher for potential balks before throwing. Positioning shou1lclrequire no movemenl to see thepickoff throw or lag. If the play is a swipe lag out, ensure that F3 retains possession of the lall before making tile out call. If the runner is safe, no de!ay is necessary.
-
-U3: Watches thepitcher for potential balks before throwing. Is responsible for all plays at second and third base, including if Rf ends up ina rundown.
-
-STEAL OF SECONIJ WITH POTENTIAL OVERTHROW GROUND BALL TO THE INFIELD WITH POTENTIAL DOUBLE PLAY
-
-1HRDW
-...,
-.. . •···············•······
-.
-... •··•·................. .
-F5,.
-.
-®,
-·•·.....
-'
-®,
-1HRDW
-...,
-.. . •···············•······
-.
-... •··•·................. .
-F5,.
-.
-®,
-·•·.....
-'
-®,
-
-Before Ille play: Give pre-pitchsignals.
-
-Action on the field: The batter swin,gs and misses at the p,itch as R1 attempts to steal second base.F2''s throw goes inilocenter field and R1attempts to advance to third.
-
-Umpire responslblllties:
-PU:Signals the swinging strikewithout taking his locus off the play at hand. Ensures the batter does not interfere withthe catcher's throw.The likelihood of interference is increased when the catcher has made a poor throw. Observes ttle play.
-
-U1: Observes the pitch and initial throw tosecond. As R1 heads toward third,U1 moves aggressively toward second base in case Rt ends up in a rundown.
-
-UJ: Takes a step toward the second-basecutout. Turns withtheball. Whien tile throw goes intocenter field, moves aggressively toward the third-base sideof the mound to open up the angle for the tag pllay at third !Jase.
-
-Before the play: Give pre•pitch signals.
-
-Action on the field: The batter hits a ground ball toward thirdbase. A doubleplay is possible.
-
-Umpire responsibilities:
-PU: II necessary, stays near the third-base line in case o·f a potential fair/foul decision. Trails B!Rurpthefirst•baselinetoassist withpossiiJle pulled foot/swipe tag play, including overthrow into dead-lJall area. Isresponsiblefor any [play at theplate.
-
-Ul: Obtains 90-degiree angle in,fair territory toprepare to jl!ldge play at first base. Throw could come from F5 or fromthe fielder covering second base.
-
-U3: Takes a step toward th,emound and opens upto the ball. When it's clear a double-play will be attempted, U3 steps toward theside of theCl!ltout where·the throw will be coming from tobetter see thecatchof hethrow and the transferof theball fromtheglove to throwing hand. Judges play (including potential illegaJslide/including potential force play slide) at second base.If Al is safe al second and advances towardthird,U3 moves aggrnssively toward th.ethird-basecutout for the tag play at third base.
-
-CLEAN H]T TO THE OUTFIELD FLY BALL TO RIGHT FIELD, NO CATCH, U1 GOES OUT
-
-Before the play: Give pre-pitch signals.
-
-Action on the field: Clean hit to right field, no catch; R1advances toward third base, drawing a throw there; batter-runner rounds first and returns there.
-
-Umpire responsibilities:
-PU:ReadsR1 aJndthe ball and moves into a position for any plays at third base on R1.
-
-U1: Obse.rves BR's base touch at first base and begins to move toward the plate when R1 touches second bas,eand commits tothird tlase.
-
-U3:Observes Rt 'sbase touchat secomJ baseand begins to move toward fiirst base if R1 commits to third base. Hlasany play where R1 returns to second and has all plays on the batter-runner returning to fiirst and at second base.
-
-Before the play: Giivepre-pitch signals.
-
-Action on the field: Fl'y ball to right field,no catch;IR1 advances tow&d third base, drawing a throw there; BR rounds first and returns there.
-
-Umpire res:ponslbllltles:
-PU: Rotates to third base for any play on R1 and must verbally communicatehi;spositionto U3.If a play develops at third oase and R1 then attempts to advanceto the plate on a wild thrnw, PUmust retreat (in fair territory) for any play there.
-
-U1: Pause,read and react. Goes out on the fly ball. Judges fair/foul (if necessary) and catch/ no catch,.Does not return to the infield.
-
-U3: Has all plays at first aml seooml base and plays at third base on the batter-ruinner.
-
-SECTION 10 CREW OF THREE: RUNNERS ON FIRST AND SECOND
-
-Crew of Three: Runners on First and Second
-Gemeral Information
-U1Initial position: U1 will start in the "A" positiorn,Hl-15 feet behind first base. U1 must be albleto see the pitcher and the runner. U1 can move closer if F3 is holding R1 on the base.
-
-PICKOFF THROW TO SECOND
-
-U3 Initial position: U3 will start in the "C" position. Since thircibase 1is open, U3 cannot start in thedeep position.To,ere is a possibility of R2 stealingUlird.
-
-Before the play:Give pre-pitch signals. On a base hit, theumpires will bein a reverse rotation, wiUlU1 trailing BR intosecond base. Wihless than two outs, theinfiel(l-fly rule will be in effeI. On a fly baJIlo the outfield with less than two outs,PUwill be rotating to third and U1 will rotate home (if U1 does not go out).Make sure you give each partner the number of outs andappropriate signals.
-
-P,otential plays aITTd responsibilities:All three umpires have responsil:lility for balks and/or illegal pitches.
-
-PU is also responsible for:
-• Calli1ng the pitch
-• Fair/foul calls up to the first-lb-asebag and all fair-foul calls down the third-base line
-• Fly balIs in your areas of lhe outfield
-• R2 advancing after tagging up ona caught fly llall with less than two outs
-• Any play at the plate ecept for rm.rtine fly ball with R2 tagging and advancing withless than two outs
-
-U1 is also responsible for:
-• Pickoff attempt at first base lby the pitcher or catcher
-• Help (when asked ly PU) on a checkecl swing on a righ,t-handecltlatter
-• Fair/foul calls fromthe first-basebag down1he right-field line
-• Fly balls in your area of the outfield (U1 can and should go oul if necessary)
-• Any play at first or second involving BR (if you don't go out)
-• Any play at home involving R2 on a caught fly ball withle.ss than two outs
-
-U3 is also responsible for:
-• Pickoff attempt at s,econd base lily the pitcher or catcher
-• Help (when asked ly PU) on a checked swing on a left-handed oa-tter
-• Stolen!Jase attempt by either R1 oR2.
-• Fly balls in your area of the outfield (U3 shoul(Inever cross tne infield dirt)
-• Any play at second involving R1,including any potential illegal slide
-• Any play at thiird involving R2, including any potential illegal slide.
-Exception: PU will take R2's advance to third on a caught fly ball with less thantwo outs. 7, R2's tag up at second oase if it is a caught fly baJI,
-8. R1'stag at first oase it U1 goes out.
-
-Before the play: Give pre-pitch signals.
-Action on the field: Before pitching, the pitcher attemptsto pick off therunner at second base.
-Umpireresponsibilities:
-PU: Watches the pitcher for potential balks then takes a step out frombehind the catcher to ollserve theaction.
-Ul: Watches the pitcher for potential balks then ooserves the action.
-
-U3: Watches the pitcher for potential balks tiefore throwing. Once the pickoff attempt has started,U3 shoulld ta:ke a quick backward step andturn with the ball as it passes him toward the fielder. Comes to a hands-on-knees set tosee theplay at second base. If l!he play is a swipe tag out,ensure the fielder retains1possession of the ball before making 1he 0111call.If the runner is safe,no delayis n,ecessary,
-
-CREWOFTHREE: RUNNERSON FIRST AND SECOND CREWOFTHREE: RUNNERS ON FIRST AND SECOND
-
-DOUBLE STEAL CLEAN HIT TO THEOUTFIELDOR ROUTINE FLYBALL WITH TWO OUTS
-
-2
-t 
-
-2
-t 
-.........
-RI
-.........
-RI
-
-Action on the field:The batter swings andmisses at lhepitchas R2 attempts tosteal third and R1 attempts to steal secondbase.
-
-Umpire responsibilities:
-PU:Signals the swinging strike without taking his·focus off the play at hand. Ensures the batter does not interferewith the catcher's throw.
-
-U1: Observes the action. Has no initial!responsibility on either r1J1nner.Moves toward second base to assist withsubsequent plays(sn8"p throws backinto second).
-
-U3:Whentherunners start to steal, takes several steps forward and reads F2'sthrow.If F2 throws to third, steptoward third.If F2 throws to second, move!lack toward second, watchinglhe ball and turning as it passes you. If eilherrunner is out or safe on a close
-play, take two or three steps after the tag while making thecall to giv,ethe appearance that yo11 were oJoser to the play. Don't overcommit tciward that call in case the fielder makes a snap throw totheother base. Responsibletor plays at either base unlessU1has come into second for a subsequent snap throw.
-
-NFHS Baseball Umpires Manual 2.025 and 2026 131
-
-Beforethe play: Give pre-pitchsignals.
-
-Action on the field: Clean hit to rightfield, no catch; R2 advancestoward the plate; R1 advances toward third base; BRadvances toward second base and draws a throw there.
-
-Umpire responsibilities:
-PO:After readingthat no base umpires are going out,stays home, observes R2 touching third base and observes theplatetouch of all runners.PU moves to a positionto rule on all plays at the plate..
-
-U1: Pause, readaml react. Moves into theiinfield and observes the batter-runner's l:ase touch at first and has all plays on the batter-runner al first and second l:ase.
-
-U3: Observes the l:lase touches of R1 at second and thirdbase and has all plays on R1 at second and third, plusIR2 and BR at third base.
-
-132 NIFHISBaselall Umpires Manual 2025 and 2026
-132 NIFHISBaselall Umpires Manual 2025 and 2026
-
-SECTION 10 CREW OF THREE: RUNNERS ON FIRST AND SECOND
-TROUBLE FLY BAILLDOWN LEFT FIELD LINE, CATCH
-)
-Before the play: Give pre-pitch signals.
-
-Action onthe field: Fly ball toward theleft-field line caught bytheleft fielder; R2 tags up and advances toward third oase, drawing a throw; R1 retreats toward first base.
-Umpireresponsibilities,
-PU: Clears batter and takes masKoff. Moves to the best positionpossible to vi,ew he fair/ foul and catch/no catch. PUreads the runners and the ball and movesintoa position for any p'lay on R2 advancing to third base. If the ball isnot caugllt, f'Uobserves R2'sbase touch at third and returns to the pla!e lor all plays there.
-
-Ui1: Observes R1and if R2 commits to thirdbase,U1 commitstothe plate for any play there on R2.If the oall isnot caught,U1 rnoves intoheiinfielcland observes BR'sbase touch at fiirst and has all plays on BRat first and secondbases.
-
-Ui3:Retreats andobserves R2'stag up. U3 moves into position for any play at first or second base on IR1.If the ball isnot caught, u,3 ollserves the oase touches of R1 at second and third base andhas all plays on R1 at second and third and R2 and BR at third base. Please note communication withyour crew is imperative.
-SECTION 10 CREW OF THREE: RUNNERS ON FIRST AND SECOND
-TROUBLE FLY BAILLDOWN LEFT FIELD LINE, CATCH
-)
-Before the play: Give pre-pitch signals.
-
-Action onthe field: Fly ball toward theleft-field line caught bytheleft fielder; R2 tags up and advances toward third oase, drawing a throw; R1 retreats toward first base.
-Umpireresponsibilities,
-PU: Clears batter and takes masKoff. Moves to the best positionpossible to vi,ew he fair/ foul and catch/no catch. PUreads the runners and the ball and movesintoa position for any p'lay on R2 advancing to third base. If the ball isnot caugllt, f'Uobserves R2'sbase touch at third and returns to the pla!e lor all plays there.
-
-Ui1: Observes R1and if R2 commits to thirdbase,U1 commitstothe plate for any play there on R2.If the oall isnot caught,U1 rnoves intoheiinfielcland observes BR'sbase touch at fiirst and has all plays on BRat first and secondbases.
-
-Ui3:Retreats andobserves R2'stag up. U3 moves into position for any play at first or second base on IR1.If the ball isnot caught, u,3 ollserves the oase touches of R1 at second and third base andhas all plays on R1 at second and third and R2 and BR at third base. Please note communication withyour crew is imperative.
-
-SECTION 10 CREW OF THREE.: RUNNERS ON FIRST AND SECOND
-SECTION 10 CREW OF THREE.: RUNNERS ON FIRST AND SECOND
-
-ROUTINE FLY BALL WITH LESS THAN TWO OUTS
-•
-.-
-•
-.-
-Before the play:Give pre-pitch signals.
-
-Action on lh.efield:Routine flyball toright-center field. R2 tags up and attempts to aclvanceto third oase.
-
-UmpIre responsibilities:
-PU: Comes out from behind theplate. WhenR2 tags up and attempts to advance, moves up thethird-baseline for plays at thiro.
-
-U1: WhenU1reads it is a routine fly ball andIR2is tagging,starts walKlngtoward home plate in foul territory. u11is responsille for Rl 'stag11p at first When R2 advances to third, U1 goes home to cover plays at the plate. Mirror R2.
-
-U3: Responsiolefor catch/no-catch and R2'stag up at second.WhenU1goes home,U3 is responsible for all plays at first and second base. Pleaseno,tecommunication with your crew is imperati,ve.
-
-CREW OFTHREE.:RUNNERSON FIRSTAND SECOND
-CREW OFTHREE.:RUNNERSON FIRSTAND SECOND
-
-FLY BALLTO RIGHT FIEILU, NCI CATCH, U1 GOESOUT
-
-General Information
-
-Crew of Three: Bases Loaded
-
-Ul Initialposiition: Ul wiill start in the "A" position,10 or 15 feet oehind first base. U1 must be able to see the pitcher and therunner.U1 may moe closer behind first base rnF3 is holding the runner on 1:ase.
-
-U3 Initial posiition: U3 wiill start in the "C" position,
-
-Before theplay: Give pre-pitch signals. On a base hit, the umpires will be ina reverse rotation, with Ul trailing BR into second base. Withless thantwo 0111ts, the infield-fly rule will beinieffect The plate umpirewill not rotate on this play. Make sum you giveeach partner thenumber of outs and appropriate signals.
-
-Potential plays and responsibilities:AIIthree umpireshave responsibilityfor tJalks and/or illegal pitches.
-PUIs also responsible for:
-• Calling the pitch
-• Fair/foul calls upto the first-basebagand all fair-foul calls down the thiird-base line
-• Fly balls in your areas of the outfield
-• R3's tag up, if hetries to advan,ce on a caught fly ball
-• Any play at theplate
-
-Before the play.:Givepre-pitch signals.
-
-Actionon the field: Fly oall to right field,no catch; Ul goes out;IRl advances toward third base, drawing ahrow there; R2 advancestowardtheplate; BR rounds first base,I.Jutdoes not advanceto second.
-
-Umpireresponsibilities:
-PU:Remains near the plate for all plays there.If the ball 1is caugITTI, PU readsthe ball and the runnersalld has any play at thi1rdbase if R2 attempts to advance there. They have force-play-slide responsHlility.
-
-U1:Pause, read and react.VertJalize when goingout Moves to the best position possible to view the fair/foul and catch/no catch.Does not return totheinfield for any play.
-
-U3:Moves into the working areafor all plays on the bases. If the!)all is caught,U3 hasthe tag ups of R2 at second taseandR1 at first base.
-
-U1 is also responsible for:
-• Pickoff attempt at first base by the pitcher or catcher
-• Help (when asked by flU) on,a checked swingona right-handed i)atter 3. Fair/foul calls from the first-base bag down the right-fieldline
-• Fly balls In your arnaof the outfield (Ul canand should go out If necessary)
-• Any play at first or secondinvolving BR nI you don't go out)
-
-U3 isalso responsible for:
-• Pickoff attemptsat second or third tlase by the pitcher or catcher
-• Help (when asked by PU) on,a checked swingona left-handed batter
-• Stolen-baseattempt by either R1 or R2 (rare, but possible)
-• Fly llalls in your areaof theoutfield (U3 shoulclnever cross theinfield dirt)
-• Anyplay at second involving Rl, includinganypotential illegal slide
-• Any play at third iinvolving Rl and R2,including any potential illegal slide
-• H2's tag up at secondbaseif it isa caught fly ball
-• H1'stag at first baseif Ul goes out
-
-FLY BALL TO RIGHT FIELD, CATCH, U1 GOES OUT FLYBALL TO LEFT FIELD, CATCH
-IR
-'IIIIIOW
-
-caaa
-IR
-'IIIIIOW
-
-caaa
-
-Before Ille play: Give pre-pitch1signals.
-
-Action on the field:Fly ball cauglht tJy the right fielder, U1 goes out; R3 tags and moves toward the plate, drawling a throw there; R2 and R1 stay near their bases.
-
-Umpire responslbilltles:
-PU: Clear catcher and remove mask. Moves to a position to view R3's tag up at third base.
-P then returns to theplate for any play there.
-
-Ul: Pause, read and react.Verbalize going out. Moves to tile best position possibleto vl,ew the fair/foul (if necessary} and the catch/no catch.Ul does not return to the infiieldlduring lhfr play,
-
-U3; Retreats and observes potential tag-ups at first and second oase. U3 reacls the runneirs and moves into a position for all plays on the bases.
-
-Before the play: Give pre-pitchsignals.
-
-Action on the field: Fly ball caught by the left fielder; R3 tags up and moves toward the plate, drawing a throw there; R2 and R1 stay near their bases.
-
-Umpire responslbllltles:
-PU: Moves to the best position possible to view the faiir/foul and catch/no catclh.PUmust also view R3's tag up at ttiirtl IJase.PUireturns to the plate for anyplay there.
-
-u11: Moves into tile infield and observes R1's potential tag up at first base and has any secondary play at second base. If the ball is not caught, Ul has all playson,BR at first and secornd base.
-
-113: Retreats to working area andooserves R2's potential lag up. U3 moves into positionfor any initial plays at second or all plays at third base. If the tlall is not caught,U3 otlserves the basetouc!hesat second andthird IJase and has all plays on R1 at second and third, R2 at thiird and BR at third.
-
-)
-)
-
-CLEAN HIT iO THEOUTFIELD Crew of Three: Runners on First and Third
-
-R1 •
-R1 •
-
-Ul Initial position: Ul will start in the "A" position,10 or 15 feet behind first base. U1 must be ableto see the pitcher and the runner.U1can move closer to first base if F3 is holding the runrneron oase.
-
-U3 Initial position:U3 will start in the "G" position.Fromthat position, U3has a great angle on any potential pickoff intothirclbase.
-
-Before therplay:Givepre-pitch sigmls.Thereare no rotations for this configuration.Make sum you give each partner thenumber of outs and a signal that you know that no rotation is possiole.
-
-Potential plays and responsibilities:All three umpireshave responsibility for oalks and/or illegal pitches.
-
-PUIs also responsiblefor:
-• Calling thepitch
-• Fair/foul calls up to thefirst-basebaganclall fair-foul calls down the third-base line
-• Fly l:Jalls in your areas of the outfield
-• R3's tag up at thiird on a caught llyball
-• All plays at theplate
-
-Before the play: Give pre-pitchsignals.
-
-Action on the field:Clean hit to right field, U1 does not go out; R3 scores; R2 moves toward the plate; Rl moves toward third base; BR moves toward secondbase and draws a thmw there.
-
-Umpireresponsibilities:
-PU: Clear catdher ancl rennovemask. Observes all touches at home and R2's touchof third. PUmoves intoposition for any plays a1the plate.
-
-U1:Moves into lieinfield and observes BR's touch of first aml second. U1l1as all playson BRat first and second base.
-
-U3: Oi:lserves R1's touch of second anclthird am! BR's touch of thircl. U3 has all plays on Rt at secornd and third, R2 at third and BR at third.
-
-U1 is also responsilllefor:
-• Pickoff attempt ait first base by thepitcher or catcher
-• Help (when asked by PU) ona checkedswingona right-handed IJatter 3. Fair/foul calls from the first-base bag down theright-fielclline
-• Fly tlalls In your area of the outfield (Ut canand should go out If necessary)
-• Any play at first involving BR(if you don't go out)
-
-U3 is also responsilllefor:
-• Pickoff attempt at thiird base by thepiitcMr or catcher
-• Help (when asked by PU) ona checkedswingona left-handed batter
-• Fly IJalls in your areaof theoutfield (U3 should never cross theinfield diirl)
-• Anyplay at second involving Rt, incluclingan,ypotential illegal slicle
-• All plays at third
-• Any play involving BR at second or back into first if Ul has gone out
-• Rt 'stag at firnt base if Ut goe,:,out
-
-CREWOFTHREE:RUNNERSON FIRST ANDTHIRD SECTION 10 CREW OF THREE: RUNNERS ON FIRST AND THIRD
-
-CLEANHIT OR ROUTINEFLYBALLTO THEOUTFIELD
-
-Before theplay: Givepm-pit.chisignals.
-
-Actiononthe field:Routine fly ball toright field,.no catch; R3advances toward theplate; R1advances towillrd thirdbase; thebatter-runner advanoes toward second base, drawing a throw there.
-
-Umpireresponsibilities:
-PU: Removesmask. HasR3's tag-upat third andobserves theplatetouch of all runners. PU moves toa position to ruleon all plays at theplate.
-
-U1:HasR1'stag-up at first. Moves intotheinfield and observes the batter-rurmer's base touch at first and has all plays on the batter-rnnner al first and second base.
-
-U3:Has catch/no-catch responsibility. Observes thebase touches of Ri at second andhird base and has all plays on R1 at second and thir,dp, lus thebatter-runner at third IJase.
-
-TROUBLE BALLDOWN THE LEFT-FIELDLINE
-
-Befoethe play: Givepre-pitchsignals.
-
-Action on the field: Trouble ball down tne lefHieldline.R3 and R1 tagupand advance.
-
-Umpire responsibilities:
-PU: Clear catcherand remove mask. Has fair/foul,catch/no-catch responsibility andR3's tag-upat third base. Returns to the plate tor any plays there.
-
-U1:Has all plays.atiirst base and thebatter-runner al first anclsecond bases.
-
-U3:Has all plays.at1hiirdbaseand aJIplays on R1 at second oase.
-
-)
-)
-
-SECTION 10 CREW OF THREE; RUNNER ON SECOND
-
-Gemeral Information
-
-Crew of Three: R.unner on Second
-
-If two outs,U3 is also responsible for:
-• Pickoff attempt at seooncl base by the pitcher or catcher
-• Help (when asked by PU)on a checked swing on a le1il-handed baiter
-• Fly bal,lsin your area of the outfie!cl(U3 should never cross the infield di1rt)
-
-U1Initial position withless than,two outs: U1 will start in,the "Deep B" position,at the edge of the infielclgrass. Fromth•at position, U1 has a great angle on any potential pickoff at second oase. With two outs,U1 will shift to "A" position.
-
-U3Initial position withless than two outs: U3 will start in,the "D" position, but not as cleep as normal. U3 must be ableto get into position for anattempted steal at thirdbase.With two outs, U3 willlshift to the "C" position.
-• 
-Any play at third
-
-Beforethe play:Give pre-pitchsignals.There are no rolati:ons from thisconfiguration. Make sure you give each1partner the number of outs and a s1ignal that you know that n.orotation is possible.
-
-P.otential plays anclresponsibilities:All threeumpires have responsibility for balks and/or illegal pitches.
-
-PUis also responsible for:
-• CallingUle pitch
-• Fair/fou1Icalls up to the third-base l:Jag and all fair-foul calls clownthefirst-base line(less than two outs); fair/foul calls up to tile first-base bag and all fair-foul calls down the
-third-base line(two outs)
-• Fly balIs in your areas of the oulfielld
-• All runnerstouching homeancl anyplay at the plate.
-
-If lessthan two outs, U1 isalso responsible for:
-• Pickoff attempt at second base oy the pitcher or catcher
-• Help(when asked lly Pll) on a checked swing on a right-handedbatter
-• Fly balls in your area of theoutfield (U1should never cross the infield dirt)
-• Any play at first or second base
-• Any play at thirdif U3 goes out
-
-If two outs, U1 is also responsible for:
-• Fair/fou1Icalls fromthe first-basebagdown the right-fieldline
-• Help(when asked lly Pll) on a checked swing on a right-handeclbatter
-• Fly balls in your area of the outfield (ll1 can and should go out if necessary)
-• Any play at first or second involving BR {unlessout ontroubleball)
-
-If lessthantwo outs, U3 is also responsible for:
-• Falr/fou1Icalls fromthe third-basebag down the left-field line
-• Help(when asked by Pll) on a checked swing on a left-handed batter
-• Stolen oase attempt into th1ird base oy R2
-• Fly balls in your area of theoutfield (U3 can and should go out if necessary when starting in tile "D" position.)
-• Any play at third(if youdon'i go out)
-
-GREWOFTHREE:RUNNERON SECOND CREWOF THREE: RUNNER ON SECOND
-
-FAIR/FOULCOVERAGEWITH LESS THANTWO OUTS INITIALPOSITIONSANDOUTFIELDCOVERAGE WITH LESSTHAN TWO OUTS
-•
-, PU RESPONSIBILITY
-.•.•.•.•.•.•.• U3 RESPONSIBILITY
-KO'
-•
-, PU RESPONSIBILITY
-.•.•.•.•.•.•.• U3 RESPONSIBILITY
-KO'
-Ut•llt,_ln 
-.,. .. 
-.!.111!1!1 _
-Ut•llt,_ln 
-.,. .. 
-.!.111!1!1 _
-
-Action 011the field: No action.
-
-Umpireresponsibilities:
-PU: Has responsil:lility for all balls along the first-1:lase line and up to tnirdbase.
-
-U1; Has no fou·111neresponsibility.
-
-U3: Has re,:,ponsibilityior all ballsttiat hit third baseor that go beyondthirdbase.
-
-Note: With two outs,revert to fair/foul coverage responsililities with U3 inside.
-
-Action 011the field: Less thaintwo outs.
-
-Umpirerespo11silbilities:
-PU:Has catch/no-catch responsil:lility for any troubleballs taking tne right fielder (or potentially the first or second oaseman) toward the foul line.
-
-U1: Starts in,the"DeepB" position.Hasany fly balls- routineor troullle- in tne "V."
-
-U3: Starts in,the"D" posilio11.U3 has any troubleballs which take the left fielder toward the loul line.
-
-Note:With two outs,revert lo outfield catchcoverage responsibilities with U3 inside.
-
-CREW OFTHREE:RUNNERON SECOND CREWOFTHREE:RUNNER ON SECOND
-
-INFIELDCATCH COVERAGE WITHLESSTHAN TWO OUTS GROUNDBALLTO THE INFIELDWITH LESSTHANTWO OUTS
-@)
-t
-@)
-t
-R
-R
-
-Acti'on onthe field: No action.
-
-Umpire responsibilities:
-PU has catC'hes:
-• By the pitcher moving in, left or right.
-• By the first baseman moving in,back or toward the foul line.
-• By the thirdbasemanmoving in.
-
-U1 has catch.es:
-• By all fieldersmoving toward themiddleof th,efielcl.
-• By the pitcher moving IJack.
-• By the second baseman and shortstop moving in aJIdirections.
-
-U3 has catches:
-• By the thirdbasemanmoving tiack or toward the foul line.
-
-Note: With two outs,revert toinfield catch coverage rnsponsHJilities with U3 inside.
-
-Before the play: Givepre-pitchsignals.
-
-Action on the field: Ground ball to the shortstop with a throw to first base. R2 advances toward third base onceF6 reteases the throw to first. F3 makes the play al first and throws to third base.
-
-Umpireresponsibilities:
-PU: Clearscatcher andremoves mask.Moves upthe first-baseline, tiut not all the way to the 45-foot line. Pll cannot overcommit to first llase sincethere is thepotential of R2 attempting to scoH;.
-
-U1: Takes one step toward the mound when ball is hit As F6 hrows to first, moves several more steps toward the mound and isset for play at first base. If R2 retreats to second, m
-moves intoposition for any play!here.
-
-U3: Observes action when ba.IIis hit WhenR2 and throw converge at third base,moves into positiornfor tag play or rurndown.
-
-SECTION 10 CREW OF THREE: RUNNER ON SECOND SECTION 10 CREW OF THREE; RUNNER ON SECOND -,.
-
-FLYBALL TO LEFT FIELD, NO CATCH, U3 GOES OUT, LESS THAN TWO OUTS FLY BALL DOWN THE RIGHT-FIELDLINE, CATCH, LESS THAN TWO OUTS
-
-Before the play:Give pre-pitchsignals.
-
-Action on the field:Fly ball to left field, no catch; U3 goes out; R2 advances toward the plate; BR advances toward third tiaseand draws a throw there.
-
-Umpire responsibilities:
-PU: R,emoves.mask. Remains at the plate for all plays there and has thebasetouchof R2 at third and all base touches at theplate.
-
-U1: Ooserves the batter-runner touchfiirsl lase and moves intoposilionfor all plays on R2 aJndlthe oatter-runner on the bases. If the oall is caught,Ul otiserves R2's potential tag up aml has all plays at second and third base.
-
-U3:Pause, read and react Moves to the best position possibre to view thelair/foLJI (ii necessary)and catch/no catch.U3 does not returnto theinfield until the play i,s over.
-
-Before the play: Givepre-pitchsignals.
-
-Action on the field: Flyballcaught by the right fielder; R2 tags up and advances towanl third base, drawing a throw there.
-
-Umpire responsibilities:
-PU: Clears catcher and removes mask..Moves to the best positionpossible to view the fair/ foul (if necessary) and catch/no catch.PU returns tothe platearea.
-
-U1:Relreats and observes R2's tag up. II the ball is not caught, U1 observes base touches at first and second oase and has all plays at thosebases.
-
-U3: Moves intoposition for an,yplay at third baseon R2.If theball is not caught, U3 ooserves base touches at third oase and moves intoposition for all plays at third oase.
-
-SECTION 10 CREW OF THREE: RUNNER ON SECOND
-
-CLEAN HIT OR ROUTINE FLY BALL TO THE OUTFIELD WITH TWO OUTS
-
-Before the play: Give pre-pitch signals.
-
-Action on the field: With two outs. a clean hit to right field. R2 advances toward home. BR advances toward second base.
-Umpire responslblllles
-PU: Removes mask.Stays home, observes the platetouch of all runners. PU moves to a position to rule on all playsat the plate.
-
-U1; 0oserves BR touching firsl oase. Pivots into lheinfield and llas all plays 011 BR at firs! or second oase.
-
-U3; Responsible for aniy play at third oase.
-
-Crew of Three: Runners on Second and Third
-General Information
-
-U1Initial position U1 will start inthe "DeepB" posiition, at theedge of theinfield grass. From that position, U1 has a great angle on any potential pickoff at second base. With two ou!s, U1 will shift to "A" position.
-
-U3 Initial position U3 will start inthe "D" position, but not as deep as normal. U3 must be able to get intoposition for an attempted pickoff at third oase. Witil two outs, U3 will shift to the "C" position.
-
-Before the play: There are no rotations from tllis configuration Make sure you give each partner thenumber of outs and a signal that you know that no rotation ispossible.
-
-Potential plays and responsibilities:All three umpires haveresponsibilityfor oalks and/or illegal pitches
-
-PUis alsoresponsiblefor:
-• Galling the pitch
-• rair/foul calls up to the hird-basebag and all fair-foul call1down the fi1rsHlase line(less than two outs); fair/foul calls up to the first-basebag and all fair-foul calls downthe third-baseline(twoouts)
-• fly balls in your areas ot theoutfield
-• All runnerstouching home and any play at the plate
-• If U3 goes out, is responsiblefor tag up by IR3
-
-If lessthan two outs,Ul is also responsible for:
-• Pickoff attempt at secondbase by theIPitcher or catcher
-• IHelp (when asked by PU) on a checkedswingon a right-handed l)atter
-• fly balls in your areaof the outfield (U1 shouldnever cross the infield dirt)
-• Any play at first or seoond base
-• Any play at third if uI3 goes out
-
-If two outs,U1 is alsoresponsible for:
-• rair/foul calls from the first-base bag dowJJ tile right-fieldline
-• IHelp (when asked by PU) ona checkedswingon a right-handed oatter
-• fly balls in your areaof lhe outflelcl (U1 can and shouldlgo out If necessary)
-• Any play at first or seooJJdinvolving BR {unless out on trouble ball)
-
-If lessthan tw,oouts,U3 is also responsiil:lle for:
-• fair/foul calls from the lhird-basebag down the left-field line
-• Pickoff attempt at third base
-• IHelp (when asked by PU) on a checkedswiJJg on a left-handed batter
-• Stolen loaseattempt into llllrd base oy R2
-• fly balls in your areaof tthe outfielcl (U3 can and should go out if necessarywhen starting inthe "D" position.)
-
-CREW OF ll'HREE: RUNNERS ON SEcmm AND THIRD
-FLY BALL TO RIGHT FIELD, CATCH, WITH LESS THAN TWO OUTS
-•
-
-Before the play: Give pre-pitchsignals.
-
-Action on the field: Fly ball caught by theright fielder; R3 tagsup and advances toward the plate,dlrawing a throw there: R2 tags up andadvances toward third base,
-
-Umpire responslbllltles;
-PU:Clears catcher and removes mask. Moves tothe best positionpossible toview the fair/foul and catch/nocatch, then moves intopositionto rul,eon all plays at the plate. Remember that the fair/foul and catch/no catch are the priorities. Move up thefirst.base lineand back to the plate in foul territory.
-
-Uf: ObservesR2's tag up at second base.Ut moves into position for any play at second base. If the oall is not caught,.U1 ol)serves base touches at first and second l:Jase andhas all plays at those bases.
-U3: Observes R3's tag up.U3 moves intoposition for all base touches and any play at third base.
-CREW OF ll'HREE: RUNNERS ON SEcmm AND THIRD
-FLY BALL TO RIGHT FIELD, CATCH, WITH LESS THAN TWO OUTS
-•
-
-Before the play: Give pre-pitchsignals.
-
-Action on the field: Fly ball caught by theright fielder; R3 tagsup and advances toward the plate,dlrawing a throw there: R2 tags up andadvances toward third base,
-
-Umpire responslbllltles;
-PU:Clears catcher and removes mask. Moves tothe best positionpossible toview the fair/foul and catch/nocatch, then moves intopositionto rul,eon all plays at the plate. Remember that the fair/foul and catch/no catch are the priorities. Move up thefirst.base lineand back to the plate in foul territory.
-
-Uf: ObservesR2's tag up at second base.Ut moves into position for any play at second base. If the oall is not caught,.U1 ol)serves base touches at first and second l:Jase andhas all plays at those bases.
-U3: Observes R3's tag up.U3 moves intoposition for all base touches and any play at third base.
-
-SECTION 10 CREW OF THREE: RUNNERS ON SECOND AND THIRD
-SECTION 10 CREW OF THREE: RUNNERS ON SECOND AND THIRD
-
-• Any play at third(if you don't go out)
-
-.; ..
-
-.; ..
-• Pickoff attempt at second or third baseby the pitcher or catcher
-• Help(whenasked IJy PU) on a checked swing on a left-handedIJatter
-• Fly balls in your area of theoutfield (U3 should never crossthe infield dirt)
-• AJly play at third
-
-SECTION 10 CREW OF THREE: RUNNER ON THIRD
-
-Crew of Three: Runner on Third FLY BALL TO RIGHT FIELD, CATCH, U1 GOES OUT
-c:ATCII
-
-TIINIW
-,. R
-Uil •
-c:ATCII
-
-TIINIW
-,. R
-Uil •
-
-Ul Initial position: Lil will start in the "A" position.
-
-U3 lnitlal position: U3 will start in the "D" position,but not as deep as normal.U3 must tie a!bleto get intoposition for an attempted pickoff at third base..
-Before the play:There are no rotations fromthis configuration.The base umpires must be aware of the possibleneed to cover each oltier's positionsif one umpire goes out. Make sure you gie each partner the number of outs and a siginal that you know that theneed for help on coverages ispossible.
-
-Potential plays am! responsibilities: All three umpires have responsibility for balks and/or illegal pitches.
-
-PUis also responsib!le for:
-• Callingthe pitch
-• Fair/foul calls up to the first-base and third-base bag
-• R3 rag,ging up at third and any play at the plate.
-
-Ut is also responsible tor:
-• Fair/foul caJlsfromthe first-base bag down the right-field line
-• HelIp(whenasl.ed by PU) on a checked swifilg on a right-handedIJatter
-• Fly balls in your area of the outfield (U1can and should go olII if necessary)
-• Any play at first base involving BR
-• Any play on the bases involvingBR if U3 goes out
-• Has play at third tlase if U3 goes out and R3 tags and returns to third
-
-U3 is also responsible tor:
-• Any pickoff attempt at third tiase by the pitcher or catcher
-• Fair/foul callsfromthe thiird-basebag down the left-field line
-• HelIp(whenasl.edl lly PU) ona checked swing on a left-hand:edbatter
-• Fly balls in your area of the outlield (U3 can and should go out if necessary)
-• Any play at second or third in,volvingBR
-• Any play onthe bases involvingBR if U1 goes out
-
-Before the play: Givepre-pitch signals.
-
-Action on the field:FlybaJIcaught ty the ight fielder; Ul goes out; R3 tags uIpaml advances toward theplate, drawing a tflrow tflere.
-
-Umpire responsibilities:
-PU: Moves into a positionto obseliVe R3's rag up at thirdl base. PU returnsto the platefor any play there.
-
-U1: Goes out and rules on the fair/foul (if necessary) andcatch/no catch. Ut does not return to the infield during the play.
-
-U3:Moves totheinfield immediately.U3 moves into position for any play oack into third Involving R3. Utile ball isnot caughl, U3 moves intoposition for all plays and touches on the oases.
-
-NFHS Baseball Umpire.sManual 2025 and 2026 155
-NFHS Baseball Umpire.sManual 2025 and 2026 155
-
-CREW OF THRE.E:RUNNER ON THIRD
-CREW OF THRE.E:RUNNER ON THIRD
-
-FLY BALL TO LEFT-CENTERFIELIO, CATCH, U3 GOES OUi
-
-Before Urieplay: Give pre-pitchsignals.
-
-Action on the field:Fly ball to left-centerlield caught by the left fielder; U3 goes out; R3 tags up, advances a few steps toward theplate, then returnslo thirdIJase, drawinga throw there.
-
-Umpire responsibilities:
-PU: Moves into a position,to observe R3's tag up at third base. PU returns to theplatefor any play there.
-
-Ul: Moves intoposition directly behind the pitcher's mound. U1 moves into position for all p!ays and touches on the bases, including any p!ay at tnird base on 3.
-
-UJ: Goes oul and rules on th•e fair/foul (if necessary) andlcatch/no catch. U3 does not return to the infield during the play.
-
-Part
-9
-9
+Crew al Three
 Basic Principles
 
-• Better outfield coverage. Having four umpires allows for better angles on ouffiieldcoverage wi!hout sacrificing l:Jase co\ferage.
+	•	Box 'em in. Having the third umplre often allows umpires1he luxury of having one umpire in front of arunner andone umpire behind a runner - but not always!
 
-• Know three-umpire mechanics.You must lhave a complete
-understanding of three-umpiremechanicsto work with four umpires. Depending on who goes out on a fly ball, oftentimes the rest of the crnw reverts to using three-umpire mechanics.
+	•	Communication iscrucial. You have to know where your partners are - ancl what they're doing- in order to function asa unit Communicate both w�h signals and verbally.
 
-Line Drive Responslblllties
+	•	<
+<
 
-• Umpires will be held accountalJleto set their Initial pre-pitchposition withstrong consideration givento line drive responsibilities.
+Basic Outfield Coverage
+	•	Do not go out automatically.On fly balls, rely onthe same "Pause,read and react'· concept as inthe two-umpiresystem. When you make thedecision to go out, go hard and get a good angle. Be stopped when the playoccurs.
 
-• Umpires shall start wrnh their inside foot next to the foul line and shall NOTstraddle the line.
+	•	When togo out.Four conditions that require anumpire to go to theoulfreld from the "A" and "O" positions:
+1, The outfielder1urns and begins to runtoward ttieouflield fence (possible home run),
+	•	Multiple players converging on afly ball.
+	•	A catch being made below the waist.
+	•	Outfielder moving toward the foul line and possible fair/foul decision.
 
-• U1 and U3 will position themselves no more than 6-B feel behind thefielder with no runners onbase.If the fielder isplaying deep,Ul should cut thi;s distanceIn half andbe 3-4 feet IJehind thefielder.The umpirn should never put himself in a position where a fielder could step intoor dive intohimon a linedrive.
+	•	When in doubt,goout.If in doubt,go out on fly balls in your coverage area.
+1.1r you are going out,goout hard.
+	•	Leave no doubt in your partners· mincls about Whether or not you are goingout.
+	•	Signal your partners byraising yourarm if you aregoing out and verbalize. "I'm going out."
+	•	If you are not going out,hold your arm out to your partners with your palm facing them.
+	•	If you do not goout, you still maintain responsibility for the catch.
+	•	Once you go out, do nor return untilthe play is complete.
+ When the plate umpire moves to cover third andU1 moves tocover home - arotation, which occurs only on clean base hits and routine fly balls to the outfield (where no umpire 1s going out on atrouble balO -  tile umpires can timetheir movements by mirroring the movements of arunner. For example, ina rotation with Ul covering home with a runner on first base, U1 can advance home as R1 advances from second to third.
 
-• U1 and U3 should Ile well positioned to see linedr,iveshit at the feet of the first or third IJaseman in their normal positions (with,a step or two forward) and to make that call.
+Overthrows
+A.Nobody onbase
+Alloverthrows willbe taken byPU with the exception or when the crew has rotated and that responsibility will revert to u1.who has rotated tothe plate.
 
-• Ul aM U3 will n.ow takeall linedrives hit directly at and immecliately in front of the first or thirdbaseman. "Directlyin front" refersto theimmediatearea in front of the fielder and in the immediate vicinity of h,is starting position.A fietcler who moves a signifcant distance straight fo.rwardwill remainthe plateumpire's call.
+8,Runner onfirstbase orfirst and third
+PUwillhave responsibilityfor overthrows wilh lheexception of when thecrewhasrutalBd andU1hasrotated tothe plate.U1 will then have thatoverthrow.Ininstances when thecrew reverts to two umpires, PUhasalloverthrows. Onplays atthird base taken by PUwhen the crew has reverted to two umpires, theoverthrow willbe taken from inside as well asthe possible play at the plate.
 
-• When positioned in the outfietd, U2 should always work over the Inside shoulder (closest tosecond base) of the middleInfielder to be in the best possitlle position to rnle on line drives inhis co\ferage area.
+C.Runners on first and seconCI
+PU will take all overthrows with the exception of whenthere is a tag-up rotation andUl has rotated to the plate. U1 will then assume that responsibility.Whenthe crew reverts to a two-umpire system and PUhas a tagplay at third base. PU Wiil take that play at third. the overthrow and possible play atthe plate fromthe inside.
 
-NFHS Baseball Umpire.sManual 2025 and 2026 157
-NFHS Baseball Umpire.sManual 2025 and 2026 157
+D.Runners on second and third,third base only or bases loaded PUhas all overthrow responsibilities.
 
-CREWOFFOUR:BASIC PRINCIPLES CREWOF FOUR: BASICPRINCIPLES
 
-BasicOutfieldCoverage
 
-• Umpires will not automatically go out onall fly balls with or with.outrunners on oase. Umpiires are expected to read fly balls and only go out on a trouble ball.The philosophy is "if indoubt, go out." That philosophy isnot meant to replace the reading otfly ballls. Pause, read and react techniques should always tie utilized.
 
-• Four cornditions that require an umpire to go to theoutfield fromthe"A." and"D" positions:
-• The outfielder turns and begins to nm toward the outfield fence (possible home run)
-• Multipleplayersconverging on a fly ball
-• A catchbeing madeIJelow the waist
-• Outfielder moving toward the foul lineand possilJle fair/foul decision
 
-At thirdbase (toward the plate)
-Plateumpire (or thefirst-base umpire if there is a rotation tohome) has primary responsibility on all overthrows. Exception: If theplate umpirehas rotated to third baseto rule on a playtheplateumpir,ewill have the responsibility of theoverthrow at thirdbase.
+	I 		GENERAL CONCEPTS AND TERMINOLOGY	
 
-At thirdbase (toward outfield)
-Third-base umpire{or any u1111pirerotating to third base) hastheprimary responsilliility on all overthrows.
+General Concepts And Terminology
+While one may think that addinganurilpire tothe traditional 2-umpire high school umpiring crew would make each individual umpire's jobeasier, the-opposite istrue.For most, 3-umpire mechanics are the most complicated and difficult tomaster.It isablendof concep�from both 2-umpire mechanics (whichmost al us areintimately familiar with) and 4-umplre mechanics (of which many otushave very littleknowledge). When working in a3-umplre crew each umpire MUST, beforeUle firstpitch to eachnewbatter (or whenever the runners' posttions on1he bases change), mentallyreview responsibilities should theball be putinplay.One's
+pre-pitch mental review should bereinforced by allthree members of thecrew when they use standardizecl hand signals tosignal eachother the proper crewmovement on a ball M to the outfield.
 
-• If in doubt, go out on fly ball'sin your coverage area.
-• If you are going out - go out hard.
-• Leav,eno doubt in your partners' mind about whether or not youar,egoing out.
-• Siignal your partner by raising your armif youaregoing out.
-• If you are not going out, holdyour armout to your partner withyour palmfacing him.
-• If you do not go out, you still maintain responsiblfity for thecatch.
-• Once you go out, do not returnun,til the play iis complete.
-• U2positioned withinthe infield should never cross thebase path to observea catch/ nocatch.
+Ideally,3-umplre mechanics seek lo keep one umpire in front al thelead runner always. However, thisis not always possible; especiallywhen anumpire goes out to theoutfieldona "trouble ball."Like the base umpire in a 2-umpire orew,base umpires in tt1e 3-umpirecrew use the"Pause-Read-and-React" technique todetermine whether a batted·ball tooutfield isa "trouble ball'' requiring a base umpire lo''goout" to theoutfield,or whether�is aroutine fly Dall orclean base llitnotrequiring anumpire togoout.
 
-• When a h.ome run is hit withnorunnerson base, it is not necessary to havethe entire crew fully rotate.
-• U3 cango out down the line and then come backto third base for touches at that base.If U2 goes out, U3 caneasily take all touches at second and third.II U1 goes out, either U2 or the home-plate umpir,eshouldhave thetouchof first as U1will not be aole to get back to first after going out to see the batter-runner touchfirst lbase.
-• The most Important thing toremember is that the crew must communicate and read each other on thissituation as thebatter-runrner is rounding the oases.
-Overthrows A:t the plate
-Plate umpire(or the U1 if there is a rotation to home) has responsibility onaJIoverthrows to
-theplate.
+When both baseumpires.startinfoul ierritory (wi1h no runners onbase or a runner on third base only), they split the outfieldcoverage. The first-baseumpire has thecenler fielder straigllt-in/slraighl-backallthe way to the right-field foul territory.The third-base umpire has the center fieldermoving towaJd left field all1he way toleft-field foul terri1ory.
 
-A:t first base(toward the plate)
-Plate umpire has primaryrespcmsibility on all overthrows.
+When oneol1he baseumpires isin the middle, outfieldcoverage differs onwhether the batted Dall isa"troubleball" or whelher1t isa routine flyballor clean base hit.If thebatted ball is a1rouble baU,the wing umpire (the umpire on the J"oulline) has thecenter fielder straigh1-in/ straight-back allthe way ID the foul lerritory onthat umpire's sideal the field.The umpire in the middle has the'wedge'' between thecenter fielder moving toward theopenside (theside of the field withnobase umpire on the foul line) totile wing fielderon theopenside.The PU takes the wing outfielder moving toward·the rout line.However, if the batted ballisnot a ttouJJle ball bu1rather Isa routi.nefly or elean base hitin the"V'' (thearea of the outfield between the left fielder andright fielder) no umpire will go out and the umpire in the midcfle willbe responsible forthecatch/no catch.
 
-A:t first base (toward outfield)
-First-baseumpire(or any umpire rotating tofirst base) has theprimaryresponsibility on all overthrows.
+When one of the base umpires goes outto the outfieldona troubleball, the remaining two umpires (!he PUand theotller base umpire) willrevert lo 2-umpire.Reverting to 2-umpire Is acommon pl1rase used by umpire instructorstoteach 3-umpire mechanics.Wilen acrew reverts to 2-umpire it meaAs that1he1wo umpires remaining in·theinfield will use 2-umpire mechanics tocover the bases.This usually means the remaining baseumpire will "open-up'' in the workingareabehind the mound and cover anyptay atmost (if not all) U1e bases.The-PU,instead of immediatelybuslinginto the third-basecutout as thebaseumpire would on a rotation (see1he nextparagraph) would use the 2-umpire mechanic of telling the remaining base umpire,"I have third ii the rulinet comes," andthenonly bustlnto the third-basecutou1if both ball andrunner are heading into thebase.
+ When no umpiregoes out ona batted ball to tl1eoutfield. theumpiresuse various movements
+·tokeep anumpire aheadal the lead runner.Wilh no runners onbase, theihird-base umpire will run to thesecond-base cu1outto ruleonanattempted double, the PUWill run tothird base torule onan attempted triple,andafter having watched the batter/runner touch first and seconcl base.
+·thefirst-baseumpire wil.Irunhome to ruleonanattempted inside-the-paJk homerun.Likewise, witha runner on firstonly, thePUwill takeany plays at lhird base against R1or the B/Rand the first-baseumpire will takeany plays at theplate.The movement or thePU to third base and the first-base umpire to home plateis called rotating or a rotation./\sset forth in thediagrams that follow,a rotationis also used onaflyball withrunners on first and secondbase withless than twoouts when R2tags up and tries toadvance to third base.This iScalled a tag-up rotation,
 
-INITIA'l POSITIONS OUTFIELD CATCH COVERAGE
-C
-U1'aCOWl!!IW2
-..
-··••-···
+In otJler situations (assetforth in thediagramslhat follow) the third-base umpire willtake all plays at secondbaseagainst anR2 and R1 as wellasallplays at third base, while the first-base umpire will come inlo the infieldgrass and pivot (same as in 2-umpire mechanics) and take the BIR Into second base (inaddition to rulingon anyplayat first basej.When the first-baseumpire pivots aJ1d takes the8/R into second base(allowing tl"le third-base umpire to move into the third-basecutout) this iscalledaslide or a reverserotation,
+
+Another concept that can bedifficult lo grasp is when exactty anumpire should begin the rotation or slide.Toassist anumpire inmaKing thisdetermination, we use theconcept of mirroring.An umpire is mirroring whenthe umpire isdoing thesame movements asa base runnerthat is parallel to theumpire. For instance, with arunner onfirstbase only,on aclean base hit to !he outfield1vhere thecrewis rotating, the first-baseumpire should nolrun towardhome plate until R1 has touchedsecond base andisadvancing101hird base.Infact,as Rl Is running to thirdbase, U1 should be running to'theplate.If you look at a baseball field,one.can see thatthe baseline between second and third baseis parallel ID the baseline between firstbaseand homeplate.
+Thus, asR1 isrunning fromsecond to third base, Ul should be running in foul territory between firstbaseandhome, When Ul isdoing this,U1is mirroring R1,U1shouldaJrivc at the platearea as R1is arriving at1hird base. Likewise, withnorunners onbase, the PUshould runupto third
+baseas the BIRis running from firstbase lo second base.The PUshould arrive at third base as theBIR isarriving at second base.In this manner, the PUism1rroringUle BIR.
+
+One final rule to remember about crew movements: ii the battedballdoes notleave the•infield, thenthecrew doesnotrotate or reverserotate/slide. Rotati.ons andslidesare only usedon c1eanbasehits and routine flyballsto the outfield (wherenobase umpire hasgone out).Most importantly. when working in a3-umpirecrew do NOTbe afraid to verbally communicate with your partners. Communicating with your partnera,both by usinghandsignals and verbally, is crucial tosuccessfully workingin a 3-umpire crew.
+
+NORMAL ROTATION - On olean basehits to theoutfielcl with 1) norunnera on.2) runner onfirst base only and 31runner at thiru base only.PUrutates to make callsat third base,U3covers plays at second base andU1 rotates tocover plays athome plate.
+
+REVERSEROTATION ("SLIDE")- Oncleanbase hits tothe outfielc;I with1) runners on first and second base, 2) runners onfirstand third base, and 3) bases loadedthePUremains athome to watch plays atUleplate,U3 takes tileieadrunner(s) from first and second1ntothirdbase. Ul takes the B/R all the way tosecond base.
+
+<
+<
+	
+
+CREW OF THREE: NO RUNNERS ON	CREW OFTHREE:NORUNNERS ON
+
+FAIR/FOUL COVERAGE	INITIAL POSITIONS ANO OUTFIELD COVERAGE
+; PU RESPONSIBILITY
+f"'"IZZZ'i::U1 �ESPONSIBILITY
+�U3 RESPONSIBILITY
+
+
+
+; PU RESPONSIBILITY
+f"'"IZZZ'i::U1 �ESPONSIBILITY
+�U3 RESPONSIBILITY
+
+
+Action onthe field:No action.
+Umpireresponsibilities:
+PU: Has responsibUity forballs up to first base and thirdbase,including all f'oul territory.
+Ul: Hasresponsibility for balls thathit first·baseand/or go beyond.
+
+U3:Has responsibility for balls thathit third base and/or go beyond.
+ Actionon the field: No action.
+Umpire responsibilities:
+PU:Has nooutfield responsibility.
+U1: Starts in the "A" position. Ul dictates coverage or responsibility,has the center fielder goingstraight back, coming straight in,when he turns to his left and when he moves toward right field.U1 also hasall balls to the right fielder.
+U3:Slarts in the "D" position. U3 has the center fielder whenIle turns to his right.U3 also hasall balls tothe lelt fielder.
+
+If anumpire goesout on a fly ball.,verbalize, and stay out until the play is over.
+Note:For allroutine fly balls, rolations are similar toa clean hit.
+
+<
+<
+iii#
+iii#
+
+
+
+	
+
+	CREW OF THREE: NO RUNNERS ON			CREW OFTHREE: NORUNNERS ON	II
+
+INFIELD CATCH COVERAGE	ROUTINE GROUND B.AU
+
+
+
+'"J- ·ts-.-.{U1
+'
+lU'l)
+'"J- ·ts-.-.{U1
+'
+lU'l)
+
+
+Action onthe field:Noaction.
+Umpireresponsibilities:
+PUhas catches:
+	•	By11le pitcher moving in,left orright.
+	•	By the first and tllirdbaseman moving towardthe plate or tnwarel the middle of the infield.
+Ul has catches:
+	•	By Illesecond baseman moving in, out or towarel first base.
+	•	By theshortstop moving toward secon<! base.
+	•	Bythe firstbaseman movingback or toward the line.
+	•	By the pitcher moving back.
+
+U3has catches:
+	•	By the shortstop moving in,back or toward third 03$0.
+	•	By the second baseman moving toward second base.
+	•	By the thirdbaseman moving back or toward ttie line.
+ Action onthe field:BR hitsa ground !>alltoF6,who is unable to throw lllward firstbase in an attempt to retire BR.
+
+Umpireresponsibilities:
+PU: Clears the catcher,removes mask andmoves toward the 45-foot line.Does not take eye off ball and stops when it oecomes apparent there will oe no play at first base.Ir F6 throws,moves into posltion for potential overthrow and to assist onpossibleswipe tag or pulled foot scenarios.
+U1: When the ball is hit, moves into fair territory and tries to get a 90-degree angle tojudge play at first base.When no throw comes, moves into position incase alate throw comes in an attempt to pick ortBR.
+U3:When the ballishit,moves toward second-base cutout for any plays on the batter-runner at second base. Stays out of potential throwing lane forF6 until it is clear F6 willnot make a throw toward firs1base.Also.takes any plays onthebatter-runner atthirdbase.
+At the end of play,position yourself for next play andrepeat signals.
+
+<
+<
+	
+
+uj:
+l r·
+/	J!!i
+uj:
+l r·
+/	J!!i
+ c_R_EW_OF_T_H_RE_E:_N·_O_R_U_NN_E_Rs_o_N TROUBLE BALL: U1 GOES OUT
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Before the play: Give pre-pitch signals.
+Action onthe field:A deep clean hit to the outfield with the batter-runner advancing toward ltlirdbase, drawing athrow there.
+
+Umpireresponslblllttes:
+PU: Removes mask and moves tialrway toward third.reads the ballandmoves to tile cutout for anyplay on the batter-runner at thirdbase.
+U1:Observes batter-runner'sbase touch at first base and begins to move toward the plate
+ii the batter-runner commits to thirdbase.
+U3:Enters the infield andhas allplays on the batter-runner at second base.
+ 
+
+Before the play: Give pre-pitch signals.
+
+Actiononlhe field:Fly ball ID right field,nocat&h; the batter-runner advances toward ltlird base,drawing a throw there.
+
+Umpire responsibilities:
+PU: Removes mask and moves to first base for any play on the batter-runner.Responsible for throws back to firstbase on abatter runner. Once the batter-runner reac11es second base,PUreturns to the plate for any play there.
+U1:Goes out on the flyball to rule on fair/foul and tt,en theca1th/no-catchandstaysout untilplay isover.
+U3:Has allplays at second andthirdbase.
+
+<
+<
+lib#
+lib#
+
+
+	
+
+	CREW OF THREE: NO RUNNERS ON		Ill
+
+TROUBLE BALL: U3 GOES OUT	Crew of Three: Runner on First
+General!Information
+U1 Initial position: U1 willstart inthe "A" position, but only 8 or 10 feet behind fir.,tbase. Ul must be able to seethe pilther and the runner.
+U3 Initial position: U3 willstart inthe "Deep B"or "Deep C" position. at theedgeof the infield grass.
+Before the play: On abase hit,.the umpireswillbe rotating. Make sure you giveeach partner the number of outs and a signal that youknow that arotation is possible. Unlike in two-umpiremechanics,umpiresautomaticall,y rotate on abase hit.There is no need forPU to read if there will be aplay at third,since U1 will be rotating home.
+Potential plays andresponsibilities:Alllflree umpires tiave responsibility for balks and/ or illegal pitches.
+PU is also responsible for:
+	•	Callingthe pitch
+	•	Fair/foul calls up to the fir.,t-basebag and all fair-foul calls down tile third-baseline
+	•	Fly balls inyour areas of theoutfield
+	•	R1advancing from first to third on aoy balled l>all to the outfield
+
+
+
+
+
+
+
+
+Before tileplay:Give pre-pitch signals.
+Action on the lield:Flyball tolett field;no catch; thebatter-runner advances Inward third base.
+Umpire responsibilities:
+PU: Has any play on the batter-runner at'IJ1e plate.
+
+U1:Moves to the infiehl for any play onthe batter-runner at first, second orthirdbase.
+U3:Goes out on tile fly ball to rule on fairlroul and thecalth/no-catchandstaysout until play isover.
+ Ul Is also responsiblefor:.
+	•	Pickoti attempt at first base by the pitcher or catcher
+	•	Help (when asked by PU) ona checked swing on aright-handed1>aner
+	•	Fair/foul callsfrom the first-basebag down the right-fieldline
+	•	Fly balls in your area of the outfield (U1 can and should goout if necessary)
+	•	Any play at first involving BR (if you don't go ouQ
+	•	Any play at home involving Rl andBR (if Ul doesn't go out)
+U3 is also responsible for:
+	•	Help (when asked by PU) on a checKed sw1ng on a left-handed batter
+	•	Fly balls inyour area of theoutfield (U3 should never cross the infield dirt)
+	•	Any play at second involving Al, includingany potential illegal slide
+	•	Any play involving BR at second or !Jack intofirst if U1 has gone out orrotated
+	•	R1·stag at firstbase if U1 goes out
+
+<
+<
+
+
+
+	
+
+CREW OFTHREE:RUNNER ONFIRST	CREW OF THREE: RUNNER ON FIRST	1111
+FAIR/FOUL COVERAGE	INITIAL POSITIONS AND OUTFIELD COVERAGE
+
+
+
+
+
+Action onthe field:Noaction.
+Umpireresponsibilities:
+PU: Has responsibility for allballs on the third-base line andup ID firstbase. U1:Hasresponsibility for all balls thathit first base or go beyond first base. U3:Has no foul-line responsibility.
+ 
+
+Actiononthe field:No action.
+
+Umpins re5Ponsibilities:
+PU:Hascatch/no-catchresponsibility if theball is hit where the left fielder moves any distance toward tl1e foulline.
+
+U1: Starts in the "A'' position. U1 retains coverage on all troub.leballs from thecenter fielder coming straight in or straight oack ID right-field out of play.If U1 goes out, the crew reverls to the two-umpire system.
+
+U3: Starts ineither the "Deep 8'' or "Deep C" position.U3 has allresponsibflity for all routine balls from lelt field to right field, and a11·1roubleballs in the left-center field wedge.
+
+Nole:For allroutine fly balls, rolations are similar to a clean hit.
+
+<
+<
+
+
+
+	
+
+CREW OFTHREE:RUNNER ONFIRST	CREW OF THREE: RUNNER ON FIRST
+
+INFIELD CATCH COVERAGE	PICKOFF ATFIRST
+
+
+
+Action on the field:Noaction.
+
+Umpire responsibilities:
+PUhas catches:
+	•	By the pitcher moving in;left orright including foul territory before firstbase.
+	•	By firstbaseman moving in.
+	•	By the thirdbaseman moving in,back ortoward thefoulline includingthe whole foul territory.
+U1 has catches:
+	•	By thefirstbaseman moving back or toward ttie foulline including foul territory beyond firstbase.
+U3 has catches:
+	•	By all fielders moving toward the middle of the field.
+	•	Bythe pitcher moving back,
+	•	By the second baseman and shortstop moving in all directions.
+ Before the play:Give pre-pltch signals.
+Actiononthe field: Be!ore pitching, the pitcher attempts to pick ott the runner at first base.
+
+Umpire responsibilities:
+PU: Watches the pitcher forpotential balks then takes a step out from behind thecatcher to observe theaction or incase ball is overthrown.
+U1: Watches the pitcher for potential balks before throwing. Positioningshould require no movement tosee the pickoff throw or tag.II the play isa swipe tag out, ensure that F3 retainspossession of the ballbefore n1aking the out call.If the runner issafe,nodelay is necessary.
+U3: Watches the pitcher for potential balks t>efore throwing. Is responsible for allplays at second and third base, including if Al ends up inarundown.
+
+<
+<
+
+	
+
+CREW OFTHREE: RUNNER ONFIRST	CREW OF THREE: RUNNER ON FIRST	"
+
+
+STEAL OF SECOND WITH POTENTI.Al OVERTHROW
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Before the play: Give pre-pitch signals.
+Action onthe field: The batter swings and misses at the pitch asRl attempts tosteal second base.F2's throw goes intocenter field andRl attempts to advance tothird.
+Umpireresponsibilities:
+PU:Signals the swinging strike without taking his focus off the play at hand.Ensures the batter does not interfere with1he catcher's throw.The likelihood of interference is increased when the catcher has made apoor lhrow. Observes lhe play.
+
+U1:Observes tile pitch and initial throw to seconel. /l$ Rl heaels towarel third,Ul moves aggressively toward second base incase R1 ends up inarundown.
+U3: Takes astep toward the second-base cutout.Tums withthe ball.When thethrow goes intocenter field, moves aggressively toward I.he third-base sideof the mound toopenup theangle forthe1ag play at third base.
+ �ROUND BALL TO THEINFIELD WITH POTENTIAL DOUBLE PLAY
+
+Before the play: Give pre-pitchsignals.
+Actionon!tie fleld:The batter hitsa ground balltoward third base. A doubleplay is possible.
+
+Umpire responsibilities:
+PU:If necessary, stays near the third-base linein case ot apotential fair/foul decision. Trails BRup the first-baseline toassist withpossiblepulled footlswipe tagpfay,including overthrow intodead-ball area.Is responsible for any play at the plate.
+U1: Obtains 90-degree angle infair territory to prepare to judge play at firstbase.Throw could come from F5or from the fielder covering second base.
+U3: Takesa step toward the mound and opens up tothe ball.When it's clear adouble-play willbe attempted,U3 steps toward the stdeof thecutout where the throw will be coming from to better see the catch of the throw and the transfer of the ball fro111 the glove to throwing hand.Judges play (including potential illegal slide/including potential force play slide) at second base. If Rl is safe at second and advances toward third,U3 moves aggressivelytoward the third-base cutout for the tagplayat thirdbase.
+
+<
+<
+	
+
+CREW OFTHREE:RUNNER ONFIRST	CREW OF THREE: RUNNER ON FIRST
+
+\
+\
+\
+·--
+!
+......
+_ ..
 .
-u.. OOIIIIIMII
-C
-U1'aCOWl!!IW2
-..
-··••-···
+\
+@.J.
+\
+\
+\
+·--
+!
+......
+_ ..
 .
-u.. OOIIIIIMII
+\
+@.J.
+.
+,.i.r..n..
+.
+,.i.r..n..
 
-Action on the field: No action Action on the field: No action
 
-Umpireresp11nsibilities:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Before the play: Give pre-pitch signals.
+
+Action on the field: Clean hit to right field,no catch:Rl advances toward thirdbase, drawing a throw there:batter-runner rounds first andreturns there.
+
+Umpire responslbllltles:
+PU:Rea!ls Rl and the ball aMmoves into aposition for any plays at thirdbase onR1.
+U1:Observes.BR's base !ouch at first base andbegins·tomove toward the plate when R1 touches second base and commits tothirdbase.
+
+U3:Observes R1's base touch at second base andbegins to move toward first base if R1 cornmils to thirdbase.Has any play where R1 returns to second and has allplays on the batter-runner returning to first and at second base.
+ Before the play: Give pre-pitch signals.
+
+Actiononthe field:Fly ball to right field,nocatch: Al advances toward thirdbase,drawing athrow there;BR rounds first and returns !here.
+Umpire responsibilities:
+PU: Rotates to thirdbase for anyplay on Rl andmust verbally communicate his position to U3.If a play develops at thirdbase andR1 thenattempts to advance to the plateon awild throw,PUmust retreat (in fair territory) for any play there.
+U1: Pause, readandreact. Goes out on the fly bait. Judges rair/foul (if necessary) andcatch/ no catch.Doesnotreturn tothe infield.
+U3: Has allplays at first and second base andplays at thirdbase on t11ebatter-runner.
+
+<
+<
+'/
+'/
+
+
+
+	
+
+	I 		CREW OFTHREE: RUNNERS ON FIRST AND SECOND	
+
+Crew of Three: Runners on First and Second
+General Information
+Ul Initial position: Ul will start in the ''A" position, 10·15 feetbehind firstbase. Ul must be able to see Ille pitcher and the runner. U1 can move closer ii F3 is holding Rl on the base.
+
+U3Initial position: U3 will start in the "C'' position. Since third base is open,U3 cannot start inthedeep position. There is apossibility of R2 stealing third.
+
+Before the play: Give pre-pitch signals. On a base hit, the umpires will be ina reverse rotation, withUl trailing BA into second base. With less than twoouts, tile infield-fly rule will be fn effect On aflyball to ttie outfield with less than two outs,PU wil) be rotating to thirdandU1 will rotate home (IIU1 does not go out).Make s(lreyou give each partner the number or outs and appropriate signals.
+
+Potential plays andresponsibilities:All three umpires have responsibility for balks and/or illegal pitches.
+
+PUis also responsible for:
+	•	Calling the pitch
+	•	Fair/foul calls up to the first-base bag and alllair-foul calls down the third-base line
+	•	Fly balls in your areas of u,e outfield
+	•	R2 advancing after tagging upon a caughtfly ball with less than two outs
+	•	Any play at the plate except tor routine fly ball wilh A2.tagging and advancing with less thah two outs
+
+Ul is also responsible for:
+	•	Pickoff attempt at first base by the pitcher or catcher
+	•	Help (when asked oy PU) on achecked swing on a right-handed batter
+	•	Fair/foul calls from the first-base bag down tile right-field line
+	•	Fly balls in your area of the outfield {U1 can and should go out it necessary)
+	•	Any play at firstor second involvingBR (if you don't go out)
+	•	Any play athome involvingR2 on acaught fly ball with less than two outs
+
+U3 is also responsible for:
+	•	Pickoff attempt at second base by the pitcher or catcher
+2, Help (when asked by PU) on achecked swing on a lett-handecl batter
+	•	Stolen base attempt by either Al orR2.
+	•	Fly balls inyour area of theoutfield (U3 should never cross the infield dirt)
+	•	Any play at second involvingR1,including any potential illegal slide
+	•	Any play al third involving R2,including anypotential illegal slide.
+Exception: PU will take R2's advance to third on a caught flyball with less thantwo outs.
+	•	R2's tag up at second base ii it is a caught fly ball.
+	•	A1'stag at first base ii U1 goes out.
+ PICKO.FFTHROW TO SECONO
+
+
+Before the play: Give pre-pitch signals.
+Actiononthe field: Before pitching, the pitcher attempts to pick otl the runner at second base.
+Umpire responslbllllles:
+PU:Watches the pitcher for potential balks thenlakes a stepout from behind the catcher to Ob$erve theaction.
+
+U1: Watclles the pitcher tor potential ball<S tllen observes the action.
+
+U3:Watches the pltcher for potential balks before throwing.Once the pickoff attempt has started,U3 should take aquick backward stepandturn with the ball as it passes him toward the fielder. Comes to ahands-on-knees set tosee the play at second base. II the play is aswipe tag out, ensure the fielder retains possession of the ballbefore making the outcall.If the runner is safe,no delay isnecessary.
+
+<
+<
+>
+>
+
+	
+
+CREW OF THREE: RUNNERS ON FIRST AND SECOND
+
+
+DOUBLE STEAL
+
+
+Before the play: Give pre-pitchsignals.
+Action on the fleld:The batter swings and misses at the pitch asR2 attempts tosteal third andR1 attempts tosteal second base.
+
+Umpire responsibilities:
+PU: Signals the swinging strike without taking his locus ott the play athand.Ensures the batter does not interfere with the catcher's t'1row.
+U1:Observes the action.Has no initial responsibility on either runner. Moves toward second base toassist withsubsequent plays (snap throws back intosecond).
+
+U3:When the runners start to steal, takes sever&I steps forward and reads F2!s throw,If F2 throws to third, step toward third.IfF2 throws to second.,move back toward second, watching the ball and turning as it passes you. If either runner is out or safe on a close play, take two or three-steps after the tag whilemaking thecall to give the appearance that youwere c,loser tothe play.Don't overcommit toward that call incase the fielder makes a snap throw to the other base.Responsible for plays at either base unless U1 hascome into second for a subsequent snap throw.
+ CREW OF THREE; RUNNERS ON FIRST AND SECOND	•
+
+
+
+CLEAN HIT TO THE OUTFIELD ORROUTINE FLY BALL WITH TWO OUTS
+jil, ,,,.
+jil, ,,,.
+Before the play: Gfvepre-pltch signals.
+Action onthe field: Clean hit to right field,nocatch; R2 advances toward the plate; Rl advances toward thir<1base; BR advances toward second tiase and draws a throw there,
+Umpire responslbllltles:
+PU:Alter reading thatno base umpires are going out.,stays home, observes R2touching thirdbase and observes the plate touch of allrunners.PUmoves ID aposition to rule on all plays at the plate.
+U1: Pause, readandreact. Moves into the infield and observes the batter-runner's base touch atfirst andhasall plays onthe batter-runner at first andsecond base,
+U3: Observes the base touches of R1 at second and thirdbase andhas allplays on R1 at second and third,plus R2 a.ndBR at thirdbase.
+
+<
+<
+	
+
+CREW OF THREE: RUNNERS ON FIRST AND SECOND
+ROUTINE FLY BALL WITH LESS THAN TWO OUTS
+<
+Before the play: Give pre-pitch signals.
+
+Action on the fielll: Routine fly ball to right-center field.R2tags upand attempts to advance to thirdbase.
+Umpire respooslbllltles:
+PU:Comes out fmmbehind the plate.When R2 tags up anll attempls toadvance. movesup the third-base line for plays at1hird.
+U1: Whenu1 reads it isaroutine fly ball and R2is tagging, starts walking toward home plate in foul territory. Ul is responsibl8 forRl'slagup at first.When R2 advances to lllird. U1 goes home to cover plays at"11:leplate. Mirror R2.
+U3:Responsible for catch/no-catchandR2's tagup at second. When U1 goes home, U3 is responsible for all plays at first and second base.Please note communication willl your c�w is imperative.
+CREW OF THREE: RUNNERS ON FIRST AND SECOND
+ROUTINE FLY BALL WITH LESS THAN TWO OUTS
+<
+Before the play: Give pre-pitch signals.
+
+Action on the fielll: Routine fly ball to right-center field.R2tags upand attempts to advance to thirdbase.
+Umpire respooslbllltles:
+PU:Comes out fmmbehind the plate.When R2 tags up anll attempls toadvance. movesup the third-base line for plays at1hird.
+U1: Whenu1 reads it isaroutine fly ball and R2is tagging, starts walking toward home plate in foul territory. Ul is responsibl8 forRl'slagup at first.When R2 advances to lllird. U1 goes home to cover plays at"11:leplate. Mirror R2.
+U3:Responsible for catch/no-catchandR2's tagup at second. When U1 goes home, U3 is responsible for all plays at first and second base.Please note communication willl your c�w is imperative.
+CREW OF THREE: RUNNERS ON FIRST AND SECOND
+
+
+TROUBLE FLY BAUDOWNLEFT FIELD LINE, CATCH
+..............
+..............
+Before the play: Give pre-pitch signals.
+Actiononthe field: Fly ball toward the left-field line caught by the left fielder;R2 tags up and advances toward third base, drawing athrow: R1 retreats toward firstbase.
+Umpire responsibilities:
+PO: Clears batter am.1takesmaskoff.Moves to the best position possible to view the fair/ foul and catch/nocatch.PU reads the runners and theball and moves int□aposition for any play on R2 advancing to third base.II the ball is not caught,PU observes R2'sbase touch at third and returns to the plate for all plays there.
+
+U1: Observes R1 and ii R2 commits to thirdbase,U1 commits tothe plate !'or any play there onR2.If the ballis not caught,U1 movesinto the infieldand observes BR's base touch at first andhasall plays on BR at first and second bases.
+
+U3: Retreats andobserves R2's tagup.U3 moves into positionfor any play at first or second base on R1.If the ball isnot caught,U3 observes the base touches of R1 at second and third base andhas allplaysonR1 at second and third and R2 andBR at thirdbase.
+Please note communication with your crewis imperative.
+
+
+CREW OF THREE: RUNNERS ON FIRST AND SECOND	Ill
+
+
+FLY BA.LL TORIGHT FIELD, NO CATCH, U1 GOES OUT
+ Crew of Three: Bases Loaded
+
+GeneralInformation
+Ul Initial position: Ul will start in the ''/Ji' position, 10 or 15 feet behind first l>ase.U1 must be able ID see the pilther and the runner. U1 may move closer behind firstbase if F3 is holding tl1e runner onbase.
+
+U3Initial position: U3 will start in the "C" position,
+Before the play: Give pre-pitch signals. On abase hit, the umpireswill be inareverse rotation, withUt trailing BR into second base.With less than twoouts, the infield-fly rule willbe in effect.The plateumpire will not rotate on this play.Make sure you giveeach partner t.henumber of outs and appropriate signals.
+Potential plays and responsibilities;Allthree umpires have responsibility fur balks and/or illegal pib;hes.
+PUis also responsible for:
+	•	Callingthe pitch
+	•	Fair/foul calls up tothe first-basebag and allfair-foul calls down·thethird-baseline
+	•	Fly balls in your areas of the outfield
+	•	R3's tag up,ii he tries to advance on a caught fly ball
+	•	Any play at the plate
+
+
+
+
+
+Before the play: Give pre-pitch signals.
+Action on the field: Fly l>all to right fielcl.no catch;Ul goesout; Rl aclvances towarcl1hircl base, drawinga throw lflere; R2 advances·towardthe plate; BR rounds firstbase.butdoes not advance tosecond.
+Umpire responsibilities:
+PU:Remains near the plate for all plays there.If the ball is caught,PUreads the ball and the runners andhasany play at thirdbase if R2attempts to advance there.They have force-play-slide responsibility.
+
+U1: Pause. read and react. Verbalize when goingout.Moves to the bestposition possible to view the fair/toul and catch/no cal.ch.Does not return ID the infield for any play.
+U3:Moves into the wort<ingarea for allplays on the bases. If the ballis caught,U3 has the tagupsof R2at second base andR1 atfirstbase.
+ Ul is also responsible for:
+	•	Picl<oll attempt at first base by the.pitcher or catcher
+	•	Help (when asked by PU) on a checked swingon a right-handed batter
+	•	Fair/foul calls from the first-base bag down the right-field line
+	•	Fly balls in your area of the outfield (U1 can and should goout if necessary)
+	•	Any play at first or second involvingBR (if you don't goout)
+
+U3 is also responsible for:
+	•	Picl<oll attempts at second or thirdbase by the pitcher or catcher
+	•	Help (when asked by PU) on a checked swingon a left-handed batter
+	•	Stolen-ba.seattempt by either R1 or R2 (fllre,but possible)
+	•	Fly balls in your area of the outfield (U3 should never cross the infield dirt)
+	•	Any play at second involvingRl, including any potential illegal slide
+	•	Any play a.I thirdinvolvin.QRl anclR2, includingany potential illegal slide
+	•	R2's tag upat second base if it isacaught fly ball
+	•	R1's lag at firstbase if U1 goesout
+
+<
+<
+
+
+	
+
+CREW OF THREE: BASES LOADED	CREW OFntREE: BASES LOADED
+
+FLY BALL TORIGHT FIELD, CATCH, U1 GOES OUT	FLY BALL TO LEFT FIELD, CATCH
+
+
+
+Before the play: Give pre-pitch signals.
+Action onthe field:Fly ball caught by the rightfielder,U1 goes out;R3 tags amlmoves toward ttie plate. drawing a throw there: R2 and R1 staynear their bases.
+
+Umpireresponslbilltles:
+PU: Clear catcher andremove mask. Moves toaposition toview R3's lagup at thin!base.
+Pthenreturnsto the plate for any play there.
+U1:Pause,read andreact. Verbalize going out.Moves to the bestposition possible to view thefair/foul (if necessary).an(l the catch/no catch. 01does not return to the infieldduring the play.
+U3;Retreats am! observes potential tag-ups at first andsecond base.U3 reads the runners andmoves intoaposition for allplays on the bases.
+ Before the play: Give pre-pitchsignals.
+
+Action onttle field:Fly ball caught by the left fiel!ler; R3 tags up and moves towanlthe plate, drawing a throw there:R2 and R1 staynear their bases.
+Umpiremponslbllltles;
+PU: Moves tothe best position possible to view thefair/foul and catch/no catch.PUmust also view R3's tagup at thirdbase.PU returns ID the plate for any play ttierl!.
+U1:Moves into tile inflel!l am! observes R1·spotential tagup at firstbase and hasany secondary play at second base.If the ball is not caught.U1 has allpla�on BR at first and second base.
+U3;Retreats to working areaand observes R2's potential tag up.U3 moves into position for any initial plays at second or all playsat third base.If the ballisnot caught, U3 observes the base touches at second andthirdbase andhasall plays on R1at second andthird,R2 at third and BR at third.
+
+<
+<
+
+	
+
+CREW OF THREE: BASES LOADED
+
+
+CLEAN HIT TO THE OUTFIELD	Crew of Three: Runners on First and Third
+i
+.
+..
+.l
+.•
+..
+•••••••••.•. \- '.l.ir.
+.	"•••\....
+i
+.
+..
+.l
+.•
+..
+•••••••••.•. \- '.l.ir.
+.	"•••\....
+
+Ul Initial position: Ul will start in the "/f position, 10 or 15 feet behind first base.U1 must be able to seethe pilther and the runner. Ul canmove closer to firstbase ifF3 is holding the runner on oase.
+
+USInitial position: U3 will sillrt inthe "C" position. From that position, U3 hasa great angle on any potential pickoff intn thirdbase.
+
+Before the play: Give pre-pitch signals.There are no rotations for this configuration.Make sure you give each partner the number of outs and a signal that youknowthatno rotation ispossible.
+Potential plays andresponsibilities;All three umpires have responsibility for balks and/or illegal pilthes.
+PUis also responsible for:
+	•	CaJling the pitch
+	•	Fair/foul calls up tothe first-basebag and all fair-foul calls down·the1hird-baseline
+	•	Fly balls in your areas of the outfield
+	•	R3's tagupat third on a caught flyball 5.AIIplaysat the plate
+
+
+
+
+
+Before Ille play: Give pre-pitch signals.
+Action onthe field:Clean hit to right field.Ul does not go out: R3 scores: R2moves toward the plate;Rl moves towardthirdbase: BR moves toward second base and draws a throw there.
+Umpireresponsibilities:
+PU:Clear catcher andremove mask,Observes all touches athome andR2's touch of lhird. PUmoves into position for anyplays at the plate.
+
+U1:Moves into the infieldand observes BR's touch of first and second.Ul hasallplays on BR at first and second base.
+U3:Observes R1's touch of secondand third andBR's touch of third.U3 has all plays on R1 at second and third,R2 atthird and BR at third.
+ U1 is also responsible for:
+	•	Pickolf attempt at first base by the pitcher or catcher
+	•	.Help (when as�ed by PU) on a checked swing on aright-handed batter
+	•	Fair/foul calls from the first-base bag downthe right-field line
+	•	Fly ballsinyour area of the outfield (U1 can and should goout II necessary)
+s.Any play at first involvingB.R(if'you don't go out)
+U3 is also responsible for:
+	•	Pickoff attempt at thirdbase bY the pitcher or catcher
+	•	Help(when asked by PU) on a checked swingon a left-handedbatter
+	•	Fly balls in your area of theoutfield (U3 should never cross the infield dirt)
+	•	Any play at second involving R1.includingany potential illegal slide
+	•	All plays at third
+	•	Any play involving BR at secondor back intofirst if U1 has gone out
+	•	R1's tag at firstbase if U1 goes out
+
+<
+<
+
+
+
+	
+
+CREW OF THREE: RUNNERS ON FIRST ANO THIRD	CREW OFTHREE: RUNNERS DN FIRST ANDTHIRD
+
+CLEAN HIT OR ROUTINE FLY BALL TO THE OUTFIELD	TROUBLE BALL DOWN THELEH-FIELDLINE
+
+,
+.B.R,	_-
+'.'
+I
+,
+.B.R,	_-
+'.'
+I
+(
+(
+
+Before lhe play:Givepre-pitch signals.
+
+Action on thefield:Routine fly ballto right field.no catch; R3advances toward the plate; R1 advances IDward thirdbase; the batter-runner advances towardsecond base, drawing a throw there.
+Umpireresponsibilities:
+PU: Removes mask.Has R3's lag-up at third andooserves the plate touch of allrunners. PU
+moves to a position to ruleonallplays at tile plate.
+
+U1:Has R1'stag-up at first.Moves into the infield and observes the baiter-runner'sbase touch at first and has allplays on the batter-runner at first and second base.
+
+U3:Hascatch/no-catchresponsibility.Observes the base touches of Rl at second and third base andhas allplays onR1 at second and thirq, plus the batter-runner at third tlase.
+ Before the play: Givepre-pitch signals.
+Action on thefield: Trouble ball downthe lelt-field line.R3 andRl tagup and advance.
+Umpire responsibilities:
+PU: Clear catcher andremove mask.Has fair/foul, catch/no-catchresponsibility andR3's lag-up at thirdl>ase.Returns tothe plate for any plays there.
+U1:Hasall plays at firstbase and the batter-runner at first and second bases.
+U3:Hasall plays at thirdbase and all plays onR1 at second base.
+
+<
+<
+
+
+	
+
+	I 		CREW OFllfREE: RUNNER ONSECOND	
+
+
+
+General Information
+ Crew of Three: Runner on Second
+ If lwo outs,U3 is alsoresponsiblefor:
+	•	PickoHattempt at second base by the pitcher or catcher
+	•	Help (when asked by PU) on a checked swing on a left-handed baller
+	•	Fly balls inyour area of the outfield (U3 should never cross the infield dirt)
+
+U1Initial position with less than IWo outs:U1 will start in the "Deep B" Position, at tile edge of lhe infield grass. From that position, U1 hasa great angle on anypotential pickott at second base. With twoouts,U1 will shift to"A" position.
+
+U3Initial position with less than twoouts:U3 willstart in the''D" position, but not as deep as normal. U3 must beable togetinto position for anattempted steal at third base. With IWo outs.U3 will shift to the "C" position.
+
+Beto� the play:Give pre-pitch signals.The� are no rolalions fromthisconfiguration.Make sure yougive each partner the number of ouls and a signal that youknow that no r01ation Is possible.
+
+Potential plays and responsibilities:All lh�e umpireshave responsibility for balks and/or illegal pitches.
+
+PUis also responsibletor:
+1,Calling the pitch
+2,Fair/foul calls up lo the third-base bag and all fair-foul calls down the first-base line (less thantwo outs); fair/loo! calls up to the first-base bag and all lair-foul cans downIlle tllird-base line(two outs)
+	•	Fly balls in your areas of the outfield
+	•	All runners touching home and any play at the plate.
+
+If less than'two outs,Ul is also responsible for:
+	•	Pickoff attempt at second base by the pitcher or catcher
+	•	Help {when asked by PU) on acheckecl swing on a righl-handecl batter
+	•	Fly balis in your area of the outfield (U1should never cross the infield dirt)
+	•	Any play at first or second base
+	•	Any play al third if U3 goes out
+
+If two outs,U1 is also responsiblefor:
+	•	Fair/foul caJls from the first-base bag down the right-field line
+	•	Help {when asked by PU) on acheckecl swing on a right-handed batter
+	•	Fly balls in your area of the outfield (U1 can and should go out if necessary)
+	•	Any play at first or second involving BR (unless out on trouble ball)
+
+If less than two oul.s, U3 is also responsiblefor:
+	•	Fair/foul calls lrom the third-base bag down theleft-lield line
+	•	Help {wllen asked by PU) on achecked swing on alett•handed batter
+	•	Stolen base attempt into third base by R2
+	•	Fly balls in your area of the outfield (U3 can and should go out if necessary when starting in the·'O" position.)
+	•	Any play at third (if you don't go out)
+	•	 Anyplay at ttiird
+
+<
+<
+	
+
+CREW OF THREE:RUNNER ON SECOND	CREW OF THREE: RUNNER ON SECOND
+
+
+PU RESPONSIBILITY
+�$�	 US RESPONSIBILITY
+
+
+
+PU RESPONSIBILITY
+�$�	 US RESPONSIBILITY
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Action on the field:Noaction.
+Umpireresponsibilities:
+PU: Has responsibility for allballs alongthe first-base tine andup to lflirdbase.
+U1:Hasno foul line responsibility.
+
+U3:Hasresponsibility for all tJalls tllathit thlrdbase or that go beyond thirdbase,
+Note: With twoouts,revert to fair/foul coverage responsit>ilitieswithU3 Inside.
+ INITIAL POSITIONS ANO OUTFIELD COVERAGE WITH LESS THAN TWO OUTS
+
+Action on the field:Less than two outs.
+Umpire responsibilities:
+PU: Has catch/no-cal!:hresponsibility for any trouble balls taking lfle right fielder (or potentially the first or second baseman) toward the foulline.
+U1:Starts in the"Deep B" position. Has any fly balls -  routine or trouble -  in tile "V.•
+Ul: Sia�in the"D" position.U3 has any troubleballs which take the left fielder toward the foul line.
+Nole:Wrlh two outs,revert tooutfield catch coverage responsibilitieswi1hU3 inside.
+
+<
+<
+
+
+
+
+
+	
+
+CREW OF THREE: RUNNER ON SECOND	CREW OFTHREE: RUNNER ONSECOND
+
+"1.!'
+®
+•
+•
+S �Ul•
+1
+"1.!'
+®
+•
+•
+S �Ul•
+1
+THROW •
+THROW •
+
+
+Action onthe field:No action.
+Umpire responsibilities:
+PUhas catches:
+	•	By the pitcher moving in,left orright.
+	•	By the firstbaseman moving in,back or toward the foul line.
+	•	By the thirllbaseman moving in.
+
+U1 has catches:
+	•	By all fielders moving toward the middle of the rield.
+	•	By the pitcher moving back.
+	•	By the second baseman and shortstop movingin all directions.
+U3 has catches:
+	•	By the thirdbaseman moving back or toward the foul line.
+No1e: With twoouts,revert to infield catch coverage responsibilitieswithU3 inside.
+ Before the play: Give pre-pitch signals.
+Action onthe field:Ground ball tothe shortstop with a throw to firstbase.R2 advances toward thirdbase once F6 releases the throw to first.F3 makes·IIJeplay at first and throws to thirdbase.
+Umpireresponsibilities:
+PU: Clears catcher and removes mask. Moves up the first-baseline,butnot all the way to the45-foot line.PU cannot overcommit to first base since there is the potential of R2 attempting to score.
+
+U1:Takes one step toward the mound when ballishit.AJJF6thmws to first,moves several more steps toward the mound andisset for play at firstbase.If R2 retreats ID second,U1 moves into position for any play there.
+
+U3:Observes action whenball is hit.When R2 and throw converge atthirdbase, moves inlD position for tagplay or rundown.
+
+<
+<
+
+	
+
+	CREW OF THREE: RUNNER ON SECOND			CREW DFTHREE: RUNNER ONSECOND	-,..
+FLY BAL.l TOLEFT FIELD, NO CATCH, U3 GOES OUT, LESS THAN TWO OUTS	FLY BALL DOWN THERIGHT-FIELD LINE, CATCH, LESS THAN TWO OUTS
+:!
+:!
+
+
+Before the play: Give pre-pitch signals.
+Action onthe field:Fly ball to left field,nocatch: U3 goes out; R2 advances toward the plate; BR advances toward thirdbase and draws a throw there.
+UmpireresponslbUltles:
+PU: Removes mask.Remains at the plate for allplays there andhas the base touch of R2at thirdandallbase touches at the plate.
+U1:Observes the batter-runner touch first base andmoves into position for allplays onR2 andthe batter-runner on the bases. If the ballis caught,Ul observes R2's potential tag up andhas allplays at second andthirdbase.
+U3:Pause, reall andreact. Moves tothe best position possible to view the fair/foul (If necessary) and catch/no catch.U3 does not return tothe infield until tfle play is over.
+ Before the play:Givepre-pitch signals.
+Action onthe field:Flyball caught by the rightfielder: R2tagsupandadvances towarct thirdbase. drawing a throw there.
+
+Umpire responslbllllles:
+PU:Clears catcher andremoves mask. Moves to the best position possible to view thefair/ foul(if necessary) andcatch/no catch,PUreturns to the plate area.
+U1: Retreats and observes R2's tagup.If the ball is not caught,U1 observes base touches at first andsecond base andhasallplays at those bases.
+U3:Moves intoposition for any play at third base onR2.If1he ballisnot caught.U3 ol>serves base touches at third base aMmoves into position for allplays at third base.
+
+<
+<
+
+
+
+	
+
+CREW OF THREE: RUNNER ON SECOND
+
+
+CLEAN HIT OR ROUTINE FLY BALL TO THE OUTFIELD WITHTWO OUTS
+
+
+Before the play:.Give pre-pitch signals.
+
+Action on thefield: With two outs. aclean hit to right field. R2advances toward h9me. BR
+advances toward second base.
+
+Umpireresponsibilities
+PU: Removes mask.Stays home, observes the plate touch of all runners. PUmoves toa position Ill rule onallplays al theplate.
+
+U1: Observes BR touching first base. Pivots into the infield and has all plays on BR at first or second base.
+U3:Responsible rorany play at third base.
+ Crew of Three: Runners on Second and Third
+General Information
+
+Ul Initial position: Ul will start in the "Deep B" position, at the edge of the infield grass. From that position, U1 has a great angle on any potential pickoHat second base. With two outs,U1 will shift to''f!.:' position.
+
+U3Initial position: U3 will start inthe "D" position, butnot as deep as normal. U3 must be able Ill getinlllposition for an attempted pickoHat third base. With twoouls,U3 will shift to the "C" position.
+
+Before the play:There are no rotations from this configuration. Make sure you giveeach partner the number of outs and a signal that you know that no rotation is possible.
+
+Potential plays and responsibilities:Allthree umpires have responsibility for balks and/or illegal pib;hes.
+
+PUis also responsible for:
+	•	Calling the pitch
+	•	Fair/foul calls up tothe third-base bag and all fair-foul calls down the first-base line (less than two outs); fair/foul calls up to the first-base bag and all fair-foul calls down the third-base line (two outs)
+	•	Fly balls in your areas of the outfield
+	•	AIIrunners touching home and any play at the•plate
+	•	If U3 goes out, is responsible for tagup by R3
+
+If less than two outs,Ul is also responsiblefor:
+	•	Pickoff attempt at second base by the pitcher or catcher
+	•	Help (when asked by PU) ona checked swing on a right-handed batter
+	•	Fly balls inyour area of the outfiefd (Ul should never cross the infield dirt)
+	•	Any play at first or second base
+	•	Any play at third if U3 goes out
+
+If two outs, Ul is also responsible for:
+	•	Fair/foul calls from the first--base bag down the right-field line
+	•	Help (when asked by PU) on achecked swingon a right-handed IJatter
+	•	Plyballs in your area or the outfield (U1 can andshould goout if necessary)
+	•	Any play at first or second involving BR (unless out on troubleball)
+
+If less than two outs,U3 is also responsible for:
+	•	Fair/foul calls from the third-base bag down the left-field line
+	•	Pickoff attempt at third base
+	•	Help (when asked by PU) on a checked swingon a left-handed batter
+	•	Stolen base attempt into third base by R2
+	•	Fly balls in your area of the outfield (U3 canandsliould goout if necessary when starting in the "D" position.)
+
+<
+<
+	
+
+CREW OF THREE: RUNNERS ONSECOND ANO THIRD
+FLY BALL TO RIGHT FIELD, CATCH, WITH LESS THAN TWO OUTS
+Before the play: Gtve pre-pitch signals.
+
+Action onthe field: Fly ball caught by the right fielder: R3 tags up and advances toward the plate.drawing athrow there: R2tags up and advances towardthird base.
+Umpire responsibilities:
+PU: Clears catcher and removes mask. Moves to the best position possible to view the tair/foul and natch/nocatch, then moves into position to rule on aU plays at the plate. Remember that the fair/foul and catch/no catch are the priorities. Move up the firat-base line and back to the plateIn foul territory.
+
+U1: Observes R2's lagup at second base.U1 moves into position ror any play atsecond base.If the ball is not caught, U1observes base touches at first andsecond base and has allplays at those bases.
+
+U3:Observes A3's lagup.U3 moves into posttion ror all base touches and anyplay at third
+base.
+CREW OF THREE: RUNNERS ONSECOND ANO THIRD
+FLY BALL TO RIGHT FIELD, CATCH, WITH LESS THAN TWO OUTS
+Before the play: Gtve pre-pitch signals.
+
+Action onthe field: Fly ball caught by the right fielder: R3 tags up and advances toward the plate.drawing athrow there: R2tags up and advances towardthird base.
+Umpire responsibilities:
+PU: Clears catcher and removes mask. Moves to the best position possible to view the tair/foul and natch/nocatch, then moves into position to rule on aU plays at the plate. Remember that the fair/foul and catch/no catch are the priorities. Move up the firat-base line and back to the plateIn foul territory.
+
+U1: Observes R2's lagup at second base.U1 moves into position ror any play atsecond base.If the ball is not caught, U1observes base touches at first andsecond base and has allplays at those bases.
+
+U3:Observes A3's lagup.U3 moves into posttion ror all base touches and anyplay at third
+base.
+<
+<
+
+
+	•	Any play at third (if you don't go 01.11)
+
+If twoouts,U3 is also responsible for:
+	•	Pickoff attempt at second or third base by the pitcher or catcher
+	•	Help (when asked by PU) on a checked swing on aleft-handed batter
+	•	Flyballs in your area of the outfield (U3 should never cross the infield dirt)
+	•	Any play at third
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	I 		CREW OFniREE: RUNNER ON THIRD	" 
+Crew of Three:. Runner on Third	FLY BALL TO RIGHT FIELD, CATCH, U1 GOES OUT
+General Information
+U1Initial position: Ul will startin the "A" position.
+U3Initial position: U3 will startin tile "D" position, but not asdeepas normal. U3 must be able togetinto position for an attempted pickoff at thirdbase.
+Before the play:There are no rolations from this configuration.The base umpiresmust be aware of the possibleneecl tocover each other's positions if one umpire goes out.Make sure you gfveeachpartner the number of outs and a signalthat youknow that the needfor help on coverages ispossible.
+Potential playsamlresponsibilities:All three umpireshave responsibilityfor balks and/or illegal pitches.
+
+PUis also responsible for:
+	•	Calling the pitch
+	•	Fair/foul calls up tothe first-base ancJthirc:1-base bag
+	•	R3 tagging upat third and any play at the plate.
+Ul isalso responsiblefor:
+	•	Fair/foul calls from the first-basebag down the right-fieldline
+	•	Help (whenasked by PU) on achecked swingon aright-handed batter
+	•	Fly balls in your area of the outfield(U1can and should go out if necessary)
+	•	Any playat firstbase involving BR
+	•	Any playon the bases involvingBR ifU3 goes out
+	•	Has play at thirdbase if U3 goes out and R3 tags and returnsto third
+U3 is alsoresponsible tor:
+	•	Any pickoffattempt at ttiirdbase by the pitcher or catcher 2.Fair/foul calls from the third-base bag down the left-fieldline
+	•	Help {when asked by PU) on achecked swing on aleft-handed batter
+	•	Fly balls in your areaof the outfield(U3 can andshould go outii necessary)
+	•	Any play at second or third involvingBR
+	•	Any playon the bases involvingBR if U1 goes out
+ 
+
+
+
+
+
+
+
+
+
+
+Be.fore the pl;iy: Givepre-pitch signals.
+
+Action onthe field:Fly ball caught by the right fielder: Ul goes out; R3 tags up and advances toward the plate. drawing a throw there.
+
+Umpire responsibilities:
+PU: Moves into aposition toobserve A3's lagupat third base.PUreturns tothe plate for any play there.
+
+U1:Goesout and ruleson the fair/foul (If necessary) and catch/no catch.U1 does not return tot11e infieldouring the play.
+U3:Moves to the infield immediately. U3 moves into position for any play backinto·third involving R3.If the ballis not caught,U3 movesinto position for allplaysanct touches on the bases.
+
+<
+<
+>
+>
+
+
+
+	
+
+CREW OF THREE: RUNNER ON THIRD	Ill
+
+
+FLY BALL TOLEFT-CENTERFIELD, CATCH, U3 GOES OUT
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Before lhe play: Give pre-pitch signals.
+
+Action onthe field:Fly ball toleft-center field caught by the lell fielder;U3goes out; R3 lags up. advances a few steps toward the plate, thenreturns tothirdbase, drawinga ltlrow there.
+Umpireresponsibilities:
+PU: Moves inlD aposition to observe R3's tagupal third base.PUreturns to the plate for any play there.
+
+U1:Moves into position directly behindthe pitcher's mound. Ul moves into position for all playsand touches on the bases, including any play at thirdbase onR3..
+U3:Goes out and rules on the fair/foul (if necessary) and catch/no catch.U3 does not return to the infield during the play.
+ Part[ru
+Crew al Faur
+Basic Principles
+	•	Better outfield coverage. Having four umpires allows tor better angles on outfieldcoverage without sacrificingbase coverage.
+
+	•	Know three-umpire mectianics. Youmust have acomplete
+understanding of three-urnpire mechanics to work with four umpires. Depending on wno goes·out on afly bail, oftentimes the rest of the crew reverts tousing three-umpire mechanics.
+
+Line Drive Responsibilities
+
+	•	Umpires willbe held accountable toset their initialpre-pitch position with strong consideration givento line drive responsibilities.
+	•	Umpires shall start with llleir inside foot next tothe foulline and shallNOT straddle the line.
+	•	U1andU3 will position themselves no more than 6-8 feetbehintl the fielder withno runners onbase.If thefielder is playing deep,Ul should cut this distance in half andbe 3-4 feet behind the fielder.The umpire should never puthimself inaposition wherea fielder couldstep into or dive inlD him on aline drive.
+
+0.U1 andU3should be well positioned tosee linedrives hit at the feet of the first orthird baseman in their normal positions (with a stepor two forward) and to make that call.
+	•	UI andU3 will now take all line drives hit directly at andimmediately in front of the first or thirdbaseman. "Directly in front··refers to the immediatearea infront of the fielder andinthe immediate vicinity of his starting position.Afielder who moves asignifcant distance straight forward willremain the plate umpire'sc-ail.
+
+	•	When positioned in the outfield, U2 should always work over the inside shoulder (closest tosecond base) of the middle infielder to be in!he best possible position to rule online drives in his coverage area.
+
+<
+<
+
+	
+
+
+CREW OFFOUR: BASIC PRINCIPLES	CREW OFFOUR: BASIC PRINCIPLES	-
+
+
+Basic Outfield Coverage
+
+	•	Umpires Will not automatically go out onall fly balls with or without runners oh base. Umpires are expected to read fly balls and only goout on a trouble ball.The philosophy is "if in doubt. go out" Thatphilosophy is not meant to replace1he reading of fly balls. Pause. read and react techniques should always be utilized.
+
+	•	Four conditions that require anumpire to go to theoutfield from the"A" and"D"positions:
+	•	The outfielder turns and begins to run1oward the outfield fence (possible tiome run)
+	•	Multiple players converging on a fly ball
+	•	A catch being made below the warst
+	•	Outfielder moving toward the foullineand possible fair/foul decision
+
+	•	If in doubt,go out on fly balls in your coverage area.
+1.II you are going out -  go out hard.
+	•	Leave nodoubt in your partners' 111ind about whether or notyou are going out.
+	•	Signal your partner b,yraising your arm if you are going out
+	•	If you are notgoing out.hold your arm out to your partner with your palm facing him.
+	•	II you do not goout, youstill maintain responsibility for the catch.
+	•	Once you go out. do not return until the play iscomplete.
+	•	U2 positioned within the infield should never cross the.base palh to observe a catch/ no catch.
+	•	When a home run is hit withno runners onbase, it is r:iot necessary to have lhe entire crew fully rotate.
+	•	U3 can goout down the lineand then come back to third base tor touches at that base.If U2 goes out, U3 can easily take all touches at second and third. II u1 goes out, either U2 or the home-plate umpire should have the touch of first as Ul willnot be able toget back to first after going out to see the batter-runner touch first base.
+	•	The most important thing to remember is that the crew must communicate and read each other on this situation as the batter-runner is rounding the bases.
+Overthrows Attlle plate
+Plate umpire (or the Ul if there is a rotation to home) has responsibilityon all overthrows to
+the plate.
+
+At firstbase (toward tile plate)
+Plate umpire hasprimary responsibilityon all overthrows.
+
+At firstbase (toward outfield)
+First-base umpire (or any umpire rotating to first base) has the primary responsibility on all overthrows.
+ At third base (toward the plate)
+Plate umpire (orthe first-base umpire if there is a rotation to home) has primary responsibility on all overthrows. Exception: If the plate urnplre has rotated tothird base to rule on aplay the plate umpire wilf have the responsibility of t11eoverthrow at third base.
+
+At third base {toward outfield)
+Third-base umpire (or any umpire rotating trJ third base) has theprimary responsibilityon all overthrows.
+
+<
+<
+
+
+	
+
+	CREW OFFOUR: NO RUNNERS ON		CREW OFFOUR: NORUNNERS ON	-,..
+INITIAL POSITIONS	OUTFIELD CATCH COVERAGE
+�
+�
+
+
+Actionon the field:No action
+Umpire responsibilities:
 U1: Starts in the "A" position.
 
-U2: Should always wonk over the inside shoulder of themiddleinfielder tobe in the best
-possibleposition to ruleon liine tlrives in his coverage area.
+U2:Should always work over the inside shoulder of the middle infielder to be in the bes1 possible position toruleon line drives in his coverage area.
 
-U3:Sta.rtsin the "D" position.
+U3: Starts in the·•o·• position.
+ Actiononthe field: No action
+Umpire re1;ponsibililies:
+U1: Has the right fielder moving toward the right-fielcl foulline.
 
-Umpireresponsibilities:
-U1: Has therlghtiieldermovln,gtowardtheright-field foul line.
+U2: Dictates coverage andhas the leftfielder straight in andstraight back to the right fielder straight in and s1faight back.
 
-U2: Dictatescoverageandhas the left fielder strraight in and straight back to the right
-fiellder straight in anti straight back.
+U3:Has the lelt fielder moving toward the left-field foulline.
 
-U3: Has theleft fielder movingtoward theleft-fieldfoul line.
+<
+<
 
-)
-)
 
-INFIELDCATCH COVERAGE FAIR/FOULCOVER.AGE
 
-,. . . . . . . . . ., PU RESPONSIBILITY VZZ7JZZJU1 RESPONSIBILITY R222$?22I U3 RESPONSIBILITY
-,. . . . . . . . . ., PU RESPONSIBILITY VZZ7JZZJU1 RESPONSIBILITY R222$?22I U3 RESPONSIBILITY
 
-Actiononthe field:No action
 
+
+	
+
+CREW OFFOUR: NO RUNNERS ON	CREW OFRlUR: NORUNNERS ON
+
+!G°2◄ �-111
+'
+1111
+'
+�-
+U1
+18
+►
+ulf'
+�
+1121
+,1!314•�•�\.
+!
+�
+•
+'/I;
+0
+lt.
+ 	
+ 	
+!G°2◄ �-111
+'
+1111
+'
+�-
+U1
+18
+►
+ulf'
+�
+1121
+,1!314•�•�\.
+!
+�
+•
+'/I;
+0
+lt.
+ 	
+ 	
+U'll
+U'll
+....
+U1 RESPONSIBILITY U3 RESPONSIBILITY
+....
+U1 RESPONSIBILITY U3 RESPONSIBILITY
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Action on the field:Noaction
+
+
+Umpire responsibilities:
 PUhas catches:
-• By the pitcher movingin, left orright.
-• By the fiirst am! third basemen moving signilic1ntlyin. U1 has catches:
-• By the second tlaseman movingiinor toward first tlase.
-• By the fiirst tlaseman on linedrives directly at or directly in front, movingback or toward theIiine.
-• By the pitcher movingback. U2 has catches:
-• By the second tlasema.nmoving out or toward second base.
-• By theshortstopmoving out or towardsecond base.
-• By thefiirsl tlasemanmovingright
-• By the third oaseman moving left
-U3has catches:
-• By theshortstopmoviing in or toward thirdbase.
-• By thetilird tlasemanon linedlrives directly at or directly ill front, moving back or toward theliine.
+	•	By the pitcher moving in.lelt or right.
+	•	By theIi� andthirdbasemen moving significantly in. U1 has catches:
+	•	By the second baseman moving In or toward first base.
+	•	By thefirst baseman on linedrives directly at or directly in front,moving back or toward the line,
+	•	By the pitther moving back. U2 has catches:
+	•	By the seconcl baseman moving outor toward second base.
+	•	By the shortstop moving out or toward second base.
+	•	By thefirst basemanmoving right
+	•	By the thirdbaseman movingleft. U3 has catches:
+	•	By the shortstnp moving in or toward third base.
+	•	By thethird oaseman onlinedrives directly at or directly in front,moving back or toward the line.
+ 
 
-Action on the field: No action Umpireresponsibilities:
-PU; Responsiole for balls u1pto first llaseand third base. U1: R.esponsibletor ballsthat hit first baseor go beyond. U2: Has no fair/foul responsibility.
-U3: Responsible for ballsthat hit third baseor go lleyond.
+Mtlon on the field: No action
+Umpire responsibilities:
+PU:Responsible for balls up tofirst base and thirdbase. U1: Responsible for lxllls thathit first bas.eor go beyond. U2: Has no fair/foul responsiblllly.
+U3: Responsible for ballsthathit third baseor go beyond.
 
-PLAYS WITHIN THE INFIELD
+<
+<
+>
+>
+	
 
-Action on the field: Groundball to the shortstop, who throws to first base.
+CREW OFFOUR: NO RUNNERS ON
+PLAYS WITHIN THEINFIELD
+f
+0'
+THROW
+<
+Action on the field:Ground Oall tothe shortstop, who throws tofirstbase.
 
-Umpire responsib:ilities:
-PU: Moves toward first oase to assist U1 if ask.eel on swipe tagor pulled foot IJy the first baseman.
+Umpire respimsibililies:
+PU: Moves loward firs!base loassislU1 if askM on swipe tag or pullecl foot by the first baseman.
+U1:Moves into the best position to rule onplaysat first base.
 
-U1I: Moves into the best positionto rule on plays at first IJase.
+U2:Moves towarcl second base.It is acceptable for U2to lake the play from the outfield sideof second base.
+U3:Observes.
+CREW OFFOUR: NO RUNNERS ON
+PLAYS WITHIN THEINFIELD
+f
+0'
+THROW
+<
+Action on the field:Ground Oall tothe shortstop, who throws tofirstbase.
 
-U2:Moves toward second base.It is acceptable for U2 to take the play from the outtield side of second base.
+Umpire respimsibililies:
+PU: Moves loward firs!base loassislU1 if askM on swipe tag or pullecl foot by the first baseman.
+U1:Moves into the best position to rule onplaysat first base.
 
-U3: Observes.
-PLAYS WITHIN THE INFIELD
+U2:Moves towarcl second base.It is acceptable for U2to lake the play from the outfield sideof second base.
+U3:Observes.
+>
+>
+CREW OF FOUR.: NO RUNNERS ON
 
-Action on the field: Groundball to the shortstop, who throws to first base.
-
-Umpire responsib:ilities:
-PU: Moves toward first oase to assist U1 if ask.eel on swipe tagor pulled foot IJy the first baseman.
-
-U1I: Moves into the best positionto rule on plays at first IJase.
-
-U2:Moves toward second base.It is acceptable for U2 to take the play from the outtield side of second base.
-
-U3: Observes.
 
 CLEAN HIT TO OUTFIELD
+�
+(D
+.,	Bfl
+-	t
+�
+(D
+.,	Bfl
+-	t
+Action onthe field:Clean hit to center1ield,no catch; the baiter-runner advances toward second base, drawing a throw there
+Umpire rMponslbllllles:
+PU:Observes anclhas allplays at the plate.
+U1:•Observesthe batter•runner touch first base.
 
-Action on the field: Clean hit to center field,no catch; the batter-runner advances towaJrd second base, drawing a throw there
+U2: Moves towardsecond base ana prepares for allplays on the baiter-runner at second base.It is acceptable for U2to take the play from the outfield side of second base.
 
-Umpireres:ponsibililles:
-PU: Observes and has all plays at the late.
+U3:·Observesandhasall playsat thirdbase.
 
-U1: Obse!'Ves thebatter-runner touch first base.
 
-U2: Moves toward second base and prepares for all plays on the tmt:ter-runner at second base.It is acceptable for U2to take the play from the outfield side of second base.
 
-U3: Observes and has all plays at third base.
 
-NOc:ATCH
 
-NOc:ATCH
+CREW OFFOUR: NO RUNNERS ON	CREW OFFOUR: NORUNNERS ON
 
-Action on the field: Fly ball to right field, no catch; U1 goes out; thebatter-rurmer rounds first oaseand retums, drawing a throw there
 
-Ump'lre responslbilltles:
-PU: Moves down the liinetoward first base for any possiblehrowback at first base on the oatter-runIner.
+FLY BALL TORIGHT FIELD: NO CATCH, U1 GOES OUT
 
-U1: Moves to a position to best view the catch/no catch.
 
-U2: Moves into the infield ai second base.It is acceptableior U2 to take the play from the outfield side of second base.
 
-U3: Ooserves and hasany play at third base.
 
-FLY BALL TO CENTER FIELD: NO CAiClH, U2 GOES Olli
 
-Action on Hile field: Deep fly !Jail to center field,no catch; U2 goes out; IJatter-runner advances toward third baseand draws a throw there
-Umpire responsibilities:
-PU: Moves toward third base and has any play there on the batter-runner.
-If a play develops at third base, PUcan take the play in either fair or foul territory.
 
-U1: Observes the base touch at first base and if the batter-runner commils to thirdbase,ll1 moves toward theplalefor any playthere on !he llatter-runner.
 
-U2: Moves to a position to best view thcatch/no catch.
 
-U3: Has all plays at second base and observes the base touch there.
 
-Note: Th,icsoverage also applies to home runs.
 
-Note: On a routine fly llall to theoutfieldin U2's coverage area, U2 will remain responsible for thecatch/no catch decision wlhile hemoves toward 2nd base on the outside of the diamond to Ile inpositionat 2nd base on a play should the center fielder drop-the ball.
-When U2 isreading the fly llall on this play - U3 should start toward 2nd in case ll2 decides to go out. U2 also has the option onthis p!ay to give up the fly llall completely andrnn into the diamond and take any potential play at second base from insidethediamond.
 
-FLY BALLTO LEFTFIELD:NO CATCH, U3 GOES OUT
 
-NOOATCM
 
-NOOATCM
 
-Crew of Four: Runner on First
 
-Fair/Foul Coverage
-llhe coverage is the same as with no rU1nners on(see 9.5.4), withU2 in the "Deep B" or "Deep C" position.
-PU:Has responsibility for balls up to first base and third base. U1: Has responsibility for baJlsthat hit first base or go tieyond. U2: Has no fair/foul responsibilffy.
-U3: Has responsibility for baHs that hit third base or go oeyond.
+Action onthe field:Fly ball to right field,nocatch: U1 goesout; the batter-runner rounds first base andreturns, drawing a throw there
+Umpireresponslbllltles:
+PU: Moves down tile line toward fir,;tbase tor anypossible throwback at first base onthe batter-runner.
+U1:Moves to aposition to best view the catch/no catch.
 
+U2:Moves into the infield at second base.It isacceptable for U2to lake the play fromthe outfield sideof second base.
+
+U3:Observes and ha.s any play at thirdbase.
+ FLY BALL TO CENTER FIELD: NO CATCH, U2 GOES OUT
+
+Action ontile fleld:Deep fly balltocenter field,no catch:U2goes out; batter-runner advances toward third base aml draws a throw there
+
+Umpire re&ponsibilities:
+PU:Moves toward third base andhas any play there on tile batter-runner.
+If aplay develops at thinlbase.PU can take the play in either fair or foul territory.
+U1: Observes the base !Duch at firstbase and if the batter-runner commits ID thirdbase,U1 moves toward the plate for any play !hereon the batter-runner.
+
+U2: Moves toaposition to best view the catch/no catch.
+U3: Has allplays at second base and observes Ille base touch there.
+
+Nole: This coverage alsoapplies to home runs.
+Note: On aroutine fly ball totheoutfield inu2:s coverage area,U2 will remain responsible for thecatch/no eaten decision while hemoves toward 2nd base on the outside of the diamond to be inpositionat 2ndbase on aplay should the center fielder drop the ball.
+When U2is reading the fly ball on this play - U3 should start toward 2nd incase U2 decides
+to go out U2 also has the option on thisplay to give up the fly l>all completelyand run into the diamond andtake any potential play at second base from inside the diamond.
+
+<
+<
+	
+
+CREW OFFOUR: NO RUNNERS ON
+
+
+FLY BALL TOLEFT FIE.L.D: NO CATCH, U3 GOES OUT
+ 
+
+General Information
+ Crew of Four: Runner on First
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Action on the field:Flyball tolelt field, nocatch; U3 goesout; batter-runner advances toward thirdbase. drawing a throw there
 Umpireresponsibilities:
-PU::Moves toward third tlase and has any play or base touchat tl1ird base ty the batter-nmn.e.II a play devellops at thirrcl base, f'U can take the play in either fair or foul ternitory.
+PU: Moves towardthirdbase andhas any play or base touch at third base by the batter-runner. If aplay develops at thirdbase.PU can take lhe play in either fair or foul territory.
 
-U1: 01.Jserves the batter-runner touchfirst tiase and, if the batter-runner commits to second lbase,U1 moves toward theplate for any play thereon the batter-runner.
+U1:Observes the batter-runner touch first base and.if 1he batter-runner commits to second base,U1 moves toward the plate for any play1here on the batter-runner.
 
-U2:Moves into position to cover plays at seoond base.It isacceptable for U2 to take the play fromth.eoutfield sideof second base.
+U2:Moves intoposition 'lo cover plays at secom! base.It isacceptable forU2to take the play from theoumeld sideof second base.
+U3:Moves to aposition to!Jest view the catch/no catcll.
 
-U3:Moves to a position lo best view the catch/no catch.
-
-Note: This coverage also applies to home runs,
-
+Note: Thiscoverage also appliesto home runs.
+ Fair/Foul Coverage
+The coverage is the same as wllhno runne�on (see 9.5.4). withU2 in the·'Deep B" or "Deep C" position.
+PU:Has responsibility tor balls up to firstbase and thirdbase. U1:Has responsibilityfor ballsthathit.first base or go beyond. U2:Has no fair/foul responsibility.
+U3:Has responsibility for balls thathit third base or go beyond.
 Plays Within the Infield
-llhe coverage is similar to plays withIno runiners on (see 9.5.5), with U2 in the "Deep B" or "Deep C" position.
-PU: Moves toward first base to assist Ul if asked on swipe tag or pulied foot IJy the first baseman.
-U1: Moves into the best position to rule on plays at first base. U2: Has all plays at second base.
-U3: Observesand has all plays at third base.
+Ttle coverage is similar toplays with norunners on(see 9.5.5), withU2 in the''Deep B" or "Deep C..position.
+PU:Moves toward first base toassist U1 if asked on swipe tag orpulle<l foot by the first baseman,
+U1:Moves into the best position toruleonplays at firstbase.
+U2:Has allplays at secol)(l base.
+U3: Observes andhas all plays at tnird base.
 
-)
+<
+<
 
-INITIALPOSITIONS AND OUTFIELD COVERAGE
-,..,. ML
--
-UtHM
-INITIALPOSITIONS AND OUTFIELD COVERAGE
-,..,. ML
--
-UtHM
-'
 
-'
 
-Action on the field: No action
 
-Action on the fleld; No action
+
+	
+
+	CREW OF FOUR: RUNNER ON FIRST		CREW OFFOUR: RUNNER ONFIRST	-,.
+INITIA.L POSITIONS AND OUTFIELD COVERAGE	INFIELD CATCH COVERAGE
+\lrl\
+11fa..,.�-ll3,
+,U'3
+•
+\lrl\
+11fa..,.�-ll3,
+,U'3
+•
+Actionon the field:No action
+
+
+
+
+
+Actiononthe field: No action
 
 Umpire responsibilities:
-U1 is in the "A" position.U2 is in the"DeepB" or "Deep C" position,based on personal preference..U3 is in the"D" positi:On.
+U1 is in the •A" position. U2 is inlhe "Deep B" or ''Deep C" position, based on personal preference. U3 is in the •o·position.
 
-U1: Has trouble balls from the center fielder straight in and.straight backand when he moves toward righ1t field.U1aJlso has all trouble balls to tile right fielder.
+U1: Has trouble balls from the center fielder straight inand straight back and when he moves toward right field.U1 also has all trouble balls to the right fielder.
 
-U2: Has all routine fly balls fromthe left fielder going straight forward, straight back and to his left all the way to the right fielder going straight forward, straight back and to his right.
+U2: Has allroutine fly balls from the left fielder going straight forward, straight back and to his left all the way to the right fielder going straight forward, straight bacl\ and to his right.
 
-U3; Has all trouble balls with the center-fielder going to his right and all trouble balls to lhe left fielder.
-
-Umpire responsibilities:
+U3: Has all trouble balls wilh the center-fieldergo1ng to his right and all troubleballs to the left fielder.
+ Umpire responsibilities:
 PUhas catches:
-• By the pitcher movingin, i:ett orright.
-• By the first ancl thirdbasemen1moving directly toward li1e plate.
+	•	By the pil£her moving in,left or right.
+	•	By the first ancl thircl basemen moving directly toward the plate.
 
 U1 has catches:
-• Immediatelyill front of the first baseman, out or toward the foul line.
-• By the second baseman moving back or toward first base.
+	•	Immediately in front of the first oaseman, out or toward the foul line.
+	•	By thesecond baseman moving back or toward first base.
 
 U2 has catches
-• By the second baseman moving in1or toward second oase.
-• By the shortstop moving in or toward second oase.
-• By the thin! baseman moving toward second bas.
-• By the first IJaseman moving toward second base.
-• By the pitcher movingback.
+	•	By the second baseman moving in or toward second base.
+	•	By lhe shortstop moving inor toward second base.
+	•	By the third baseman moving toward second base.
+	•	By the fir$1baseman moving toward second base.
+	•	By the pitcher moving back.
 
 U3 has catches:
-• Immediately i111 front of thethird IJaseman,out or toward the foul liine.
-• By the shortstop moving back or toward thircll:Jase.
+	•	Immediately in tront of the third baseman, out or toward the foul line.
+	•	By the shortsfop moving backor toward third base.
 
-,cnEWOF FOUR: RUNNERON FIRST
-PICKOFFAT FIRST
-Action on the tield: Beforepitching, the pitcher attemptslo pick off the runner at first base.
+<
+<
 
+	
+
+CREW OF FOUR: RUNNER ON FIRST	CREW OF FOUR: RUNNER ON FIRST
+
+
+CLEAN HIT TO OUTFIELD	PICKOFF ATFIRST
+
+Actiononthe field: Before pil.ching, the pitcher attempts to pick off the runner al first base.
+Umpire mponsibilities:
+PU:Watches the pitcher for potential balkl!. thentakes astepou\ from behindthe catcher to observe theaction or incase ball is overthrown.
+
+
+
+
+Action onthe field:Clean hit to leftfield;R1 advances toward third base, llrawing a throw there; the batter-runnerrounds first base
 Umpire responsibilities:
-PU: Watches thepitcher for potential balks, thentakesa stepout frombehind the catcher to observe th,eacliorn or incase ball is overthrown.
+PU: Has allplays at ttie plate.
+U1:Ooserves the batter-runner'sbase touch at firstbase.
 
-U1: Umpires shall start withtheir inside foot next to the foul line and NOT straddling, theline. U1'sdistance will beIno more than 6-10 feet from the bag. U1'slineof sight should be to the inside of the runner leading off witll a clear view of thepitcher. When the first baseman is NOT holding the runner on first, tn will position himself nomore thall 6-8 feet oehind !he fielder.The umpire shoul(Inever pul himself in a position where a fielder couldstep or dive intohimon a linedrive. For all back picks al first base, anumpire shoul(Ialwaysa1nlicipate this pick from the catcher and be ready to quickly move as far as the play will allow.
+U2:Observes R1's and the batter-runner'sbase touch at second base andhasall plays there.
+U3:Observes and has allplays at thrrd base.
+ U1: Uml)ires sMII start with t)leir inside foot next to ttic foullineandNOT straddling the line. Ul·s distance will be no more than 6-10 feet from the bag.U1's line of sight should beto the inside of the runner leading off with a clear view of the pitcher. When the firstbaseman isNOT holding the runner on first,u1 willposition himself no more than 6-8 feet behind the fielder.The umpire shoulct never put himself inaposition where afielder could step or dive into him on a line drive,For allback picksat first base, an umpireshould always anticipate 1111spick from the catcher andbe ready to quickly move asfar as the play will allow.
+U2: Watches the pitcher forpotential balks before throwing. Is responsible for all plays at second base,including if Rl endsup in a rundown.
+U3: Watches the pitcher for potential balks before throwing. ls responsible for allplays at lhirdbase.including if Al ends up inarundown.
 
-U2: Watchesthepitcher for potential balks before throwing.Isresponsible for all plays at second base, including if R1 en(ls up in a rundown.
-U3: Watches thepitcher"tor potential balks beforethrowing. ls responsiblefor all plays at third base, including if R1 ends up in a rundown.
-,cnEWOF FOUR: RUNNERON FIRST
-PICKOFFAT FIRST
-Action on the tield: Beforepitching, the pitcher attemptslo pick off the runner at first base.
+<
+<
 
+
+
+	
+
+CREW OF FOUR: RUNNER ON FIRST	CREW OF FOUR: RUNNER ON FIRST
+
+
+STEAL OF SECOND	FLY BAL.L TO LEFT FIELD: NO CAJCH, U3 GOES OUT
+
+◄-®-·····················-®
+
+
+
+◄-®-·····················-®
+-
+V
+-
+V
+
+
+
+
+Action onlhe field:The batter swings and misses at thepitch asR1 attempts tosteal second base.
+Umpin1n1sponsibilities:
+PU: Signals lhe swinging strike without taking his focus ott the play athand.Ensures lhe batter does not Interfere with the catcher's throw. Observes the play.
+01:Observes the pitch and the initial throw to second.
+U2:Umpires are not allowed tostart in theinfield and then run to aposition out in the dirt loo!<.ing straight downthe baseline toward second base during astealplay.All stealplays must be taken between theB and C starting posi1ions.Takes a step toward the second· base cutout. Keeps eye on the ball and turns as the ball passes U2. Comes to ahands-on-knee set to see t11eplay at second base.II the play isa swipe-tag out. ensure thefielder retainspossessionof the ball beforemaking the out call.If the runner is safe,no delay is necessary.
+03:Ol>serves the pitch and the initial throw to second.
+ Action on the field:Flyball to left field,nocatch; U3 goesout;R1 advances toward third base and draws a throw there: the batter-runner advances toward second base
 Umpire responsibilities:
-PU: Watches thepitcher for potential balks, thentakesa stepout frombehind the catcher to observe th,eacliorn or incase ball is overthrown.
+PU: Moves toward third t>ase and, if Rl commits to third,PU rotatesinto position to rule onaJI plays there.If aplay develops at thirdbase,PU can take the play in either fair or foul territory.
 
-U1: Umpires shall start withtheir inside foot next to the foul line and NOT straddling, theline. U1'sdistance will beIno more than 6-10 feet from the bag. U1'slineof sight should be to the inside of the runner leading off witll a clear view of thepitcher. When the first baseman is NOT holding the runner on first, tn will position himself nomore thall 6-8 feet oehind !he fielder.The umpire shoul(Inever pul himself in a position where a fielder couldstep or dive intohimon a linedrive. For all back picks al first base, anumpire shoul(Ialwaysa1nlicipate this pick from the catcher and be ready to quickly move as far as the play will allow.
+U1:Observes all l>ase touches at first base andbegins to move towardthe plate.IfRl commits to thirdbase,Ul rotates to the plate for all plays there,If applicable, U1 observe!i' Rl'stagup.
 
-U2: Watchesthepitcher for potential balks before throwing.Isresponsible for all plays at second base, including if R1 en(ls up in a rundown.
-U3: Watches thepitcher"tor potential balks beforethrowing. ls responsiblefor all plays at third base, including if R1 ends up in a rundown.
+U2:Observes all base touches at second base andhasall plays lhere onR1.IfRl commits tothird base,U2 assumes responsibility for the batter•runner and should move to aposition torule on any plays at first or second base.
 
-CREWOF FOUR:RUNNER ON FIRST
-CREWOF FOUR:RUNNER ON FIRST
+U3:Moves to the bestposition possible to view the catch/no catch.
 
-CLEANHITTO OUTFIELD
+<
+<
+	
 
-Action on the field:Clean hit to lett field; R1advanoes toward third base, drawing a throw there; the t1E11iter-runnerrounds first base
+CREW OF FOUR: RUNNER ON FIRST
 
-Ump'lre responslbllltles:
-PU: Has all plays at theplate.
 
-U1: Observes thebatter-runner's base touch at first base.
 
-U2: Observes R1's and the batter-runner's base touch at seoon(Ibase ancl has all plays there.
+FLY BALL TORIGHT FIELD: NO CATCH, U1 GOES OUT
 
-U3: Oi:lserves and has all plays at third i:lase.
 
-CREW OF FOI.IR: RUNNER ON FIRST CREW OF FOI.IR: Rt.INNER ON FIRST
 
-STEALOF SECOND FLYBALLTO LEFT FIELD:NO CATCH, U3 GiOES OUT
 
-Action on the field:The llatte,r swings and misses at the pitch as R1 attempts to steal second lase.
 
-Umpire responsibilities:
-PU: Signalsthe swinging strike without takirng hisfocus off the play at hand. Ensures tile batter does not in,terterewtth the catcher's lhrnw. Observes the play.
 
-U1: Observes the pitchand theinitial throw losecond.
 
-U2: Umpires are not alrowed to start1intheinfield and then run to a pos1itim1out in the dirt looking straight down the oaselinetoward second base during a steal play.All steal plays must be taken between the B and C starting posll!ions. Takes a step toward the second-base cutout. Keeps eye on theballl and turns.as the ballIpassesU2. Comes to a hands-on-knee set to see theplay at seco11d base. If the play is a swipe-tag out, ensure the fielder retains possession of the ball before making the out call.If the r,unner,is safe, no delay is necessary.
 
-U3: Ooserves the pitch and theinitial throw tosecond.
 
-Action 011the field: Fly ball to left field, no catch; U3 goes out; R1 advanDes toward third llase and IJraws a throw there; the batter-runner advances toward second IJase
 
-Umpire responsibilities:
-PU: Moves toward third tlase and, if Rl commitstothin!, PU rotates into position to rule ona.Illplays there.If a play develops at thirdbase,PU can take the play in either fair or foul territory.
 
-U1: 01:lserves all lbase touches at first base and begins to move toward the plate.If R7 commitsto third base, U1 rotates to the plate for all plays there. If applicable, U1 observes R1'stag l!lp.
 
-U2: Observes aJIlbase touches at second base and has aJIplays there on R1..If Rl commits to third base, U2 assumes responsib:ility for thebatter-runner and should move ro a position to rule on any plays at first or second base.
 
-U3: Moves to the best position possible to view the catch/no catch.
 
-CREWOFFOUR: RUNNER ON FIRST
 
-FLY BALL TO RIGiHTFJELD: NO CATCH, U1 GOES OUT
 
-"
-Crewof Four:Runnerson First and Second
 
-111ROW
-...
-111ROW
-...
-The coverage is1he sameas witha runner on first base (see 9.6.2), withU2 in the "DeepB'' or "Deep C" position.
-PUhas catches:
-• By the pitcher moving in,left or right
-• By the first arnd third basemen moving toward the plate. U1 has catches:
-• By the first baseman moving back or toward thefoul line.
-• By the second baseman moving back or toward first base. U2 has catches:
-1 By the second baseman moving in or toward second base.
-• By the shortstop moviing in or toward second base.
-• By the thirdbaseman moving toward secondbase. U3 has catches:
-• By the third!basemanmovingback or toward thefoul line.
-• By theshortstop moviing back or toward third base.
 
-Fair/Foul Cov,erage
-The coverage is the sameas with no runnerson(see 9.5.4), with U2 in the "DeepB" or "Deep C" position.
-PU:Responsibility for balls up to first base and third base. Ul: Responsibility for ballsthat hit first base or go beyond. U2: Has no fair/foul responsibility.
-U3: Responsibility forballsthat hit third baseor go l:leyond.
 
-Action on the field:Fly ball to right field, r10 catch; U1 goes out; R1advances toward third base and draws a throw there; the batter-runner rounds first base
 
-Umpireresponsibilities:
-PU: Reads the ball and the runners.If R1 commitsto thin! base,PU returns to the plate.
 
-Ul: OIJserves theno catch.
 
-U2: Observes all base touches at first andsecond base and has all plays there. U2 has all plays involvingthe batter-runner and Rl at first or secondbase.
 
-U3: Observes all basetouches at third llase and rules onall plays there.
 
-Plays Withinthe Infield
-The coverage is similar toplays with no rurnner on (see9.5.5).
-PU:Moves towardfirst base to assist U1 if asked on swipe tag or pulled foot l:ly lhe first baseman.
-U1: Moves intothe best position toruleonplays at first base. U2: Has all plays at.seoond base.
-U3: Observesand has all plays at third base.
 
-Clean lllit to Outfield
-The coverage is the sameas witha runner on first only (see 9.6.3), with U2 in the"Deep B" or "Deep C" position.
-PU: Observesall touches at the plate and has all plays there. U1: Observesthe batter-runner's base touch at first base.
-U2: ooserves all base to'Uchesat second oase and has all playsthere. U3: Observesall base touches at third andhas all plays there.
+
+
+
+
+
+
+Action onthe field:Fly ball toright field.nocatch;U1 goes out;Rl advances toward third
+base and draws athrow there; the batter-runner rounds first base
+Umpire responslbllltles:
+PU: Reads the ball and ttie runners. If Al commits to thin:t base,PUreturns to the plate.
+
+U1:Observes ttie no catch.
+U2:Observes all base touches at first and second base andhasall plays there.U2 hasall plays involving the batter-runner andR1 at first or second base.
+U3: Observes all base touches at thirdbase arnlrules on allplays there.
+ Crew of Four: Runners on First and Second
+Infield Catch Coverage
+The coverage is the same as with arunner on firstbase (see 9.6.2),withU2 in the·•oeep s·•
+or "DeepC" position. PUhas catches:
+	•	By the pitcher moving in, left or right.
+	•	By the first and third basemen moving towardtheplate. U1 has catches:
+	•	By the first baseman moving back or toward the foul line.
+	•	By the second baseman movingback or toward first base. U2 has catches:
+	•	By thesecond baseman moving in or toward second base.
+	•	By the shortstop moving in or toward second base.
+	•	By thethird baseman moving toward second base. U3 has catches:
+	•	By the third baseman moving back or toward the foulline.
+	•	By theshortstop moving back or toward third base.
+Fa.ir/foul Coverage
+The coverage is1he same as with no runners on (see 9.5.4),withU2 in the ''Deep B"or "Deep C" position.
+PU:Responsibility for balls up to first base and third base. Ul:Responsibility1or balls thathit firstbaseor go beyond. U2:Has no fair/foul responsibility.
+U3:Responsibility for balls thathit third baseor go beyond.
+
+PlaY!l Wi1hintheInfield
+The coverage is similar toplays with norunner on(see9.5.5).
+PU:Moves towanl first tlase to assist U1 if asked on swipe tag orpulled foot by the first baseman.
+U1:Movesinto the best position ID ruleonplaysat firstbase.
+U2:Has allplays atsecond base.
+U3:Observes andhasall playsat tl1ird base.
+
+Clean Hit toOutfield
+The coverage is the same as witharunner on first only (see9.6.3), withU2 in the··Deep B'' or "Oeep C" position.
+PU: Observes all touches at the plate andhas allplays there.
+U1':Observes ttie batter-runner's base touch at first base, U2:Observes allbase touches at second base andhas allplays there. U3:Observes allbase touches at third andhas ailplays there.
+
+<
+<
+>
+>
+	
 
 CONTENT
-INITIAL POSITIONS ANO OUTFIELD COVERAGE
-C
-U1HM 'TROWLIMI. OOVIIIAM
-WIM9
-nlOlaalALL CGWIIWII
+CONTENT
+
+
+
+INITIAL POSITIONS AND OUTFIELD COVERAGE
+
 
 Action on the field: No action
 
 Umpire responsibilities:
-Ul is in the "A" position. U2 is in the"DeepB" or "Deep C" position, based on personal preference. U3 Is in the 'D" position.
+U1 is inthe"N' position. U2 is inlhe "Deep B" or ''Deep C" position, based on personal preference. U3Is in the "D" position.
 
-U1: Has troulJleballs from the center fielder straight in and straight back and when he moves towardlright fielcl. U1alsohas all trouble balls to the right fiellder.
+U1: Has trouble balls from the center fielder straight inand straight back and when he moves toward right field.U1 also has all trouble balls to the right fielder.
 
-U2: Has all routine fly balls fromthe left fielcler goirig straight forward, straight back am! to his left all theway to the right fielder going straight forward, straight back and to his right.
+U2: Has allroutine flyballs from the left fielder going straight forward, straight backandto his left all the way to the right fielder going straight forward, straight back and to his right.
 
-U3: Has all trouble balls with the center fielder going lo his night allcl all trouble balls to the left fielder.
-CONTENT
-INITIAL POSITIONS ANO OUTFIELD COVERAGE
-C
-U1HM 'TROWLIMI. OOVIIIAM
-WIM9
-nlOlaalALL CGWIIWII
+U3: Has all trouble balls with the center fielder going to his right an.d all trouble balls to the left fielder.
+ FLY BALL TO CENTER FIELD: CATCH, U3 GOES OUT
 
-Action on the field: No action
+
+Action onlhe field:Deep fly ball caught by the center fielder; U3 goes out; R2 tags up and advances toward thfrd base, drawing athrow there; R1 returns to firstbase
 
 Umpire responsibilities:
-Ul is in the "A" position. U2 is in the"DeepB" or "Deep C" position, based on personal preference. U3 Is in the 'D" position.
+PU: Is responsible forthe tag-up at first base and any play that develops athome plate. PU shoul(l Initiallymove in the direction of first base no more than a few steps off thedirt circle. Once you judge the tag-up at firstbase, return to the home plate area for any play that may develop there.
 
-U1: Has troulJleballs from the center fielder straight in and straight back and when he moves towardlright fielcl. U1alsohas all trouble balls to the right fiellder.
+Ul: Should be moving quickly towards second base (inside or to the outside of thediamond) while observing R2's tag-up at second l>ase. U1 will taKe any play that may develop at either·first or second base.
+112:Will worK towards lhe area of thirdbase(inside or oul:side of the diamond) and will be responsible for any play that develops at third l>ase.
 
-U2: Has all routine fly balls fromthe left fielcler goirig straight forward, straight back am! to his left all theway to the right fielder going straight forward, straight back and to his right.
-
-U3: Has all trouble balls with the center fielder going lo his night allcl all trouble balls to the left fielder.
-
-SECTION 11 CREW OF FOUR: RUNNERS ON FIRST AND SECOND
-
-FLY BALL TO CENTER FIELD: CATCH, U3 GOES OUT
-
-CG'CH
-
-Action on the field: Deep fly IJall caught by the center fielder; U3 goes out; R2 tags up and advances toward third base. drawing a throw there; R1 returns lo first base
-
-Umpire responsibilities:
-PU: Is responsille for thetag-up at first base and any playthat develops at homeplate. PU should ini1ially move in the direction of first base nomore than a few steps off the diirt circle.Onceyou Judge the tag-up at first base, return to the homeplate area for any play that may develop there.
-
-U1: Shouldbe moving quickly towards second base (inside or to he outsicle of the diamond) WhileobservingR2's tag-up at second lbase.U1 will take any playlhat may develop at either first or second base.
-U2: Will work towarcls the area of third base (insicle or outsicle of the diamond) and will be responsible for any play that develops at thiird oase.
-
-U3: Moves to the IJest position possible to view the catch/no catch in theoutfield.
+U3:Moves to the bestposition possible to view·thecatch/no catch in theouffield.
 
 Point of Emphasis
-Thismechanic is only to be used when a flyball is hit inU3's area. This will allow U2 to immediately release towards lh,ird oase and gel in the best possible position (inside or outside of the diamond) for any play that may develop there. U1will have any playthat develops at second base.
+This mechanic is only to be used when afly ball is hit inU3's area. This will aJlow U2 to immediately release towards thirdbase and getin the best possible position (inside or outside of thediamond) for any play that may develop there.U1 willhave any play that develops at second base.
 
-SECTION 11 CREW OF FOUR: RUNNERS ONIFIRST AND SECOND
+<
+<
+>
+>
+	
 
-FLYBALL TO LEFT FIELD: NO CATCH, U3 GOES OUT
+CREW OFFOUR: RUNNERS ON FIRST AND SECOND FLY BALL TO LEFT FIE.LO: NO CATCH, U3 GOES OUT
+ "
+Crew of Four: Bases Loaded
+lnlHal PosHlons and Outfield Ccverage
 
-Action on the field:Fly ball to left field, no catch; U3 goes out; R2 advances toward the plate; R1 aelances toward third base;the batter-runner advances toward second base, drawing a throw there
+U1 is inthe "A" position. U2 is in the "Deep B" or "Deep C" position, based on personal preference. U3 is in the "D" position.
+U1:Has troubleballs from the center fielder straight inand straight back and when he moves toward right field. u1 also has all troubleballs to the right fielder.
+U2:Hasall routine fly balls from thelelt fielder going straight forward, straight back and to his lelt al.I the way tothe right fielder going straight forward. straight back and to his right. U3:Has all trouble balls with the center fielder going to his rightand all trouble balls to the lert fielder.
 
-Umpire responsibilities:
-PU: Has R2's tJase toLJchof tllird base, thenretreats to theplate and moves intoposition for all plays there.
-
-U1: Enters the infieldand has all plays on thebatter-runner at fiirst and second base.
-
-U2: 01:Jserves R1's base touch at seoolld base and has all plays!here Oil R1 and all plays at third base.
-
-UJ: Moves tothe llest position possibleto view the catchi/no catch.
-
-1Crew of Four: Bases Loaded
-Initial Posttlons and Outfield Coverage
-U1 is in the "A" position.U2 is in the "Deep B" or "Deep C" position,basedonpersonal preference.U3 is in the"D"position.
-
-U1: Has troUJbleballs from the cellter fielder straight ill alld sbraight back alld when he moves toward right fielel. U1alsoh!aSall troubleballs to the right fielder.
-U2: Has all routinefly balls fromthe tell fieleler going straight forward, straight back anel to his l!eft all the way to the right fielder goillg straight forward, straight back and to h,isright. U3: Has all troLJbleballs with the center field!lr going to his right arnl all trouble balls to lhe left fielder.
-
-Infield CatchCoverage
-The coverage is the same as witha ru11ner on first base.
+Infield Catch Coverage
+The coverage is the same as witha runner on first base.
 
 PUhas catches:
-11.By the pitcher movingin, lleft or right.
-2. By the first ancl thirdbasemen1moving toward the plate.
+	•	By the pitcher moving in,lelt or right.
+	•	By thefirst alld thirdbasemen moving toward the plate.
 
 U1 has catches:
-11.By the first basemilln moving back or toward thefoLJIline.
-2. By the seconel baseman moving back or towarel first base.
+	•	By the first baseman moving back or tDward the foulline.
+	•	By theseconcJ baseman moving back or toward firstbase.
 
-U2 has catches:
-11.By the second baseman moving in1or toward seconelbase.
-• By the shortstop moving in or toward second oase.
-• By the third baseman moving toward second base.
-• By the first basemilln moving toward second base.
-• By the pitcher movingback.
 
+
+
+
+Action onthe field:Flyball to lert field,nocatch; U3 goes out; R2 advances toward the plate; R1 advances tDward thirdbase;1he batter-runner advances toward second base, drawing athrow there
+Umpi111responsibilities:
+PU:Has R2's base touch ol ltlirdbase, thenretreats tolhe plate and moves into position for all plays ltlere.
+U1:Enters the infield andhas allplays onlhe batter-runner at first and second base.
+U2:Observes R1's base touch at second base andhasall plays there onR1 and all plays at third ua.se.
+U3:Moves to the bestposition possible to viewlhe catch/no catch.
+ U2 has catches:
+	•	By the.secondbaseman movingIn ortoward second base.
+	•	By the shortstop moving in or toward second base.
+	•	By the thirdbaseman moving toward second base.
+	•	By the first baseman moving toward second base.
+	•	By the pitcher moving back.
 U3 has catches:
-11.By the thirclllase111an movingback or toward the foul line.
-2. By the shortstop moving back or lowarelthirelbase.
+	•	By the thirdbaseman moving back or tDward thefoul tine.
+	•	By theshortstop movingback or toward thirdbase.
 
 Fair/Foul Coverage
-The coverage is the same as with no runnerson.
-PU: Responsibleior lallsup to first base and thirdbase. U1: Responsible for balls that hit firrst baseor go beyond. U2: Has no fair/foul responsibility,
-U3: Responsibleior lalls that hit third lase or go beyond.
+Thecoverage is the same as withno runners on.
+PU:Responsible for balls up to first base and third base. Ul: Responsible for balls ttiat hit first base or go beyond. U2:Has no fair/foul responsibility.
+U3:Responsible for balls that hit third base or go beyond.
 
 Plays Within the Infield
-The coverage issimilar to plays with norunners on.
-PU: Has all plays at theplate and,if possille, moves towardfirst base to assist U1 if asked on swipe tag or pulledtoot oy thefirst basemall if there is no play on R3 at home.
+The coverage is similar to plays with no runnerson.
+PU:Has all plays at the plateand,if possible,moves toward firstbase to assist U1 if asked on swipe tag orpuffed toot by the first baseman if there isno play on R3 at home.
 
-CREW OFFOUR:BASESLOADED CREWOF FOUR:BASESLOADED -..
+<
+<
+	
 
-Ul:Moves intothebest positionto rule on plays at first oase. U2:Has allplays at second base.
-U3: OMerves and has all plays at third oase.
+CREW OFFOUR:BASES LOADED	CREW OFFOUR: BASES LOADED
+
+
+Ul: Movesinto the best position torule 011plays at first base. U2:Has all playsat second base.
+U3: Observes andhas allplays at thirdbase.
 
 Clean Hit to Outfield
-Thecoverage is thesameas with a runner on first base. PU:Ooserves all touches at theplate anc:I has all plays there.
-Ul: Observes thebatter-runner'sbase touch at first base and has all plays th,ere. U2: Ooserves aJIbase touches at second base and has all plays there.
-U3: otiserves all ltlase touches at third and has aI1Iplays there.
+The coverage isthe same as with arunner on firstbase. PU: Observes all touches at the plate andhas allplays there.
+Ul: Observes the batter-runner's base touch at firstbase and has allplays there. U2: Observes all base touches at second base andhasall plays there.
+U3:Ooserves all basetouches at thirdandhas all plays there.
+ FLY BALL TO LEFT FIELD: CATCH, U3 GOES OUT
 
-FLYBALL TO LEFT FIELD:CATCH,U3 GOES OUT
+Action on the Held: Fly ball caughtby the left fielder; U3 goes out;R3 tags up and advances toward the plate, drawing a throw there; R2tags up and advances toward third base: R1 remains near firstbase.
+Umpire responslbllltles:
+PU:Moves to aposition to-observe A3's tagup.PUretreats to the plate immediately for any play there.
+U1: o�serves Rl'stag up ancJhas anplays involving R1 at first base.
 
-Action on the field: Fly oall caught by the lefielder; U3 goes out; R3 tags up and advances toward the plate, drawing a throw there; R2 tags up andadvances toward third base; Rl remains near first base.
+U2:!Retreatsand observes R2's tagup,U2 ha.sallplaysat third base andplayson R1 at second base.
+U3:!Movestothe best position possible to view thecatch/no catch.
 
-Umplr,eresponsibilities:
-PU: Moves to a positionto observe R3's tagup. PU retreats to the plate immediately for any play there.
+<
+<
+>
+>
 
-U1: Observes R1'stag upand has all plays involving Rl at first tlase.
 
-U2: Retreats and observesR2.'s tag up. U2 has all plays at third baseandplays on,R.1at second base.
 
-U3: Moves to the best position possible to view thecatch/nocatch.
+	
 
-SECTION 11 CREW OF FOUR: BASES LOADED
-FLY BALL TO CENTER FIELIJ: NO CATCH, U3 GOES OUT
-
-Action on the field: Fly ball to center field,no catch; U3 goes out; R3 advances toward the plate; R2 advances toward the plate; R1advances toward third oase; the oatter-runner advances toward second base, drawinga throw there
-Umpire r,esponsibilities:
-PU: Has R2's basetouch of lhird and all tm.rchesand plays at theplate.
-
-U1: Entersthe infield, observes the base touch of theI.latter-runner at firg;jbase and has all plays on the batter-run11er al first or second base.U1 is also responsible for any secondary play at second base.
-
-U2: Observes base touch,esat second tiase and has any play there on Rt.U2 alsohas all plays at hird base.
-
-U3: Moves to the best position possible to view thecatch/no catch.
-SECTION 11 CREW OF FOUR: BASES LOADED
-FLY BALL TO CENTER FIELIJ: NO CATCH, U3 GOES OUT
-
-Action on the field: Fly ball to center field,no catch; U3 goes out; R3 advances toward the plate; R2 advances toward the plate; R1advances toward third oase; the oatter-runner advances toward second base, drawinga throw there
-Umpire r,esponsibilities:
-PU: Has R2's basetouch of lhird and all tm.rchesand plays at theplate.
-
-U1: Entersthe infield, observes the base touch of theI.latter-runner at firg;jbase and has all plays on the batter-run11er al first or second base.U1 is also responsible for any secondary play at second base.
-
-U2: Observes base touch,esat second tiase and has any play there on Rt.U2 alsohas all plays at hird base.
-
-U3: Moves to the best position possible to view thecatch/no catch.
-
-GREW OF FOUR: BASES LOADED
+CREW OFFOUR: BASES LOADED
 
 FLY BALL TO RIGHT FIELD: NO CATCH, U1 GOES OUT
-NOW!lat
-NOW!lat
-Action on the field: Fly oall to right-center field,no catch; U1goes out; R3 advances toward te plate; R2 mlvances toward theplate; Rl advances toward third oase; thebatter-r,unner advances toward second tJase, drawirng a throw there
+>
+Action on the fteld: Fly ball to right-center field,no catch;U1 goes out; RJ advances toward the plate; A2 advances toward the plate: Rl advances toward third base: the l>atter-nurmer advances towardseconcl base, drawing a throw there
+Umpire responsibilities:
+PU:Has all plays at the plate.
+U1:Moves tothe bestposition possible toview the catch/no catch.
 
-Umplr,e responslbllitles:
-PU: Has all plays at theplate.
+U2:Has allplaysat first andsecond base. inclucling R1'stag upat first base and A2's lag up at second base if lhe ball is caught.
+U3:[!,lasallplaysat third base. includlngR3's tag up at third base if the ballis caught.
+CREW OFFOUR: BASES LOADED
 
-U1:Moves to the oest position possible to view the catch/no catch.
+FLY BALL TO RIGHT FIELD: NO CATCH, U1 GOES OUT
+>
+Action on the fteld: Fly ball to right-center field,no catch;U1 goes out; RJ advances toward the plate; A2 advances toward the plate: Rl advances toward third base: the l>atter-nurmer advances towardseconcl base, drawing a throw there
+Umpire responsibilities:
+PU:Has all plays at the plate.
+U1:Moves tothe bestposition possible toview the catch/no catch.
 
-U2: Has all plays at first arnd second base, including R1'stag up at fast base and R2's tag up at second base if the ball is caughl.
-U3: Has all plays at thirdbase, including R3's tag upat thirdbase if the ball iscaught.
+U2:Has allplaysat first andsecond base. inclucling R1'stag upat first base and A2's lag up at second base if lhe ball is caught.
+U3:[!,lasallplaysat third base. includlngR3's tag up at third base if the ballis caught.
+<
+<
+CREW OF FOUR: BASES LOADED
 
-SECTION 11 CREW OF FOUR: RUNNERS ON FIRST AND THIRD
+FLY BALL TO CENTER FIE.LO: NO CATCH, U3 GOES OUT
 
-Crewof Four:Runnerson First and Third
-Infield!CatchCoverage
-Tile e-0verage is the same as witha runner on first base only, withU2 in the 'Deep B" or "Deep C"position.
 
-PU has catches:
-• .By thepilcher moving in,left or right.
-• By thefirstandthirdbasemen movingtowardthe plate.
-
-LI1 hascatches:
-• .Bythefirst basemanmovingback or toward the loulline.
-• By thesecond basemanmovingback or toward firstbase.
-
-Ll2 has catches
-• .By theseconcl baseman movinginor towardsecond base.
-• By theshortstopmovingin or toward secondIJase.
-• Bythethird basemanmovingtoward second tlase.
-• By theIirstbasemanmovingtoward second base.
-• By thepitcher moVing back.
-
-Ll3 has catches:
-l. By thethird baseman movingback or toward thefoul line.
-2. By theshortstopmovingbackortowardthird base.
-
-Fair/Faul Coverage
-Tile e-0verage is the same as with no runners on, withU2 inthe"DeepB" or "DeepC" position. PU: Has responsibilityforballs up to first base and third base.
-Ll1:Has responsibilityfor balls that hit first base or go beyond. Ll2:.Has no fair/foul responsibility.
-Ll3: Has responsibilityforballs that hit thirdbase or go beyond.
-
-Plays Within the Infield
-Tileooverage is similarto plays with norunnerson, with U2inthe"DeepB" or "DeepC"position. PU: Moves towarcl firstbase to assistU1if askedlonswipetag or pulled foot by the lirstrtiaseman if thereiis no playon R3 at home.
-LI1: Moves intothebest positionto r,u'leon playsat first tJase. Ll2: Has allplaysat second base.
-Ll3: Observes andhasall plays at thirdbase.
-
-Clean Hit to Outlieldl
-Tilecoverage is the same as witha runner on first base (see 9.6.3), withU2 In the "DeepB" or "DeepC" position.
-PU: Observesalltouchesatthe plateand hasall plays there. Ll1:.Observes the batter-runner's base touchal first base.
-Ll2:.Observes all base touchesat.secondbase and hasall playslhere. Ll3:Observes all base touches at third and 'hasall playsthere.
-
-INITIALPOSITIONS AND OUTFIELD1COVERAGE
-C
-U1 HM
-'llll0IB.I!!ULL
-COll&RAU
-mHM
-lROU.LaM.L CO¥IIWI&
-LF
-3
-GD
-C
-U1 HM
-'llll0IB.I!!ULL
-COll&RAU
-mHM
-lROU.LaM.L CO¥IIWI&
-LF
-3
-GD
-Action on the field: No action
-
-Umpireresponsibilities:
-Ut isin the "A" position.U2 is in the "Deep B" or "Deep C" position,based on personal preference.U3 is in the "D" position.
-
-Ul: Has trouble balls from the center fielder straight jn amt straigt1t back am.I when he moves toward right field U1 alsohas all trouble balls to theright fielder
-
-U2: Has all routine fly balls from·the left'fielder going straight forward,straight bacK and to his left all the way to the right fiielder goiing straight forward, straight back and to hisright.
-
-U3: Has all trouble balls with the center fielder going to his right and all trouble balls to the left ffielder.
-
-)
-)
-
-SECTION 11 CREW OF FOUR: RUNNERSON FIRST ANO THIRD SECTION 11 CREW OF FOUR: RUNNERS ON FIRST AND THIBD -,..
-
-NOCATCH
-NOCATCH
-
-Action1on tile field: Fly ball caught by thecenter fielder; U3 goes out R3 tags up and actvances toward the plate, drawing a throw there; R1 returns tofirst l:lase
+Action onthe lield:Fly ball tocenter field,no catch;U3 goes out; R3 advances toward the plate; R2 advances toward tile plate;R1 advances toward third t>ase: the t>atter-runner advances toward secoml base, drawing a throw tl'lere
 
 Umpire responsibilities:
-PU: Moves to,a position to observe R3's tag up. PU retreats to the plateimmediately for all plays there.
+PU:Has R2's base touch of third and all touches andplays at the plate.
 
-U1: Observes R1I's tag llD if applicable.
+U1:Entef1! lhe infield, observes the base touch of the t>atter-runnerat firstbase andhasall playson the batter-runner at firat or second base.U1 is also responsible for any secondary play at second base.
 
-U2:Retreats aml observes ancl has all plays at seconcl and third base. U3: Moves to theIJest position possilJleto viewthe catch/no catch.
+U2:Observes base touches at second base andhasany play there onR1.U2also has all playsat third base.
 
-Action on tlle field; Fly ball to left-center field,no catch; 113 goes out R3, after going back to tag up, advances toward theplate; R1 advances toward third base and draws a throw there; thebatter-runner rounds first base
+UJ:Moves to tlJe bestposition possible to view the catch/no catch.
 
-Umpire responslbllilies:
-PU: Stays home, observes the pl'atetouchof all runners. PU moves to a position to rule on all plays at the plate.
-Ul: Movesinto theinllelclancl observes the t:iatter-runner'sbase touch at first and has all plays on the batter-runner at first and second base.
 
-U2; Observestlle base touches of R1at second and third llase and has all plays on R1 at second and third, plus the batter-runner at third base.
 
-U3: Moves to the tiest position to view the catch/nocatch
 
-Note: This coverage also applies to home runs.
+CREW OFFOUR: RUNNERS ON FIRST AND THIRD
 
-SECTION 11 CREW OF FOUR: RUNNE.RSON FIRST ANO THIRD
 
-FLYBALI!T. O RIGHT FIELD:CAf,CH, U1 GOES OUT
 
-Crew of Four: Runner on Second
-lnltlal Positions and OutfieldCoverage
-Thecoverage is the sameas witha runners on first base.
-Ul is in the"A" position U2 is in the "Deep B" or "DeepG" position,based on personal prelerence.U3 is in the "D" position.
+Crew of Four: Runners onFirst and Third
+Infield CatchCoverage
+Thecoverage isthesame as witha runner on first base only, withU2 inthe'Deep a··or''Deep
+C'' position.
 
-Ul: Has trouble balls from the center fielder straight iin and straight back and whenhe moves toward right field Ul aJsohas all trouole balls to the right fielder,
-U2: Has all routirne fly ballsfromthe left fielcler going straight forward,straight back anclto his left all the way to th,eright fielcler going straight forward, straight back anclto hisright.
+PUhas catches:
+	•	By the pitcher moving in,left or right.
+	•	By the first andthirdbasemen moving toward theplate.
 
-A.ction on the field:Fly ball caught by the riglhtfielder; U1 goes out; R3lags 1upancl advances toward theplate, drawing a throw there; R1 remains near first base
+U1 has catches:
+	•	By the firstbaseman moving back or towardthe foul line. 2.Bythesecond baseman moving back or toward firs1base.
 
-Umpire responsibilities:
-PU: Has all plays at theplate.
+U2 has catches
+	•	Bl'thesecond baseman moving in or toward second base.
+	•	By the shortstop moving in ortoward second base.
+	•	By the third baseman moving lllward second base.
+	•	By the firntbaseman moving toward second base.
+	•	By the pitcher moving bac�.
 
-Ul: Moves to thebest positionpossioleto viewme ca!ch/nocatch..
-
-U2:Retreats afild observes R1'stag up. LI2 has all plays at first and second base.
-
-U3:Moves to a position to observe R3's tag up and has all plays at third base.
-
-U3: Has all trouble balls wtth theoen1ter field'er going to hisright and all trouble balls tmo e
-left fielder.
-
-lllfleld CatchCoverage
-Tl1ecoverage is the sameas witha runner on first base. PUhas catches:
-• By the pitcher moving in, left orright.
-• By the first and third basemen moving toward theplate.
-
-U1 lhas catches:
-• By the first tiaseman movingback or towarclthe foul line.
-• By the second baseman movingback or toward first base.
-
-U2 lhas catches:
-• Bythe second baseman movingiinortowarclsecond base..
-• By the shortstop moving in or toward second base.
-• By the thirdbaseman moving toward second base. 4,.By the first baseman moving towardsecondbase.
-5. Bythe pitcher moving back.
-
-U3 lhas catches:
-·1.By the third baseman moving back or toward the foul line.
-2. Bythe shortstop moving back or towarclthircl base.
+U3 has catches:
+	•	By the thlrd baseman moving back or toward the foul line.
+	•	By theshortstopmoving backortoward th.ird base.
 
 Fair/Foul Coverage
-Thecoverageis the sameas withnorumiers on.
-PU:Has responsibility for balls up lo first base and thlrclbase. Ul: Has responsibility for ballsthat hit first base or go beyond. U2: Has no fair/foul responsibility.
-U3: Has responsibility for ballsthat hit thirdbase or go beyo11d.
+Thecoverage isthesame as withno runners on, withU2 in the "DeepB" or"Deep C" position. PU:H,asresponsibility for ballsup to firstbase and third base.
+Ul:Has responsibilityfor balls thathit first baseor go beyond. U2:Hasno fair/foul responsibility.
+U3:Hasresponsibility for balls thathit third base or gobeyond.
 
 Plays Within the Infield
-Thecoverageissimilar toplays withno runner on.
-Pll: Movestowarclfirst oase to assist U1 if askecl on swipetag or pulleclfoot by the first baseman.
+Thecoverage issimilar toplays withnorunners on,withU2inthe''DeepB"or "Deep C"position. PU:Moves toward firstbase toassistU1 ii askedon swipe tag orpulled loot by the first b.1seman if there is no play onR3 athome.
+U1:Maves into the best position IDruleonplays 31firstbase. U2:Has allplays atsecond base.
+U3: Observes andhasallplays at third base.
 
-Ul:Moves into the best positiontorule on plays at first oase. U,2:Has all plays at second base.
-U3: Observes and has all plays at third oase.
+Clean Hit toOutfield
+'Illecoverage isthe same as witha runner on first base(see9.6.3), withU2 in the "DeepB"or "Deep C"position,
+PU:Observes all touches at the plate andhas allplays there. Ul:Observes the batter-runner's base touchat firstbase.
+U2:Observes ailbase touches atsecond base andhas allplays there. U3:Observes allbase touches atthird andhas allplays there.
+ LNITIAL POSITIONS AND OUTFIELD COVERAGE
 
-Clean Hit to Outfield
-The coverage is the sameas with a runner on first base. PU:Ooserves all touches at theplate ancl has all plays there. U1: Observes thebatter-runner's base touch at first base.
-U2: Observes aJI !Jase touch,es at second oase and has aJI plays there. U3: Ooserves all !Jasetouch,esat thirdancl has all playsthere.
-
-Ul:Moves into the best positiontorule on plays at first oase. U,2:Has all plays at second base.
-U3: Observes and has all plays at third oase.
-
-Clean Hit to Outfield
-The coverage is the sameas with a runner on first base. PU:Ooserves all touches at theplate ancl has all plays there. U1: Observes thebatter-runner's base touch at first base.
-U2: Observes aJI !Jase touch,es at second oase and has aJI plays there. U3: Ooserves all !Jasetouch,esat thirdancl has all playsthere.
-
-SECTION 11 CREW OF FOUR: RUNNER ON SECOND
-
-FLY BALL TO LEFT FIELD: CATCH, U3 G,OESOUT
-
-Action on tlle field; Fly ball caught by thelett llelder; U3 goes out; R2 tags up and advances toward third base, drawing a throw there
-Umpim responsibilities:
-PU: Remains near the prate for all plays there. U1: Observes the batter-runner at first base.
-U2: RetreatsandotservesR2's tag up and has all plays at second andthird tlase, U3: Moves to the tlest position possiole to view the catch.
-
-SECTION 11 CREW OF FOUR: RUNNEB ON SECOND SECTION 11 CREW OF FOUR: RUNNER ON SECOND "
-
-CATCH
-THROW
-..
-' ''
-'
-CATCH
-THROW
-..
-' ''
-'
-
-Action on the field: fly ball to left field, no catch; U3 goes out; R2,anticipating possiiJle catch, tags up and advances towarcl thirdbase, drawing a throw there,BR advances toward second
-
-Umpire responsibilities:
-PU: Remains rnear the platefor all plays there.
-U1: Moves into th,einfieldto prepare forpossibleplays on lhe batter-runner at first or
-second tase.
-
-U2:Retreatsandobserves R2's tag \!P and goes to third base when R2 advances.
-
-U3: Moves to the best position possible to view the catch/no-catch.
-
-Action on the field: flyball caught by thecenter fielder in right-center field: U1 goes out:
-R2 tagsup and advances toward thirdlbase,drawing a throw there
+Action onthe field:No action
 
 Umpireresponsibilities:
-PU: Remains near the plateand has any p[ay there.
+U1 is in the• A" position.U2 is in the "Deep B" or··oeep c·•position, basedonperaonal preference.U3 is in tl'le·o··position.
 
-Ul: Moves to thebesl positionpossIble to view the catch/no catch. U2: Observes R2's tag up and has all plays at first and second base. U3: Has all plays at third base.
+U1:I-las·trouble balls from the center fielder straight inaM straight back and when he moves toward right field.Ul also has aUtrouble balls tothe right fielder.
+
+U2:Hasall routine fly balls from the left fielder going straight forward, straight back and to his left allthe way to the right fielder going straight forward, straight back and to his right.
+
+U3:Has all trouble balls withthe center fielder goingtohis right and all trouble balls tothe left fielder.
+
+<
+<
+	
+
+CREW OFFOUR: RUNNERS ON FIRST AND THIRD	CREW OFFOUR: RUNNERS ON FIRST AND THIRD	•
+
+
+I
+I
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Actionon the field: Fly ball caught by thecenter fielder;U3 goes out; R3 tags upand advances toward the plate. drawing a throw there; R1 returns to first base
+Umpit'II n,sponsibilities:
+PU:Moves toa position toobserve R3's tag up.P\Jretreats totheplate immediately for all plays there.
+U1: Observes R1'stag up if applicable.
+U2:Retreats and observes andhas allplays at secornl and thirdbase. U3: Moves tothe best position possible toview the catch/no catch.
+ FLY BALL TO LEFT-CENTER FIELD: NO CATCH, U3 GOES OUT
+
+Ac1Ionontne fleld:Fly ball to left-center field,no catch;U3 goes out; R3, after going back to tagup,advances toward the plate: R1 advances toward thirdbase and draws a throw there; the batter-runner rounds firstbase
+Umpireresponslbllllles:
+PU:Slays home,observes theplate touchof allrunners.PUmoves to aposition torule on allplays at the plate.
+U1: Moves into the infield and ooserves lhe batter-runner'sbase touch at flrst and has all plays on the batter-runner at first and second base.
+U2: Observes the base touches of R1 at second and third base andhas allplays onR1 at second and third,plus t11ebatter-runner at third oase.
+
+U3: Moves to the bes\ position tovi.ew the catch/no catch.
+Note: This coverage alsoapplies to home runs.
+
+<
+<
+	
+
+CREW OFFOUR: RUNNERS ON FIRST AND THIRD
+
+
+FLY BALL TORIGHT FIELD: CATCH, U1 GOES OUT
+
+
+Action on the field:Flyball caught by the right fielder; U1 goes out; R3 tags up and advances towardthe plate, drawing a throw there: Rl rema1ns near first base
+
+Umpire responsibilities:
+PU: Has all playsat the plate.
+Ul: Moves tothe best position possible toview thecatch/no catch.
+
+U2:Retreats and observes R1'stag up.U2 hasall plays atfirst and second base.
+U3:Moves to aposition to observe R3's tagupand has allplays at thirdbase.
+ Crew of Four: Runner on Second
+Initial Positions and Outfield Coverage
+The coverage is the same as with arunners on firstbase.
+Ul is in the"N' position.U2 isinthe "DeepB" or "Deep C" position,based on personal preference. U3 is in the "D" position.
+
+Ul: Has troubleballs from the center fielder straight in and straight back and when he moves toward right field.U1 also has autrouble balls totne right fielder.
+U2:Has all routine fly balls from the left fielder going straight forward, straight back andto his fell all the way to the right fielder going straight Forward, straight back ancllohis right. U3:Has all trouble balis withthe center fielder goingto his right and all trouble balls tothe felt fielder.
+Infield Catch coverage
+The coverage is the same as witha runner on first base. PUhas catches:
+	•	By the pil£her moving in.left or right.
+	•	By the first and thin!basemen moving toward tile plate.
+
+U1 has catches:
+	•	By the fir.rt tlaseman moving back or toward the foulline.
+	•	By thesecond baseman moving back or toward firstbase.
+U2 has catches:
+	•	By the second baseman moving in or toward second base.
+	•	By the shortstop moving inor toward second l>ase.
+	•	By the thirdbaseman moving toward second base.
+	•	By the first baseman moving toward second base.
+	•	By the pitcher moving back.
+U3 has catches:
+	•	By the thirdbaseman moving back or toward the foulline.
+	•	By the shortstop moving back or toward thirdbase.
+
+Fair/Foul Coverage
+The coverage is the same as withno runnerson.
+PU;Has responsi!Yility forballs up to first base and thirdbase. U1:lias responsibility for balls that hit first base or go beyond. U2:lias no fair/foul responsibility.
+U3:Has responsibility for balls Iha\ hit third base or go beyond.
+
+Plays Wilhin the Infield
+The coverage is similar toplays with norunner on.
+PU:Moves toward first base to assist U1 if asked on swipe tag orpulled foot by the first baseman.
+
+<
+<
+>
+>
+	
+
+
+
+CREW OFFOUR: RUNNER ON SECOND
+
+
+Ul:Movesinto the best position torule onplays at first base. U2:Has all playsat second base.
+U3: Observes andhas allplays at thirdbase.
+
+Clean Hit to Outfield
+Thecoverage isthe sameas with arunner on firstbase. PU: Observes all touches at the plate andhasallplays there. Ul:Observes the batter-runner's base touch at firstbase.
+U2: Observes all base touches at second base andhasall plays there U3: Observes all base touches at third andhas allplays there.
+ FLY BALL TO LEFT FIELD: CATCH, U3 GOES OUT
+
+
+
+Actionontile fleld: Fly ball caughtby the lellfielder:U3 goes out: R2tags up and advances toward third base. drawing athrow there
+
+Umpira responsibilities:
+PU:Remains near the plate for allplays there.
+
+U1: Observes the batter-runner at first ba.se.
+U2: Retreats and observes R2's tagup and hasall playsat second and thirdbase. U3:Moves tothe bestposition possible toview·thecatch.
+
+<
+<
+>
+>
+
+
+
+
+	
+
+	CREW OFFOUR: RUNNER ONSECOND		CREW OFFOUR: RUNNER ON SECOND	-,.
+
+
+FLY BALL TO LEFT FIELD: NO CATCH, U3 GOES OUT
+
+
+Action on the field:Fly ball to left field, nocatch; U3 goes out:R2,anticipating possible catch, tags up and a!lvances toward thinl base.drawing athrow there,BR advances toward second
+Umpireresponslbllllles:
+PU: Remains near the platelor all plays there.
+
+U1:Moves into ll'le infield1D prepare for possible plays on ll'le batter-runner at first or
+second base.
+
+U2:Retreats and observes R2's tag upand goes to third base when R2 advances.
+
+U3:Moves to the bestposition possible to view the catch/no-catclt
+ FLY BALL TO RIGHT-CENTERFIELD: CATCH, 01GOES 00T
+l
+l
+Actiononthe field:Fly ball caught by thecenter fielder inright-center field; U1 goes out; R2 tags upand advances toward third base, drawing a throw there
+
+Umpire responsibilities:
+PU:Remains near the plate andhas any play there.
+
+U1: Moves tothe best position possible to view the catch/no catch. U2: Observes R2's tag up and has all plays atfirst and second base. U3: Has allplays at third base.
+
+<
+<
+>
+>
+	
+
+	I 	CREW OFFOUR:RUNNERS ONSECOND AND THIRD	-,..
 
 Crew of Four: Runners on Second and Third
-llnitlal Positions and Outfield Coverage
-The coverage is thesameas with a nmner on·first base. 01 is in the "A" position.U2 is in the "DeepB"or"DeepC" position, based onpersonal preference.U3 is in the"D"position.
+lnHlal Positions andOlllfteld Coverage
+Thecoverage isthe same as with arunner on firstbase.U1 is in the ''A" position. U2is in the"Deep B" or "Deep C" position. based onpersonal preference. U3 is in the "D" position.
 
-ILJ1:Has !roubleballs fromthecenierfielder straight in and straight back and when he movestoward rigllt field.U1also has all trouble balls totheright fielder.
-U2: Has aJIroutine fly balls firom the left fielder going straight forward,straight back and to lhis left all the way to the right fielder going straight forward, straight lback and to hisright. U3: Has all troubleballs wilh the center flelder going to hisright and all !roubleballs tothe left fietder.
-!InfieldCatch Coverage
-Thecoverage is thesame as witha runner on first base.
-
-PU has catches:
-• By the pitcher moving in, left or right.
-• By the first ancl third basemen moving toward the plate.
-
-U1 has catohes:
-• By the first oasemanmoving back or toward the foul lime.
-• By the seconclbaseman moving back or toward first base.
-
-U2 has catohes:
-• By the seconclbaseman moving in or toward second l:Jase.
-• By the shortstop movingin or toward second lase.
-• By the third tiaseman moving toward second base.
-• By the first baseman moving toward second base.
-• By thepilcller moving back.
-
-U3 has catchs:
-• By thethird tiaseman moving back or towarclthe foul line.
-• By theshortstop movingback or toward third base..
-
-Fair/Foul Coverage
-Thecoverage is the same as with no runners on.
-PU:Responsible for balls up to first base and third base. U1. Responsible for balls that hitfirst base or go beyond. U2: Has no fair/foul responsibility.
-U3: Responsible for balls that hit third base or go beyond.
-
-Plays Within the Infield
-The coverage is similar toplays withInorunner on.
-PU: Moves towardfirst base to assist U1 if asked on swipe tag or pullled foot by thefirst baseman ii there is noplay on R3 at home.
-U1: Movesinto the best position to rule on plays at first base. U2: Has all p:lays at second base.
-U3: Observes and has all plays at third base.
-
-Clean Hit to Outfi'eld
-The coverage is the same as with a rnnner on first base.
-PU: Observes all touches at tile plate and has all plays there. Ul: Observes the batter-runner's base touch at first base.
-U2: Observes all base touches at second base ancl has all playsthere.
-U3: Observes all base touches at third and has all plays there.
-
-FLY BALL TO LEFTFIELD:CATCH, U3 GOES OUT
-
-Action on the field:Fly ball caught l:ly the left fielder: U3 goes out; R3 tags up and aclvances toward theplate,drawing a thrnw !here; R2 tags upancladvances toward third l:lase
-
-Umpire responsibilities:
-PU: Moves to a position to observe R3's tag u1p.PUimmediately returns to the plale ·for all plays there.
-
-U1:Enterstheinfieldimmecliately anclhas all plays at first anclsec,ond base onthe batter-runner.
-U2: Retreats and observes R2's tag up if applicab[e. U2 has allplays at second and third
-base on R2.
-
-U3:Moves to the best position possibleto view thecatch/nocatch.
-
-FLY BALL TO LEFT FIELD:NO CATCH, U3 GOES OUT
-
-Action on the field: Fly ball to left-center field, no catch;U3 goesout; R3 advances toward the plate; R2 advances toward theplate; thebatter-runner advances toward second base, drawing1a throw there
-
-Umpireresponsibilities:
-PU: Observes RJ's tag up andrerums to the plate for all plays there.
-
-Ul: Has all touches and plays onlhe batter-runner at first and second tase.
-
-U2: Has all plays on R2 and R3 at second and third base.
-
-U3: Moves to the llest possible positionto view the catch/no catch.
-
-)
-)
-
-FLY BALLTO RIGHT FIELD: CATCH,U1 GOES OUT Crew of Four: Runner on Third
-lnltial Positions
-The coverage is similar to no runners on. Ul: StartsiInthe"A" position.
-U2: Starts iInshallow left-centeriield.Wiith less than two outs, U2 must be albleto get to third base lor any throws lb,ack to third when U3 goes out or ariy plays at first base if U1 goes out.
-U3: Starts i1nthe "D" position.
-
+U1:Has trouble balls from the center fielder straight inand straight back and when.he moves towardright field. Ul also has all trouble balls tothe right fielder.
+U2:!'lasall routine fly balls from1he left fielder going straight forward, straight back and to his left all the way tothe right1ielder goingstraight forward, straight back and to his right. U3:Hasall trouble balls with the center fielder going to hisright and all troubleballs to the lert fielder.
 Infield CatchCoverage
-Thecoverage is the same as no runners on, with U2 in shallow left-center field.
+Thecoverage isthe same aswitharunner on firstbase.
 
-PU has catches:
-• By the pitcher movingin, left or right.
-• By the first and third basemen moving in.
+PUhas catches:
+	•	By the pitcher moving in, lert or right.
+	•	By the first ancJ thirdbasemen moving toward the plate.
 
-U1has catches:
-• By the second baseman moving in or toward fiirst base.
-• By the first baseman moving out or toward first base.
-• By the pitcher movingback.
+Ul has catches:
+	•	By the firstl:>aseman moving back or toward the foulline.
+	•	By thesecond baseman moving back or toward first base.
 
-U2 has catches:
-• By thesecond baseman moving out or toward second base.
-• By theshortstop moving out or toward second base.
-• By thefirst llasemanmovingright
-• By thethird baseman moving left.
+U2has catches:
+	•	By the second baseman moving in or toward second base.
+	•	By the shortstop moving in or toward second base.
+	•	By tne thirdbaseman moving toward second ba.se.
+,1.By the first baseman moving toward second base.
+5.By the pitcher movingback.
 
 U3 has catches:
-• By the shortstop moving in or towarcl 'third base.
-• By the third !baseman moving out or towardthirdbase.
+	•	By the thirdbaseman moving back or Loward the foulline.
+	•	By theshortstop moving back or toward thirdbase.
 
-Action on the field: Fly ball caught by the night fielder; U1 goes out; R3 tags up and advances toward theplate, drawing a throw there; R2 tags up and advances toward third base
+Fair/Foul Coverage
+The coverageisthe same as withno runners on.
+PU:Responsiblefor balls up to first base and thirdbase. Ul; flesponsible forballs that l1it first base or go beyond. U2:Has no fair/foul responsibility.
+U3:Responslble for balls that hitthirdbase or go beyond.
+ Plays Within the Infield
+The coverage is similar toplays with norunner on.
+PU:Moves towardfirst base to assist U1 if ask.ed on swipe tag orpulled foot by the first baseman ii there is no play onR3 at Mme.
+U1:Movesintothe best position torule onplays at firstbase. U2:Has all plays at second base,
+U3: Observes and hasallplaysat third base.
+Clean Hit to Outfield
+The coverage is the same as with arunner on first base. PU: Observes all touches at the plate andhas allplays there. Ul: Observes the batter-runner'sbase touch at first base.
+U2: Observes allbase touches at second base andhas allplays there. U3: Observes allbase touches at thirdandhas allplays there.
 
+<
+<
+'/
+'/
+
+
+
+
+	
+
+CREW OFFOUR: RUNNERS ONSECOND AND THIRD	CREW OFFOUR:RUNNERS ONSECOND AND THIRD	•
+
+!
+!
+'
+'
+
+
+Action on the lield: Fly ball caught by lhe left fielder; U3 goesout;R3 t:igs up and advances toward the plate,drawing athrow there; R2 tagsupand advances toward third base
 Umpire responsibilities:
-U: Has all plays at theplate.
+PU:Moves ID aposition to observe R3's tagup.PUimmediately returns ID the plate for all plays there.
+U1:Enters the infield immediately andhas allplays at first and second base on the batter-runner.
 
-U1:Moves to the best position possible to view the catch/no catch.
+U2: Retreats and observes R2's tagup if applicable. U2ha.sallplays at second and third base onR2.
+U3:Moves to the best position possible to view thecatch/no catch.
+ 
 
-U2: Retreats aml observes R2's tag up andhas all plays at first and second base.
+Action onthe lield:Fly ball to le1t-center field,nocatch;U3goes olll: R3 advances toward lhe plate:R2 advances toward the plate; the batter-runner advances toward second base. drawinga throw !here
+Umpire responsibilities:
+PU:Observes R3's tag upandreturns to lhe plate for allplays there,
+U1: Has all touches andplays on the batter-runner at first and second oase.
 
-U3: Moves intoposition to observe R3's tag up and has all plays at third base.
+U2: Has aUplays onR2 andR3at secondand thirdbase.
+U3: Moves tothe best possible position toview the catch/no catch.
 
-Fair/Foul Cov,erage
-Thecoverage is the same as no runners on, with U2 in shallow left-center field.
-PLJI: Has responsibility for ballsup to first base and third base. U1: Has responsibility for balls that hit first base or go beyond. U2: Has no fair/foul responsibility.
-U3: Has responsibility for ballls that hit thirdbase or go l:leyond.
+<
+<
 
-PlaysWittlin the InfieId
-Thecoverage is the same as no runnerson, with U2 in shallow left-center field.
-PU: Moves toward first base toassist U1 if asked on swipelag or pulleclfool lly lhe first basemanif there is no play on R3 at home.
-U1: Moves into the best position toruleonplays at first base. U2: Moves toward second base.
-U3: Observes.
 
-)
-)
 
-SECTION 11 CREW OF FOUR: RUNNER ON THIRD
-SECTION 11 CREW OF FOUR: RUNNER ON THIRD
+	
 
-Clean 1Hit to the Outfield
-Thecoverage is the sameas n,0 runn,erson, withU2 in shallow left-center field. PU:Ooserves and has all plays at theplate.
-Ul: Ooserves thebatter-runner touch first tase.
-U2:Moves toward second base and prepares for aJI plays on the batter-ninner at second oase.
-U3: Ooserves and has all plays at third l:lase.
+CREW OFFOUR: RUNNERS ONSECOND AND THIRD
 
-INITI.Al POSITIONS
+FLY BALL TO R.IGHTFIELD: CATCH, U1 GOES OUT	Crew of Four: Runner on Third
+InitialPositions
+The coverage is similar to no runners on. Ul: Starts in the''A'.position.
+U2: Starts in shallow left-center field.Wlth less than two outs.U2 must be able to get to thirdbase for any throws back to thirdwhen U3 goesout or any plays at first base if U1 goesout.
+U3: Starts in the ''O" position.
+Infield catch coverage
+The coverage is the same as no runners on, with U2 in shallow left-center field.
 
-CMMIUla
-.,,....
--UIHM
-CMMIUla
-.,,....
--UIHM
-U1:Starts in the "A" position. Responsible for outfie[d catches whenthe right fielder goes straight forwar(I, straight back ormoves toward:S the foul line.
+PUhas catches:
+	•	By the pitcher moving in,left or right.
+	•	By the first and third oasemen moving in.
 
-U2:Starts in the outfield (shallow left-center field w/ less than 2 outs) and will now go out on any trouble fly llall that takes the left fielder straight forward,straight back or to hisleft and all the way over totheright fielder who goesto hisright. l.12 is the "quarterback'' when, reading fly oallsin this scenario.Anytime a oall is hit in a gray area, U2 will dictate coverage by either goingoutor coming irnto theinfield.
+U1 has catches:
+	•	By the second baseman moving ln or toward firstbase.
+	•	By the first baseman moving out or toward firstbase.
+	•	By the pitcher moving back.
 
-U3: Starts in the "C" position,.Respornsible for outfield catches when the lefitfielder moves towards l!he fouI Iine.
+U2 has catches:
+	•	By thesecond baseman movingout or toward second base.
+	•	By the shortstop moving out or toward second base.
+	•	By the first baseman moving right.
+	•	By thethird baseman moving lelt.
+
+U3 has catches:
+	•	By theshortstop moving in or toward thirdbase.
+	•	By the third baseman moving out or toward1hinl base.
+
+
+
+
+Action onthe field:Fly ball caught by the right fielder; Ul goes out:R3 tags up and advances toward the plate, drawing a throw there:R2 lags up and advances toward third base
+Umpire responsibilities:
+PU: Has all plays at the plate.
+U1:Moves to the bestposition possible to view the catch/no catch.
+
+U2:Retreats and observes R2's tag upandhas allplays at first and second base.
+U3:Moves intoposition to observe R3's tagup andhasall plays at third base.
+ Fair/Foul Co11erage
+The coverage is the same asnorunners on, withU2 in shallow left-center field. PU:Has responsibility tor balls up to first base and thirdbase.
+U1:Has responsibility for balls thathit first base or go beyond. U2:Has no fair/foul responsibility.
+U3:Has responsibility forballs thatl1it third base or go beyond.
+
+Plays Within the Infield
+The coverage is the same as no runners on,with U2 in shallow lefl-center field.
+PU:Moves towanl first base to assist U1 if asked on swipe tag orpulled loot by the first baseman if there isno play onR3 at home.
+U1:Moves into the best position to rule onplaysat first base. U2:Moves toward second base.
+U3.:Observes.
+
+<
+<
+	
+
+	CREW OFFOUR:RUNNER ON THIRD	 • 	CREW OFFOUR: RUNNER ON THIRD	
+
+Clean Hit to the Outfield
+Thecoverage is the same as no runners on,withU2 in shallow lelt-center field. PU: Observes andhas allplays at the plate.
+U1: Observes the batter-runner touch first base.
+U2:Moves toward second base andprepares for all plays on the batter-runner at second
+oase.
+U3: Observes andhas allplays at thirdbase.
+ INITIAL POSITIONS
+
+Actionon the field:No action
+Umpire responsibilities:
+U1:Starts in lhe ''A" position. Responsible lor out1ield catches when the right fielder goes straight forward, straight back ormoves towards the foulline.
+U2:Starts in the outfield(shallow lert-center field w/ less than 2 outs) and will now goout on any trouble fly t>all1hat takes the lelt fielder straight forwarc!. straight back or tohislelt and all the way over to the right fielder who goes to hisrightU2 is the "quarterback" when readingfly oalls in this scenario. Anytime aballis hit in a gray area, U2 will dictate coverage by either going out or coming into the infield.
+
+U3:Starts in ltle "C" position. Responsible for outfield catches when the leftfielder moves towar<ls the foul line.
+
 Point of Emphasis
-U2 will no lornger shift over toward third tase with less than lwo outs.In this situation.l.12 is re(luireclto tie ontheI,eft-field side of second oase.Utilizing this new mechanic, U2 will retain his normal coverage of having all trouble llalls in theoutfield "in the V" from lett to right field. Additionally, U2 will be iin!Jetter position totakea batter-runner oack to lira! !Jase should U1 go out. U2 should always remain over the shortstop's inside(left) shoulder closest to secolld base tohelpwithall line-drive coverage.
+U2 willno longer Shilt over toward thirdbase wittJ less than two outs. In this situation,U2 is required to beon the left-field side of secondbase.Utilizing this new mechanic,U2 will retain his normal coverage of having all troubleballsin the outfield"in the V" from left to right field. Additionally, U2 will be in better position totake abatter-runner back to first base should U1 go out.U2shouldalways remainover the shortstop's inside(lelt) shoulder closest to second base to help with all line-drive coverage.
 
-SECTION 11 CREW OF FOUR: RUNNERON THIRD
+<
+<
+)
+)
+	
+
+CREW OF FOUR: RUNNER ON THIRD
 FLY BALL TO RIGHT FIELD: NO CATCH, U1 GOES OUT
-NOCATCH
+<
+Action onthefield:Fly ball 1:1.l right field, nocatch; U1 goes out;R3,alter going back to la.g up, advances toward1he plate; the batter-runner rounds first base and returns, drawing a throw there
 
-Action on the field: Fly ball to right nield, r10 catch; IJ1 goes out; R3,after going back to tag up, advances towaJrd theplate;the batter-unner rounds first base and returns. drawing a throw there
+Umpirv responsibilities:
+PU:Hasall plays at the plate.
 
-Umpire responsibilities:
-PU:Has all p[ays.at the plate.
+Ul: Moves to a position to best view the catch/no catch.
 
-U1: Moves to a positionlo best view the catch/no catch.
+U2:Moves into the infield at second base.U2 has allplays at first and second base.
 
-U2: Moves into the infield at second base.U2 has all plays at firat ancl second base.
-
-UJ: 01:lservesR3's tag up and has all plays at third llase.
-SECTION 11 CREW OF FOUR: RUNNERON THIRD
+U3: Observes R3's tag up and has allplays at third base.
+CREW OF FOUR: RUNNER ON THIRD
 FLY BALL TO RIGHT FIELD: NO CATCH, U1 GOES OUT
-NOCATCH
+<
+Action onthefield:Fly ball 1:1.l right field, nocatch; U1 goes out;R3,alter going back to la.g up, advances toward1he plate; the batter-runner rounds first base and returns, drawing a throw there
 
-Action on the field: Fly ball to right nield, r10 catch; IJ1 goes out; R3,after going back to tag up, advances towaJrd theplate;the batter-unner rounds first base and returns. drawing a throw there
+Umpirv responsibilities:
+PU:Hasall plays at the plate.
 
-Umpire responsibilities:
-PU:Has all p[ays.at the plate.
+Ul: Moves to a position to best view the catch/no catch.
 
-U1: Moves to a positionlo best view the catch/no catch.
+U2:Moves into the infield at second base.U2 has allplays at first and second base.
 
-U2: Moves into the infield at second base.U2 has all plays at firat ancl second base.
-
-UJ: 01:lservesR3's tag up and has all plays at third llase.
-
-SECTION 11 CREW OF FOUR: RUNNER ON THIRD
-
+U3: Observes R3's tag up and has allplays at third base.
+CREW OFFOUR: RUNNER ON THIRD
 FLY BALL TO CENTER FIELD: CATCH, U2 GOES OUT
+>
+Actionon!he field: Fly ball caught by thecenter fielder; U2 goes ou1; R3 tagsupand advances toward the plate, drawing a throw there
+Umpini mponsibilities:
+PU:Stayshome,observes theplate touch of allrunners.PUmoves ID a positiorl torule on all plays al the plate.
 
-Action on the field: Fly ball caught by thecenter fielder; U2 goes out R3 tags up and advances towal'd the plate, drawing a throw there
-
-Umpire responsibilities:
-PIJ: stays home, ol:lserves the platetoucll of all runners. PU moves toa position to rule on all
-plays at the plate..
-
-Ut: Observes the batter-runner'stouchof fiirst arnd takes he batter-rumier irnto second.
-
-U2: Movesto a position tobest view thecatch/no catch.
-
-U3: Lines up the tag of R3 and has the throw llack at thirdbase.
+U1: Observes tlJe batter-runner'stouch of first and takes the batter-runner into second. U2: Moves to aposition to best view the catch/no catch.
+U3: Lines up the tag of R3 and h� the throw back atthirdbase.
 
 Point of Emphasis
-With a runner onthird base only, less than 2 outs and U2 goes out,U1 will take the batter-runner to second base allowing U3to remain at thirdand lineupthetag. With two outs and U2 goin,gout, U3 will come acrnss the diamond and tie responsible for any play tilat may develop at either second or thirclbase.
+With a runner on third base only,less than 2 outs and U2 goes out,Ul willtake the batter-runner tosecond base allowing U3 to remain at third and lineup the tag. With twooutsandU2 going out.U3 will come across the diamond andbe responsible for any.Play thatmay develop at either second.or third base.
+CREW OFFOUR: RUNNER ON THIRD
+FLY BALL TO CENTER FIELD: CATCH, U2 GOES OUT
+>
+Actionon!he field: Fly ball caught by thecenter fielder; U2 goes ou1; R3 tagsupand advances toward the plate, drawing a throw there
+Umpini mponsibilities:
+PU:Stayshome,observes theplate touch of allrunners.PUmoves ID a positiorl torule on all plays al the plate.
 
-.•
--··-'--
-llLJII••· •
-.
-.
-..
-...
--:
+U1: Observes tlJe batter-runner'stouch of first and takes the batter-runner into second. U2: Moves to aposition to best view the catch/no catch.
+U3: Lines up the tag of R3 and h� the throw back atthirdbase.
+
+Point of Emphasis
+With a runner on third base only,less than 2 outs and U2 goes out,Ul willtake the batter-runner tosecond base allowing U3 to remain at third and lineup the tag. With twooutsandU2 going out.U3 will come across the diamond andbe responsible for any.Play thatmay develop at either second.or third base.
+
+
+
+
+
+
+....
+ . ..
+ .. ....
+ ..	. .
+
 ..
 •
+- .
+•
+.
+,
+.IllIUH
+r1
+T
+..
+•
+- .
+•
+.
+,
+.IllIUH
+r1
+T
 
-.•
--··-'--
-llLJII••· •
+
+
+<
+
+
+
+
+
+
+. .
+. .
 .
 .
-..
-...
--:
-..
-•`,
+. .
+	•	i
+. .
+	•	i
+
+``,
   mechanicsByQuestion: {
     "77": {
       reference: "2026 Umpires Manual · Crew of Two · No Runners On · p. 62",
