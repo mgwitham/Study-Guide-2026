@@ -1036,7 +1036,12 @@ function renderAnsweredQuestion(question, selectedIndex, isCorrect) {
           `)
           .join("")
         : displayedRulebookText
-          ? `<p class="feedback-rulebook-text">${escapeHtml(displayedRulebookText)}</p>`
+          ? `
+            <div class="feedback-rulebook-block">
+              ${question.reference ? `<p class="feedback-rulebook-block-ref">${escapeHtml(question.reference)}</p>` : ""}
+              <p class="feedback-rulebook-text">${escapeHtml(displayedRulebookText)}</p>
+            </div>
+          `
           : ""}
     </div>` : ""}
     <div class="question-footer">
@@ -1279,7 +1284,12 @@ function toggleStudyReferenceCard(card, question, button, options = {}) {
             </div>
           `)
           .join("")
-        : `<p class="study-reference-card-copy">${escapeHtml(rulebookText)}</p>`}
+        : `
+          <div class="study-reference-block">
+            ${question.reference ? `<p class="study-reference-block-ref">${escapeHtml(question.reference)}</p>` : ""}
+            <p class="study-reference-card-copy">${escapeHtml(rulebookText)}</p>
+          </div>
+        `}
     `
     : `
       <p class="section-label">Reference Note</p>
