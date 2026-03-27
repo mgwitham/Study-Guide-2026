@@ -93,6 +93,71 @@
             .replace(/^\s*[•.]\s*/gm, "")
             .replace(/\n{3,}/g, "\n\n");
 
+          cleaned = cleaned.replace(
+            /Introduction[\s\S]*?Play ball!/i,
+            [
+              "Introduction",
+              "Baseball continues to be one of the most popular sports in the country, especially at the high school level. With the growth in the number of athletes and teams, the need for umpires is greater than ever.",
+              "Unlike sports where you might have a set partner or crew, high school baseball umpires usually do not work with the same partner every game. Because of this, it is important for umpires to be on the same page when it comes to mechanics and prescribed play coverages.",
+              "The illustrations and explanations in this manual are intended to give umpires consistent reference points for proper mechanics, procedures and responsibilities. In certain situations, your local association or governing body may prescribe a different coverage or mechanic, so always follow local policy where required.",
+              "Umpires are the third team on the field. While umpires never win or lose the game, they are vital to the game running smoothly. Working together as a team keeps coverage consistent and helps the game move without unnecessary issues.",
+              "Play ball!"
+            ].join("\n\n")
+          );
+
+          cleaned = cleaned.replace(
+            /DEFINITION OF TERMS[\s\S]*?WORKING THE PLATE/i,
+            [
+              "DEFINITION OF TERMS",
+              "Clear the runner - At the conclusion of any play that requires the plate umpire to cover a runner's safe advance to a base, U1 must assume responsibility for that runner so PU can return to the plate area.",
+              "Cutout - On diamonds with grass infields, the dirt area adjacent to each base. An umpire working from the cutout is usually about 12 to 15 feet from the play.",
+              "Dead-ball signal - Both hands raised slightly above the head with palms forward while calling, \"Time!\"",
+              "BR - The batter-runner.",
+              "Before the play - Means before a fielder attempts a tag, before a fielder attempts a catch, or before the runner arrives at the base. Ideally, the umpire is set before the critical moment of the play.",
+              "Below-the-knee catch - A catch that requires the covering umpire to actively rule on catch/no catch because the fielder reaches low, dives, falls, turns away from the infield, or collides with another player.",
+              "Chest to the ball - Keep your chest pointed toward the ball so the play stays in front of you.",
+              "Clear the catcher - When a play follows a pitch, PU steps back and away from the catcher to create space and a better angle to the developing play.",
+              "Drift - Slight movement by a base umpire toward the base where the next play may occur.",
+              "Fielders - Defensive players, numbered for scorekeeping purposes: F1 is the pitcher, F2 the catcher, F3 the first baseman, and so on.",
+              "First-base line extended - The imaginary line extending the first-base fair/foul line into foul territory behind the plate.",
+              "45-foot line - Marks the beginning of the runner's lane and serves as a positioning benchmark for several mechanics.",
+              "Glance at the runner - A quick look at a runner to confirm tag-ups, touches, obstruction/interference possibilities, and progress during a developing play.",
+              "\"Go\" or \"goes\" - When a base umpire leaves the infield and moves into the outfield to rule on a trouble ball.",
+              "Imaginary box - The fair-territory area bordered by the plate, the 45-foot line, the mound, and the midpoint of the third-base line. Plays originating there often involve running-lane interference.",
+              "Opening the gate - A footwork move that keeps the umpire observing the ball as it passes, then turns the umpire into the developing play.",
+              "Pause, read and react - Observe the initial action, determine what play is developing, then move into the proper position.",
+              "PU - The plate umpire.",
+              "Play - The action that develops as a runner, the ball and a fielder arrive at the same place at about the same time.",
+              "Position A - Foul territory, generally 10 to 15 feet behind first base with no runners on.",
+              "Position B - The first-base side of the infield between the mound and second base.",
+              "Position C - The third-base side of the infield between the mound and second base.",
+              "Position D - U3's foul-territory position near third base in the three-umpire system.",
+              "Read the throw - Judge whether the throw is good or bad, then adjust accordingly.",
+              "Release runner to third - In two-umpire mechanics, PU verbally takes responsibility for the runner into third so U1 can stay with trailing runners.",
+              "Rotate or rotation - Umpire movement used to cover advancing runners and maintain proper responsibility.",
+              "Rotation (reverse) - Coordinated movement of base umpires that shifts responsibility at second base.",
+              "Running lane - The three-foot-wide lane from the 45-foot line to first base.",
+              "Runners - R1 starts on first, R2 on second, and R3 on third.",
+              "Secondary play - A reasonably predictable play that follows the defense's first attempt to retire a runner.",
+              "Set for the play - Come to a complete stop before the critical moment and remain still through the decision.",
+              "Starting position - The on-field location occupied by an umpire as the play begins.",
+              "Stays home - PU remains at home and only covers the plate when the play begins with runners in scoring position.",
+              "Step up, turn and face the ball - A three-step movement used by U1 or U3 from B or C when the ball is hit.",
+              "Square to the bag - Head, shoulders and feet line up square to the base before ruling on the play.",
+              "Subsequent play - A less predictable play that follows the defense's first attempt to retire a runner.",
+              "The V - The outfield area between the left fielder and right fielder for which an inside umpire is responsible.",
+              "Third-base line extended - The imaginary line extending the third-base fair/foul line into foul territory behind the plate.",
+              "Time play - A two-out situation where the umpire must know whether a run scored before the third out was recorded.",
+              "Trouble ball - A fly ball or batted ball in the outfield that presents a catch/no catch or fair/foul problem.",
+              "Trail BR - PU following the batter-runner up the first-base line on routine ground balls.",
+              "U1 - The base umpire, or first-base umpire in a three-umpire crew.",
+              "U2 - The second-base umpire in a four-umpire crew.",
+              "U3 - The third-base umpire in a three-umpire crew.",
+              "Working the wedge - Adjusting position to see the ball, the runner and the plate/base come together clearly on a tag play.",
+              "WORKING THE PLATE"
+            ].join("\n\n")
+          );
+
           const replacements = [
             [/^m:troduction$/gim, "Introduction"],
             [/^DEFINITION OFTERMS$/gim, "DEFINITION OF TERMS"],
@@ -141,6 +206,7 @@
             [/\bas ateam\b/g, "as a team"],
             [/\bthird teamonthe\b/g, "third team on the"],
             [/\bQJear:therunner\b/g, "Clear the runner"],
+            [/\bCutout - On diamonds with grass infields, thearea\b/g, "Cutout - On diamonds with grass infields, the area"],
             [/\bDead,ball\b/g, "Dead-ball"],
             [/\bBefore theplay\b/g, "Before the play"],
             [/\bClear thecatcher\b/g, "Clear the catcher"],
@@ -162,8 +228,46 @@
             [/^\.Cutout\s*-/gim, "Cutout -"],
             [/^Dead-ball signal\s*-\s*To indical!!/gim, "Dead-ball signal - To indicate"],
             [/^Below the\.knee catch-A/gim, "Below-the-knee catch - A"],
-            [/^Drift-\s*/gim, "Drift - "],
+            [/^Delinilian al Terms$/gim, "Definition of Terms"],
+            [/^QJear:therunner\s*-\s*/gim, "Clear the runner - "],
+            [/^Dead-ball signal\s*-\s*/gim, "Dead-ball signal - "],
+            [/^Before the play-An abbreviation/gim, "Before the play - An abbreviation"],
+            [/^Clear thecatcher\s*-\s*/gim, "Clear the catcher - "],
+            [/^Fi11lders\s*-\s*/gim, "Fielders - "],
+            [/^Glance at therunner-/gim, "Glance at the runner - "],
             [/^Imaginary box-\s*/gim, "Imaginary box - "],
+            [/^Opening Ille gate\s*-\s*/gim, "Opening the gate - "],
+            [/^Pause, readand react\s*-\s*/gim, "Pause, read and react - "],
+            [/^PU-\s*/gim, "PU - "],
+            [/^Play\s*-\s*/gim, "Play - "],
+            [/^Position A-\s*/gim, "Position A - "],
+            [/^Position B-\s*/gim, "Position B - "],
+            [/^Position C-\s*/gim, "Position C - "],
+            [/^Position D-\s*/gim, "Position D - "],
+            [/^Read thethrow-As/gim, "Read the throw - As"],
+            [/^Release!'Unner IDthird-/gim, "Release runner to third - "],
+            [/^Rdtal,eor Rotation\s*-/gim, "Rotate or Rotation - "],
+            [/^Ro'lation \(reverse\)\s*-/gim, "Rotation (reverse) - "],
+            [/^Rullnimg lane\s*-/gim, "Running lane - "],
+            [/^Runners\s*-\s*/gim, "Runners - "],
+            [/^Secondary play\s*-\s*/gim, "Secondary play - "],
+            [/^Set for the play\s*-\s*/gim, "Set for the play - "],
+            [/^Split atF8\s*-/gim, "Split at F8 - "],
+            [/^Starting position\s*-\s*/gim, "Starting position - "],
+            [/^Stayshome\s*-\s*/gim, "Stays home - "],
+            [/^Stepup,turnandface the ball\s*-\s*/gim, "Step up, turn and face the ball - "],
+            [/^Square lothe bag\s*-\s*/gim, "Square to the bag - "],
+            [/^Subsequent play\s*-\s*/gim, "Subsequent play - "],
+            [/^The V\s*-\s*/gim, "The V - "],
+            [/^Third-base lineextended\s*-\s*/gim, "Third-base line extended - "],
+            [/^Timeplay\s*-\s*/gim, "Time play - "],
+            [/^Troublebatl\s*-\s*/gim, "Trouble ball - "],
+            [/^Trail BR\s*-\s*/gim, "Trail BR - "],
+            [/^U1\s*-\s*/gim, "U1 - "],
+            [/^U2\s*-\s*/gim, "U2 - "],
+            [/^U3\s*-\s*/gim, "U3 - "],
+            [/^Working the wedge\s*-\s*/gim, "Working the wedge - "],
+            [/^Drift-\s*/gim, "Drift - "],
             [/^Opening Ille gate -A/gim, "Opening the gate - A"],
             [/^Pause, readand react -A/gim, "Pause, read and react - A"],
             [/^Play - The action that develops as a runner, the balland a fielder/gim, "Play - The action that develops as a runner, the ball and a fielder"],
@@ -206,13 +310,16 @@
             })
             .filter(Boolean)
             .filter(function (line) {
-              return !/^(Tbe Bo¥|profile view|Iron! view|front view|WORKING THE PLATE WORKING THE PLATE)$/i.test(line);
+              return !/^(Tbe Bo¥|profile view|Iron! view|front view|WORKING THE PLATE WORKING THE PLATE|WORKING THE BASES WORKING THE BASES)$/i.test(line);
             })
             .filter(function (line) {
               return !/^(i|ii|iii|iv|v|vi|vii|viii|ix|x)$/i.test(line);
             })
             .filter(function (line) {
               return !/^\d+\s*$/.test(line);
+            })
+            .filter(function (line) {
+              return !/^(Whatthatmeans isyou have to be "onit" every pitch and every play.*|\.{3,})$/i.test(line);
             });
 
           return lines.join("\n").replace(/\n{3,}/g, "\n\n").trim();
