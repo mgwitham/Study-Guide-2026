@@ -574,11 +574,18 @@ function cleanManualReaderText(text) {
     [/oneof/g, "one of"],
     [/themost/g, "the most"],
     [/inhecountry/g, "in the country"],
+    [/at ,e high school level/g, "at the high school level"],
+    [/at ,e higlhsclmol level/g, "at the high school level"],
     [/higlhsclmol/g, "high school"],
     [/highschool/g, "high school"],
+    [/thenumber/g, "the number"],
+    [/theneed/g, "the need"],
     [/Unlikesports/g, "Unlike sports"],
     [/youmight/g, "you might"],
+    [/havea set partner/g, "have a set partner"],
     [/Umpirestyp,ically/g, "Umpires typically"],
+    [/Umpirestyp, ically/g, "Umpires typically"],
+    [/witha different partner/g, "with a different partner"],
     [/differernt/g, "different"],
     [/oomes/g, "comes"],
     [/mechariics/g, "mechanics"],
@@ -752,6 +759,37 @@ function cleanManualReaderText(text) {
     .replace(/Definition of Terms\s+Definition of Terms/g, "Definition of Terms")
     .replace(/SECTION 2 DEFINITION OF TERMS\s+Part 1\s+Definition of Terms/g, "SECTION 2 DEFINITION OF TERMS")
     .replace(/Play ball!\s+SECTION 2 DEFINITION OF TERMS/g, "Play ball!\n\nSECTION 2 DEFINITION OF TERMS")
+    .replace(/SECTION 9 CREW OF TWO:\s*RI\.INNER ON THI;RD/g, "SECTION 9 CREW OF TWO: RUNNER ON THIRD")
+    .replace(/SECTION 9 CREW OF TWO:\s*RI\.INNER ON THl;RD/g, "SECTION 9 CREW OF TWO: RUNNER ON THIRD")
+    .replace(/SECTION 10 CREW OF THREE::\s*NO RUNNERS ON\s*SECTION 10 CREW OF THREE:\s*NO RUNNERSON\s*-[,.\-]*/g, "SECTION 10 CREW OF THREE: NO RUNNERS ON")
+    .replace(/SECTION 10 CREW OF THREE:\s*RUNNER ON FIRST\s*SECTION 10 CREW OF THREE:\s*RUNNER ON FIRST\s*-[,.\-]*/g, "SECTION 10 CREW OF THREE: RUNNER ON FIRST")
+    .replace(/SECTION 10 CREW OF THREE::\s*RUNNERS ON FIRST AND SECOND/g, "SECTION 10 CREW OF THREE: RUNNERS ON FIRST AND SECOND")
+    .replace(/SECTION 10 CREW OF THREE:\s*RUNNERS ON FIRST AND SECOND\s*SECTION 10 CREW OF THREE:\s*RUNNERS ON FIRST AND SECOND/g, "SECTION 10 CREW OF THREE: RUNNERS ON FIRST AND SECOND")
+    .replace(/CREWOFTHREE:\s*RUNNERSON FIRST AND SECOND\s*CREWOFTHREE:\s*RUNNERS ON FIRST AND SECOND/g, "SECTION 10 CREW OF THREE: RUNNERS ON FIRST AND SECOND")
+    .replace(/SECTION 10 CREW OF THREE\.\:\s*RUNNERS ON FIRST AND SECOND/g, "SECTION 10 CREW OF THREE: RUNNERS ON FIRST AND SECOND")
+    .replace(/CREW OFTHREE\.\:RUNNERSON FIRSTAND SECOND/g, "SECTION 10 CREW OF THREE: RUNNERS ON FIRST AND SECOND")
+    .replace(/CREWOFTHREE:RUNNERSON FIRST ANDTHIRD\s*SECTION 10 CREW OF THREE:\s*RUNNERS ON FIRST AND THIRD/g, "SECTION 10 CREW OF THREE: RUNNERS ON FIRST AND THIRD")
+    .replace(/SECTION 10 CREW OF THREE;\s*RUNNER ON SECOND/g, "SECTION 10 CREW OF THREE: RUNNER ON SECOND")
+    .replace(/SECTION 10 CREW OF THREE:\s*RUNNER ON SECOND\s*SECTION 10 CREW OF THREE;\s*RUNNER ON SECOND\s*-[,.\-]*/g, "SECTION 10 CREW OF THREE: RUNNER ON SECOND")
+    .replace(/SECTION 10 CREW OF THREE:\s*RUNNER ON SECOND\s*SECTION 10 CREW OF THREE:\s*RUNNER ON SECOND\s*-[,.\-]*/g, "SECTION 10 CREW OF THREE: RUNNER ON SECOND")
+    .replace(/SECTION 11 CREW OF FOUR:\s*RUNNERSON FIRST ANO THIRD\s*SECTION 11 CREW OF FOUR:\s*RUNNERS ON FIRST AND THIBD\s*-[,.\-]*/g, "SECTION 11 CREW OF FOUR: RUNNERS ON FIRST AND THIRD")
+    .replace(/SECTION 11 CREW OF FOUR:\s*RUNNERSON FIRST ANO THIRD\s*SECTION 11 CREW OF FOUR:\s*RUNNERS ON FIRST AND THIRD\s*-[,.\-]*/g, "SECTION 11 CREW OF FOUR: RUNNERS ON FIRST AND THIRD")
+    .replace(/SECTION 11 CREW OF FOUR:\s*RUNNE\.\s*RSON FIRST ANO THIRD/g, "SECTION 11 CREW OF FOUR: RUNNERS ON FIRST AND THIRD")
+    .replace(/SECTION 11 CREW OF FOUR:\s*RUNNEB ON SECOND\s*SECTION 11 CREW OF FOUR:\s*RUNNER ON SECOND\s*"+/g, "SECTION 11 CREW OF FOUR: RUNNER ON SECOND")
+    .replace(/SECTION 11 CREW OF FOUR:\s*RUNNER ON SECOND\s*SECTION 11 CREW OF FOUR:\s*RUNNER ON SECOND\s*"+/g, "SECTION 11 CREW OF FOUR: RUNNER ON SECOND")
+    .replace(/RUNNERSON/g, "RUNNERS ON")
+    .replace(/RUNNE\.\s*RSON/g, "RUNNERS ON")
+    .replace(/RUNNEB ON SECOND/g, "RUNNER ON SECOND")
+    .replace(/RI\.INNER/g, "RUNNER")
+    .replace(/THI;RD/g, "THIRD")
+    .replace(/THl;RD/g, "THIRD")
+    .replace(/THIBD/g, "THIRD")
+    .replace(/ANO/g, "AND")
+    .replace(/FOI\.IR/g, "FOUR")
+    .replace(/CREWOF/g, "CREW OF ")
+    .replace(/CREW OFTHREE/g, "CREW OF THREE")
+    .replace(/CREW OF FOUR:/g, "SECTION 11 CREW OF FOUR:")
+    .replace(/SECTION 10 CREW OF THREE::/g, "SECTION 10 CREW OF THREE:")
     .replace(/Clear the runner - At the conclusion/g, "Clear the runner - At the conclusion")
     .replace(/Cutout - On diamonds/g, "Cutout - On diamonds")
     .replace(/Dead-ball signal - To indicate/g, "Dead-ball signal - To indicate")
@@ -783,6 +821,13 @@ function cleanManualReaderText(text) {
     .replace(/\bSECTION 9 SECTION 9\b/g, "SECTION 9")
     .replace(/\bSECTION 10 SECTION 10\b/g, "SECTION 10")
     .replace(/\bSECTION 11 SECTION 11\b/g, "SECTION 11")
+    .replace(/SECTION 11 SECTION 11 CREW OF FOUR:/g, "SECTION 11 CREW OF FOUR:")
+    .replace(/SECTION 10 SECTION 10 CREW OF THREE:/g, "SECTION 10 CREW OF THREE:")
+    .replace(/SECTION 9 SECTION 9 CREW OF TWO:/g, "SECTION 9 CREW OF TWO:")
+    .replace(/SECTION 11 CREW OF FOUR:\s*RUNNERS ON FIRST AND THIRD\s*SECTION 11 CREW OF FOUR:\s*RUNNERS ON FIRST AND THIRD/g, "SECTION 11 CREW OF FOUR: RUNNERS ON FIRST AND THIRD")
+    .replace(/SECTION 11 CREW OF FOUR:\s*RUNNER ON SECOND\s*SECTION 11 CREW OF FOUR:\s*RUNNER ON SECOND/g, "SECTION 11 CREW OF FOUR: RUNNER ON SECOND")
+    .replace(/SECTION 10 CREW OF THREE::/g, "SECTION 10 CREW OF THREE:")
+    .replace(/SECTION 10 CREW OF THREE;/g, "SECTION 10 CREW OF THREE:")
     .replace(/\n([A-Z][A-Za-z0-9" -]{2,}) - /g, "\n$1 - ")
     .replace(/\n{3,}/g, "\n\n");
 
