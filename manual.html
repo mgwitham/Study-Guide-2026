@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2026 Umpires Manual</title>
+    <link rel="stylesheet" href="./styles.css?v=20260326-4" />
+    <style>
+      .manual-page {
+        width: calc(100% - 32px);
+        margin: 0 auto;
+        padding: 28px 0 72px;
+      }
+
+      .manual-panel {
+        border: 1px solid var(--line);
+        border-radius: var(--radius-xl);
+        background: var(--surface);
+        padding: 28px;
+      }
+
+      .manual-toolbar {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 16px;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+
+      .manual-layout {
+        display: grid;
+        grid-template-columns: 280px minmax(0, 1fr);
+        gap: 24px;
+      }
+
+      @media (max-width: 900px) {
+        .manual-layout {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="manual-page">
+      <section class="manual-panel">
+        <div class="manual-toolbar">
+          <div>
+            <p class="section-label">Umpires Manual Reader</p>
+            <h1 id="manual-title">2026 Umpires Manual</h1>
+            <p class="rule-reader-source">Official 2026 Umpires Manual</p>
+          </div>
+          <a class="ghost-button" href="./index.html">Back to Study Center</a>
+        </div>
+
+        <div class="manual-layout">
+          <aside class="rule-reader-nav" id="manual-nav">
+            <p class="rule-reader-empty">Loading manual...</p>
+          </aside>
+          <div class="rule-reader-body" id="manual-body">
+            <p class="rule-reader-empty">Loading manual...</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./manual-reader-data.js?v=20260326-4"></script>
+    <script>
+      (function () {
+        function escapeHtml(value) {
+          return String(value || "")
+            .replace(/&/g, "&amp;")
+            .replace(/</g, "&lt;")
+            .replace(/>/g, "&gt;")
+            .replace(/"/g, "&quot;")
+            .replace(/'/g, "&#39;");
+        }
+
+        function renderManualText(text) {
+          const lines = String(text || "")
+            .split("\n")
+            .map((line) => line.replace(/\uFFFD/g, "").replace(/\s+/g, " ").trim())
+            .filter(Boolean);
+
+          const nav = [];
+          const body = [];
+          let index = 0;
+          const headingPattern = /^(Introduction|Definition ?of ?Terms|Working the Plate|Working the Bases|Working ?as a Team|Pregame ?Preparations|Signal Chart|Crew of One|Crew of Two|Crew of Three|Crew of Four)$/i;
+
+          lines.forEach((line) => {
+            if (/^SECTION\s+\d+/i.test(line) || headingPattern.test(line)) {
+              index += 1;
+              const id = "manual-section-" + index;
+              nav.push('<a href="#' + id + '" class="rule-reader-nav-link">' + escapeHtml(line) + "</a>");
+              body.push('<h3 class="rule-reader-section-title" id="' + id + '">' + escapeHtml(line) + "</h3>");
+              return;
+            }
+
+            if (/^(ART\.|PENALTY:|NOTE:|NOTES:|EXCEPTION:)/i.test(line)) {
+              body.push('<p class="rule-reader-paragraph rule-reader-emphasis">' + escapeHtml(line) + "</p>");
+              return;
+            }
+
+            body.push('<p class="rule-reader-paragraph">' + escapeHtml(line) + "</p>");
+          });
+
+          return {
+            navHtml: nav.join("") || '<p class="rule-reader-empty">Scroll the reader for the full manual text.</p>',
+            bodyHtml: body.join("") || '<p class="rule-reader-empty">No manual text was found.</p>',
+          };
+        }
+
+        const manualData = window.LAU_MANUAL_DATA || {};
+        const manualText = manualData.fullManualText || manualData.mechanicsReaderText || "";
+        const nav = document.querySelector("#manual-nav");
+        const body = document.querySelector("#manual-body");
+        const rendered = renderManualText(manualText);
+
+        nav.innerHTML = rendered.navHtml;
+        body.innerHTML = rendered.bodyHtml;
+
+        nav.addEventListener("click", function (event) {
+          const link = event.target.closest(".rule-reader-nav-link");
+          if (!link) {
+            return;
+          }
+
+          event.preventDefault();
+          const href = link.getAttribute("href");
+          const target = href ? document.querySelector(href) : null;
+          if (target) {
+            target.scrollIntoView({ behavior: "smooth", block: "start" });
+          }
+        });
+      })();
+    </script>
+  </body>
+</html>
