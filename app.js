@@ -1,5 +1,6 @@
 const STORAGE_KEY = "lau-study-center-state";
 const LETTERS = ["A", "B", "C", "D"];
+const FULL_MANUAL_LABEL = "__FULL_UMPIRES_MANUAL__";
 const data = window.LAU_STUDY_DATA;
 const rulebookReaderData = window.LAU_RULEBOOK_READER || { entries: [] };
 const manualReaderData = window.LAU_MANUAL_DATA || { mechanicsReaderText: "", fullManualText: "", mechanicsByQuestion: {} };
@@ -402,11 +403,19 @@ function bindEvents() {
   if (ruleReaderManualLink) {
     ruleReaderManualLink.addEventListener("click", (event) => {
       event.preventDefault();
-      if (openRuleReaderLabel !== "Mechanics" || !manualReaderData.fullManualText) {
+      if (
+        (openRuleReaderLabel !== "Mechanics" && openRuleReaderLabel !== FULL_MANUAL_LABEL) ||
+        !manualReaderData.fullManualText
+      ) {
         return;
       }
 
-      ruleReaderShowsFullManual = !ruleReaderShowsFullManual;
+      if (openRuleReaderLabel === FULL_MANUAL_LABEL && ruleReaderShowsFullManual) {
+        openRuleReaderLabel = "Mechanics";
+        ruleReaderShowsFullManual = false;
+      } else {
+        ruleReaderShowsFullManual = !ruleReaderShowsFullManual;
+      }
       renderOpenRuleReader();
     });
   }
@@ -491,7 +500,7 @@ function openRuleReader(label) {
 }
 
 function openFullManualReader() {
-  openRuleReaderLabel = "Mechanics";
+  openRuleReaderLabel = FULL_MANUAL_LABEL;
   activeRulebookCardLabel = "Mechanics";
   ruleReaderShowsFullManual = true;
   renderRulebookHub();
@@ -500,11 +509,11 @@ function openFullManualReader() {
 
 function renderOpenRuleReader() {
   const label = openRuleReaderLabel;
+  const isDirectFullManual = label === FULL_MANUAL_LABEL;
   const entry = rulebookEntriesByLabel.get(label);
   const section = safeRuleSections.find((item) => item.label === label);
 
   if (
-    !entry ||
     !ruleReaderModal ||
     !ruleReaderBody ||
     !ruleReaderTitle ||
@@ -516,7 +525,11 @@ function renderOpenRuleReader() {
     return;
   }
 
-  const showFullManualToggle = label === "Mechanics" && Boolean(manualReaderData.fullManualText);
+  if (!isDirectFullManual && !entry) {
+    return;
+  }
+
+  const showFullManualToggle = (label === "Mechanics" || isDirectFullManual) && Boolean(manualReaderData.fullManualText);
   if (ruleReaderManualLink) {
     ruleReaderManualLink.hidden = !showFullManualToggle;
     ruleReaderManualLink.textContent = ruleReaderShowsFullManual
@@ -540,10 +553,10 @@ function renderOpenRuleReader() {
 
   const readerText = ruleReaderShowsFullManual && showFullManualToggle
     ? manualReaderData.fullManualText
-    : label === "Mechanics"
+    : (label === "Mechanics" || isDirectFullManual)
       ? (manualReaderData.mechanicsReaderText || entry.text)
       : (RULEBOOK_SECTION_OVERRIDES[label] || entry.text);
-  const preparedReaderText = (label === "Mechanics" || (ruleReaderShowsFullManual && showFullManualToggle))
+  const preparedReaderText = (label === "Mechanics" || isDirectFullManual || (ruleReaderShowsFullManual && showFullManualToggle))
     ? cleanManualReaderText(readerText)
     : readerText;
   const rendered = renderRuleReaderContent(preparedReaderText);
