@@ -575,6 +575,8 @@ function cleanManualReaderText(text) {
     [/themost/g, "the most"],
     [/inhecountry/g, "in the country"],
     [/at ,e high school level/g, "at the high school level"],
+    [/at,\s*e high school level/g, "at the high school level"],
+    [/at e high school level/g, "at the high school level"],
     [/at ,e higlhsclmol level/g, "at the high school level"],
     [/higlhsclmol/g, "high school"],
     [/highschool/g, "high school"],
@@ -586,7 +588,22 @@ function cleanManualReaderText(text) {
     [/Umpirestyp,ically/g, "Umpires typically"],
     [/Umpirestyp, ically/g, "Umpires typically"],
     [/witha different partner/g, "with a different partner"],
+    [/\bwhena\b/g, "when a"],
+    [/\bwitha\b/g, "with a"],
+    [/\bbeon\b/g, "be on"],
+    [/\bthesame\b/g, "the same"],
+    [/beon,\s*thesame/g, "be on the same"],
+    [/beon\s+thesame/g, "be on the same"],
+    [/prescribedplay/g, "prescribed play"],
+    [/Theillustrations/g, "The illustrations"],
     [/differernt/g, "different"],
+    [/thecore/g, "the core"],
+    [/Refereehas/g, "Referee has"],
+    [/tocheck/g, "to check"],
+    [/to check with,\s*/g, "to check with "],
+    [/assoc!\s*iations/g, "associations"],
+    [/assignersand/g, "assigners and"],
+    [/andcoverages/g, "and coverages"],
     [/oomes/g, "comes"],
     [/mechariics/g, "mechanics"],
     [/inthislbook/g, "in this book"],
@@ -596,9 +613,13 @@ function cleanManualReaderText(text) {
     [/governing oodies/g, "governing bodies"],
     [/111e/g, "the"],
     [/Umpires arethethirdteam/g, "Umpires are the third team"],
+    [/field Anc\. I whileumpires/g, "field and while umpires"],
+    [/field Anc\.\s*l whileumpires/g, "field and while umpires"],
+    [/whileumpires/g, "while umpires"],
     [/winorlose/g, "win or lose"],
     [/tothegame/g, "to the game"],
     [/Workiingtogether/g, "Working together"],
+    [/teamensuresthe/g, "team ensures the"],
     [/withollt/g, "without"],
     [/issues.This/g, "issues. This"],
     [/DEFINITION OF TERMS/g, "SECTION 2 DEFINITION OF TERMS"],
@@ -609,6 +630,9 @@ function cleanManualReaderText(text) {
     [/Clear the runner/g, "Clear the runner"],
     [/Clear the runner -At/g, "Clear the runner - At"],
     [/runner'ssaf,e/g, "runner's safe"],
+    [/runner'sssaf,\s*e/g, "runner's safe"],
+    [/must assumeresponsibilityfor/g, "must assume responsibility for"],
+    [/must assumeresponsibility/g, "must assume responsibility"],
     [/requiresPU/g, "requires PU"],
     [/rnnner'ssaf,e/g, "runner's safe"],
     [/rnnner/g, "runner"],
@@ -619,7 +643,122 @@ function cleanManualReaderText(text) {
     [/normal positiorn/g, "normal position"],
     [/responsillility/g, "responsibility"],
     [/move,out/g, "move out"],
+    [/move,\s*out of theinfield,\s*ito foul/g, "move out of the infield, into foul"],
     [/loul territory/g, "foul territory"],
+    [/wlo must/g, "who must"],
+    [/Ivegot/g, "I've got"],
+    [/Todo so/g, "To do so"],
+    [/increasethe/g, "increase the"],
+    [/the distance between your llody/g, "the distance between your body"],
+    [/whena play/g, "when a play"],
+    [/umpiretoward/g, "umpire toward"],
+    [/two-umpir,\s*esystem/g, "two-umpire system"],
+    [/defensiveplayers/g, "defensive players"],
+    [/imaginaryl1ine/g, "imaginary line"],
+    [/extendsthefirst-base/g, "extends the first-base"],
+    [/behindthe plate/g, "behind the plate"],
+    [/isthree feet/g, "is three feet"],
+    [/th\.\s*abest possillle angle/g, "the best possible angle"],
+    [/thefirst-baseline/g, "the first-baseline"],
+    [/keepyour eye/g, "keep your eye"],
+    [/onthe l:\s*lall/g, "on the ball"],
+    [/findii necessary/g, "find it necessary"],
+    [/glanceal/g, "glance at"],
+    [/onseveral/g, "on several"],
+    [/tagsup/g, "tags up"],
+    [/eac!\s*h base/g, "each base"],
+    [/passwithin/g, "pass within"],
+    [/mollitor/g, "monitor"],
+    [/rullner's/g, "runner's"],
+    [/varietyof/g, "variety of"],
+    [/umpiremay/g, "umpire may"],
+    [/Ile•required/g, "be required"],
+    [/ellterillgthe/g, "entering the"],
+    [/outfield-grassarea/g, "outfield-grass area"],
+    [/rulecatch\/no catch/g, "rule catch/no catch"],
+    [/fair\/foul on a batted ball/g, "fair/foul on a batted ball"],
+    [/llhat area/g, "That area"],
+    [/oordefed l:\s*ly/g, "bordered by"],
+    [/allclthe/g, "and the"],
+    [/lille/g, "line"],
+    [/Thebox isapproximately/g, "The box is approximately"],
+    [/Playsthat/g, "Plays that"],
+    [/originateill/g, "originate in"],
+    [/most otten/g, "most often"],
+    [/running-lane interferenceviolations/g, "running-lane interference violations"],
+    [/basicumpire's/g, "basic umpire's"],
+    [/ari upright sta11ce/g, "an upright stance"],
+    [/oackward whilepointing/g, "backward while pointing"],
+    [/yourfoottoward/g, "your foot toward"],
+    [/beforetheball/g, "before the ball"],
+    [/withyouropposite/g, "with your opposite"],
+    [/onthedevelopinigplay/g, "on the developing play"],
+    [/Athree-step methodthat/g, "A three-step method that"],
+    [/help youdetermine/g, "help you determine"],
+    [/duringa \(levelopingplay/g, "during a developing play"],
+    [/determinewhat/g, "determine what"],
+    [/eachdeveloping play/g, "each developing play"],
+    [/usedby/g, "used by"],
+    [/heor she/g, "he or she"],
+    [/movesinto/g, "moves into"],
+    [/infiel\(lfromposition/g, "infield from position"],
+    [/tilit lo theoutfield/g, "hit to the outfield"],
+    [/oocurs on/g, "occurs on"],
+    [/The action that developsas/g, "The action that develops as"],
+    [/arrive at tile same place/g, "arrive at the same place"],
+    [/approximatelythesame/g, "approximately the same"],
+    [/A\. playusually/g, "A play usually"],
+    [/movetoa play/g, "move to a play"],
+    [/onlywhenall threeelementsare/g, "only when all three elements are"],
+    [/filrst base/g, "first base"],
+    [/umpirnstandsiinthe/g, "umpire stands in the"],
+    [/there areno/g, "there are no"],
+    [/tllrneumpires/g, "three umpires"],
+    [/thereis a runner on secoml only/g, "there is a runner on second only"],
+    [/allowsthe IJase umpiretoget/g, "allows the base umpire to get"],
+    [/intothe infield/g, "into the infield"],
+    [/field'er/g, "fielder"],
+    [/fit-base sideof/g, "first-base side of"],
+    [/strad'dllean/g, "straddle an"],
+    [/thron\.\s*rgh/g, "through"],
+    [/Whenth,\s*epitcherlakes/g, "When the pitcher takes"],
+    [/hands-on-kneesset/g, "hands-on-knees set"],
+    [/shoulllers/g, "shoulders"],
+    [/therei,\s*sa ru Inner/g, "there is a runner"],
+    [/Thebas,\s*eumpire/g, "The base umpire"],
+    [/thethird-base side of themid'dlleof/g, "the third-base side of the middle of"],
+    [/betweenthepiteher's mound/g, "between the pitcher's mound"],
+    [/linedrawn/g, "line drawn"],
+    [/theedge of thedirtcircle/g, "the edge of the dirt circle"],
+    [/Whell l'he pitcher/g, "When the pitcher"],
+    [/oe in ahands-on-knees set/g, "be in a hands-on-knees set"],
+    [/direc Uy I\. acing/g, "directly facing"],
+    [/begiri inposition C/g, "begin in position C"],
+    [/runner coml:\s*Jinations/g, "runner combinations"],
+    [/P; ickofl/g, "Pickoff"],
+    [/P, lays/g, "Plays"],
+    [/Flv balls/g, "Fly balls"],
+    [/IHelp/g, "Help"],
+    [/IFly/g, "Fly"],
+    [/lasehit/g, "base hit"],
+    [/Grouindball/g, "Ground ball"],
+    [/oerthrow/g, "overthrow"],
+    [/second! Jase/g, "second base"],
+    [/seoond/g, "second"],
+    [/thiird/g, "third"],
+    [/rntate/g, "rotate"],
+    [/rotatim1/g, "rotation"],
+    [/oetter/g, "better"],
+    [/reai?l/g, "read"],
+    [/otserves/g, "observes"],
+    [/Umpireresponslbllltles/g, "Umpire responsibilities"],
+    [/Umplr,?e responslbllitles/g, "Umpire responsibilities"],
+    [/responsib: ilities/g, "responsibilities"],
+    [/resp11nsibilities/g, "responsibilities"],
+    [/Gemeral Information/g, "General Information"],
+    [/llnitlal/g, "Initial"],
+    [/lnltial/g, "Initial"],
+    [/Tit?inW/g, "Throw"],
     [/theplate/g, "the plate"],
     [/Ondiamonds/g, "On diamonds"],
     [/thearea/g, "the area"],
@@ -627,6 +766,7 @@ function cleanManualReaderText(text) {
     [/semi-circulararea/g, "semi-circular area"],
     [/eictending/g, "extending"],
     [/infrillges/g, "infringes"],
+    [/All umpire who is/g, "All umpires, the one who is"],
     [/grass illfield/g, "grass infield"],
     [/cutoutis/g, "cutout is"],
     [/whois/g, "who is"],
@@ -634,6 +774,8 @@ function cleanManualReaderText(text) {
     [/llOlonger/g, "no longer"],
     [/illdicateihat/g, "indicate that"],
     [/raiseboth/g, "raise both"],
+    [/Il Olonger in play/g, "no longer in play"],
+    [/e Ktern:\s*led/g, "extended"],
     [/eKtern:led/g, "extended"],
     [/Ipallms/g, "palms"],
     [/foiward/g, "forward"],
@@ -649,12 +791,20 @@ function cleanManualReaderText(text) {
     [/tile oase/g, "the base"],
     [/Below the knee catch -A/g, "Below the knee catch - A"],
     [/calch/g, "catch"],
+    [/theknee/g, "the knee"],
     [/lie ball/g, "the ball"],
+    [/llall/g, "ball"],
+    [/his! Jack turned/g, "his back turned"],
+    [/reachingtheball/g, "reaching the ball"],
     [/wants to ma.intaina/g, "wants to maintain a"],
+    [/wit11the ball/g, "with the ball"],
     [/wi t11the ball/g, "with the ball"],
     [/within his or her field of view\.Keeping/g, "within his or her field of view. Keeping"],
+    [/theball allows/g, "the ball allows"],
     [/poilltedtoward/g, "pointed toward"],
+    [/front ot them/g, "front of them"],
     [/the1playin/g, "the play in"],
+    [/exceptions exist\.\s*umpires should/g, "exceptions exist. Umpires should"],
     [/exceptionse\)\(Jist\./g, "exceptions exist."],
     [/umpire:,/g, "umpires"],
     [/clear the catcher-Theplate/g, "clear the catcher - The plate"],
@@ -781,13 +931,44 @@ function cleanManualReaderText(text) {
   });
 
   cleaned = cleaned
+    .replace(
+      /(Baseball continues to be one of the most popular sports in the country, especially at the high school level\.[\s\S]*?Play ball!)(?:\s*\1)+/g,
+      "$1"
+    )
+    .replace(
+      /(SECTION 3 WORKING THE PLATE[\s\S]*?The important parts of the job that we'll tackle here are your stance, tracking the pitch, calling it a ball or strike, using the indicator and finally plays at the plate itself,)(?:\s*NFHS.*?\s*Part(?: 1)?\s*\1)+/g,
+      "$1"
+    )
+    .replace(
+      /(Crew of Two: Runners on Base[\s\S]*?That area Is commonly known as the "V\."\s*)(?:\1)+/g,
+      "$1"
+    )
+    .replace(
+      /(WORKING AS A TEAM[\s\S]*?The closer theplay, the more an umpire has to "sell"' the call\.[\s\S]*?Play Pic I\)\.)(?:\s*\1)+/g,
+      "$1"
+    )
+    .replace(
+      /(SECTION 9 CREW OF TWO: RUNNERS ON FIRST AND THIRD[\s\S]*?Don't overcommit toward first in case F3 makes a snap throw to third or home\.[\s\S]*?advance\.)(?:\s*\1)+/g,
+      "$1"
+    )
+    .replace(
+      /(SECTION 10 CREW OF THREE: RUNNERS ON FIRST AND SECOND[\s\S]*?Please note communication withyour crew is imperative\.)(?:\s*\1)+/g,
+      "$1"
+    )
+    .replace(
+      /(SECTION 11 CREW OF FOUR: RUNNER ON THIRD[\s\S]*?U2: Moves into the infield at second base\. U2 has all plays at first and second base\.[\s\S]*?U3: Observes R3's tag up and has all plays at third base\.)(?:\s*\1)+/g,
+      "$1"
+    )
     .replace(/Definition of Terms\s+Definition of Terms/g, "Definition of Terms")
     .replace(/SECTION 2 DEFINITION OF TERMS\s+Part 1\s+Definition of Terms/g, "SECTION 2 DEFINITION OF TERMS")
     .replace(/Play ball!\s+SECTION 2 DEFINITION OF TERMS/g, "Play ball!\n\nSECTION 2 DEFINITION OF TERMS")
     .replace(/SECTION 9 CREW OF TWO:\s*RI\.INNER ON THI;RD/g, "SECTION 9 CREW OF TWO: RUNNER ON THIRD")
     .replace(/SECTION 9 CREW OF TWO:\s*RI\.INNER ON THl;RD/g, "SECTION 9 CREW OF TWO: RUNNER ON THIRD")
+    .replace(/SECTION 9 CREW OF TWO:\s*RI\. INNER ON THI; RD/g, "SECTION 9 CREW OF TWO: RUNNER ON THIRD")
     .replace(/SECTION 10 CREW OF THREE::\s*NO RUNNERS ON\s*SECTION 10 CREW OF THREE:\s*NO RUNNERSON\s*-[,.\-]*/g, "SECTION 10 CREW OF THREE: NO RUNNERS ON")
+    .replace(/SECTION 10 CREW OF THREE:\s*NO RUNNERS ON\s*SECTION 10 CREW OF THREE:\s*NO RUNNERS ON\s*-[,.\-]*/g, "SECTION 10 CREW OF THREE: NO RUNNERS ON")
     .replace(/SECTION 10 CREW OF THREE:\s*RUNNER ON FIRST\s*SECTION 10 CREW OF THREE:\s*RUNNER ON FIRST\s*-[,.\-]*/g, "SECTION 10 CREW OF THREE: RUNNER ON FIRST")
+    .replace(/SECTION 10 CREW OF THREE:\s*RUNNER ON FIRST\s*SECTION 10 CREW OF THREE:\s*RUNNER ON FIRST/g, "SECTION 10 CREW OF THREE: RUNNER ON FIRST")
     .replace(/SECTION 10 CREW OF THREE::\s*RUNNERS ON FIRST AND SECOND/g, "SECTION 10 CREW OF THREE: RUNNERS ON FIRST AND SECOND")
     .replace(/SECTION 10 CREW OF THREE:\s*RUNNERS ON FIRST AND SECOND\s*SECTION 10 CREW OF THREE:\s*RUNNERS ON FIRST AND SECOND/g, "SECTION 10 CREW OF THREE: RUNNERS ON FIRST AND SECOND")
     .replace(/CREWOFTHREE:\s*RUNNERSON FIRST AND SECOND\s*CREWOFTHREE:\s*RUNNERS ON FIRST AND SECOND/g, "SECTION 10 CREW OF THREE: RUNNERS ON FIRST AND SECOND")
@@ -797,12 +978,19 @@ function cleanManualReaderText(text) {
     .replace(/SECTION 10 CREW OF THREE;\s*RUNNER ON SECOND/g, "SECTION 10 CREW OF THREE: RUNNER ON SECOND")
     .replace(/SECTION 10 CREW OF THREE:\s*RUNNER ON SECOND\s*SECTION 10 CREW OF THREE;\s*RUNNER ON SECOND\s*-[,.\-]*/g, "SECTION 10 CREW OF THREE: RUNNER ON SECOND")
     .replace(/SECTION 10 CREW OF THREE:\s*RUNNER ON SECOND\s*SECTION 10 CREW OF THREE:\s*RUNNER ON SECOND\s*-[,.\-]*/g, "SECTION 10 CREW OF THREE: RUNNER ON SECOND")
+    .replace(/SECTION 10 CREW OF THREE:\s*RUNNER ON SECOND\s*SECTION 10 CREW OF THREE:\s*RUNNER ON SECOND/g, "SECTION 10 CREW OF THREE: RUNNER ON SECOND")
     .replace(/SECTION 11 CREW OF FOUR:\s*RUNNERSON FIRST ANO THIRD\s*SECTION 11 CREW OF FOUR:\s*RUNNERS ON FIRST AND THIBD\s*-[,.\-]*/g, "SECTION 11 CREW OF FOUR: RUNNERS ON FIRST AND THIRD")
     .replace(/SECTION 11 CREW OF FOUR:\s*RUNNERSON FIRST ANO THIRD\s*SECTION 11 CREW OF FOUR:\s*RUNNERS ON FIRST AND THIRD\s*-[,.\-]*/g, "SECTION 11 CREW OF FOUR: RUNNERS ON FIRST AND THIRD")
+    .replace(/SECTION 11 CREW OF FOUR:\s*RUNNERS ON FIRST AND THIRD\s*SECTION 11 CREW OF FOUR:\s*RUNNERS ON FIRST AND THIRD\s*-[,.\-]*/g, "SECTION 11 CREW OF FOUR: RUNNERS ON FIRST AND THIRD")
+    .replace(/SECTION 11 CREW OF FOUR:\s*RUNNERS ON FIRST AND THIRD\s*-[,.\-]*/g, "SECTION 11 CREW OF FOUR: RUNNERS ON FIRST AND THIRD")
     .replace(/SECTION 11 CREW OF FOUR:\s*RUNNE\.\s*RSON FIRST ANO THIRD/g, "SECTION 11 CREW OF FOUR: RUNNERS ON FIRST AND THIRD")
     .replace(/SECTION 11 CREW OF FOUR:\s*RUNNEB ON SECOND\s*SECTION 11 CREW OF FOUR:\s*RUNNER ON SECOND\s*"+/g, "SECTION 11 CREW OF FOUR: RUNNER ON SECOND")
     .replace(/SECTION 11 CREW OF FOUR:\s*RUNNER ON SECOND\s*SECTION 11 CREW OF FOUR:\s*RUNNER ON SECOND\s*"+/g, "SECTION 11 CREW OF FOUR: RUNNER ON SECOND")
+    .replace(/SECTION 11 CREW OF FOUR:\s*RUNNER ON SECOND\s*"+/g, "SECTION 11 CREW OF FOUR: RUNNER ON SECOND")
+    .replace(/SECTION 11 CREW OF FOUR:\s*RUNNERON THIRD\s*SECTION 11 CREW OF FOUR:\s*RUNNERON THIRD/g, "SECTION 11 CREW OF FOUR: RUNNER ON THIRD")
+    .replace(/SECTION 11 CREW OF FOUR:\s*RUNNERON THIRD/g, "SECTION 11 CREW OF FOUR: RUNNER ON THIRD")
     .replace(/RUNNERSON/g, "RUNNERS ON")
+    .replace(/RUNNERON/g, "RUNNER ON")
     .replace(/RUNNE\.\s*RSON/g, "RUNNERS ON")
     .replace(/RUNNEB ON SECOND/g, "RUNNER ON SECOND")
     .replace(/RI\.INNER/g, "RUNNER")
@@ -835,6 +1023,7 @@ function cleanManualReaderText(text) {
     .replace(/Release runner to third - When/g, "Release runner to third - When")
     .replace(/Running Lane - The three-foot-wide lane/g, "Running Lane - The three-foot-wide lane")
     .replace(/\bPart\s*\[\)\b/g, "Part 1")
+    .replace(/\bPart\(\)/g, "Part 1")
     .replace(/\bPart&\b/g, "Part 6")
     .replace(/\bPart(\d+)\b/g, "Part $1")
     .replace(/\bSECTION 2 SECTION 2\b/g, "SECTION 2")
@@ -851,6 +1040,8 @@ function cleanManualReaderText(text) {
     .replace(/SECTION 9 SECTION 9 CREW OF TWO:/g, "SECTION 9 CREW OF TWO:")
     .replace(/SECTION 11 CREW OF FOUR:\s*RUNNERS ON FIRST AND THIRD\s*SECTION 11 CREW OF FOUR:\s*RUNNERS ON FIRST AND THIRD/g, "SECTION 11 CREW OF FOUR: RUNNERS ON FIRST AND THIRD")
     .replace(/SECTION 11 CREW OF FOUR:\s*RUNNER ON SECOND\s*SECTION 11 CREW OF FOUR:\s*RUNNER ON SECOND/g, "SECTION 11 CREW OF FOUR: RUNNER ON SECOND")
+    .replace(/---CREW O-f TWO:\s*RU-NNER ON-THIRD\s*-/g, "")
+    .replace(/\n-\.,\s*/g, "\n")
     .replace(/SECTION 10 CREW OF THREE::/g, "SECTION 10 CREW OF THREE:")
     .replace(/SECTION 10 CREW OF THREE;/g, "SECTION 10 CREW OF THREE:")
     .replace(/\n([A-Z][A-Za-z0-9" -]{2,}) - /g, "\n$1 - ")
@@ -872,7 +1063,10 @@ function cleanManualReaderText(text) {
 
     if (
       /^NFHS Baseball Umpires Manual/i.test(line) ||
+      /^NFHS.*Umpires.*Manual/i.test(line) ||
       /^Official 2026 Umpires Manual/i.test(line) ||
+      /^Table of Contents/i.test(line) ||
+      /^CONTENT$/i.test(line) ||
       /^ISBN[-\s]/i.test(line) ||
       /^Referee Enterprises/i.test(line) ||
       /^National Federation of/i.test(line) ||
@@ -885,7 +1079,8 @@ function cleanManualReaderText(text) {
       /^KEY$/i.test(line) ||
       /^[0-9]+$/.test(line) ||
       /^[\W_]+$/.test(line) ||
-      /[#$%&*@|]{2,}/.test(line)
+      /[#$%&*@|]{2,}/.test(line) ||
+      /(2025|2026)\s+\d+$/.test(line)
     ) {
       continue;
     }
@@ -915,6 +1110,19 @@ function cleanManualReaderText(text) {
   }
 
   cleaned = filtered.join("\n").replace(/\n{3,}/g, "\n\n");
+  cleaned = cleaned
+    .replace(/SECTION 4 WORKING THE BASES\s*[-,.;]+/g, "SECTION 4 WORKING THE BASES")
+    .replace(/SECTION 3 WORKING THE PLATE\s*[-,.;]+/g, "SECTION 3 WORKING THE PLATE")
+    .replace(/SECTION 5 WORKING AS A TEAM\s*[-,.;]+/g, "SECTION 5 WORKING AS A TEAM")
+    .replace(/SECTION 6 PREGAME PREPARATIONS\s*[-,.;]+/g, "SECTION 6 PREGAME PREPARATIONS")
+    .replace(/SECTION 7 SIGNAL CHART\s*[-,.;]+/g, "SECTION 7 SIGNAL CHART")
+    .replace(/SECTION 8 CREW OF ONE\s*[-,.;]+/g, "SECTION 8 CREW OF ONE")
+    .replace(/SECTION 9 CREW OF TWO:[\s-.,;]*/g, "SECTION 9 CREW OF TWO: ")
+    .replace(/SECTION 10 CREW OF THREE:[\s-.,;]*/g, "SECTION 10 CREW OF THREE: ")
+    .replace(/SECTION 11 CREW OF FOUR:[\s-.,;]*/g, "SECTION 11 CREW OF FOUR: ")
+    .replace(/SECTION 11 CREW OF FOUR:\s*RUNNERS ON FIRST AND THIRD\s*[-,.;]+/g, "SECTION 11 CREW OF FOUR: RUNNERS ON FIRST AND THIRD")
+    .replace(/:\s+/g, ": ")
+    .replace(/\n{3,}/g, "\n\n");
 
   return cleaned.trim();
 }
