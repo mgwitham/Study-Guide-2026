@@ -599,6 +599,7 @@ function cleanManualReaderText(text) {
     [/Definitionof Tenns/g, "Definition of Terms"],
     [/Definitionof Terms/g, "Definition of Terms"],
     [/Delinilian al Terms/g, "Definition of Terms"],
+    [/Clear the runner/g, "Clear the runner"],
     [/Clear the runner -At/g, "Clear the runner - At"],
     [/runner'ssaf,e/g, "runner's safe"],
     [/two-umpirecrew/g, "two-umpire crew"],
@@ -616,13 +617,20 @@ function cleanManualReaderText(text) {
     [/llOlonger/g, "no longer"],
     [/eKtern:led/g, "extended"],
     [/foiward/g, "forward"],
+    [/Ile as simpleas/g, "It may be as simple as"],
     [/simpleas/g, "simple as"],
     [/d'etermined dmillg/g, "determined during"],
+    [/BR- The batter-runner\./g, "BR - The batter-runner."],
     [/Beforethe play/g, "Before the play"],
+    [/All abbreviationfor/g, "An abbreviation for"],
+    [/beforea fielder/g, "before a fielder"],
+    [/tile oase/g, "the base"],
     [/Below the knee catch -A/g, "Below the knee catch - A"],
     [/calch/g, "catch"],
     [/lie ball/g, "the ball"],
     [/wants to ma.intaina/g, "wants to maintain a"],
+    [/wi t11the ball/g, "with the ball"],
+    [/umpire:,/g, "umpires"],
     [/clear the catcher-Theplate/g, "clear the catcher - The plate"],
     [/righHoot/g, "right foot"],
     [/right-hancledlbatter/g, "right-handed batter"],
@@ -638,7 +646,9 @@ function cleanManualReaderText(text) {
     [/llattedballs/g, "batted balls"],
     [/marksthebeginning/g, "marks the beginning"],
     [/keepyour eye onthe l:lall/g, "keep your eye on the ball"],
-    [/closepro.*/g, "close proximity (to observe obstruction or interference)"],
+    [/closeproimity\(to observe obstruction or interferellce\)/g, "close proximity (to observe obstruction or interference)"],
+    [/closeproximity\(to observe obstruction or interferellce\)/g, "close proximity (to observe obstruction or interference)"],
+    [/close proximity \(to observe obstruction or interferellce\)/g, "close proximity (to observe obstruction or interference)"],
     [/Imaginarybox/g, "Imaginary box"],
     [/approximately 45 feel by 45 feet square/g, "approximately 45 feet by 45 feet square"],
     [/Opening the gate-A/g, "Opening the gate - A"],
@@ -647,6 +657,13 @@ function cleanManualReaderText(text) {
     [/IJatted or thrownIJall/g, "batted or thrown ball"],
     [/with your feet comfortably apart;keepingyourchest/g, "with your feet comfortably apart; keeping your chest"],
     [/Pause, read and react-Athree-step/g, "Pause, read and react - A three-step"],
+    [/determinewhereyou shouldgo/g, "determine where you should go"],
+    [/what your responsibilities will tie/g, "what your responsibilities will be"],
+    [/observethe initial action/g, "observe the initial action"],
+    [/what playis goiirlgtodevelop/g, "what play is going to develop"],
+    [/what position adjustment youshould make/g, "what position adjustment you should make"],
+    [/anticipated play/g, "anticipated play"],
+    [/toyour partner/g, "to your partner"],
     [/goiirlgtodevelop/g, "going to develop"],
     [/posilion/g, "position"],
     [/two-manumpiring/g, "two-man umpiring"],
@@ -665,10 +682,17 @@ function cleanManualReaderText(text) {
     [/PositionD/g, "Position D"],
     [/Inathree-umpiirecrew/g, "In a three-umpire crew"],
     [/PositionE/g, "Position E"],
+    [/mcis1 likelytcihit/g, "most likely to hit"],
+    [/Rea\(!the throw-Asa/g, "Read the throw - As a"],
+    [/qualityof the thrnw/g, "quality of the throw"],
+    [/positionto otiserve/g, "position to observe"],
+    [/positionaccordinglo the throw/g, "position according to the throw"],
     [/goijd/g, "good"],
     [/otiserve/g, "observe"],
     [/tiad/g, "bad"],
     [/Releaserunner to third/g, "Release runner to third"],
+    [/rnnner to PUand assume/g, "runner to PU and assume"],
+    [/other\(trailing\) runners/g, "other (trailing) runners"],
     [/Rotate or Rotation/g, "Rotate or Rotation"],
     [/clockwisedirection/g, "clockwise direction"],
     [/second oase/g, "second base"],
@@ -711,17 +735,42 @@ function cleanManualReaderText(text) {
     .replace(/\b2025 and 2026\b/g, "")
     .replace(/\bPlayPic\b/g, "PlayPic")
     .replace(/\.{2,}/g, ".")
+    .replace(/([a-z])\u00ad([a-z])/gi, "$1$2")
     .replace(/([a-z])([A-Z])/g, "$1 $2")
     .replace(/([a-zA-Z]),([a-zA-Z])/g, "$1, $2")
     .replace(/([a-zA-Z])\.([A-Z])/g, "$1. $2")
     .replace(/\s+([,.;:!?])/g, "$1")
-    .replace(/([,.;:!?])([A-Za-z])/g, "$1 $2");
+    .replace(/([,.;:!?])([A-Za-z])/g, "$1 $2")
+    .replace(/ -([A-Z])/g, " - $1")
+    .replace(/([a-z])-(At|The|A|An)\b/g, "$1 - $2");
 
   replacements.forEach(([pattern, replacement]) => {
     cleaned = cleaned.replace(pattern, replacement);
   });
 
   cleaned = cleaned
+    .replace(/Definition of Terms\s+Definition of Terms/g, "Definition of Terms")
+    .replace(/SECTION 2 DEFINITION OF TERMS\s+Part 1\s+Definition of Terms/g, "SECTION 2 DEFINITION OF TERMS")
+    .replace(/Play ball!\s+SECTION 2 DEFINITION OF TERMS/g, "Play ball!\n\nSECTION 2 DEFINITION OF TERMS")
+    .replace(/Clear the runner - At the conclusion/g, "Clear the runner - At the conclusion")
+    .replace(/Cutout - On diamonds/g, "Cutout - On diamonds")
+    .replace(/Dead-ball signal - To indicate/g, "Dead-ball signal - To indicate")
+    .replace(/Below the knee catch - A catch/g, "Below the knee catch - A catch")
+    .replace(/Chest to the ball - Each umpire/g, "Chest to the ball - Each umpire")
+    .replace(/Clear the catcher - The plate umpire/g, "Clear the catcher - The plate umpire")
+    .replace(/Drift - Slight movement/g, "Drift - Slight movement")
+    .replace(/Fielders - The defensive players/g, "Fielders - The defensive players")
+    .replace(/First-baseline extended - An imaginary line/g, "First-baseline extended - An imaginary line")
+    .replace(/45-foot line - The 45-foot line/g, "45-foot line - The 45-foot line")
+    .replace(/Glance at the runner - Although/g, "Glance at the runner - Although")
+    .replace(/"Go" or "goes" - Under/g, "\"Go\" or \"goes\" - Under")
+    .replace(/Imaginary box - That area/g, "Imaginary box - That area")
+    .replace(/Opening the gate - A basic umpire's movement/g, "Opening the gate - A basic umpire's movement")
+    .replace(/Pause, read and react - A three-step method/g, "Pause, read and react - A three-step method")
+    .replace(/Pivot - The three-step movement/g, "Pivot - The three-step movement")
+    .replace(/Read the throw - As a play develops/g, "Read the throw - As a play develops")
+    .replace(/Release runner to third - When/g, "Release runner to third - When")
+    .replace(/Running Lane - The three-foot-wide lane/g, "Running Lane - The three-foot-wide lane")
     .replace(/\bPart\s*\[\)\b/g, "Part 1")
     .replace(/\bPart&\b/g, "Part 6")
     .replace(/\bPart(\d+)\b/g, "Part $1")
@@ -734,6 +783,7 @@ function cleanManualReaderText(text) {
     .replace(/\bSECTION 9 SECTION 9\b/g, "SECTION 9")
     .replace(/\bSECTION 10 SECTION 10\b/g, "SECTION 10")
     .replace(/\bSECTION 11 SECTION 11\b/g, "SECTION 11")
+    .replace(/\n([A-Z][A-Za-z0-9" -]{2,}) - /g, "\n$1 - ")
     .replace(/\n{3,}/g, "\n\n");
 
   return cleaned.trim();
