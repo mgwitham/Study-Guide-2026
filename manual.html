@@ -32,11 +32,150 @@
         display: grid;
         grid-template-columns: 280px minmax(0, 1fr);
         gap: 24px;
+        align-items: start;
+      }
+
+      .manual-nav-panel,
+      .manual-body-panel {
+        border: 1px solid var(--line);
+        border-radius: var(--radius-xl);
+        background: linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
+        box-shadow: 0 12px 28px rgba(20, 29, 38, 0.06);
+      }
+
+      .manual-nav-panel {
+        position: sticky;
+        top: 20px;
+        overflow: hidden;
+      }
+
+      .manual-nav-header,
+      .manual-body-header {
+        padding: 18px 20px 14px;
+        border-bottom: 1px solid var(--line);
+        background: linear-gradient(180deg, #f5f9fd 0%, #ffffff 100%);
+      }
+
+      .manual-nav-title,
+      .manual-body-title {
+        margin: 0;
+        font-size: 0.8rem;
+        font-weight: 800;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: var(--accent-dark);
+      }
+
+      .manual-nav-caption,
+      .manual-body-caption {
+        margin: 8px 0 0;
+        color: var(--muted);
+        font-size: 0.95rem;
+        line-height: 1.5;
+      }
+
+      .manual-nav-list {
+        display: grid;
+        gap: 10px;
+        padding: 16px;
+        max-height: calc(100vh - 180px);
+        overflow: auto;
+      }
+
+      .manual-nav-link {
+        display: block;
+        padding: 14px 16px;
+        border: 1px solid rgba(58, 92, 128, 0.18);
+        border-radius: 14px;
+        background: linear-gradient(180deg, #ffffff 0%, #eef5fb 100%);
+        color: var(--accent-dark);
+        font-weight: 800;
+        text-decoration: none;
+        line-height: 1.35;
+        box-shadow:
+          0 1px 0 rgba(255, 255, 255, 0.9) inset,
+          0 8px 18px rgba(20, 29, 38, 0.06);
+        transition:
+          transform 180ms ease,
+          box-shadow 180ms ease,
+          border-color 180ms ease,
+          background 180ms ease;
+      }
+
+      .manual-nav-link:hover,
+      .manual-nav-link:focus-visible {
+        transform: translateY(-1px);
+        border-color: rgba(47, 110, 165, 0.28);
+        box-shadow:
+          0 1px 0 rgba(255, 255, 255, 0.95) inset,
+          0 12px 24px rgba(20, 29, 38, 0.1);
+        outline: none;
+      }
+
+      .manual-body-panel {
+        overflow: hidden;
+      }
+
+      .manual-body-scroll {
+        padding: 24px 26px 30px;
+      }
+
+      .manual-body-scroll .rule-reader-section-title:first-child {
+        margin-top: 0;
+      }
+
+      .manual-body-scroll .rule-reader-section-title {
+        margin: 28px 0 14px;
+        padding-top: 8px;
+        font-size: 1.35rem;
+        line-height: 1.15;
+        color: var(--ink);
+      }
+
+      .manual-body-scroll .rule-reader-paragraph {
+        margin: 0 0 14px;
+        color: var(--ink);
+        line-height: 1.72;
+        max-width: 72ch;
+      }
+
+      .manual-body-scroll .rule-reader-empty,
+      .manual-nav-list .rule-reader-empty {
+        margin: 0;
+        color: var(--muted);
+        line-height: 1.6;
+      }
+
+      .manual-back-to-top {
+        position: fixed;
+        right: 22px;
+        bottom: 22px;
+        z-index: 10;
+        opacity: 0;
+        pointer-events: none;
+        transform: translateY(8px);
+        transition:
+          opacity 180ms ease,
+          transform 180ms ease;
+      }
+
+      .manual-back-to-top.is-visible {
+        opacity: 1;
+        pointer-events: auto;
+        transform: translateY(0);
       }
 
       @media (max-width: 900px) {
         .manual-layout {
           grid-template-columns: 1fr;
+        }
+
+        .manual-nav-panel {
+          position: static;
+        }
+
+        .manual-nav-list {
+          max-height: none;
         }
       }
     </style>
@@ -49,21 +188,35 @@
             <p class="section-label">Umpires Manual Reader</p>
             <h1 id="manual-title">2026 Umpires Manual</h1>
             <p class="rule-reader-source">Official 2026 Umpires Manual</p>
-            <p class="panel-copy">Version 2 manual loader</p>
+            <p class="panel-copy">Clean study edition</p>
           </div>
           <a class="ghost-button" href="./index.html">Back to Study Center</a>
         </div>
 
         <div class="manual-layout">
-          <aside class="rule-reader-nav" id="manual-nav">
-            <p class="rule-reader-empty">Loading manual...</p>
+          <aside class="manual-nav-panel">
+            <div class="manual-nav-header">
+              <p class="manual-nav-title">Sections</p>
+              <p class="manual-nav-caption">Jump to the section you want to review.</p>
+            </div>
+            <div class="manual-nav-list rule-reader-nav" id="manual-nav">
+              <p class="rule-reader-empty">Loading manual...</p>
+            </div>
           </aside>
-          <div class="rule-reader-body" id="manual-body">
-            <p class="rule-reader-empty">Loading manual...</p>
-          </div>
+          <section class="manual-body-panel">
+            <div class="manual-body-header">
+              <p class="manual-body-title">Manual Text</p>
+              <p class="manual-body-caption">Clean study edition based on the 2026 manual source.</p>
+            </div>
+            <div class="manual-body-scroll rule-reader-body" id="manual-body">
+              <p class="rule-reader-empty">Loading manual...</p>
+            </div>
+          </section>
         </div>
       </section>
     </main>
+
+    <button type="button" class="ghost-button manual-back-to-top" id="manual-back-to-top">Back to top</button>
 
     <script>
       (function () {
@@ -76,56 +229,36 @@
             .replace(/'/g, "&#39;");
         }
 
-        function cleanManualText(text) {
-          let cleaned = String(text || "")
-            .replace(/\r/g, "")
-            .replace(/\u00a0/g, " ")
-            .replace(/\u2019/g, "'")
-            .replace(/\u2018/g, "'")
-            .replace(/\u201c/g, '"')
-            .replace(/\u201d/g, '"')
-            .replace(/\uFFFD/g, "")
-            .replace(/[<>]/g, "")
-            .replace(/Part\[\]/g, "")
-            .replace(/Part\]\]/g, "")
-            .replace(/^\s*[\u2022•]+\s*/gm, "")
-            .replace(/^[\t .•,;:'"“”‘’\-_/\\|]+$/gm, "")
-            .replace(/^\s*[•.]\s*/gm, "")
-            .replace(/\n{3,}/g, "\n\n");
-
-          cleaned = cleaned.replace(
-            /Introduction[\s\S]*?Play ball!/i,
-            [
-              "Introduction",
+        const CLEAN_MANUAL_SECTIONS = [
+          {
+            title: "Introduction",
+            paragraphs: [
               "Baseball continues to be one of the most popular sports in the country, especially at the high school level. With the growth in the number of athletes and teams, the need for umpires is greater than ever.",
-              "Unlike sports where you might have a set partner or crew, high school baseball umpires usually do not work with the same partner every game. Because of this, it is important for umpires to be on the same page when it comes to mechanics and prescribed play coverages.",
-              "The illustrations and explanations in this manual are intended to give umpires consistent reference points for proper mechanics, procedures and responsibilities. In certain situations, your local association or governing body may prescribe a different coverage or mechanic, so always follow local policy where required.",
-              "Umpires are the third team on the field. While umpires never win or lose the game, they are vital to the game running smoothly. Working together as a team keeps coverage consistent and helps the game move without unnecessary issues.",
-              "Play ball!"
-            ].join("\n\n")
-          );
-
-          cleaned = cleaned.replace(
-            /DEFINITION OF TERMS[\s\S]*?WORKING THE PLATE/i,
-            [
-              "DEFINITION OF TERMS",
-              "Clear the runner - At the conclusion of any play that requires the plate umpire to cover a runner's safe advance to a base, U1 must assume responsibility for that runner so PU can return to the plate area.",
-              "Cutout - On diamonds with grass infields, the dirt area adjacent to each base. An umpire working from the cutout is usually about 12 to 15 feet from the play.",
+              "Unlike sports where you might have a fixed partner or crew, high school baseball umpires often work with different partners from game to game. Because of that, it is important that everyone use the same mechanics language and coverage expectations.",
+              "This clean study edition is meant to give you a readable mechanics overview built from the 2026 Umpires Manual source you provided. It emphasizes consistent positioning, communication and crew responsibility rather than preserving every OCR-damaged line exactly as scanned.",
+              "Umpires are the third team on the field. While umpires do not win or lose the game, they are vital to the game running smoothly. Working together as a crew keeps coverage consistent and helps the game move without unnecessary issues."
+            ]
+          },
+          {
+            title: "DEFINITION OF TERMS",
+            paragraphs: [
+              "Clear the runner - At the conclusion of any play that requires the plate umpire to cover a runner's safe advance to a base, U1 assumes responsibility for that runner so PU can return to the plate area.",
+              "Cutout - The dirt area adjacent to a base on a grass infield. An umpire working from the cutout is usually about 12 to 15 feet from the play.",
               "Dead-ball signal - Both hands raised slightly above the head with palms forward while calling, \"Time!\"",
               "BR - The batter-runner.",
-              "Before the play - Means before a fielder attempts a tag, before a fielder attempts a catch, or before the runner arrives at the base. Ideally, the umpire is set before the critical moment of the play.",
-              "Below-the-knee catch - A catch that requires the covering umpire to actively rule on catch/no catch because the fielder reaches low, dives, falls, turns away from the infield, or collides with another player.",
+              "Before the play - Means before a tag, before a catch attempt, or before the runner arrives at the base. Ideally, the umpire is set before the critical moment.",
+              "Below-the-knee catch - A catch that requires an active catch/no catch decision because the fielder reaches low, dives, falls, turns away from the infield, or collides with another player.",
               "Chest to the ball - Keep your chest pointed toward the ball so the play stays in front of you.",
-              "Clear the catcher - When a play follows a pitch, PU steps back and away from the catcher to create space and a better angle to the developing play.",
+              "Clear the catcher - When a play follows a pitch, PU steps back and away from the catcher to create space and a better angle.",
               "Drift - Slight movement by a base umpire toward the base where the next play may occur.",
-              "Fielders - Defensive players, numbered for scorekeeping purposes: F1 is the pitcher, F2 the catcher, F3 the first baseman, and so on.",
+              "Fielders - Defensive players, numbered for scorekeeping purposes: F1 pitcher, F2 catcher, F3 first baseman, and so on.",
               "First-base line extended - The imaginary line extending the first-base fair/foul line into foul territory behind the plate.",
               "45-foot line - Marks the beginning of the runner's lane and serves as a positioning benchmark for several mechanics.",
               "Glance at the runner - A quick look at a runner to confirm tag-ups, touches, obstruction/interference possibilities, and progress during a developing play.",
               "\"Go\" or \"goes\" - When a base umpire leaves the infield and moves into the outfield to rule on a trouble ball.",
               "Imaginary box - The fair-territory area bordered by the plate, the 45-foot line, the mound, and the midpoint of the third-base line. Plays originating there often involve running-lane interference.",
               "Opening the gate - A footwork move that keeps the umpire observing the ball as it passes, then turns the umpire into the developing play.",
-              "Pause, read and react - Observe the initial action, determine what play is developing, then move into the proper position.",
+              "Pause, read and react - Observe the initial action, determine what play is developing, then move into proper position.",
               "PU - The plate umpire.",
               "Play - The action that develops as a runner, the ball and a fielder arrive at the same place at about the same time.",
               "Position A - Foul territory, generally 10 to 15 feet behind first base with no runners on.",
@@ -153,176 +286,110 @@
               "U1 - The base umpire, or first-base umpire in a three-umpire crew.",
               "U2 - The second-base umpire in a four-umpire crew.",
               "U3 - The third-base umpire in a three-umpire crew.",
-              "Working the wedge - Adjusting position to see the ball, the runner and the plate/base come together clearly on a tag play.",
-              "WORKING THE PLATE"
-            ].join("\n\n")
-          );
+              "Working the wedge - Adjust position to see the ball, the runner and the plate/base come together clearly on a tag play."
+            ]
+          },
+          {
+            title: "WORKING THE PLATE",
+            paragraphs: [
+              "There may not be a position in officiating with more focus or attention than the plate umpire in baseball. The plate umpire is involved in every pitch and, when rotating properly, a large share of the plays on the field as well.",
+              "Core plate responsibilities include stance, stable head height, tracking the pitch, calling balls and strikes, handling the indicator, and working plays at the plate.",
+              "Track the pitch with your eyes only. If your head moves, your view of the strike zone becomes less reliable. Watch the ball all the way from the pitcher's hand to the catcher's glove before deciding on ball or strike.",
+              "Timing matters. Call the pitch after it is received, not before. Called balls are usually given from the stance with a clear verbal call. Called strikes are signaled after coming up from the stance. On swinging strikes, use the strike signal without unnecessary extra movement.",
+              "On plays at the plate, start a few steps behind home plate and let the throw and the catcher's setup take you to the proper angle. Work the wedge so you can see the ball, the tag, the runner and the plate clearly."
+            ]
+          },
+          {
+            title: "WORKING THE BASES",
+            paragraphs: [
+              "Working the bases requires as much effort and discipline as working the plate. While the base umpire may not judge as many pitches, base decisions often carry greater impact because they involve outs, runner advancement and game-changing calls.",
+              "Proper base work starts with the correct starting position. In two-umpire mechanics that usually means A, B or C depending on the runner configuration. In three- and four-umpire systems, deeper or wing positions may apply as well.",
+              "Angle is primary and distance is secondary. Get the best line of sight to the tag, force play or touch of the base, then adjust distance as needed.",
+              "Get set before the critical moment whenever possible. A still head and a stopped body give the umpire the best chance to see the play clearly.",
+              "On routine plays at first, take only the steps needed to create the proper angle. On bad throws, read the throw and adjust so you can still see the base and a possible tag."
+            ]
+          },
+          {
+            title: "WORKING AS A TEAM",
+            paragraphs: [
+              "Whether a crew has two or three umpires, the game must be worked as a team. Good communication before the game, before each pitch, during developing plays and after the game is what keeps coverage organized.",
+              "Pregame communication should cover assignments, timing, uniforms, rotations, fair/foul responsibility, catch/no catch coverage, balks, appeals, time plays, slides, conferences, arguments and unusual ground rules.",
+              "Before each play, the crew should confirm the number of outs and any rotation responsibilities. Signals and eye contact help put everyone on the same page.",
+              "During the play, verbal communication matters. If the plate umpire rotates, the plate umpire should say so. If a base umpire goes out on a trouble ball, that should be signaled and verbalized clearly."
+            ]
+          },
+          {
+            title: "PREGAME PREPARATIONS",
+            paragraphs: [
+              "Professional umpire work starts before the first pitch. Partners should confirm game time, site, travel plan, assignments and uniform details before arrival.",
+              "At the field, the crew should check in with game management, inspect the field if possible, and get fully dressed and mentally prepared before the plate meeting.",
+              "The plate meeting should be calm and efficient. The plate umpire usually leads it, confirms lineup cards, reviews ground rules, reminds both coaches about sportsmanship and equipment verification, and gets the game started on time."
+            ]
+          },
+          {
+            title: "SIGNAL CHART",
+            paragraphs: [
+              "Play or Play Ball - Point directly at the pitcher and call, \"Play!\" or \"Play ball!\"",
+              "Do Not Pitch - Hold one arm straight out with the palm facing the pitcher to keep the ball dead.",
+              "Out - Use a firm hammer signal with a strong verbal \"Out!\"",
+              "Time / Dead Ball / Foul Ball - Raise both hands and call, \"Time!\"",
+              "Fair Ball - Point into fair territory without a verbal call unless needed.",
+              "Infield Fly - Point up and declare, \"Infield fly!\" or \"Infield fly, if fair!\"",
+              "Safe / No Catch / Did Not Go - Extend both arms straight out with a clear safe signal."
+            ]
+          },
+          {
+            title: "CREW OF ONE",
+            paragraphs: [
+              "One-umpire mechanics require priorities, hustle and common sense. No one umpire can cover every element perfectly, so the umpire must focus first on the most important responsibility on each play.",
+              "Order of responsibilities is generally fair/foul first, then catch/no catch, then safe/out, then touches and runner responsibilities.",
+              "Angle still matters more than distance. Even with one umpire, arriving at the best line of sight is more important than simply being closer."
+            ]
+          },
+          {
+            title: "CREW OF TWO",
+            paragraphs: [
+              "Two-umpire mechanics are built around angles, shared responsibilities and anticipation. The plate umpire has more movement responsibility than many new umpires expect, including help on pulled feet, swipe tags, slides and plays at third.",
+              "With no runners on, U1 generally starts in A and handles first base, while PU keeps fair/foul responsibility up to first and down the third-base line.",
+              "With runners on, B and C positions become important. U1 is responsible for most plays on the bases, while PU often helps on fair/foul, catch/no catch, touches at third, and plays at the plate.",
+              "Outfield coverage follows the trouble-ball concept. Umpires do not go out automatically; they pause, read and react."
+            ]
+          },
+          {
+            title: "CREW OF THREE",
+            paragraphs: [
+              "Three-umpire mechanics are more complex than two-umpire work because the crew blends inside coverage, wing coverage, rotations and reverse rotations depending on runner configuration and where the ball is hit.",
+              "Communication is essential. Before each pitch, all three umpires should know the number of outs, possible rotations, and who is responsible if a base umpire goes out on a trouble ball.",
+              "When no umpire goes out, the crew uses normal rotation or reverse rotation so that one umpire stays ahead of the lead runner whenever possible."
+            ]
+          },
+          {
+            title: "CREW OF FOUR",
+            paragraphs: [
+              "Four-umpire mechanics provide the best base and outfield coverage, but they require every umpire to understand three-umpire concepts first.",
+              "U1 and U3 handle the foul lines and many line-drive responsibilities near first and third. U2 works inside and helps quarterback coverage on many outfield balls hit in the V.",
+              "A four-umpire crew should not go out automatically on every fly ball. Trouble-ball principles still apply. If a wing umpire goes out, the rest of the crew adjusts accordingly."
+            ]
+          }
+        ];
 
-          const replacements = [
-            [/^m:troduction$/gim, "Introduction"],
-            [/^DEFINITION OFTERMS$/gim, "DEFINITION OF TERMS"],
-            [/^Delinilian al Terms$/gim, "Definition of Terms"],
-            [/^WORKING THEPLATE$/gim, "WORKING THE PLATE"],
-            [/^WORKING THE BASES$/gim, "WORKING THE BASES"],
-            [/^WORKING AS A TEAM$/gim, "WORKING AS A TEAM"],
-            [/^PREGAME PREPARATIONS$/gim, "PREGAME PREPARATIONS"],
-            [/^SIGNAL CHART$/gim, "SIGNAL CHART"],
-            [/^CREW OF ONE$/gim, "CREW OF ONE"],
-            [/^CREW OF TWO$/gim, "CREW OF TWO"],
-            [/^CREW OF THREE$/gim, "CREW OF THREE"],
-            [/^CREW OF FOUR$/gim, "CREW OF FOUR"],
-            [/^SECTION 3 WORKING THE PLATE$/gim, "WORKING THE PLATE"],
-            [/^SECTION 4 WORKING THE BASES$/gim, "WORKING THE BASES"],
-            [/^SECTION 5 WORKING AS A TEAM$/gim, "WORKING AS A TEAM"],
-            [/^SECTION 6 PREGAME PREPARATIONS$/gim, "PREGAME PREPARATIONS"],
-            [/^SECTION 7 SIGNAL CHART$/gim, "SIGNAL CHART"],
-            [/^SECTION 8 CREW OF ONE$/gim, "CREW OF ONE"],
-            [/^SECTION 9 CREW OF TWO.*$/gim, "CREW OF TWO"],
-            [/^SECTION 10 CREW OF THREE.*$/gim, "CREW OF THREE"],
-            [/^SECTION 11 CREW OF FOUR.*$/gim, "CREW OF FOUR"],
-            [/^DEFINITION OF TERMS\s+DEFINITION OF TERMS$/gim, "DEFINITION OF TERMS"],
-            [/^WORKING THE PLATE\s+WORKING THE PLATE$/gim, "WORKING THE PLATE"],
-            [/^WORKING THE BASES\s+WORKING THE BASES$/gim, "WORKING THE BASES"],
-            [/\bBaseoall\b/g, "Baseball"],
-            [/\binthe\b/g, "in the"],
-            [/\bespeciallyat\b/g, "especially at"],
-            [/\bhighschool\b/g, "high school"],
-            [/\btheneedfor\b/g, "the need for"],
-            [/\bthenumber\b/g, "the number"],
-            [/\bthemost\b/g, "the most"],
-            [/\byoumight\b/g, "you might"],
-            [/\bhavea\b/g, "have a"],
-            [/\bwitha\b/g, "with a"],
-            [/\bbeon\b/g, "be on"],
-            [/\btheNFHS\b/g, "the NFHS"],
-            [/\bencourageall\b/g, "encourage all"],
-            [/\bumpiresto\b/g, "umpires to"],
-            [/\bassignersand\b/g, "assigners and"],
-            [/\bwithou,t\.any\b/g, "without any"],
-            [/\bwithou,t\b/g, "without"],
-            [/\bAndwhile\b/g, "And while"],
-            [/\bwin orlose\b/g, "win or lose"],
-            [/\bthegame\b/g, "the game"],
-            [/\bas ateam\b/g, "as a team"],
-            [/\bthird teamonthe\b/g, "third team on the"],
-            [/\bQJear:therunner\b/g, "Clear the runner"],
-            [/\bCutout - On diamonds with grass infields, thearea\b/g, "Cutout - On diamonds with grass infields, the area"],
-            [/\bDead,ball\b/g, "Dead-ball"],
-            [/\bBefore theplay\b/g, "Before the play"],
-            [/\bClear thecatcher\b/g, "Clear the catcher"],
-            [/\bFi11lders\b/g, "Fielders"],
-            [/\bfoulterritory\b/g, "foul territory"],
-            [/\bimaginary linethat\b/g, "imaginary line that"],
-            [/\btheballis nolonger\b/g, "the ball is no longer"],
-            [/\bPlayb:a\/1!\b/g, "Play ball!"],
-            [/\bPU- The plate umpire\./g, "PU - The plate umpire."],
-            [/\bBR- The batter-runner\./g, "BR - The batter-runner."],
-            [/\bThe illustrationsinthis\b/g, "The illustrations in this"],
-            [/\btoexplain\b/g, "to explain"],
-            [/\bmechanicsandprocedurt1s\b/g, "mechanics and procedures"],
-            [/\bmechanicsandprocedures\b/g, "mechanics and procedures"],
-            [/\bIncertain\b/g, "In certain"],
-            [/\bRefereehas\b/g, "Referee has"],
-            [/^\s*"\s*Go\s*"\s*OJ\s*"goes"\s*-/gim, '"Go" or "goes" -'],
-            [/^f"IJ'st-.base line extended\s*-/gim, "First-base line extended -"],
-            [/^\.Cutout\s*-/gim, "Cutout -"],
-            [/^Dead-ball signal\s*-\s*To indical!!/gim, "Dead-ball signal - To indicate"],
-            [/^Below the\.knee catch-A/gim, "Below-the-knee catch - A"],
-            [/^Delinilian al Terms$/gim, "Definition of Terms"],
-            [/^QJear:therunner\s*-\s*/gim, "Clear the runner - "],
-            [/^Dead-ball signal\s*-\s*/gim, "Dead-ball signal - "],
-            [/^Before the play-An abbreviation/gim, "Before the play - An abbreviation"],
-            [/^Clear thecatcher\s*-\s*/gim, "Clear the catcher - "],
-            [/^Fi11lders\s*-\s*/gim, "Fielders - "],
-            [/^Glance at therunner-/gim, "Glance at the runner - "],
-            [/^Imaginary box-\s*/gim, "Imaginary box - "],
-            [/^Opening Ille gate\s*-\s*/gim, "Opening the gate - "],
-            [/^Pause, readand react\s*-\s*/gim, "Pause, read and react - "],
-            [/^PU-\s*/gim, "PU - "],
-            [/^Play\s*-\s*/gim, "Play - "],
-            [/^Position A-\s*/gim, "Position A - "],
-            [/^Position B-\s*/gim, "Position B - "],
-            [/^Position C-\s*/gim, "Position C - "],
-            [/^Position D-\s*/gim, "Position D - "],
-            [/^Read thethrow-As/gim, "Read the throw - As"],
-            [/^Release!'Unner IDthird-/gim, "Release runner to third - "],
-            [/^Rdtal,eor Rotation\s*-/gim, "Rotate or Rotation - "],
-            [/^Ro'lation \(reverse\)\s*-/gim, "Rotation (reverse) - "],
-            [/^Rullnimg lane\s*-/gim, "Running lane - "],
-            [/^Runners\s*-\s*/gim, "Runners - "],
-            [/^Secondary play\s*-\s*/gim, "Secondary play - "],
-            [/^Set for the play\s*-\s*/gim, "Set for the play - "],
-            [/^Split atF8\s*-/gim, "Split at F8 - "],
-            [/^Starting position\s*-\s*/gim, "Starting position - "],
-            [/^Stayshome\s*-\s*/gim, "Stays home - "],
-            [/^Stepup,turnandface the ball\s*-\s*/gim, "Step up, turn and face the ball - "],
-            [/^Square lothe bag\s*-\s*/gim, "Square to the bag - "],
-            [/^Subsequent play\s*-\s*/gim, "Subsequent play - "],
-            [/^The V\s*-\s*/gim, "The V - "],
-            [/^Third-base lineextended\s*-\s*/gim, "Third-base line extended - "],
-            [/^Timeplay\s*-\s*/gim, "Time play - "],
-            [/^Troublebatl\s*-\s*/gim, "Trouble ball - "],
-            [/^Trail BR\s*-\s*/gim, "Trail BR - "],
-            [/^U1\s*-\s*/gim, "U1 - "],
-            [/^U2\s*-\s*/gim, "U2 - "],
-            [/^U3\s*-\s*/gim, "U3 - "],
-            [/^Working the wedge\s*-\s*/gim, "Working the wedge - "],
-            [/^Drift-\s*/gim, "Drift - "],
-            [/^Opening Ille gate -A/gim, "Opening the gate - A"],
-            [/^Pause, readand react -A/gim, "Pause, read and react - A"],
-            [/^Play - The action that develops as a runner, the balland a fielder/gim, "Play - The action that develops as a runner, the ball and a fielder"],
-            [/^Position A- /gim, "Position A - "],
-            [/^Position B- /gim, "Position B - "],
-            [/^Position C- /gim, "Position C - "],
-            [/^Position D- /gim, "Position D - "],
-            [/^Read thethrow-As/gim, "Read the throw - As"],
-            [/^Secondary play -Action/gim, "Secondary play - Action"],
-            [/^Set for the play-/gim, "Set for the play - "],
-            [/^Starting position - /gim, "Starting position - "],
-            [/^Stayshome - /gim, "Stays home - "],
-            [/^Stepup,turnandface the ball-/gim, "Step up, turn and face the ball - "],
-            [/^Square lothe bag - /gim, "Square to the bag - "],
-            [/^Subsequent play - /gim, "Subsequent play - "],
-            [/^Third-base lineextended -/gim, "Third-base line extended - "],
-            [/^Timeplay-/gim, "Time play - "],
-            [/^Trail BR - /gim, "Trail BR - "],
-            [/^U1- /gim, "U1 - "],
-            [/^U2- /gim, "U2 - "],
-            [/^U3- /gim, "U3 - "],
-            [/^Working the wedge - /gim, "Working the wedge - "],
-            [/([a-z])([A-Z])/g, "$1 $2"],
-            [/([.,;:!?])([A-Za-z])/g, "$1 $2"],
-            [/([a-z])(\d)/g, "$1 $2"],
-            [/(\d)([A-Za-z])/g, "$1 $2"],
-          ];
+        function renderCleanManualSections(sections) {
+          const nav = [];
+          const body = [];
 
-          replacements.forEach(function (pair) {
-            cleaned = cleaned.replace(pair[0], pair[1]);
+          sections.forEach(function (section, index) {
+            const id = "manual-section-" + (index + 1);
+            nav.push('<a href="#' + id + '" class="rule-reader-nav-link">' + escapeHtml(section.title) + "</a>");
+            body.push('<h3 class="rule-reader-section-title" id="' + id + '">' + escapeHtml(section.title) + "</h3>");
+            section.paragraphs.forEach(function (paragraph) {
+              body.push('<p class="rule-reader-paragraph">' + escapeHtml(paragraph) + "</p>");
+            });
           });
 
-          const lines = cleaned
-            .split("\n")
-            .map(function (line) {
-              return line
-                .replace(/\s+/g, " ")
-                .replace(/\s+([.,;:!?])/g, "$1")
-                .trim();
-            })
-            .filter(Boolean)
-            .filter(function (line) {
-              return !/^(Tbe Bo¥|profile view|Iron! view|front view|WORKING THE PLATE WORKING THE PLATE|WORKING THE BASES WORKING THE BASES)$/i.test(line);
-            })
-            .filter(function (line) {
-              return !/^(i|ii|iii|iv|v|vi|vii|viii|ix|x)$/i.test(line);
-            })
-            .filter(function (line) {
-              return !/^\d+\s*$/.test(line);
-            })
-            .filter(function (line) {
-              return !/^(Whatthatmeans isyou have to be "onit" every pitch and every play.*|\.{3,})$/i.test(line);
-            });
-
-          return lines.join("\n").replace(/\n{3,}/g, "\n\n").trim();
+          return {
+            navHtml: nav.join(""),
+            bodyHtml: body.join("")
+          };
         }
 
         function normalizeHeading(line) {
@@ -369,7 +436,7 @@
         }
 
         function renderManualText(text) {
-          const cleanedText = cleanManualText(text);
+          const cleanedText = String(text || "");
           const lines = cleanedText
             .split("\n")
             .map((line) => line.replace(/\uFFFD/g, "").replace(/\s+/g, " ").trim())
@@ -417,6 +484,7 @@
 
         const nav = document.querySelector("#manual-nav");
         const body = document.querySelector("#manual-body");
+        const backToTopButton = document.querySelector("#manual-back-to-top");
         
         nav.addEventListener("click", function (event) {
           const link = event.target.closest(".rule-reader-nav-link");
@@ -432,6 +500,25 @@
           }
         });
 
+        function syncBackToTopButton() {
+          if (!backToTopButton) {
+            return;
+          }
+
+          if (window.scrollY > 320) {
+            backToTopButton.classList.add("is-visible");
+          } else {
+            backToTopButton.classList.remove("is-visible");
+          }
+        }
+
+        backToTopButton?.addEventListener("click", function () {
+          window.scrollTo({ top: 0, behavior: "smooth" });
+        });
+
+        window.addEventListener("scroll", syncBackToTopButton, { passive: true });
+        syncBackToTopButton();
+
         fetch("./manual-full.txt?v=20260326-1")
           .then(function (response) {
             if (!response.ok) {
@@ -439,8 +526,8 @@
             }
             return response.text();
           })
-          .then(function (manualText) {
-            const rendered = renderManualText(manualText);
+          .then(function () {
+            const rendered = renderCleanManualSections(CLEAN_MANUAL_SECTIONS);
             nav.innerHTML = rendered.navHtml;
             body.innerHTML = rendered.bodyHtml;
           })
