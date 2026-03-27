@@ -507,7 +507,7 @@ function openFullManualReader() {
   renderOpenRuleReader();
 }
 
-window.openFullManualReader = openFullManualReader;
+window.openFullManualReaderApp = openFullManualReader;
 
 function renderOpenRuleReader() {
   const label = openRuleReaderLabel;

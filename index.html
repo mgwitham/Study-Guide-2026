@@ -188,9 +188,93 @@
       </section>
     </div>
 
-    <script src="./exam-data.js?v=20260326-3"></script>
-    <script src="./rulebook-reader-data.js?v=20260326-3"></script>
-    <script src="./manual-reader-data.js?v=20260326-3"></script>
-    <script src="./app.js?v=20260326-3"></script>
+    <script src="./exam-data.js?v=20260326-4"></script>
+    <script src="./rulebook-reader-data.js?v=20260326-4"></script>
+    <script src="./manual-reader-data.js?v=20260326-4"></script>
+    <script src="./app.js?v=20260326-4"></script>
+    <script>
+      (function () {
+        function escapeHtml(value) {
+          return String(value || "")
+            .replace(/&/g, "&amp;")
+            .replace(/</g, "&lt;")
+            .replace(/>/g, "&gt;")
+            .replace(/"/g, "&quot;")
+            .replace(/'/g, "&#39;");
+        }
+
+        function renderManualFallback(text) {
+          const lines = String(text || "")
+            .split("\n")
+            .map((line) => line.replace(/\s+/g, " ").trim())
+            .filter(Boolean);
+
+          const nav = [];
+          const body = [];
+          let index = 0;
+
+          lines.forEach((line) => {
+            if (/^SECTION\s+\d+/i.test(line) || /^(Introduction|Definition ?of ?Terms|Working the Plate|Working the Bases|Working ?as a Team|Pregame ?Preparations|Signal Chart|Crew of One|Crew of Two|Crew of Three|Crew of Four)$/i.test(line)) {
+              index += 1;
+              const id = "manual-fallback-section-" + index;
+              nav.push('<a href="#' + id + '" class="rule-reader-nav-link">' + escapeHtml(line) + "</a>");
+              body.push('<h3 class="rule-reader-section-title" id="' + id + '">' + escapeHtml(line) + "</h3>");
+            } else {
+              body.push('<p class="rule-reader-paragraph">' + escapeHtml(line) + "</p>");
+            }
+          });
+
+          return {
+            navHtml: nav.join("") || '<p class="rule-reader-empty">Scroll the reader for the full manual text.</p>',
+            bodyHtml: body.join("") || '<p class="rule-reader-empty">The Umpires Manual text is still loading.</p>',
+          };
+        }
+
+        function openManualFallback() {
+          const manualData = window.LAU_MANUAL_DATA || {};
+          const text = manualData.fullManualText || manualData.mechanicsReaderText || "";
+          const modal = document.querySelector("#rule-reader-modal");
+          const kicker = document.querySelector("#rule-reader-kicker");
+          const title = document.querySelector("#rule-reader-title");
+          const source = document.querySelector("#rule-reader-source");
+          const nav = document.querySelector("#rule-reader-nav");
+          const body = document.querySelector("#rule-reader-body");
+          const studyLink = document.querySelector("#rule-reader-study-link");
+          const manualLink = document.querySelector("#rule-reader-manual-link");
+
+          if (!modal || !kicker || !title || !source || !nav || !body) {
+            return;
+          }
+
+          const rendered = renderManualFallback(text);
+          kicker.textContent = "Umpires Manual Reader";
+          title.textContent = "2026 Umpires Manual";
+          source.textContent = "Official 2026 Umpires Manual";
+          nav.innerHTML = rendered.navHtml;
+          body.innerHTML = rendered.bodyHtml;
+          body.scrollTop = 0;
+          if (studyLink) {
+            studyLink.hidden = true;
+          }
+          if (manualLink) {
+            manualLink.hidden = true;
+          }
+          modal.hidden = false;
+          modal.setAttribute("aria-hidden", "false");
+          document.body.classList.add("is-reader-open");
+        }
+
+        window.openFullManualReader = function () {
+          try {
+            if (typeof window.openFullManualReaderApp === "function") {
+              window.openFullManualReaderApp();
+              return;
+            }
+          } catch (error) {}
+
+          openManualFallback();
+        };
+      })();
+    </script>
   </body>
 </html>
