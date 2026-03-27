@@ -76,32 +76,214 @@
             .replace(/'/g, "&#39;");
         }
 
+        function cleanManualText(text) {
+          return String(text || "")
+            .replace(/\r/g, "")
+            .replace(/^m:troduction/im, "Introduction")
+            .replace(/^DEFINITION OFTERMS$/gim, "DEFINITION OF TERMS")
+            .replace(/^Delinilian al Terms$/gim, "Definition of Terms")
+            .replace(/^WORKING THEPLATE$/gim, "WORKING THE PLATE")
+            .replace(/^Working\s*the Plate$/gim, "WORKING THE PLATE")
+            .replace(/^WORKING\s+THE\s+PLATE$/gim, "WORKING THE PLATE")
+            .replace(/^Working\s+the\s+Bases$/gim, "WORKING THE BASES")
+            .replace(/^Working\s+as\s+a\s+Team$/gim, "WORKING AS A TEAM")
+            .replace(/^Pregame\s+Preparations$/gim, "PREGAME PREPARATIONS")
+            .replace(/^Signal\s+Chart$/gim, "SIGNAL CHART")
+            .replace(/^Crew of One$/gim, "CREW OF ONE")
+            .replace(/^Crew of Two$/gim, "CREW OF TWO")
+            .replace(/^Crew of Three$/gim, "CREW OF THREE")
+            .replace(/^Crew of Four$/gim, "CREW OF FOUR")
+            .replace(/^SECTION 3 WORKING THE PLATE$/gim, "WORKING THE PLATE")
+            .replace(/^SECTION 4 WORKING THE BASES$/gim, "WORKING THE BASES")
+            .replace(/^SECTION 5 WORKING AS A TEAM$/gim, "WORKING AS A TEAM")
+            .replace(/^SECTION 6 PREGAME PREPARATIONS$/gim, "PREGAME PREPARATIONS")
+            .replace(/^SECTION 7 SIGNAL CHART$/gim, "SIGNAL CHART")
+            .replace(/^SECTION 8 CREW OF ONE$/gim, "CREW OF ONE")
+            .replace(/^SECTION 9 CREW OF TWO.*$/gim, "CREW OF TWO")
+            .replace(/^SECTION 10 CREW OF THREE.*$/gim, "CREW OF THREE")
+            .replace(/^SECTION 11 CREW OF FOUR.*$/gim, "CREW OF FOUR")
+            .replace(/Part\[\]/g, "")
+            .replace(/Part\]\]/g, "")
+            .replace(/[<>]/g, "")
+            .replace(/^\s*[\u2022•]+\s*/gm, "")
+            .replace(/\u00a0/g, " ")
+            .replace(/\u2019/g, "'")
+            .replace(/\u2018/g, "'")
+            .replace(/\u201c/g, '"')
+            .replace(/\u201d/g, '"')
+            .replace(/^[\t .•,;:'"“”‘’\-_/\\|]+$/gm, "")
+            .replace(/^\s*[•.]\s*/gm, "")
+            .replace(/^DEFINITION OF TERMS\s+DEFINITION OF TERMS$/gim, "DEFINITION OF TERMS")
+            .replace(/^WORKING THE PLATE\s+WORKING THE PLATE$/gim, "WORKING THE PLATE")
+            .replace(/^WORKING THE BASES\s+WORKING THE BASES$/gim, "WORKING THE BASES")
+            .replace(/\binthe\b/g, "in the")
+            .replace(/\bespeciallyat\b/g, "especially at")
+            .replace(/\bhighschool\b/g, "high school")
+            .replace(/\btheneedfor\b/g, "the need for")
+            .replace(/\bthenumber\b/g, "the number")
+            .replace(/\bwithou,t\.any\b/g, "without any")
+            .replace(/\bwithou,t\b/g, "without")
+            .replace(/\byoumight\b/g, "you might")
+            .replace(/\bhavea\b/g, "have a")
+            .replace(/\bwitha\b/g, "with a")
+            .replace(/\bbeon\b/g, "be on")
+            .replace(/\bthemost\b/g, "the most")
+            .replace(/\bThe illustrationsinthis\b/g, "The illustrations in this")
+            .replace(/\btoexplain\b/g, "to explain")
+            .replace(/\bmechanicsandprocedurt1s\b/g, "mechanics and procedures")
+            .replace(/\bmechanicsandprocedures\b/g, "mechanics and procedures")
+            .replace(/\btheNFHS\b/g, "the NFHS")
+            .replace(/\bIncertain\b/g, "In certain")
+            .replace(/\bRefereehas\b/g, "Referee has")
+            .replace(/\bencourageall\b/g, "encourage all")
+            .replace(/\bumpiresto\b/g, "umpires to")
+            .replace(/\bassignersand\b/g, "assigners and")
+            .replace(/\bprocedures and coverages\b/g, "procedures and coverages")
+            .replace(/\btheNFHS\b/g, "the NFHS")
+            .replace(/\bthird teamonthe\b/g, "third team on the")
+            .replace(/\bAndwhile\b/g, "And while")
+            .replace(/\bwin orlose\b/g, "win or lose")
+            .replace(/\bthegame\b/g, "the game")
+            .replace(/\bas ateam\b/g, "as a team")
+            .replace(/\bWORKING IDgelher\b/g, "Working together")
+            .replace(/\bWORKING THEPLATE\b/g, "WORKING THE PLATE")
+            .replace(/\bQJear:therunner\b/g, "Clear the runner")
+            .replace(/\bDead,ball\b/g, "Dead-ball")
+            .replace(/\bBefore theplay\b/g, "Before the play")
+            .replace(/\bClear thecatcher\b/g, "Clear the catcher")
+            .replace(/\bFi11lders\b/g, "Fielders")
+            .replace(/\bfoulterritory\b/g, "foul territory")
+            .replace(/\bbasewhere anextplay\b/g, "base where a next play")
+            .replace(/\bimaginary linethat\b/g, "imaginary line that")
+            .replace(/\btheballis nolonger\b/g, "the ball is no longer")
+            .replace(/\bQelease!\s*'Unner IDthird\b/g, "Release runner to third")
+            .replace(/\bRdtal,eor Rotation\b/g, "Rotate or Rotation")
+            .replace(/\bRo'lation \(reverse\)\b/g, "Rotation (reverse)")
+            .replace(/\bRullnimg lane\b/g, "Running lane")
+            .replace(/\bPlayb:a\/1!\b/g, "Play ball!")
+            .replace(/\bPU- The plate umpire\./g, "PU - The plate umpire.")
+            .replace(/\bBR- The batter-runner\./g, "BR - The batter-runner.")
+            .replace(/\bplay develops\./g, "play develops.")
+            .replace(/^\s*"\s*Go\s*"\s*OJ\s*"goes"\s*-/gim, '"Go" or "goes" -')
+            .replace(/^f"IJ'st-.base line extended\s*-/gim, "First-base line extended -")
+            .replace(/^\.Cutout\s*-/gim, "Cutout -")
+            .replace(/^Dead-ball signal\s*-\s*To indical!!/gim, "Dead-ball signal - To indicate")
+            .replace(/^Below the\.knee catch-A/gim, "Below-the-knee catch - A")
+            .replace(/^Drift-\s*/gim, "Drift - ")
+            .replace(/^Imaginary box-\s*/gim, "Imaginary box - ")
+            .replace(/^Opening Ille gate -A/gim, "Opening the gate - A")
+            .replace(/^Pause, readand react -A/gim, "Pause, read and react - A")
+            .replace(/^Play - The action that develops as a runner, the balland a fielder/gim, "Play - The action that develops as a runner, the ball and a fielder")
+            .replace(/^Position A- /gim, "Position A - ")
+            .replace(/^Position B- /gim, "Position B - ")
+            .replace(/^Position C- /gim, "Position C - ")
+            .replace(/^Position D- /gim, "Position D - ")
+            .replace(/^Read thethrow-As/gim, "Read the throw - As")
+            .replace(/^Secondary play -Action/gim, "Secondary play - Action")
+            .replace(/^Set for the play-/gim, "Set for the play - ")
+            .replace(/^Starting position - /gim, "Starting position - ")
+            .replace(/^Stayshome - /gim, "Stays home - ")
+            .replace(/^Stepup,turnandface the ball-/gim, "Step up, turn and face the ball - ")
+            .replace(/^Square lothe bag - /gim, "Square to the bag - ")
+            .replace(/^Subsequent play - /gim, "Subsequent play - ")
+            .replace(/^Third-base lineextended -/gim, "Third-base line extended - ")
+            .replace(/^Timeplay-/gim, "Time play - ")
+            .replace(/^Trail BR - /gim, "Trail BR - ")
+            .replace(/^U1- /gim, "U1 - ")
+            .replace(/^U2- /gim, "U2 - ")
+            .replace(/^U3- /gim, "U3 - ")
+            .replace(/^Working the wedge - /gim, "Working the wedge - ")
+            .replace(/([a-z])([A-Z])/g, "$1 $2")
+            .replace(/([.,;:!?])([A-Za-z])/g, "$1 $2")
+            .replace(/([a-z])(\d)/g, "$1 $2")
+            .replace(/(\d)([A-Za-z])/g, "$1 $2")
+            .replace(/\s{2,}/g, " ")
+            .replace(/\n{3,}/g, "\n\n")
+            .trim();
+        }
+
+        function normalizeHeading(line) {
+          const trimmed = String(line || "").trim();
+          if (!trimmed) {
+            return "";
+          }
+
+          if (/^Introduction$/i.test(trimmed)) {
+            return "Introduction";
+          }
+          if (/^DEFINITION OF TERMS$/i.test(trimmed) || /^Definition of Terms$/i.test(trimmed)) {
+            return "DEFINITION OF TERMS";
+          }
+          if (/^WORKING THE PLATE$/i.test(trimmed)) {
+            return "WORKING THE PLATE";
+          }
+          if (/^WORKING THE BASES$/i.test(trimmed)) {
+            return "WORKING THE BASES";
+          }
+          if (/^WORKING AS A TEAM$/i.test(trimmed)) {
+            return "WORKING AS A TEAM";
+          }
+          if (/^PREGAME PREPARATIONS$/i.test(trimmed)) {
+            return "PREGAME PREPARATIONS";
+          }
+          if (/^SIGNAL CHART$/i.test(trimmed)) {
+            return "SIGNAL CHART";
+          }
+          if (/^CREW OF ONE$/i.test(trimmed)) {
+            return "CREW OF ONE";
+          }
+          if (/^CREW OF TWO$/i.test(trimmed)) {
+            return "CREW OF TWO";
+          }
+          if (/^CREW OF THREE$/i.test(trimmed)) {
+            return "CREW OF THREE";
+          }
+          if (/^CREW OF FOUR$/i.test(trimmed)) {
+            return "CREW OF FOUR";
+          }
+
+          return trimmed.replace(/\s+/g, " ");
+        }
+
         function renderManualText(text) {
-          const lines = String(text || "")
+          const cleanedText = cleanManualText(text);
+          const lines = cleanedText
             .split("\n")
             .map((line) => line.replace(/\uFFFD/g, "").replace(/\s+/g, " ").trim())
-            .filter(Boolean);
+            .filter(Boolean)
+            .filter((line) => !/^(Version 2 manual loader|Tbe Bo¥|profile view|Iron! view)$/i.test(line))
+            .filter((line) => !/^\.{2,}$/.test(line))
+            .filter((line) => !/^[A-Za-z]$/.test(line))
+            .filter((line) => !/^(i|ii|iii|iv|v|vi|vii|viii|ix|x)$/i.test(line))
+            .filter((line) => !/^\d+\s*$/.test(line));
 
           const nav = [];
           const body = [];
           let index = 0;
-          const headingPattern = /^(Introduction|Definition ?of ?Terms|Working the Plate|Working the Bases|Working ?as a Team|Pregame ?Preparations|Signal Chart|Crew of One|Crew of Two|Crew of Three|Crew of Four)$/i;
+          const seenHeadings = new Set();
+          const headingPattern = /^(Introduction|DEFINITION OF TERMS|WORKING THE PLATE|WORKING THE BASES|WORKING AS A TEAM|PREGAME PREPARATIONS|SIGNAL CHART|CREW OF ONE|CREW OF TWO|CREW OF THREE|CREW OF FOUR)$/i;
 
           lines.forEach((line) => {
-            if (/^SECTION\s+\d+/i.test(line) || headingPattern.test(line)) {
+            const normalizedHeading = normalizeHeading(line);
+
+            if (/^SECTION\s+\d+/i.test(normalizedHeading) || headingPattern.test(normalizedHeading)) {
+              if (seenHeadings.has(normalizedHeading)) {
+                return;
+              }
+              seenHeadings.add(normalizedHeading);
               index += 1;
               const id = "manual-section-" + index;
-              nav.push('<a href="#' + id + '" class="rule-reader-nav-link">' + escapeHtml(line) + "</a>");
-              body.push('<h3 class="rule-reader-section-title" id="' + id + '">' + escapeHtml(line) + "</h3>");
+              nav.push('<a href="#' + id + '" class="rule-reader-nav-link">' + escapeHtml(normalizedHeading) + "</a>");
+              body.push('<h3 class="rule-reader-section-title" id="' + id + '">' + escapeHtml(normalizedHeading) + "</h3>");
               return;
             }
 
-            if (/^(ART\.|PENALTY:|NOTE:|NOTES:|EXCEPTION:)/i.test(line)) {
-              body.push('<p class="rule-reader-paragraph rule-reader-emphasis">' + escapeHtml(line) + "</p>");
+            if (/^(ART\.|PENALTY:|NOTE:|NOTES:|EXCEPTION:)/i.test(normalizedHeading)) {
+              body.push('<p class="rule-reader-paragraph rule-reader-emphasis">' + escapeHtml(normalizedHeading) + "</p>");
               return;
             }
 
-            body.push('<p class="rule-reader-paragraph">' + escapeHtml(line) + "</p>");
+            body.push('<p class="rule-reader-paragraph">' + escapeHtml(normalizedHeading) + "</p>");
           });
 
           return {
