@@ -403,20 +403,10 @@ function bindEvents() {
   if (ruleReaderManualLink) {
     ruleReaderManualLink.addEventListener("click", (event) => {
       event.preventDefault();
-      if (
-        (openRuleReaderLabel !== "Mechanics" && openRuleReaderLabel !== FULL_MANUAL_LABEL) ||
-        !manualReaderData.fullManualText
-      ) {
+      if (openRuleReaderLabel !== "Mechanics" && openRuleReaderLabel !== FULL_MANUAL_LABEL) {
         return;
       }
-
-      if (openRuleReaderLabel === FULL_MANUAL_LABEL && ruleReaderShowsFullManual) {
-        openRuleReaderLabel = "Mechanics";
-        ruleReaderShowsFullManual = false;
-      } else {
-        ruleReaderShowsFullManual = !ruleReaderShowsFullManual;
-      }
-      renderOpenRuleReader();
+      window.location.href = "./manual.html";
     });
   }
 

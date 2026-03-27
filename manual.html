@@ -64,7 +64,6 @@
       </section>
     </main>
 
-    <script src="./manual-reader-data.js?v=20260326-4"></script>
     <script>
       (function () {
         function escapeHtml(value) {
@@ -110,15 +109,9 @@
           };
         }
 
-        const manualData = window.LAU_MANUAL_DATA || {};
-        const manualText = manualData.fullManualText || manualData.mechanicsReaderText || "";
         const nav = document.querySelector("#manual-nav");
         const body = document.querySelector("#manual-body");
-        const rendered = renderManualText(manualText);
-
-        nav.innerHTML = rendered.navHtml;
-        body.innerHTML = rendered.bodyHtml;
-
+        
         nav.addEventListener("click", function (event) {
           const link = event.target.closest(".rule-reader-nav-link");
           if (!link) {
@@ -132,6 +125,22 @@
             target.scrollIntoView({ behavior: "smooth", block: "start" });
           }
         });
+
+        fetch("./manual-full.txt?v=20260326-1")
+          .then(function (response) {
+            if (!response.ok) {
+              throw new Error("manual fetch failed");
+            }
+            return response.text();
+          })
+          .then(function (manualText) {
+            const rendered = renderManualText(manualText);
+            nav.innerHTML = rendered.navHtml;
+            body.innerHTML = rendered.bodyHtml;
+          })
+          .catch(function () {
+            body.innerHTML = '<p class="rule-reader-empty">The manual text could not be loaded yet.</p>';
+          });
       })();
     </script>
   </body>
